@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel><title>Paradigm » Object Oriented Programming</title>
+    <link>http://programminglanguages.info</link>
+    <description>Paradigm » Object Oriented Programming</description>
+    <lastBuildDate>Sat, 22 Dec 2018 03:56:13 </lastBuildDate>
+    <generator>Logya</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+        <title><![CDATA[Ceylon programming language]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/ceylon/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/ceylon/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:35 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[Oxygene Object Pascal-based programming language]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/oxygene/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/oxygene/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:35 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[Common Lisp ANSI-standardized dialect of Lisp]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/common-lisp/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/common-lisp/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:35 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[BETA object-oriented programming language]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/beta/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/beta/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:35 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[Fortran structured programming language]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/fortran/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/fortran/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:35 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[BeanShell]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/beanshell/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/beanshell/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:35 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[TOM programming language]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/tom/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/tom/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:35 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[Squeak programming language]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/squeak/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/squeak/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:35 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[Io programming language]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/io/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/io/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:35 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[Visual FoxPro programming language]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/visual-foxpro/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/visual-foxpro/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:35 </pubDate>
+    </item>
+</channel></rss>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel><title>Paradigm » Concurrent Computing</title>
+    <link>http://programminglanguages.info</link>
+    <description>Paradigm » Concurrent Computing</description>
+    <lastBuildDate>Sat, 22 Dec 2018 03:56:13 </lastBuildDate>
+    <generator>Logya</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+        <title><![CDATA[occam Concurrent programming language]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/occam/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/occam/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:35 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[XC Programming Language]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/xc-programming-language/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/xc-programming-language/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:35 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[SuperPascal]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/superpascal/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/superpascal/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:35 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[Orc programming language]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/orc/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/orc/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:35 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[Join-pattern]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/join-pattern/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/join-pattern/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:35 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[Joyce programming language]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/joyce/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/joyce/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:35 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[Limbo programming language]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/limbo/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/limbo/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:35 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[Go programming language]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/go/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/go/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:34 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[Erlang programming language]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/erlang/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/erlang/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:34 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[Newsqueak programming language]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/newsqueak/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/newsqueak/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:34 </pubDate>
+    </item>
+</channel></rss>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel><title>Paradigm » Array Programming</title>
+    <link>http://programminglanguages.info</link>
+    <description>Paradigm » Array Programming</description>
+    <lastBuildDate>Sat, 22 Dec 2018 03:56:13 </lastBuildDate>
+    <generator>Logya</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+        <title><![CDATA[GAUSS]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/gauss/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/gauss/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:35 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[Fortran structured programming language]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/fortran/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/fortran/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:35 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[Mathematica computational software program]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/mathematica/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/mathematica/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:35 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[SequenceL]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/sequencel/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/sequencel/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:35 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[SAC programming language]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/sac-programming-language/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/sac-programming-language/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:35 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[Q proprietary array programming language from Kx Systems, with "atoms", "lists", and "functions"]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/q/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/q/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:35 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[Nial programming language]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/nial/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/nial/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:35 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[F programming language: compiled, structured, array language]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/f/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/f/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:35 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[Analytica software for creating, analyzing and communicating quantitative decision models]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/analytica/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/analytica/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:35 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[K programming language]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/k/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/k/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:34 </pubDate>
+    </item>
+</channel></rss>

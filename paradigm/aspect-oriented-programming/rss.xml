@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel><title>Paradigm » Aspect Oriented Programming</title>
+    <link>http://programminglanguages.info</link>
+    <description>Paradigm » Aspect Oriented Programming</description>
+    <lastBuildDate>Sat, 22 Dec 2018 03:56:13 </lastBuildDate>
+    <generator>Logya</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+        <title><![CDATA[AspectJ]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/aspectj/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/aspectj/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:35 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[AspectC++ aspect-oriented extension to C and C++]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/aspectc++/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/aspectc++/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:35 </pubDate>
+    </item>
+</channel></rss>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel><title>Paradigm » Dataflow</title>
+    <link>http://programminglanguages.info</link>
+    <description>Paradigm » Dataflow</description>
+    <lastBuildDate>Sat, 22 Dec 2018 03:56:13 </lastBuildDate>
+    <generator>Logya</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+        <title><![CDATA[Hartmann pipeline]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/hartmann-pipeline/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/hartmann-pipeline/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:35 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[Lucid programming language]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/lucid/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/lucid/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:34 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[Pure Data programming language]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/pure-data/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/pure-data/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:34 </pubDate>
+    </item>
+</channel></rss>

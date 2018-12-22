@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel><title>Paradigm » Purely Functional Programming</title>
+    <link>http://programminglanguages.info</link>
+    <description>Paradigm » Purely Functional Programming</description>
+    <lastBuildDate>Sat, 22 Dec 2018 03:56:13 </lastBuildDate>
+    <generator>Logya</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+        <title><![CDATA[Miranda programming language]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/miranda/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/miranda/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:35 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[SequenceL]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/sequencel/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/sequencel/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:35 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[Elm Functional reactive programming language]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/elm/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/elm/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:35 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[Clean programming language]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/clean/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/clean/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:34 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[Charity Programming language]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/charity/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/charity/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:34 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[Curry programming language]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/curry/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/curry/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:34 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[Mercury functional logic programming language]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/mercury/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/mercury/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:34 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[Agda programming language]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/agda/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/agda/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:34 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[Idris purely functional programming language]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/idris/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/idris/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:34 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[Joy programming language]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/joy/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/joy/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:34 </pubDate>
+    </item>
+</channel></rss>

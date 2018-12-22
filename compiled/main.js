@@ -1,0 +1,3 @@
+"use strict";var lookup_btn=d3.select("#goto-language"),lookup=d3.select("#lookup-language"),label_slugs=null;d3.json("/language-labels.json").then(function(a){label_slugs=a;d3.select("#languages").selectAll("option").data(d3.keys(label_slugs)).enter().append("option").attr("value",function(a){return a}).text(function(a){return a});// Language navigation
+lookup.on("change",function(){return goto(lookup.node().value)}),lookup_btn.on("click",function(){return goto(lookup.node().value)});// Set values
+var b=d3.keys(label_slugs).length;d3.selectAll(".language-count").text(b)});function goto(a){label_slugs[a]&&(document.location.href="/language/".concat(label_slugs[a],"/"))}

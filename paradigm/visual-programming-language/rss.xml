@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel><title>Paradigm » Visual Programming Language</title>
+    <link>http://programminglanguages.info</link>
+    <description>Paradigm » Visual Programming Language</description>
+    <lastBuildDate>Sat, 22 Dec 2018 03:56:13 </lastBuildDate>
+    <generator>Logya</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+        <title><![CDATA[VSXu programming environment]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/vsxu/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/vsxu/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:35 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[vvvv]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/vvvv/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/vvvv/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:34 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[STELLA]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/stella/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/stella/]]></guid>
+        <pubDate>Sat, 22 Dec 2018 03:50:34 </pubDate>
+    </item>
+</channel></rss>
