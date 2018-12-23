@@ -3,7 +3,7 @@
 <channel><title>Paradigm » Esoteric Programming</title>
     <link>http://programminglanguages.info</link>
     <description>Paradigm » Esoteric Programming</description>
-    <lastBuildDate>Sun, 23 Dec 2018 22:21:31 </lastBuildDate>
+    <lastBuildDate>Sun, 23 Dec 2018 22:25:50 </lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
@@ -11,69 +11,69 @@
         <link><![CDATA[http://programminglanguages.info/language/befunge/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/befunge/]]></guid>
-        <pubDate>Sun, 23 Dec 2018 22:21:29 </pubDate>
+        <pubDate>Sun, 23 Dec 2018 22:25:48 </pubDate>
     </item>
     <item>
         <title><![CDATA[Unlambda]]></title>
         <link><![CDATA[http://programminglanguages.info/language/unlambda/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/unlambda/]]></guid>
-        <pubDate>Sun, 23 Dec 2018 22:21:29 </pubDate>
+        <pubDate>Sun, 23 Dec 2018 22:25:48 </pubDate>
     </item>
     <item>
         <title><![CDATA[Malbolge esoteric programming language]]></title>
         <link><![CDATA[http://programminglanguages.info/language/malbolge/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/malbolge/]]></guid>
-        <pubDate>Sun, 23 Dec 2018 22:21:29 </pubDate>
+        <pubDate>Sun, 23 Dec 2018 22:25:48 </pubDate>
     </item>
     <item>
         <title><![CDATA[LOLCODE esoteric programming language]]></title>
         <link><![CDATA[http://programminglanguages.info/language/lolcode/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/lolcode/]]></guid>
-        <pubDate>Sun, 23 Dec 2018 22:21:29 </pubDate>
+        <pubDate>Sun, 23 Dec 2018 22:25:48 </pubDate>
     </item>
     <item>
         <title><![CDATA[Whitespace esoteric programming language]]></title>
         <link><![CDATA[http://programminglanguages.info/language/whitespace/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/whitespace/]]></guid>
-        <pubDate>Sun, 23 Dec 2018 22:21:29 </pubDate>
+        <pubDate>Sun, 23 Dec 2018 22:25:48 </pubDate>
     </item>
     <item>
         <title><![CDATA[Iota and Jot minimalistic Turing-complete programming languages based on combinatory logic]]></title>
         <link><![CDATA[http://programminglanguages.info/language/iota-and-jot/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/iota-and-jot/]]></guid>
-        <pubDate>Sun, 23 Dec 2018 22:21:29 </pubDate>
+        <pubDate>Sun, 23 Dec 2018 22:25:48 </pubDate>
     </item>
     <item>
         <title><![CDATA[Brainfuck esoteric, minimalist programming language]]></title>
         <link><![CDATA[http://programminglanguages.info/language/brainfuck/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/brainfuck/]]></guid>
-        <pubDate>Sun, 23 Dec 2018 22:21:29 </pubDate>
+        <pubDate>Sun, 23 Dec 2018 22:25:48 </pubDate>
     </item>
     <item>
         <title><![CDATA[Beatnik esoteric programming language designed by Cliff L. Biffle]]></title>
         <link><![CDATA[http://programminglanguages.info/language/beatnik/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/beatnik/]]></guid>
-        <pubDate>Sun, 23 Dec 2018 22:21:29 </pubDate>
+        <pubDate>Sun, 23 Dec 2018 22:25:48 </pubDate>
     </item>
     <item>
         <title><![CDATA[Piet visual programming language]]></title>
         <link><![CDATA[http://programminglanguages.info/language/piet/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/piet/]]></guid>
-        <pubDate>Sun, 23 Dec 2018 22:21:29 </pubDate>
+        <pubDate>Sun, 23 Dec 2018 22:25:48 </pubDate>
     </item>
     <item>
         <title><![CDATA[INTERCAL a "compiler language with no pronounceable acronym"]]></title>
         <link><![CDATA[http://programminglanguages.info/language/intercal/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/intercal/]]></guid>
-        <pubDate>Sun, 23 Dec 2018 22:21:29 </pubDate>
+        <pubDate>Sun, 23 Dec 2018 22:25:48 </pubDate>
     </item>
 </channel></rss>

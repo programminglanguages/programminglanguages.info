@@ -3,7 +3,7 @@
 <channel><title>Paradigm » Generic Programming</title>
     <link>http://programminglanguages.info</link>
     <description>Paradigm » Generic Programming</description>
-    <lastBuildDate>Sun, 23 Dec 2018 22:21:31 </lastBuildDate>
+    <lastBuildDate>Sun, 23 Dec 2018 22:25:50 </lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
@@ -11,34 +11,34 @@
         <link><![CDATA[http://programminglanguages.info/language/fortran/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/fortran/]]></guid>
-        <pubDate>Sun, 23 Dec 2018 22:21:29 </pubDate>
+        <pubDate>Sun, 23 Dec 2018 22:25:48 </pubDate>
     </item>
     <item>
         <title><![CDATA[C++ general purpose high-level programming language]]></title>
         <link><![CDATA[http://programminglanguages.info/language/c++/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/c++/]]></guid>
-        <pubDate>Sun, 23 Dec 2018 22:21:29 </pubDate>
+        <pubDate>Sun, 23 Dec 2018 22:25:48 </pubDate>
     </item>
     <item>
         <title><![CDATA[Java object-oriented programming language]]></title>
         <link><![CDATA[http://programminglanguages.info/language/java/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/java/]]></guid>
-        <pubDate>Sun, 23 Dec 2018 22:21:29 </pubDate>
+        <pubDate>Sun, 23 Dec 2018 22:25:48 </pubDate>
     </item>
     <item>
         <title><![CDATA[C# multi-paradigm (object-oriented) programming language]]></title>
         <link><![CDATA[http://programminglanguages.info/language/c#/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/c#/]]></guid>
-        <pubDate>Sun, 23 Dec 2018 22:21:29 </pubDate>
+        <pubDate>Sun, 23 Dec 2018 22:25:48 </pubDate>
     </item>
     <item>
         <title><![CDATA[Pizza programming language]]></title>
         <link><![CDATA[http://programminglanguages.info/language/pizza/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/pizza/]]></guid>
-        <pubDate>Sun, 23 Dec 2018 22:21:29 </pubDate>
+        <pubDate>Sun, 23 Dec 2018 22:25:48 </pubDate>
     </item>
 </channel></rss>

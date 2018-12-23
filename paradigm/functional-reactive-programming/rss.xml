@@ -3,7 +3,7 @@
 <channel><title>Paradigm » Functional Reactive Programming</title>
     <link>http://programminglanguages.info</link>
     <description>Paradigm » Functional Reactive Programming</description>
-    <lastBuildDate>Sun, 23 Dec 2018 22:21:31 </lastBuildDate>
+    <lastBuildDate>Sun, 23 Dec 2018 22:25:50 </lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
@@ -11,13 +11,13 @@
         <link><![CDATA[http://programminglanguages.info/language/flapjax/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/flapjax/]]></guid>
-        <pubDate>Sun, 23 Dec 2018 22:21:29 </pubDate>
+        <pubDate>Sun, 23 Dec 2018 22:25:48 </pubDate>
     </item>
     <item>
         <title><![CDATA[Elm Functional reactive programming language]]></title>
         <link><![CDATA[http://programminglanguages.info/language/elm/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/elm/]]></guid>
-        <pubDate>Sun, 23 Dec 2018 22:21:29 </pubDate>
+        <pubDate>Sun, 23 Dec 2018 22:25:48 </pubDate>
     </item>
 </channel></rss>
