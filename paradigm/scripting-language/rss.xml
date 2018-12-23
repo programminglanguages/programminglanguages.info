@@ -3,7 +3,7 @@
 <channel><title>Paradigm » Scripting Language</title>
     <link>http://programminglanguages.info</link>
     <description>Paradigm » Scripting Language</description>
-    <lastBuildDate>Sun, 23 Dec 2018 22:18:32 </lastBuildDate>
+    <lastBuildDate>Sun, 23 Dec 2018 22:21:31 </lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
@@ -11,27 +11,27 @@
         <link><![CDATA[http://programminglanguages.info/language/risclua/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/risclua/]]></guid>
-        <pubDate>Sat, 22 Dec 2018 03:50:35 </pubDate>
+        <pubDate>Sun, 23 Dec 2018 22:21:29 </pubDate>
     </item>
     <item>
         <title><![CDATA[chomski]]></title>
         <link><![CDATA[http://programminglanguages.info/language/chomski/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/chomski/]]></guid>
-        <pubDate>Sat, 22 Dec 2018 03:50:35 </pubDate>
+        <pubDate>Sun, 23 Dec 2018 22:21:29 </pubDate>
     </item>
     <item>
         <title><![CDATA[sed standard UNIX utility for editing streams of data]]></title>
         <link><![CDATA[http://programminglanguages.info/language/sed/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/sed/]]></guid>
-        <pubDate>Sat, 22 Dec 2018 03:50:34 </pubDate>
+        <pubDate>Sun, 23 Dec 2018 22:21:29 </pubDate>
     </item>
     <item>
         <title><![CDATA[AWK programming language]]></title>
         <link><![CDATA[http://programminglanguages.info/language/awk/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/awk/]]></guid>
-        <pubDate>Sat, 22 Dec 2018 03:50:34 </pubDate>
+        <pubDate>Sun, 23 Dec 2018 22:21:29 </pubDate>
     </item>
 </channel></rss>
