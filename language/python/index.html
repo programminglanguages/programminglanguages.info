@@ -13,7 +13,7 @@
 
     <link rel="stylesheet" href="/compiled/style.css">
 
-<link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
+<link rel="stylesheet" href="/compiled/language.css"><link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
 <nav id="main-nav" class="level">
@@ -48,14 +48,17 @@
             
                 <h3>Programming paradigms</h3>
                 <a href="/paradigm/functional-programming/">functional programming</a> • <a href="/paradigm/reflection/">reflection</a> • <a href="/paradigm/object-oriented-programming/">object-oriented programming</a> • <a href="/paradigm/dynamic-programming/">dynamic programming</a> • <a href="/paradigm/imperative-programming/">imperative programming</a> • <a href="/paradigm/multi-paradigm-programming/">multi-paradigm programming</a>
+                <h3>Influenced</h3>
+                <a href="/language/boo/">Boo</a> • <a href="/language/cobra/">Cobra</a> • <a href="/language/crystal/">Crystal</a> • <a href="/language/cython/">Cython</a> • <a href="/language/genie/">Genie</a> • <a href="/language/go/">Go</a> • <a href="/language/groovy/">Groovy</a> • <a href="/language/hy/">Hy</a> • <a href="/language/javascript/">JavaScript</a> • <a href="/language/julia/">Julia</a> • <a href="/language/nim/">Nim</a> • <a href="/language/pascalabc.net/">PascalABC.NET</a> • <a href="/language/ruby/">Ruby</a> • <a href="/language/rust/">Rust</a> • <a href="/language/swift/">Swift</a> • <a href="/language/whiley/">Whiley</a> • <a href="/language/ec/">eC</a>
                 <h3>Influenced by</h3>
-                <a href="/language/algol-68/">ALGOL 68</a> • <a href="/language/abc/">ABC</a> • <a href="/language/modula-3/">Modula-3</a> • <a href="/language/c/">C</a> • <a href="/language/c++/">C++</a> • <a href="/language/perl/">Perl</a> • <a href="/language/java/">Java</a> • <a href="/language/lisp/">Lisp</a> • <a href="/language/haskell/">Haskell</a>
+                <a href="/language/abc/">ABC</a> • <a href="/language/algol-68/">ALGOL 68</a> • <a href="/language/c/">C</a> • <a href="/language/c++/">C++</a> • <a href="/language/haskell/">Haskell</a> • <a href="/language/java/">Java</a> • <a href="/language/lisp/">Lisp</a> • <a href="/language/modula-3/">Modula-3</a> • <a href="/language/perl/">Perl</a>
                 <h3>Stack Exchange tags</h3>
                 <a href="https://stackoverflow.com/tags/python">stackoverflow.com/tags/python</a> • <a href="https://stackoverflow.com/tags/python-2.x">stackoverflow.com/tags/python-2.x</a> • <a href="https://stackoverflow.com/tags/python-3.x">stackoverflow.com/tags/python-3.x</a>
         </div>
         <div class="column box">
                 <h3>Python Influence Network</h3>
-                <iframe src="/influence-network/#widgets=off&language=Python" width="100%" height="600" scrolling="no"></iframe>
+                <svg id="network"></svg>
+                <p class="is-size-7">Pan and zoom with your mouse or fingers on touch-screen devices.</p>
                 <h3>Hello World in Python</h3>
                 <pre><code class="python">#!/usr/bin/env python
 print &#34;Hello World&#34;
@@ -87,12 +90,17 @@ Sources: <a href="https://www.wikidata.org/wiki/Q28865">Wikidata</a> • <a href
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
 
+    <script src="/vendor/jLouvain.js"></script>
+    <script src="/compiled/graph.js"></script>
+    <script src="/compiled/language.js"></script>
+    <script>var language = 'Python';</script>
+    <script>var wikidata_id = 'Q28865';</script>
     <script src="/vendor/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 
 <hr>
 <footer class="content"><div class="container is-fluid">
-    <a href="/">programminglanguages.info</a> • Latest update: 2018-12-23
+    <a href="/">programminglanguages.info</a> • Latest update: 2018-12-30
 </div></footer>
 </body>
 </html>

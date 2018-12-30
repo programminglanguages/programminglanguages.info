@@ -13,7 +13,7 @@
 
     <link rel="stylesheet" href="/compiled/style.css">
 
-<link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
+<link rel="stylesheet" href="/compiled/language.css"><link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
 <nav id="main-nav" class="level">
@@ -47,14 +47,17 @@
             
                 <h3>Programming paradigms</h3>
                 <a href="/paradigm/structured-programming/">structured programming</a> • <a href="/paradigm/object-oriented-programming/">object-oriented programming</a> • <a href="/paradigm/functional-programming/">functional programming</a> • <a href="/paradigm/generic-programming/">generic programming</a> • <a href="/paradigm/imperative-programming/">imperative programming</a> • <a href="/paradigm/concurrent-computing/">concurrent computing</a> • <a href="/paradigm/class-based-programming/">class-based programming</a> • <a href="/paradigm/concurrent-object-oriented-programming/">concurrent object-oriented programming</a> • <a href="/paradigm/reflective-programming/">reflective programming</a>
+                <h3>Influenced</h3>
+                <a href="/language/ada/">Ada</a> • <a href="/language/ateji-px/">Ateji PX</a> • <a href="/language/beanshell/">BeanShell</a> • <a href="/language/c#/">C#</a> • <a href="/language/ceylon/">Ceylon</a> • <a href="/language/chapel/">Chapel</a> • <a href="/language/common-intermediate-language/">Common Intermediate Language</a> • <a href="/language/dart/">Dart</a> • <a href="/language/gosu/">Gosu</a> • <a href="/language/groovy/">Groovy</a> • <a href="/language/hack/">Hack</a> • <a href="/language/haxe/">Haxe</a> • <a href="/language/javascript/">JavaScript</a> • <a href="/language/join-java/">Join Java</a> • <a href="/language/mirah/">Mirah</a> • <a href="/language/monkey-x/">Monkey X</a> • <a href="/language/optimj/">OptimJ</a> • <a href="/language/php/">PHP</a> • <a href="/language/pnuts/">Pnuts</a> • <a href="/language/processing/">Processing</a> • <a href="/language/python/">Python</a> • <a href="/language/qore/">Qore</a> • <a href="/language/scala/">Scala</a> • <a href="/language/seed7/">Seed7</a> • <a href="/language/tea/">Tea</a> • <a href="/language/typescript/">TypeScript</a> • <a href="/language/vala/">Vala</a> • <a href="/language/whiley/">Whiley</a> • <a href="/language/x10/">X10</a>
                 <h3>Influenced by</h3>
-                <a href="/language/c++/">C++</a> • <a href="/language/c/">C</a> • <a href="/language/ada/">Ada</a> • <a href="/language/smalltalk/">Smalltalk</a> • <a href="/language/objective-c/">Objective-C</a> • <a href="/language/object-pascal/">Object Pascal</a> • <a href="/language/ucsd-pascal/">UCSD Pascal</a> • <a href="/language/oberon/">Oberon</a> • <a href="/language/eiffel/">Eiffel</a> • <a href="/language/modula-3/">Modula-3</a> • <a href="/language/mesa/">Mesa</a> • <a href="/language/simula/">Simula</a>
+                <a href="/language/ada/">Ada</a> • <a href="/language/c/">C</a> • <a href="/language/c++/">C++</a> • <a href="/language/eiffel/">Eiffel</a> • <a href="/language/mesa/">Mesa</a> • <a href="/language/modula-3/">Modula-3</a> • <a href="/language/oberon/">Oberon</a> • <a href="/language/object-pascal/">Object Pascal</a> • <a href="/language/objective-c/">Objective-C</a> • <a href="/language/simula/">Simula</a> • <a href="/language/smalltalk/">Smalltalk</a> • <a href="/language/ucsd-pascal/">UCSD Pascal</a>
                 <h3>Stack Exchange tags</h3>
                 <a href="https://stackoverflow.com/tags/java">stackoverflow.com/tags/java</a> • <a href="https://serverfault.com/tags/java">serverfault.com/tags/java</a>
         </div>
         <div class="column box">
                 <h3>Java Influence Network</h3>
-                <iframe src="/influence-network/#widgets=off&language=Java" width="100%" height="600" scrolling="no"></iframe>
+                <svg id="network"></svg>
+                <p class="is-size-7">Pan and zoom with your mouse or fingers on touch-screen devices.</p>
                 <h3>Hello World in Java</h3>
                 <pre><code class="java">public class Java {
 	public static void main(String[] args) {
@@ -89,12 +92,17 @@ Sources: <a href="https://www.wikidata.org/wiki/Q251">Wikidata</a> • <a href="
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
 
+    <script src="/vendor/jLouvain.js"></script>
+    <script src="/compiled/graph.js"></script>
+    <script src="/compiled/language.js"></script>
+    <script>var language = 'Java';</script>
+    <script>var wikidata_id = 'Q251';</script>
     <script src="/vendor/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 
 <hr>
 <footer class="content"><div class="container is-fluid">
-    <a href="/">programminglanguages.info</a> • Latest update: 2018-12-23
+    <a href="/">programminglanguages.info</a> • Latest update: 2018-12-30
 </div></footer>
 </body>
 </html>

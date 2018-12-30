@@ -13,7 +13,7 @@
 
     <link rel="stylesheet" href="/compiled/style.css">
 
-</head>
+<link rel="stylesheet" href="/compiled/language.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
 <nav id="main-nav" class="level">
@@ -46,11 +46,12 @@
                 <h3>Programming paradigms</h3>
                 <a href="/paradigm/multi-paradigm-programming/">multi-paradigm programming</a> • <a href="/paradigm/imperative-programming/">imperative programming</a> • <a href="/paradigm/procedural-programming/">procedural programming</a> • <a href="/paradigm/object-oriented-programming/">object-oriented programming</a>
                 <h3>Influenced by</h3>
-                <a href="/language/python/">Python</a> • <a href="/language/c/">C</a>
+                <a href="/language/c/">C</a> • <a href="/language/python/">Python</a>
         </div>
         <div class="column box">
                 <h3>eC Influence Network</h3>
-                <iframe src="/influence-network/#widgets=off&language=eC" width="100%" height="600" scrolling="no"></iframe>
+                <svg id="network"></svg>
+                <p class="is-size-7">Pan and zoom with your mouse or fingers on touch-screen devices.</p>
         </div>
     </div>
 </div></section>
@@ -78,10 +79,15 @@ Sources: <a href="https://www.wikidata.org/wiki/Q22095795">Wikidata</a></div></s
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
 
+    <script src="/vendor/jLouvain.js"></script>
+    <script src="/compiled/graph.js"></script>
+    <script src="/compiled/language.js"></script>
+    <script>var language = 'eC';</script>
+    <script>var wikidata_id = 'Q22095795';</script>
 
 <hr>
 <footer class="content"><div class="container is-fluid">
-    <a href="/">programminglanguages.info</a> • Latest update: 2018-12-23
+    <a href="/">programminglanguages.info</a> • Latest update: 2018-12-30
 </div></footer>
 </body>
 </html>

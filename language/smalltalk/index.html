@@ -13,7 +13,7 @@
 
     <link rel="stylesheet" href="/compiled/style.css">
 
-<link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
+<link rel="stylesheet" href="/compiled/language.css"><link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
 <nav id="main-nav" class="level">
@@ -46,12 +46,15 @@
             
                 <h3>Programming paradigms</h3>
                 <a href="/paradigm/object-oriented-programming/">object-oriented programming</a> • <a href="/paradigm/class-based-programming/">class-based programming</a>
+                <h3>Influenced</h3>
+                <a href="/language/ada/">Ada</a> • <a href="/language/agentsheets/">AgentSheets</a> • <a href="/language/ceylon/">Ceylon</a> • <a href="/language/citrine/">Citrine</a> • <a href="/language/claire/">Claire</a> • <a href="/language/dart/">Dart</a> • <a href="/language/emerald/">Emerald</a> • <a href="/language/f-script/">F-Script</a> • <a href="/language/gemstone/">Gemstone</a> • <a href="/language/go/">Go</a> • <a href="/language/groovy/">Groovy</a> • <a href="/language/java/">Java</a> • <a href="/language/lasso/">Lasso</a> • <a href="/language/magik/">Magik</a> • <a href="/language/object-rexx/">Object REXX</a> • <a href="/language/objective-c/">Objective-C</a> • <a href="/language/pharo/">Pharo</a> • <a href="/language/ruby/">Ruby</a> • <a href="/language/scala/">Scala</a> • <a href="/language/scratch/">Scratch</a> • <a href="/language/self/">Self</a> • <a href="/language/snap!/">Snap!</a> • <a href="/language/squeak/">Squeak</a> • <a href="/language/strongtalk/">Strongtalk</a>
                 <h3>Influenced by</h3>
                 <a href="/language/lisp/">Lisp</a> • <a href="/language/simula/">Simula</a>
         </div>
         <div class="column box">
                 <h3>Smalltalk Influence Network</h3>
-                <iframe src="/influence-network/#widgets=off&language=Smalltalk" width="100%" height="600" scrolling="no"></iframe>
+                <svg id="network"></svg>
+                <p class="is-size-7">Pan and zoom with your mouse or fingers on touch-screen devices.</p>
                 <h3>Hello World in Smalltalk</h3>
                 <pre><code class="smalltalk">Transcript show: &#39;Hello, world!&#39;.
 </code></pre>
@@ -82,12 +85,17 @@ Sources: <a href="https://www.wikidata.org/wiki/Q235086">Wikidata</a> • <a hre
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
 
+    <script src="/vendor/jLouvain.js"></script>
+    <script src="/compiled/graph.js"></script>
+    <script src="/compiled/language.js"></script>
+    <script>var language = 'Smalltalk';</script>
+    <script>var wikidata_id = 'Q235086';</script>
     <script src="/vendor/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 
 <hr>
 <footer class="content"><div class="container is-fluid">
-    <a href="/">programminglanguages.info</a> • Latest update: 2018-12-23
+    <a href="/">programminglanguages.info</a> • Latest update: 2018-12-30
 </div></footer>
 </body>
 </html>

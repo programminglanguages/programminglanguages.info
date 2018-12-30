@@ -13,7 +13,7 @@
 
     <link rel="stylesheet" href="/compiled/style.css">
 
-</head>
+<link rel="stylesheet" href="/compiled/language.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
 <nav id="main-nav" class="level">
@@ -44,11 +44,12 @@
             
             
                 <h3>Influenced by</h3>
-                <a href="/language/algol-60/">ALGOL 60</a> • <a href="/language/autocode/">autocode</a> • <a href="/language/atlas-autocode/">Atlas Autocode</a>
+                <a href="/language/algol-60/">ALGOL 60</a> • <a href="/language/atlas-autocode/">Atlas Autocode</a> • <a href="/language/autocode/">autocode</a>
         </div>
         <div class="column box">
                 <h3>Edinburgh IMP Influence Network</h3>
-                <iframe src="/influence-network/#widgets=off&language=Edinburgh%20IMP" width="100%" height="600" scrolling="no"></iframe>
+                <svg id="network"></svg>
+                <p class="is-size-7">Pan and zoom with your mouse or fingers on touch-screen devices.</p>
         </div>
     </div>
 </div></section>
@@ -76,10 +77,15 @@ Sources: <a href="https://www.wikidata.org/wiki/Q5338206">Wikidata</a></div></se
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
 
+    <script src="/vendor/jLouvain.js"></script>
+    <script src="/compiled/graph.js"></script>
+    <script src="/compiled/language.js"></script>
+    <script>var language = 'Edinburgh IMP';</script>
+    <script>var wikidata_id = 'Q5338206';</script>
 
 <hr>
 <footer class="content"><div class="container is-fluid">
-    <a href="/">programminglanguages.info</a> • Latest update: 2018-12-23
+    <a href="/">programminglanguages.info</a> • Latest update: 2018-12-30
 </div></footer>
 </body>
 </html>

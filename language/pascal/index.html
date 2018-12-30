@@ -13,7 +13,7 @@
 
     <link rel="stylesheet" href="/compiled/style.css">
 
-<link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
+<link rel="stylesheet" href="/compiled/language.css"><link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
 <nav id="main-nav" class="level">
@@ -45,12 +45,15 @@
             
                 <h3>Programming paradigms</h3>
                 <a href="/paradigm/imperative-programming/">imperative programming</a>
+                <h3>Influenced</h3>
+                <a href="/language/ada/">Ada</a> • <a href="/language/aldor/">Aldor</a> • <a href="/language/a♯/">A♯</a> • <a href="/language/draco/">Draco</a> • <a href="/language/easylanguage/">EasyLanguage</a> • <a href="/language/emerald/">Emerald</a> • <a href="/language/go/">Go</a> • <a href="/language/karel/">Karel</a> • <a href="/language/modula/">Modula</a> • <a href="/language/modula-2/">Modula-2</a> • <a href="/language/parasail/">ParaSail</a> • <a href="/language/pascalabc.net/">PascalABC.NET</a> • <a href="/language/seed7/">Seed7</a> • <a href="/language/superpascal/">SuperPascal</a> • <a href="/language/turbo-pascal/">Turbo Pascal</a>
                 <h3>Influenced by</h3>
                 <a href="/language/algol/">ALGOL</a> • <a href="/language/algol-60/">ALGOL 60</a> • <a href="/language/algol-w/">ALGOL W</a> • <a href="/language/simula/">Simula</a>
         </div>
         <div class="column box">
                 <h3>Pascal Influence Network</h3>
-                <iframe src="/influence-network/#widgets=off&language=Pascal" width="100%" height="600" scrolling="no"></iframe>
+                <svg id="network"></svg>
+                <p class="is-size-7">Pan and zoom with your mouse or fingers on touch-screen devices.</p>
                 <h3>Hello World in Pascal</h3>
                 <pre><code class="pascal">program HelloWorld(output);
 begin
@@ -85,12 +88,17 @@ Sources: <a href="https://www.wikidata.org/wiki/Q81571">Wikidata</a> • <a href
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
 
+    <script src="/vendor/jLouvain.js"></script>
+    <script src="/compiled/graph.js"></script>
+    <script src="/compiled/language.js"></script>
+    <script>var language = 'Pascal';</script>
+    <script>var wikidata_id = 'Q81571';</script>
     <script src="/vendor/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 
 <hr>
 <footer class="content"><div class="container is-fluid">
-    <a href="/">programminglanguages.info</a> • Latest update: 2018-12-23
+    <a href="/">programminglanguages.info</a> • Latest update: 2018-12-30
 </div></footer>
 </body>
 </html>

@@ -13,7 +13,7 @@
 
     <link rel="stylesheet" href="/compiled/style.css">
 
-</head>
+<link rel="stylesheet" href="/compiled/language.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
 <nav id="main-nav" class="level">
@@ -44,10 +44,15 @@
                 <small>Developed by</small>: Embarcadero Technologies<br>
                 <small>Official websites</small>: <a href="http://www.embarcadero.com/products/delphi">www.embarcadero.com/products/delphi</a><br>
             
+                <h3>Influenced</h3>
+                <a href="/language/nim/">Nim</a> • <a href="/language/pascalabc.net/">PascalABC.NET</a>
                 <h3>Stack Exchange tags</h3>
                 <a href="https://stackoverflow.com/tags/delphi">stackoverflow.com/tags/delphi</a>
         </div>
         <div class="column box">
+                <h3>Embarcadero Delphi Influence Network</h3>
+                <svg id="network"></svg>
+                <p class="is-size-7">Pan and zoom with your mouse or fingers on touch-screen devices.</p>
         </div>
     </div>
 </div></section>
@@ -75,10 +80,15 @@ Sources: <a href="https://www.wikidata.org/wiki/Q487378">Wikidata</a></div></sec
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
 
+    <script src="/vendor/jLouvain.js"></script>
+    <script src="/compiled/graph.js"></script>
+    <script src="/compiled/language.js"></script>
+    <script>var language = 'Embarcadero Delphi';</script>
+    <script>var wikidata_id = 'Q487378';</script>
 
 <hr>
 <footer class="content"><div class="container is-fluid">
-    <a href="/">programminglanguages.info</a> • Latest update: 2018-12-23
+    <a href="/">programminglanguages.info</a> • Latest update: 2018-12-30
 </div></footer>
 </body>
 </html>

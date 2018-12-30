@@ -3,7 +3,7 @@
 <channel><title>RSS Feed</title>
     <link>http://programminglanguages.info</link>
     <description>RSS Feed</description>
-    <lastBuildDate>Sun, 23 Dec 2018 22:25:50 </lastBuildDate>
+    <lastBuildDate>Sun, 30 Dec 2018 23:02:54 </lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
@@ -11,69 +11,69 @@
         <link><![CDATA[http://programminglanguages.info/language/typescript/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/typescript/]]></guid>
-        <pubDate>Sun, 23 Dec 2018 22:25:48 </pubDate>
+        <pubDate>Sun, 30 Dec 2018 23:02:51 </pubDate>
     </item>
     <item>
         <title><![CDATA[Visual J++]]></title>
         <link><![CDATA[http://programminglanguages.info/language/visual-j++/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/visual-j++/]]></guid>
-        <pubDate>Sun, 23 Dec 2018 22:25:48 </pubDate>
+        <pubDate>Sun, 30 Dec 2018 23:02:51 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[Accent programming language]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/accent/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/accent/]]></guid>
+        <pubDate>Sun, 30 Dec 2018 23:02:51 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[Sawzall programming language]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/sawzall/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/sawzall/]]></guid>
+        <pubDate>Sun, 30 Dec 2018 23:02:51 </pubDate>
     </item>
     <item>
         <title><![CDATA[JOSS programming language]]></title>
         <link><![CDATA[http://programminglanguages.info/language/joss/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/joss/]]></guid>
-        <pubDate>Sun, 23 Dec 2018 22:25:48 </pubDate>
+        <pubDate>Sun, 30 Dec 2018 23:02:51 </pubDate>
     </item>
     <item>
         <title><![CDATA[Cython programming language compatible to python]]></title>
         <link><![CDATA[http://programminglanguages.info/language/cython/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/cython/]]></guid>
-        <pubDate>Sun, 23 Dec 2018 22:25:48 </pubDate>
+        <pubDate>Sun, 30 Dec 2018 23:02:51 </pubDate>
     </item>
     <item>
-        <title><![CDATA[GNU Data Language programming language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/gnu-data-language/]]></link>
+        <title><![CDATA[QML programming language]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/qml/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/gnu-data-language/]]></guid>
-        <pubDate>Sun, 23 Dec 2018 22:25:48 </pubDate>
+        <guid><![CDATA[http://programminglanguages.info/language/qml/]]></guid>
+        <pubDate>Sun, 30 Dec 2018 23:02:51 </pubDate>
     </item>
     <item>
         <title><![CDATA[shell script script written for the shell, or command line interpreter, of an operating system]]></title>
         <link><![CDATA[http://programminglanguages.info/language/shell-script/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/shell-script/]]></guid>
-        <pubDate>Sun, 23 Dec 2018 22:25:48 </pubDate>
+        <pubDate>Sun, 30 Dec 2018 23:02:51 </pubDate>
     </item>
     <item>
         <title><![CDATA[ROOT data analysis software]]></title>
         <link><![CDATA[http://programminglanguages.info/language/root/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/root/]]></guid>
-        <pubDate>Sun, 23 Dec 2018 22:25:48 </pubDate>
+        <pubDate>Sun, 30 Dec 2018 23:02:51 </pubDate>
     </item>
     <item>
         <title><![CDATA[GAUSS]]></title>
         <link><![CDATA[http://programminglanguages.info/language/gauss/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/gauss/]]></guid>
-        <pubDate>Sun, 23 Dec 2018 22:25:48 </pubDate>
-    </item>
-    <item>
-        <title><![CDATA[Ceylon programming language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/ceylon/]]></link>
-        <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/ceylon/]]></guid>
-        <pubDate>Sun, 23 Dec 2018 22:25:48 </pubDate>
-    </item>
-    <item>
-        <title><![CDATA[AdvPL]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/advpl/]]></link>
-        <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/advpl/]]></guid>
-        <pubDate>Sun, 23 Dec 2018 22:25:48 </pubDate>
+        <pubDate>Sun, 30 Dec 2018 23:02:51 </pubDate>
     </item>
 </channel></rss>

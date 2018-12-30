@@ -13,7 +13,7 @@
 
     <link rel="stylesheet" href="/compiled/style.css">
 
-<link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
+<link rel="stylesheet" href="/compiled/language.css"><link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
 <nav id="main-nav" class="level">
@@ -45,12 +45,15 @@
                 <small>Developed by</small>: Inria<br>
                 <small>Official websites</small>: <a href="https://ocaml.org/">ocaml.org</a><br>
             
+                <h3>Influenced</h3>
+                <a href="/language/boomerang/">Boomerang</a> • <a href="/language/elm/">Elm</a> • <a href="/language/f*/">F*</a> • <a href="/language/frenetic/">Frenetic</a> • <a href="/language/f♯/">F♯</a> • <a href="/language/haxe/">Haxe</a> • <a href="/language/opa/">Opa</a> • <a href="/language/rust/">Rust</a> • <a href="/language/scala/">Scala</a>
                 <h3>Influenced by</h3>
                 <a href="/language/standard-ml/">Standard ML</a>
         </div>
         <div class="column box">
                 <h3>OCaml Influence Network</h3>
-                <iframe src="/influence-network/#widgets=off&language=OCaml" width="100%" height="600" scrolling="no"></iframe>
+                <svg id="network"></svg>
+                <p class="is-size-7">Pan and zoom with your mouse or fingers on touch-screen devices.</p>
                 <h3>Hello World in OCaml</h3>
                 <pre><code class="ocaml">print_string &#34;Hello World\n&#34;</code></pre>
         </div>
@@ -80,12 +83,17 @@ Sources: <a href="https://www.wikidata.org/wiki/Q212587">Wikidata</a> • <a hre
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
 
+    <script src="/vendor/jLouvain.js"></script>
+    <script src="/compiled/graph.js"></script>
+    <script src="/compiled/language.js"></script>
+    <script>var language = 'OCaml';</script>
+    <script>var wikidata_id = 'Q212587';</script>
     <script src="/vendor/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 
 <hr>
 <footer class="content"><div class="container is-fluid">
-    <a href="/">programminglanguages.info</a> • Latest update: 2018-12-23
+    <a href="/">programminglanguages.info</a> • Latest update: 2018-12-30
 </div></footer>
 </body>
 </html>

@@ -13,7 +13,7 @@
 
     <link rel="stylesheet" href="/compiled/style.css">
 
-<link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
+<link rel="stylesheet" href="/compiled/language.css"><link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
 <nav id="main-nav" class="level">
@@ -47,14 +47,17 @@
             
                 <h3>Programming paradigms</h3>
                 <a href="/paradigm/event-driven-programming/">event-driven programming</a>
+                <h3>Influenced</h3>
+                <a href="/language/sense/">Sense</a> • <a href="/language/snap!/">Snap!</a>
                 <h3>Influenced by</h3>
-                <a href="/language/agentsheets/">AgentSheets</a> • <a href="/language/logo/">Logo</a> • <a href="/language/etoys/">Etoys</a> • <a href="/language/smalltalk/">Smalltalk</a> • <a href="/language/starlogo/">StarLogo</a>
+                <a href="/language/agentsheets/">AgentSheets</a> • <a href="/language/etoys/">Etoys</a> • <a href="/language/logo/">Logo</a> • <a href="/language/smalltalk/">Smalltalk</a> • <a href="/language/starlogo/">StarLogo</a>
                 <h3>Stack Exchange tags</h3>
                 <a href="https://stackoverflow.com/tags/mit-scratch">stackoverflow.com/tags/mit-scratch</a>
         </div>
         <div class="column box">
                 <h3>Scratch Influence Network</h3>
-                <iframe src="/influence-network/#widgets=off&language=Scratch" width="100%" height="600" scrolling="no"></iframe>
+                <svg id="network"></svg>
+                <p class="is-size-7">Pan and zoom with your mouse or fingers on touch-screen devices.</p>
                 <h3>Hello World in Scratch</h3>
                 <pre><code class="scratch"></code></pre>
         </div>
@@ -84,12 +87,17 @@ Sources: <a href="https://www.wikidata.org/wiki/Q275131">Wikidata</a> • <a hre
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
 
+    <script src="/vendor/jLouvain.js"></script>
+    <script src="/compiled/graph.js"></script>
+    <script src="/compiled/language.js"></script>
+    <script>var language = 'Scratch';</script>
+    <script>var wikidata_id = 'Q275131';</script>
     <script src="/vendor/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 
 <hr>
 <footer class="content"><div class="container is-fluid">
-    <a href="/">programminglanguages.info</a> • Latest update: 2018-12-23
+    <a href="/">programminglanguages.info</a> • Latest update: 2018-12-30
 </div></footer>
 </body>
 </html>

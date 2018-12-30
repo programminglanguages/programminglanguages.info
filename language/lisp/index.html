@@ -13,7 +13,7 @@
 
     <link rel="stylesheet" href="/compiled/style.css">
 
-<link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
+<link rel="stylesheet" href="/compiled/language.css"><link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
 <nav id="main-nav" class="level">
@@ -46,6 +46,8 @@
             
                 <h3>Programming paradigms</h3>
                 <a href="/paradigm/functional-programming/">functional programming</a> • <a href="/paradigm/procedural-programming/">procedural programming</a> • <a href="/paradigm/metaprogramming/">metaprogramming</a> • <a href="/paradigm/multi-paradigm-programming/">multi-paradigm programming</a> • <a href="/paradigm/reflective-programming/">reflective programming</a>
+                <h3>Influenced</h3>
+                <a href="/language/agentsheets/">AgentSheets</a> • <a href="/language/clips/">CLIPS</a> • <a href="/language/clu/">CLU</a> • <a href="/language/cowsel/">COWSEL</a> • <a href="/language/ceylon/">Ceylon</a> • <a href="/language/clojure/">Clojure</a> • <a href="/language/common-lisp/">Common Lisp</a> • <a href="/language/dylan/">Dylan</a> • <a href="/language/forth/">Forth</a> • <a href="/language/haskell/">Haskell</a> • <a href="/language/hy/">Hy</a> • <a href="/language/impromptu/">Impromptu</a> • <a href="/language/julia/">Julia</a> • <a href="/language/logo/">Logo</a> • <a href="/language/mlisp/">MLisp</a> • <a href="/language/nial/">Nial</a> • <a href="/language/nim/">Nim</a> • <a href="/language/nyquist/">Nyquist</a> • <a href="/language/oz/">Oz</a> • <a href="/language/pure/">Pure</a> • <a href="/language/python/">Python</a> • <a href="/language/scheme/">Scheme</a> • <a href="/language/smalltalk/">Smalltalk</a> • <a href="/language/squeak/">Squeak</a> • <a href="/language/ucblogo/">UCBLogo</a>
                 <h3>Influenced by</h3>
                 <a href="/language/information-processing-language/">Information Processing Language</a>
                 <h3>Stack Exchange tags</h3>
@@ -53,7 +55,8 @@
         </div>
         <div class="column box">
                 <h3>Lisp Influence Network</h3>
-                <iframe src="/influence-network/#widgets=off&language=Lisp" width="100%" height="600" scrolling="no"></iframe>
+                <svg id="network"></svg>
+                <p class="is-size-7">Pan and zoom with your mouse or fingers on touch-screen devices.</p>
                 <h3>Hello World in Lisp</h3>
                 <pre><code class="lisp">; LISP
 (DEFUN hello ()
@@ -89,12 +92,17 @@ Sources: <a href="https://www.wikidata.org/wiki/Q132874">Wikidata</a> • <a hre
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
 
+    <script src="/vendor/jLouvain.js"></script>
+    <script src="/compiled/graph.js"></script>
+    <script src="/compiled/language.js"></script>
+    <script>var language = 'Lisp';</script>
+    <script>var wikidata_id = 'Q132874';</script>
     <script src="/vendor/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 
 <hr>
 <footer class="content"><div class="container is-fluid">
-    <a href="/">programminglanguages.info</a> • Latest update: 2018-12-23
+    <a href="/">programminglanguages.info</a> • Latest update: 2018-12-30
 </div></footer>
 </body>
 </html>

@@ -13,7 +13,7 @@
 
     <link rel="stylesheet" href="/compiled/style.css">
 
-<link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
+<link rel="stylesheet" href="/compiled/language.css"><link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
 <nav id="main-nav" class="level">
@@ -45,12 +45,15 @@
             
                 <h3>Programming paradigms</h3>
                 <a href="/paradigm/esoteric-programming-language/">esoteric programming language</a> • <a href="/paradigm/esoteric-programming/">esoteric programming</a>
+                <h3>Influenced</h3>
+                <a href="/language/malbolge/">Malbolge</a> • <a href="/language/whitespace/">Whitespace</a>
                 <h3>Influenced by</h3>
                 <a href="/language/p′′/">P′′</a>
         </div>
         <div class="column box">
                 <h3>Brainfuck Influence Network</h3>
-                <iframe src="/influence-network/#widgets=off&language=Brainfuck" width="100%" height="600" scrolling="no"></iframe>
+                <svg id="network"></svg>
+                <p class="is-size-7">Pan and zoom with your mouse or fingers on touch-screen devices.</p>
                 <h3>Hello World in Brainfuck</h3>
                 <pre><code class="brainfuck">++++++++++[&gt;+++++++&gt;++++++++++&gt;+++&gt;+&lt;&lt;&lt;&lt;-]&gt;++.&gt;+.+++++++..+++.&gt;++.&lt;&lt;+++++++++++++++.&gt;.+++.------.--------.&gt;+.&gt;.
 </code></pre>
@@ -81,12 +84,17 @@ Sources: <a href="https://www.wikidata.org/wiki/Q244627">Wikidata</a> • <a hre
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
 
+    <script src="/vendor/jLouvain.js"></script>
+    <script src="/compiled/graph.js"></script>
+    <script src="/compiled/language.js"></script>
+    <script>var language = 'Brainfuck';</script>
+    <script>var wikidata_id = 'Q244627';</script>
     <script src="/vendor/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 
 <hr>
 <footer class="content"><div class="container is-fluid">
-    <a href="/">programminglanguages.info</a> • Latest update: 2018-12-23
+    <a href="/">programminglanguages.info</a> • Latest update: 2018-12-30
 </div></footer>
 </body>
 </html>

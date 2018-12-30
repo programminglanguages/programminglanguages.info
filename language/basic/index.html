@@ -13,7 +13,7 @@
 
     <link rel="stylesheet" href="/compiled/style.css">
 
-<link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
+<link rel="stylesheet" href="/compiled/language.css"><link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
 <nav id="main-nav" class="level">
@@ -45,12 +45,15 @@
             
                 <h3>Programming paradigms</h3>
                 <a href="/paradigm/non-structured-programming/">non-structured programming</a> • <a href="/paradigm/imperative-programming/">imperative programming</a>
+                <h3>Influenced</h3>
+                <a href="/language/altair-basic/">Altair BASIC</a> • <a href="/language/bbc-basic/">BBC BASIC</a> • <a href="/language/cbasic/">CBASIC</a> • <a href="/language/comal/">COMAL</a> • <a href="/language/dibol/">DIBOL</a> • <a href="/language/euphoria/">Euphoria</a> • <a href="/language/gfa-basic/">GFA BASIC</a> • <a href="/language/grass/">GRASS</a> • <a href="/language/purebasic/">PureBasic</a> • <a href="/language/quickbasic/">QuickBASIC</a> • <a href="/language/rexx/">REXX</a> • <a href="/language/stos-basic/">STOS BASIC</a> • <a href="/language/true-basic/">True BASIC</a> • <a href="/language/xbasic/">XBasic</a> • <a href="/language/zebra/">Zebra</a>
                 <h3>Influenced by</h3>
-                <a href="/language/fortran/">Fortran</a> • <a href="/language/joss/">JOSS</a> • <a href="/language/algol/">ALGOL</a>
+                <a href="/language/algol/">ALGOL</a> • <a href="/language/fortran/">Fortran</a> • <a href="/language/joss/">JOSS</a>
         </div>
         <div class="column box">
                 <h3>BASIC Influence Network</h3>
-                <iframe src="/influence-network/#widgets=off&language=BASIC" width="100%" height="600" scrolling="no"></iframe>
+                <svg id="network"></svg>
+                <p class="is-size-7">Pan and zoom with your mouse or fingers on touch-screen devices.</p>
                 <h3>Hello World in BASIC</h3>
                 <pre><code class="basic">10 REM Hello World in BASIC
 20 PRINT &#34;Hello World&#34;
@@ -82,12 +85,17 @@ Sources: <a href="https://www.wikidata.org/wiki/Q42979">Wikidata</a> • <a href
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
 
+    <script src="/vendor/jLouvain.js"></script>
+    <script src="/compiled/graph.js"></script>
+    <script src="/compiled/language.js"></script>
+    <script>var language = 'BASIC';</script>
+    <script>var wikidata_id = 'Q42979';</script>
     <script src="/vendor/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 
 <hr>
 <footer class="content"><div class="container is-fluid">
-    <a href="/">programminglanguages.info</a> • Latest update: 2018-12-23
+    <a href="/">programminglanguages.info</a> • Latest update: 2018-12-30
 </div></footer>
 </body>
 </html>

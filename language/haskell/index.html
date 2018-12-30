@@ -13,7 +13,7 @@
 
     <link rel="stylesheet" href="/compiled/style.css">
 
-<link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
+<link rel="stylesheet" href="/compiled/language.css"><link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
 <nav id="main-nav" class="level">
@@ -47,14 +47,17 @@
             
                 <h3>Programming paradigms</h3>
                 <a href="/paradigm/functional-programming/">functional programming</a>
+                <h3>Influenced</h3>
+                <a href="/language/agda/">Agda</a> • <a href="/language/aldor/">Aldor</a> • <a href="/language/a♯/">A♯</a> • <a href="/language/curry/">Curry</a> • <a href="/language/elm/">Elm</a> • <a href="/language/idris/">Idris</a> • <a href="/language/livescript/">LiveScript</a> • <a href="/language/mercury/">Mercury</a> • <a href="/language/perl-6/">Perl 6</a> • <a href="/language/pure/">Pure</a> • <a href="/language/python/">Python</a> • <a href="/language/rust/">Rust</a> • <a href="/language/scala/">Scala</a> • <a href="/language/swift/">Swift</a> • <a href="/language/ur-web/">Ur/Web</a> • <a href="/language/jq/">jq</a>
                 <h3>Influenced by</h3>
-                <a href="/language/lisp/">Lisp</a> • <a href="/language/ml/">ML</a> • <a href="/language/miranda/">Miranda</a> • <a href="/language/orwell/">Orwell</a> • <a href="/language/lazy-ml/">Lazy ML</a> • <a href="/language/clean/">Clean</a>
+                <a href="/language/clean/">Clean</a> • <a href="/language/lazy-ml/">Lazy ML</a> • <a href="/language/lisp/">Lisp</a> • <a href="/language/ml/">ML</a> • <a href="/language/miranda/">Miranda</a> • <a href="/language/orwell/">Orwell</a>
                 <h3>Stack Exchange tags</h3>
                 <a href="https://stackoverflow.com/tags/haskell">stackoverflow.com/tags/haskell</a>
         </div>
         <div class="column box">
                 <h3>Haskell Influence Network</h3>
-                <iframe src="/influence-network/#widgets=off&language=Haskell" width="100%" height="600" scrolling="no"></iframe>
+                <svg id="network"></svg>
+                <p class="is-size-7">Pan and zoom with your mouse or fingers on touch-screen devices.</p>
                 <h3>Hello World in Haskell</h3>
                 <pre><code class="haskell">module Main where
 
@@ -87,12 +90,17 @@ Sources: <a href="https://www.wikidata.org/wiki/Q34010">Wikidata</a> • <a href
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
 
+    <script src="/vendor/jLouvain.js"></script>
+    <script src="/compiled/graph.js"></script>
+    <script src="/compiled/language.js"></script>
+    <script>var language = 'Haskell';</script>
+    <script>var wikidata_id = 'Q34010';</script>
     <script src="/vendor/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 
 <hr>
 <footer class="content"><div class="container is-fluid">
-    <a href="/">programminglanguages.info</a> • Latest update: 2018-12-23
+    <a href="/">programminglanguages.info</a> • Latest update: 2018-12-30
 </div></footer>
 </body>
 </html>

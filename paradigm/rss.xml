@@ -3,77 +3,77 @@
 <channel><title>Paradigm</title>
     <link>http://programminglanguages.info</link>
     <description>Paradigm</description>
-    <lastBuildDate>Sun, 23 Dec 2018 22:25:50 </lastBuildDate>
+    <lastBuildDate>Sun, 30 Dec 2018 23:02:54 </lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
-    <item>
-        <title><![CDATA[GAUSS]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/gauss/]]></link>
-        <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/gauss/]]></guid>
-        <pubDate>Sun, 23 Dec 2018 22:25:48 </pubDate>
-    </item>
-    <item>
-        <title><![CDATA[Ceylon programming language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/ceylon/]]></link>
-        <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/ceylon/]]></guid>
-        <pubDate>Sun, 23 Dec 2018 22:25:48 </pubDate>
-    </item>
     <item>
         <title><![CDATA[Sawzall programming language]]></title>
         <link><![CDATA[http://programminglanguages.info/language/sawzall/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/sawzall/]]></guid>
-        <pubDate>Sun, 23 Dec 2018 22:25:48 </pubDate>
-    </item>
-    <item>
-        <title><![CDATA[RPL programming language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/rpl/]]></link>
-        <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/rpl/]]></guid>
-        <pubDate>Sun, 23 Dec 2018 22:25:48 </pubDate>
+        <pubDate>Sun, 30 Dec 2018 23:02:51 </pubDate>
     </item>
     <item>
         <title><![CDATA[QML programming language]]></title>
         <link><![CDATA[http://programminglanguages.info/language/qml/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/qml/]]></guid>
-        <pubDate>Sun, 23 Dec 2018 22:25:48 </pubDate>
+        <pubDate>Sun, 30 Dec 2018 23:02:51 </pubDate>
     </item>
     <item>
-        <title><![CDATA[Common Lisp ANSI-standardized dialect of Lisp]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/common-lisp/]]></link>
+        <title><![CDATA[GAUSS]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/gauss/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/common-lisp/]]></guid>
-        <pubDate>Sun, 23 Dec 2018 22:25:48 </pubDate>
+        <guid><![CDATA[http://programminglanguages.info/language/gauss/]]></guid>
+        <pubDate>Sun, 30 Dec 2018 23:02:51 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[Ceylon programming language]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/ceylon/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/ceylon/]]></guid>
+        <pubDate>Sun, 30 Dec 2018 23:02:51 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[RPL programming language]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/rpl/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/rpl/]]></guid>
+        <pubDate>Sun, 30 Dec 2018 23:02:51 </pubDate>
     </item>
     <item>
         <title><![CDATA[Oxygene Object Pascal-based programming language]]></title>
         <link><![CDATA[http://programminglanguages.info/language/oxygene/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/oxygene/]]></guid>
-        <pubDate>Sun, 23 Dec 2018 22:25:48 </pubDate>
-    </item>
-    <item>
-        <title><![CDATA[ML functional programming language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/ml/]]></link>
-        <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/ml/]]></guid>
-        <pubDate>Sun, 23 Dec 2018 22:25:48 </pubDate>
+        <pubDate>Sun, 30 Dec 2018 23:02:51 </pubDate>
     </item>
     <item>
         <title><![CDATA[Euler]]></title>
         <link><![CDATA[http://programminglanguages.info/language/euler/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/euler/]]></guid>
-        <pubDate>Sun, 23 Dec 2018 22:25:48 </pubDate>
+        <pubDate>Sun, 30 Dec 2018 23:02:51 </pubDate>
     </item>
     <item>
         <title><![CDATA[Boo programming language]]></title>
         <link><![CDATA[http://programminglanguages.info/language/boo/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/boo/]]></guid>
-        <pubDate>Sun, 23 Dec 2018 22:25:48 </pubDate>
+        <pubDate>Sun, 30 Dec 2018 23:02:51 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[Common Lisp ANSI-standardized dialect of Lisp]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/common-lisp/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/common-lisp/]]></guid>
+        <pubDate>Sun, 30 Dec 2018 23:02:51 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[ML functional programming language]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/ml/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/ml/]]></guid>
+        <pubDate>Sun, 30 Dec 2018 23:02:51 </pubDate>
     </item>
 </channel></rss>
