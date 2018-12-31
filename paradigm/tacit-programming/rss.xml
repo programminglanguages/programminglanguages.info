@@ -3,7 +3,7 @@
 <channel><title>Paradigm » Tacit Programming</title>
     <link>http://programminglanguages.info</link>
     <description>Paradigm » Tacit Programming</description>
-    <lastBuildDate>Mon, 31 Dec 2018 01:28:11 </lastBuildDate>
+    <lastBuildDate>Mon, 31 Dec 2018 01:57:38 </lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
@@ -11,13 +11,13 @@
         <link><![CDATA[http://programminglanguages.info/language/j/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/j/]]></guid>
-        <pubDate>Mon, 31 Dec 2018 01:28:08 </pubDate>
+        <pubDate>Mon, 31 Dec 2018 01:57:35 </pubDate>
     </item>
     <item>
         <title><![CDATA[jq programming language]]></title>
         <link><![CDATA[http://programminglanguages.info/language/jq/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/jq/]]></guid>
-        <pubDate>Mon, 31 Dec 2018 01:28:08 </pubDate>
+        <pubDate>Mon, 31 Dec 2018 01:57:35 </pubDate>
     </item>
 </channel></rss>
