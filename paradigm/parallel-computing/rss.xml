@@ -3,7 +3,7 @@
 <channel><title>Paradigm » Parallel Computing</title>
     <link>http://programminglanguages.info</link>
     <description>Paradigm » Parallel Computing</description>
-    <lastBuildDate>Mon, 31 Dec 2018 01:57:38 </lastBuildDate>
+    <lastBuildDate>Mon, 07 Jan 2019 17:01:43 </lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
@@ -11,34 +11,34 @@
         <link><![CDATA[http://programminglanguages.info/language/*lisp/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/*lisp/]]></guid>
-        <pubDate>Mon, 31 Dec 2018 01:57:35 </pubDate>
+        <pubDate>Mon, 07 Jan 2019 17:01:36 </pubDate>
     </item>
     <item>
         <title><![CDATA[Global Arrays]]></title>
         <link><![CDATA[http://programminglanguages.info/language/global-arrays/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/global-arrays/]]></guid>
-        <pubDate>Mon, 31 Dec 2018 01:57:35 </pubDate>
+        <pubDate>Mon, 07 Jan 2019 17:01:36 </pubDate>
     </item>
     <item>
         <title><![CDATA[Chapel programming language]]></title>
         <link><![CDATA[http://programminglanguages.info/language/chapel/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/chapel/]]></guid>
-        <pubDate>Mon, 31 Dec 2018 01:57:35 </pubDate>
+        <pubDate>Mon, 07 Jan 2019 17:01:36 </pubDate>
     </item>
     <item>
         <title><![CDATA[Cilk Parallel programming language]]></title>
         <link><![CDATA[http://programminglanguages.info/language/cilk/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/cilk/]]></guid>
-        <pubDate>Mon, 31 Dec 2018 01:57:35 </pubDate>
+        <pubDate>Mon, 07 Jan 2019 17:01:36 </pubDate>
     </item>
     <item>
         <title><![CDATA[Unified Parallel C]]></title>
         <link><![CDATA[http://programminglanguages.info/language/unified-parallel-c/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/unified-parallel-c/]]></guid>
-        <pubDate>Mon, 31 Dec 2018 01:57:35 </pubDate>
+        <pubDate>Mon, 07 Jan 2019 17:01:36 </pubDate>
     </item>
 </channel></rss>

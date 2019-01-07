@@ -3,7 +3,7 @@
 <channel><title>Paradigm » Logic Programming</title>
     <link>http://programminglanguages.info</link>
     <description>Paradigm » Logic Programming</description>
-    <lastBuildDate>Mon, 31 Dec 2018 01:57:38 </lastBuildDate>
+    <lastBuildDate>Mon, 07 Jan 2019 17:01:43 </lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
@@ -11,55 +11,55 @@
         <link><![CDATA[http://programminglanguages.info/language/xsb/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/xsb/]]></guid>
-        <pubDate>Mon, 31 Dec 2018 01:57:35 </pubDate>
+        <pubDate>Mon, 07 Jan 2019 17:01:37 </pubDate>
     </item>
     <item>
         <title><![CDATA[Fril programming language]]></title>
         <link><![CDATA[http://programminglanguages.info/language/fril/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/fril/]]></guid>
-        <pubDate>Mon, 31 Dec 2018 01:57:35 </pubDate>
+        <pubDate>Mon, 07 Jan 2019 17:01:36 </pubDate>
     </item>
     <item>
         <title><![CDATA[Ciao programming language]]></title>
         <link><![CDATA[http://programminglanguages.info/language/ciao/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/ciao/]]></guid>
-        <pubDate>Mon, 31 Dec 2018 01:57:35 </pubDate>
+        <pubDate>Mon, 07 Jan 2019 17:01:36 </pubDate>
     </item>
     <item>
         <title><![CDATA[CLACL]]></title>
         <link><![CDATA[http://programminglanguages.info/language/clacl/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/clacl/]]></guid>
-        <pubDate>Mon, 31 Dec 2018 01:57:35 </pubDate>
+        <pubDate>Mon, 07 Jan 2019 17:01:36 </pubDate>
     </item>
     <item>
         <title><![CDATA[ABSYS]]></title>
         <link><![CDATA[http://programminglanguages.info/language/absys/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/absys/]]></guid>
-        <pubDate>Mon, 31 Dec 2018 01:57:35 </pubDate>
+        <pubDate>Mon, 07 Jan 2019 17:01:36 </pubDate>
     </item>
     <item>
         <title><![CDATA[Logtalk]]></title>
         <link><![CDATA[http://programminglanguages.info/language/logtalk/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/logtalk/]]></guid>
-        <pubDate>Mon, 31 Dec 2018 01:57:35 </pubDate>
+        <pubDate>Mon, 07 Jan 2019 17:01:36 </pubDate>
     </item>
     <item>
         <title><![CDATA[Mercury functional logic programming language]]></title>
         <link><![CDATA[http://programminglanguages.info/language/mercury/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/mercury/]]></guid>
-        <pubDate>Mon, 31 Dec 2018 01:57:35 </pubDate>
+        <pubDate>Mon, 07 Jan 2019 17:01:36 </pubDate>
     </item>
     <item>
         <title><![CDATA[Prolog programming language that uses first order logic]]></title>
         <link><![CDATA[http://programminglanguages.info/language/prolog/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/prolog/]]></guid>
-        <pubDate>Mon, 31 Dec 2018 01:57:35 </pubDate>
+        <pubDate>Mon, 07 Jan 2019 17:01:36 </pubDate>
     </item>
 </channel></rss>
