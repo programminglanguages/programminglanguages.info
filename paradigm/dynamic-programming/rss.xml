@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
-<channel><title>Paradigm » Dynamic Programming</title>
-    <link>http://programminglanguages.info</link>
+<channel><title>programminglanguages.info Paradigm » Dynamic Programming</title>
+    <link>https://programminglanguages.info</link>
     <description>Paradigm » Dynamic Programming</description>
-    <lastBuildDate>Thu, 10 Jan 2019 16:55:39 </lastBuildDate>
+    <lastBuildDate>Thu, 10 Jan 2019 17:15:08 </lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
         <title><![CDATA[J programming language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/j/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/j/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/j/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/j/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
     <item>
         <title><![CDATA[Python general-purpose, high-level programming language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/python/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/python/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/python/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/python/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
     <item>
         <title><![CDATA[Strongtalk programming language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/strongtalk/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/strongtalk/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/strongtalk/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/strongtalk/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
     <item>
         <title><![CDATA[Pike programming language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/pike/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/pike/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/pike/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/pike/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:04 </pubDate>
     </item>
 </channel></rss>

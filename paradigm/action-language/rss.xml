@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
-<channel><title>Paradigm » Action Language</title>
-    <link>http://programminglanguages.info</link>
+<channel><title>programminglanguages.info Paradigm » Action Language</title>
+    <link>https://programminglanguages.info</link>
     <description>Paradigm » Action Language</description>
-    <lastBuildDate>Thu, 10 Jan 2019 16:55:39 </lastBuildDate>
+    <lastBuildDate>Thu, 10 Jan 2019 17:15:08 </lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
         <title><![CDATA[TLA+ programming language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/tla+/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/tla+/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/tla+/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/tla+/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
 </channel></rss>

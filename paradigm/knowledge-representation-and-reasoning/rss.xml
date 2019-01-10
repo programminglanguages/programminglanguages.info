@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
-<channel><title>Paradigm » Knowledge Representation And Reasoning</title>
-    <link>http://programminglanguages.info</link>
+<channel><title>programminglanguages.info Paradigm » Knowledge Representation And Reasoning</title>
+    <link>https://programminglanguages.info</link>
     <description>Paradigm » Knowledge Representation And Reasoning</description>
-    <lastBuildDate>Thu, 10 Jan 2019 16:55:39 </lastBuildDate>
+    <lastBuildDate>Thu, 10 Jan 2019 17:15:08 </lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
         <title><![CDATA[LOOM]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/loom/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/loom/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/loom/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/loom/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
     <item>
         <title><![CDATA[KRL]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/krl/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/krl/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/krl/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/krl/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
 </channel></rss>

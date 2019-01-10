@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
-<channel><title>Paradigm » Metaprogramming</title>
-    <link>http://programminglanguages.info</link>
+<channel><title>programminglanguages.info Paradigm » Metaprogramming</title>
+    <link>https://programminglanguages.info</link>
     <description>Paradigm » Metaprogramming</description>
-    <lastBuildDate>Thu, 10 Jan 2019 16:55:39 </lastBuildDate>
+    <lastBuildDate>Thu, 10 Jan 2019 17:15:08 </lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
         <title><![CDATA[Scheme dialect of the Lisp programming language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/scheme/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/scheme/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/scheme/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/scheme/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:04 </pubDate>
     </item>
     <item>
         <title><![CDATA[Lisp programming language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/lisp/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/lisp/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/lisp/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/lisp/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:04 </pubDate>
     </item>
 </channel></rss>

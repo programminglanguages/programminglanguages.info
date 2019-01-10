@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
-<channel><title>Paradigm » Copy And Paste Programming</title>
-    <link>http://programminglanguages.info</link>
+<channel><title>programminglanguages.info Paradigm » Copy And Paste Programming</title>
+    <link>https://programminglanguages.info</link>
     <description>Paradigm » Copy And Paste Programming</description>
-    <lastBuildDate>Thu, 10 Jan 2019 16:55:39 </lastBuildDate>
+    <lastBuildDate>Thu, 10 Jan 2019 17:15:08 </lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
         <title><![CDATA[Subtext programming language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/subtext/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/subtext/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/subtext/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:32 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/subtext/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
 </channel></rss>

@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
-<channel><title>Paradigm » Visual Programming Language</title>
-    <link>http://programminglanguages.info</link>
+<channel><title>programminglanguages.info Paradigm » Visual Programming Language</title>
+    <link>https://programminglanguages.info</link>
     <description>Paradigm » Visual Programming Language</description>
-    <lastBuildDate>Thu, 10 Jan 2019 16:55:39 </lastBuildDate>
+    <lastBuildDate>Thu, 10 Jan 2019 17:15:08 </lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
         <title><![CDATA[VSXu programming environment]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/vsxu/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/vsxu/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/vsxu/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:32 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/vsxu/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
     <item>
         <title><![CDATA[vvvv]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/vvvv/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/vvvv/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/vvvv/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/vvvv/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
     <item>
         <title><![CDATA[STELLA]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/stella/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/stella/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/stella/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/stella/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
 </channel></rss>

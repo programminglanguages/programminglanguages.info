@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
-<channel><title>Paradigm » Modularity</title>
-    <link>http://programminglanguages.info</link>
+<channel><title>programminglanguages.info Paradigm » Modularity</title>
+    <link>https://programminglanguages.info</link>
     <description>Paradigm » Modularity</description>
-    <lastBuildDate>Thu, 10 Jan 2019 16:55:39 </lastBuildDate>
+    <lastBuildDate>Thu, 10 Jan 2019 17:15:08 </lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
         <title><![CDATA[SolidThinking Embed VisSim is a visual language for modeling and simulating nonlinear dynamic systems. With 9 integration methods, 4 optimization methods and over 200 vector and scalar block functions,]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/solidthinking-embed/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/solidthinking-embed/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/solidthinking-embed/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/solidthinking-embed/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
 </channel></rss>

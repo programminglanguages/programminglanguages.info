@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
-<channel><title>Paradigm » Parallel Computing</title>
-    <link>http://programminglanguages.info</link>
+<channel><title>programminglanguages.info Paradigm » Parallel Computing</title>
+    <link>https://programminglanguages.info</link>
     <description>Paradigm » Parallel Computing</description>
-    <lastBuildDate>Thu, 10 Jan 2019 16:55:39 </lastBuildDate>
+    <lastBuildDate>Thu, 10 Jan 2019 17:15:08 </lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
         <title><![CDATA[*Lisp programming language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/*lisp/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/*lisp/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/*lisp/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/*lisp/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
     <item>
         <title><![CDATA[Global Arrays]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/global-arrays/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/global-arrays/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/global-arrays/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/global-arrays/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
     <item>
         <title><![CDATA[Chapel programming language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/chapel/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/chapel/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/chapel/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/chapel/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
     <item>
         <title><![CDATA[Cilk Parallel programming language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/cilk/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/cilk/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/cilk/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/cilk/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
     <item>
         <title><![CDATA[Unified Parallel C]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/unified-parallel-c/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/unified-parallel-c/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/unified-parallel-c/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/unified-parallel-c/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
 </channel></rss>

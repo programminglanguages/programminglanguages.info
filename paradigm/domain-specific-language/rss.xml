@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
-<channel><title>Paradigm » Domain Specific Language</title>
-    <link>http://programminglanguages.info</link>
+<channel><title>programminglanguages.info Paradigm » Domain Specific Language</title>
+    <link>https://programminglanguages.info</link>
     <description>Paradigm » Domain Specific Language</description>
-    <lastBuildDate>Thu, 10 Jan 2019 16:55:39 </lastBuildDate>
+    <lastBuildDate>Thu, 10 Jan 2019 17:15:08 </lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
         <title><![CDATA[MexScript]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/mexscript/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/mexscript/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/mexscript/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:32 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/mexscript/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
     <item>
         <title><![CDATA[Frenetic programming language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/frenetic/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/frenetic/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/frenetic/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/frenetic/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
 </channel></rss>

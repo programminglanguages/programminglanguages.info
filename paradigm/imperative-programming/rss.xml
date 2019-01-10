@@ -1,79 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
-<channel><title>Paradigm » Imperative Programming</title>
-    <link>http://programminglanguages.info</link>
+<channel><title>programminglanguages.info Paradigm » Imperative Programming</title>
+    <link>https://programminglanguages.info</link>
     <description>Paradigm » Imperative Programming</description>
-    <lastBuildDate>Thu, 10 Jan 2019 16:55:39 </lastBuildDate>
+    <lastBuildDate>Thu, 10 Jan 2019 17:15:08 </lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
         <title><![CDATA[GAUSS]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/gauss/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/gauss/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/gauss/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:32 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/gauss/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
     <item>
         <title><![CDATA[Ceylon programming language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/ceylon/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/ceylon/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/ceylon/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:32 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/ceylon/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
     <item>
         <title><![CDATA[Fortran structured programming language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/fortran/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/fortran/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/fortran/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:32 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/fortran/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
     <item>
         <title><![CDATA[Pascal programming language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/pascal/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/pascal/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/pascal/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:32 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/pascal/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
     <item>
         <title><![CDATA[C-- programming language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/c--/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/c--/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/c--/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:32 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/c--/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
     <item>
         <title><![CDATA[Script.NET programming language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/script.net/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/script.net/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/script.net/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:32 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/script.net/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
     <item>
         <title><![CDATA[Modula-2 programming language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/modula-2/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/modula-2/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/modula-2/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:32 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/modula-2/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
     <item>
         <title><![CDATA[Asymptote]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/asymptote/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/asymptote/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/asymptote/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:32 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/asymptote/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
     <item>
         <title><![CDATA[TUTOR programming language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/tutor/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/tutor/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/tutor/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:32 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/tutor/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
     <item>
         <title><![CDATA[Split-C]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/split-c/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/split-c/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/split-c/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:32 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/split-c/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
 </channel></rss>

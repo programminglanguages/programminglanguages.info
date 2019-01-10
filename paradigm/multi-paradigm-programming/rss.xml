@@ -1,79 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
-<channel><title>Paradigm » Multi Paradigm Programming</title>
-    <link>http://programminglanguages.info</link>
+<channel><title>programminglanguages.info Paradigm » Multi Paradigm Programming</title>
+    <link>https://programminglanguages.info</link>
     <description>Paradigm » Multi Paradigm Programming</description>
-    <lastBuildDate>Thu, 10 Jan 2019 16:55:39 </lastBuildDate>
+    <lastBuildDate>Thu, 10 Jan 2019 17:15:08 </lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
         <title><![CDATA[Ceylon programming language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/ceylon/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/ceylon/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/ceylon/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:32 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/ceylon/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
     <item>
         <title><![CDATA[Common Lisp ANSI-standardized dialect of Lisp]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/common-lisp/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/common-lisp/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/common-lisp/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:32 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/common-lisp/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
     <item>
         <title><![CDATA[BETA object-oriented programming language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/beta/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/beta/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/beta/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:32 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/beta/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
     <item>
         <title><![CDATA[BCPL multi-paradigm programming language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/bcpl/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/bcpl/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/bcpl/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:32 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/bcpl/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
     <item>
         <title><![CDATA[SISAL programming language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/sisal/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/sisal/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/sisal/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:32 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/sisal/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
     <item>
         <title><![CDATA[Eiffel Programming language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/eiffel/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/eiffel/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/eiffel/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:32 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/eiffel/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
     <item>
         <title><![CDATA[Prograph]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/prograph/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/prograph/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/prograph/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:32 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/prograph/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
     <item>
         <title><![CDATA[F♯ Microsoft programming language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/f♯/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/f♯/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/f♯/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/f♯/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
     <item>
         <title><![CDATA[Object Pascal branch of object-oriented derivatives of Pascal programming language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/object-pascal/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/object-pascal/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/object-pascal/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/object-pascal/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
     <item>
         <title><![CDATA[Cobra programming language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/cobra/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/cobra/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/cobra/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/cobra/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
 </channel></rss>

@@ -1,79 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
-<channel><title>Paradigm</title>
-    <link>http://programminglanguages.info</link>
+<channel><title>programminglanguages.info Paradigm</title>
+    <link>https://programminglanguages.info</link>
     <description>Paradigm</description>
-    <lastBuildDate>Thu, 10 Jan 2019 16:55:39 </lastBuildDate>
+    <lastBuildDate>Thu, 10 Jan 2019 17:15:08 </lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
-        <title><![CDATA[Sawzall programming language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/sawzall/]]></link>
+        <title><![CDATA[GAUSS]]></title>
+        <link><![CDATA[https://programminglanguages.info/language/gauss/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/sawzall/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:32 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/gauss/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[Sawzall programming language]]></title>
+        <link><![CDATA[https://programminglanguages.info/language/sawzall/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[https://programminglanguages.info/language/sawzall/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
     <item>
         <title><![CDATA[RPL programming language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/rpl/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/rpl/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/rpl/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:32 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/rpl/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
     <item>
         <title><![CDATA[QML programming language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/qml/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/qml/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/qml/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:32 </pubDate>
-    </item>
-    <item>
-        <title><![CDATA[GAUSS]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/gauss/]]></link>
-        <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/gauss/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:32 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/qml/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
     <item>
         <title><![CDATA[Ceylon programming language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/ceylon/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/ceylon/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/ceylon/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:32 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/ceylon/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
     <item>
         <title><![CDATA[Oxygene Object Pascal-based programming language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/oxygene/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/oxygene/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/oxygene/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:32 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/oxygene/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
     <item>
         <title><![CDATA[ML functional programming language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/ml/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/ml/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/ml/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:32 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/ml/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
     <item>
         <title><![CDATA[Euler]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/euler/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/euler/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/euler/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:32 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/euler/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
     <item>
         <title><![CDATA[Boo programming language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/boo/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/boo/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/boo/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:32 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/boo/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
     <item>
-        <title><![CDATA[Common Lisp ANSI-standardized dialect of Lisp]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/common-lisp/]]></link>
+        <title><![CDATA[occam Concurrent programming language]]></title>
+        <link><![CDATA[https://programminglanguages.info/language/occam/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/common-lisp/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:32 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/occam/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
 </channel></rss>

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
-<channel><title>Paradigm » Spmd</title>
-    <link>http://programminglanguages.info</link>
+<channel><title>programminglanguages.info Paradigm » Spmd</title>
+    <link>https://programminglanguages.info</link>
     <description>Paradigm » Spmd</description>
-    <lastBuildDate>Thu, 10 Jan 2019 16:55:39 </lastBuildDate>
+    <lastBuildDate>Thu, 10 Jan 2019 17:15:08 </lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
         <title><![CDATA[Programming with Big Data in R]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/programming-with-big-data-in-r/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/programming-with-big-data-in-r/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/programming-with-big-data-in-r/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/programming-with-big-data-in-r/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:04 </pubDate>
     </item>
 </channel></rss>

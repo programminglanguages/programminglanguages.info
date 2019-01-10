@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
-<channel><title>Paradigm » Dataflow Programming</title>
-    <link>http://programminglanguages.info</link>
+<channel><title>programminglanguages.info Paradigm » Dataflow Programming</title>
+    <link>https://programminglanguages.info</link>
     <description>Paradigm » Dataflow Programming</description>
-    <lastBuildDate>Thu, 10 Jan 2019 16:55:39 </lastBuildDate>
+    <lastBuildDate>Thu, 10 Jan 2019 17:15:08 </lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
         <title><![CDATA[Joule programming language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/joule/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/joule/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/joule/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/joule/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
     <item>
         <title><![CDATA[Lustre programming language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/lustre/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/lustre/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/lustre/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/lustre/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
     <item>
         <title><![CDATA[Lucid programming language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/lucid/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/lucid/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/lucid/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/lucid/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
     <item>
         <title><![CDATA[Swift parallel scripting language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/swift/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/swift/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/swift/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/swift/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:04 </pubDate>
     </item>
 </channel></rss>

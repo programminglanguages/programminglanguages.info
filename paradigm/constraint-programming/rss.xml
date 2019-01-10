@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
-<channel><title>Paradigm » Constraint Programming</title>
-    <link>http://programminglanguages.info</link>
+<channel><title>programminglanguages.info Paradigm » Constraint Programming</title>
+    <link>https://programminglanguages.info</link>
     <description>Paradigm » Constraint Programming</description>
-    <lastBuildDate>Thu, 10 Jan 2019 16:55:39 </lastBuildDate>
+    <lastBuildDate>Thu, 10 Jan 2019 17:15:08 </lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
         <title><![CDATA[Oz programming language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/oz/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/oz/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/oz/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/oz/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:04 </pubDate>
     </item>
     <item>
         <title><![CDATA[Alice programming language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/alice/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/alice/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/alice/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/alice/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:04 </pubDate>
     </item>
 </channel></rss>

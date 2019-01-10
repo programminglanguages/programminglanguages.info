@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
-<channel><title>Paradigm » Event Driven Programming</title>
-    <link>http://programminglanguages.info</link>
+<channel><title>programminglanguages.info Paradigm » Event Driven Programming</title>
+    <link>https://programminglanguages.info</link>
     <description>Paradigm » Event Driven Programming</description>
-    <lastBuildDate>Thu, 10 Jan 2019 16:55:39 </lastBuildDate>
+    <lastBuildDate>Thu, 10 Jan 2019 17:15:08 </lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
         <title><![CDATA[mIRC scripting language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/mirc-scripting-language/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/mirc-scripting-language/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/mirc-scripting-language/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/mirc-scripting-language/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
     <item>
         <title><![CDATA[Scratch programming language learning environment]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/scratch/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/scratch/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/scratch/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
-    </item>
-    <item>
-        <title><![CDATA[C# multi-paradigm (object-oriented) programming language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/c#/]]></link>
-        <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/c#/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/scratch/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
     <item>
         <title><![CDATA[Visual Basic event-driven programming language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/visual-basic/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/visual-basic/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/visual-basic/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/visual-basic/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[C# multi-paradigm (object-oriented) programming language]]></title>
+        <link><![CDATA[https://programminglanguages.info/language/c#/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[https://programminglanguages.info/language/c#/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
     </item>
     <item>
         <title><![CDATA[Open Roberta]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/open-roberta/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/open-roberta/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/open-roberta/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/open-roberta/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:04 </pubDate>
     </item>
     <item>
         <title><![CDATA[Liberty BASIC]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/liberty-basic/]]></link>
+        <link><![CDATA[https://programminglanguages.info/language/liberty-basic/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/liberty-basic/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
+        <guid><![CDATA[https://programminglanguages.info/language/liberty-basic/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 17:15:04 </pubDate>
     </item>
 </channel></rss>
