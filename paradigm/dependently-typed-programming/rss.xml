@@ -3,7 +3,7 @@
 <channel><title>Paradigm » Dependently Typed Programming</title>
     <link>http://programminglanguages.info</link>
     <description>Paradigm » Dependently Typed Programming</description>
-    <lastBuildDate>Thu, 10 Jan 2019 15:57:07 </lastBuildDate>
+    <lastBuildDate>Thu, 10 Jan 2019 16:55:39 </lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
@@ -11,41 +11,41 @@
         <link><![CDATA[http://programminglanguages.info/language/ats/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/ats/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 15:57:02 </pubDate>
+        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
     </item>
     <item>
         <title><![CDATA[F*]]></title>
         <link><![CDATA[http://programminglanguages.info/language/f*/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/f*/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 15:57:02 </pubDate>
+        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
     </item>
     <item>
         <title><![CDATA[Epigram]]></title>
         <link><![CDATA[http://programminglanguages.info/language/epigram/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/epigram/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 15:57:02 </pubDate>
+        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
     </item>
     <item>
         <title><![CDATA[Cayenne programming language]]></title>
         <link><![CDATA[http://programminglanguages.info/language/cayenne/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/cayenne/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 15:57:02 </pubDate>
+        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
     </item>
     <item>
         <title><![CDATA[Agda programming language]]></title>
         <link><![CDATA[http://programminglanguages.info/language/agda/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/agda/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 15:57:02 </pubDate>
+        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
     </item>
     <item>
         <title><![CDATA[Idris purely functional programming language]]></title>
         <link><![CDATA[http://programminglanguages.info/language/idris/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/idris/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 15:57:02 </pubDate>
+        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
     </item>
 </channel></rss>

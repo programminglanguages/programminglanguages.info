@@ -3,7 +3,7 @@
 <channel><title>Paradigm » Visual Programming Language</title>
     <link>http://programminglanguages.info</link>
     <description>Paradigm » Visual Programming Language</description>
-    <lastBuildDate>Thu, 10 Jan 2019 15:57:07 </lastBuildDate>
+    <lastBuildDate>Thu, 10 Jan 2019 16:55:39 </lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
@@ -11,20 +11,20 @@
         <link><![CDATA[http://programminglanguages.info/language/vsxu/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/vsxu/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 15:57:03 </pubDate>
+        <pubDate>Thu, 10 Jan 2019 16:55:32 </pubDate>
     </item>
     <item>
         <title><![CDATA[vvvv]]></title>
         <link><![CDATA[http://programminglanguages.info/language/vvvv/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/vvvv/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 15:57:02 </pubDate>
+        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
     </item>
     <item>
         <title><![CDATA[STELLA]]></title>
         <link><![CDATA[http://programminglanguages.info/language/stella/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/stella/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 15:57:02 </pubDate>
+        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
     </item>
 </channel></rss>

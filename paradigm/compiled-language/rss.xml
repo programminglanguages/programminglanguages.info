@@ -3,7 +3,7 @@
 <channel><title>Paradigm » Compiled Language</title>
     <link>http://programminglanguages.info</link>
     <description>Paradigm » Compiled Language</description>
-    <lastBuildDate>Thu, 10 Jan 2019 15:57:07 </lastBuildDate>
+    <lastBuildDate>Thu, 10 Jan 2019 16:55:39 </lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
@@ -11,41 +11,41 @@
         <link><![CDATA[http://programminglanguages.info/language/parasail/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/parasail/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 15:57:02 </pubDate>
+        <pubDate>Thu, 10 Jan 2019 16:55:32 </pubDate>
     </item>
     <item>
         <title><![CDATA[Rust systems programming language]]></title>
         <link><![CDATA[http://programminglanguages.info/language/rust/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/rust/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 15:57:02 </pubDate>
+        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
     </item>
     <item>
         <title><![CDATA[Go programming language]]></title>
         <link><![CDATA[http://programminglanguages.info/language/go/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/go/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 15:57:02 </pubDate>
+        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
     </item>
     <item>
         <title><![CDATA[D programming language]]></title>
         <link><![CDATA[http://programminglanguages.info/language/d/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/d/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 15:57:02 </pubDate>
+        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
     </item>
     <item>
         <title><![CDATA[P4]]></title>
         <link><![CDATA[http://programminglanguages.info/language/p4/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/p4/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 15:57:02 </pubDate>
+        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
     </item>
     <item>
         <title><![CDATA[Alef]]></title>
         <link><![CDATA[http://programminglanguages.info/language/alef/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/alef/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 15:57:02 </pubDate>
+        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
     </item>
 </channel></rss>

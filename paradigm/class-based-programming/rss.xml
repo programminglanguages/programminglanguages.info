@@ -3,7 +3,7 @@
 <channel><title>Paradigm » Class Based Programming</title>
     <link>http://programminglanguages.info</link>
     <description>Paradigm » Class Based Programming</description>
-    <lastBuildDate>Thu, 10 Jan 2019 15:57:07 </lastBuildDate>
+    <lastBuildDate>Thu, 10 Jan 2019 16:55:39 </lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
@@ -11,27 +11,27 @@
         <link><![CDATA[http://programminglanguages.info/language/java/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/java/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 15:57:02 </pubDate>
+        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
     </item>
     <item>
         <title><![CDATA[C# multi-paradigm (object-oriented) programming language]]></title>
         <link><![CDATA[http://programminglanguages.info/language/c#/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/c#/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 15:57:02 </pubDate>
+        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
     </item>
     <item>
         <title><![CDATA[Smalltalk programming language]]></title>
         <link><![CDATA[http://programminglanguages.info/language/smalltalk/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/smalltalk/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 15:57:02 </pubDate>
+        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
     </item>
     <item>
         <title><![CDATA[Objective-C general-purpose, high-level, object-oriented programming language]]></title>
         <link><![CDATA[http://programminglanguages.info/language/objective-c/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/objective-c/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 15:57:02 </pubDate>
+        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
     </item>
 </channel></rss>

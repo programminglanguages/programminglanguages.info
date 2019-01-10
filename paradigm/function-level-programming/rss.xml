@@ -3,7 +3,7 @@
 <channel><title>Paradigm » Function Level Programming</title>
     <link>http://programminglanguages.info</link>
     <description>Paradigm » Function Level Programming</description>
-    <lastBuildDate>Thu, 10 Jan 2019 15:57:07 </lastBuildDate>
+    <lastBuildDate>Thu, 10 Jan 2019 16:55:39 </lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
@@ -11,20 +11,20 @@
         <link><![CDATA[http://programminglanguages.info/language/fl/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/fl/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 15:57:02 </pubDate>
+        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
     </item>
     <item>
         <title><![CDATA[J programming language]]></title>
         <link><![CDATA[http://programminglanguages.info/language/j/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/j/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 15:57:02 </pubDate>
+        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
     </item>
     <item>
         <title><![CDATA[FP programming language]]></title>
         <link><![CDATA[http://programminglanguages.info/language/fp/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/fp/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 15:57:02 </pubDate>
+        <pubDate>Thu, 10 Jan 2019 16:55:31 </pubDate>
     </item>
 </channel></rss>
