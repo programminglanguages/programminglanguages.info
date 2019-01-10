@@ -3,7 +3,7 @@
 <channel><title>Paradigm » Dataflow Programming</title>
     <link>http://programminglanguages.info</link>
     <description>Paradigm » Dataflow Programming</description>
-    <lastBuildDate>Mon, 07 Jan 2019 17:01:43 </lastBuildDate>
+    <lastBuildDate>Thu, 10 Jan 2019 15:57:07 </lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
@@ -11,27 +11,27 @@
         <link><![CDATA[http://programminglanguages.info/language/joule/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/joule/]]></guid>
-        <pubDate>Mon, 07 Jan 2019 17:01:36 </pubDate>
+        <pubDate>Thu, 10 Jan 2019 15:57:02 </pubDate>
     </item>
     <item>
         <title><![CDATA[Lustre programming language]]></title>
         <link><![CDATA[http://programminglanguages.info/language/lustre/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/lustre/]]></guid>
-        <pubDate>Mon, 07 Jan 2019 17:01:36 </pubDate>
+        <pubDate>Thu, 10 Jan 2019 15:57:02 </pubDate>
     </item>
     <item>
         <title><![CDATA[Lucid programming language]]></title>
         <link><![CDATA[http://programminglanguages.info/language/lucid/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/lucid/]]></guid>
-        <pubDate>Mon, 07 Jan 2019 17:01:36 </pubDate>
+        <pubDate>Thu, 10 Jan 2019 15:57:02 </pubDate>
     </item>
     <item>
         <title><![CDATA[Swift parallel scripting language]]></title>
         <link><![CDATA[http://programminglanguages.info/language/swift/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/swift/]]></guid>
-        <pubDate>Mon, 07 Jan 2019 17:01:36 </pubDate>
+        <pubDate>Thu, 10 Jan 2019 15:57:02 </pubDate>
     </item>
 </channel></rss>

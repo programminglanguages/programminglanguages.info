@@ -3,7 +3,7 @@
 <channel><title>Paradigm » Functional Programming</title>
     <link>http://programminglanguages.info</link>
     <description>Paradigm » Functional Programming</description>
-    <lastBuildDate>Mon, 07 Jan 2019 17:01:43 </lastBuildDate>
+    <lastBuildDate>Thu, 10 Jan 2019 15:57:07 </lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
@@ -11,69 +11,69 @@
         <link><![CDATA[http://programminglanguages.info/language/ceylon/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/ceylon/]]></guid>
-        <pubDate>Mon, 07 Jan 2019 17:01:37 </pubDate>
-    </item>
-    <item>
-        <title><![CDATA[Common Lisp ANSI-standardized dialect of Lisp]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/common-lisp/]]></link>
-        <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/common-lisp/]]></guid>
-        <pubDate>Mon, 07 Jan 2019 17:01:37 </pubDate>
+        <pubDate>Thu, 10 Jan 2019 15:57:03 </pubDate>
     </item>
     <item>
         <title><![CDATA[ML functional programming language]]></title>
         <link><![CDATA[http://programminglanguages.info/language/ml/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/ml/]]></guid>
-        <pubDate>Mon, 07 Jan 2019 17:01:37 </pubDate>
+        <pubDate>Thu, 10 Jan 2019 15:57:03 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[Common Lisp ANSI-standardized dialect of Lisp]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/common-lisp/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/common-lisp/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 15:57:03 </pubDate>
     </item>
     <item>
         <title><![CDATA[Mathematica computational software program]]></title>
         <link><![CDATA[http://programminglanguages.info/language/mathematica/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/mathematica/]]></guid>
-        <pubDate>Mon, 07 Jan 2019 17:01:37 </pubDate>
+        <pubDate>Thu, 10 Jan 2019 15:57:03 </pubDate>
     </item>
     <item>
         <title><![CDATA[SISAL programming language]]></title>
         <link><![CDATA[http://programminglanguages.info/language/sisal/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/sisal/]]></guid>
-        <pubDate>Mon, 07 Jan 2019 17:01:37 </pubDate>
+        <pubDate>Thu, 10 Jan 2019 15:57:02 </pubDate>
     </item>
     <item>
         <title><![CDATA[Qalb]]></title>
         <link><![CDATA[http://programminglanguages.info/language/qalb/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/qalb/]]></guid>
-        <pubDate>Mon, 07 Jan 2019 17:01:37 </pubDate>
+        <pubDate>Thu, 10 Jan 2019 15:57:02 </pubDate>
     </item>
     <item>
         <title><![CDATA[Q proprietary array programming language from Kx Systems, with "atoms", "lists", and "functions"]]></title>
         <link><![CDATA[http://programminglanguages.info/language/q/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/q/]]></guid>
-        <pubDate>Mon, 07 Jan 2019 17:01:37 </pubDate>
+        <pubDate>Thu, 10 Jan 2019 15:57:02 </pubDate>
     </item>
     <item>
         <title><![CDATA[Pure functional programming language]]></title>
         <link><![CDATA[http://programminglanguages.info/language/pure/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/pure/]]></guid>
-        <pubDate>Mon, 07 Jan 2019 17:01:37 </pubDate>
+        <pubDate>Thu, 10 Jan 2019 15:57:02 </pubDate>
     </item>
     <item>
         <title><![CDATA[PicoLisp]]></title>
         <link><![CDATA[http://programminglanguages.info/language/picolisp/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/picolisp/]]></guid>
-        <pubDate>Mon, 07 Jan 2019 17:01:37 </pubDate>
+        <pubDate>Thu, 10 Jan 2019 15:57:02 </pubDate>
     </item>
     <item>
-        <title><![CDATA[Little b]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/little-b/]]></link>
+        <title><![CDATA[Unlambda]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/unlambda/]]></link>
         <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/little-b/]]></guid>
-        <pubDate>Mon, 07 Jan 2019 17:01:36 </pubDate>
+        <guid><![CDATA[http://programminglanguages.info/language/unlambda/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 15:57:02 </pubDate>
     </item>
 </channel></rss>

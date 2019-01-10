@@ -3,7 +3,7 @@
 <channel><title>Paradigm » Event Driven Programming</title>
     <link>http://programminglanguages.info</link>
     <description>Paradigm » Event Driven Programming</description>
-    <lastBuildDate>Mon, 07 Jan 2019 17:01:43 </lastBuildDate>
+    <lastBuildDate>Thu, 10 Jan 2019 15:57:07 </lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
@@ -11,41 +11,41 @@
         <link><![CDATA[http://programminglanguages.info/language/mirc-scripting-language/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/mirc-scripting-language/]]></guid>
-        <pubDate>Mon, 07 Jan 2019 17:01:36 </pubDate>
+        <pubDate>Thu, 10 Jan 2019 15:57:02 </pubDate>
     </item>
     <item>
         <title><![CDATA[Scratch programming language learning environment]]></title>
         <link><![CDATA[http://programminglanguages.info/language/scratch/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/scratch/]]></guid>
-        <pubDate>Mon, 07 Jan 2019 17:01:36 </pubDate>
-    </item>
-    <item>
-        <title><![CDATA[Visual Basic event-driven programming language]]></title>
-        <link><![CDATA[http://programminglanguages.info/language/visual-basic/]]></link>
-        <description><![CDATA[]]></description>
-        <guid><![CDATA[http://programminglanguages.info/language/visual-basic/]]></guid>
-        <pubDate>Mon, 07 Jan 2019 17:01:36 </pubDate>
+        <pubDate>Thu, 10 Jan 2019 15:57:02 </pubDate>
     </item>
     <item>
         <title><![CDATA[C# multi-paradigm (object-oriented) programming language]]></title>
         <link><![CDATA[http://programminglanguages.info/language/c#/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/c#/]]></guid>
-        <pubDate>Mon, 07 Jan 2019 17:01:36 </pubDate>
+        <pubDate>Thu, 10 Jan 2019 15:57:02 </pubDate>
+    </item>
+    <item>
+        <title><![CDATA[Visual Basic event-driven programming language]]></title>
+        <link><![CDATA[http://programminglanguages.info/language/visual-basic/]]></link>
+        <description><![CDATA[]]></description>
+        <guid><![CDATA[http://programminglanguages.info/language/visual-basic/]]></guid>
+        <pubDate>Thu, 10 Jan 2019 15:57:02 </pubDate>
     </item>
     <item>
         <title><![CDATA[Open Roberta]]></title>
         <link><![CDATA[http://programminglanguages.info/language/open-roberta/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/open-roberta/]]></guid>
-        <pubDate>Mon, 07 Jan 2019 17:01:36 </pubDate>
+        <pubDate>Thu, 10 Jan 2019 15:57:02 </pubDate>
     </item>
     <item>
         <title><![CDATA[Liberty BASIC]]></title>
         <link><![CDATA[http://programminglanguages.info/language/liberty-basic/]]></link>
         <description><![CDATA[]]></description>
         <guid><![CDATA[http://programminglanguages.info/language/liberty-basic/]]></guid>
-        <pubDate>Mon, 07 Jan 2019 17:01:36 </pubDate>
+        <pubDate>Thu, 10 Jan 2019 15:57:02 </pubDate>
     </item>
 </channel></rss>
