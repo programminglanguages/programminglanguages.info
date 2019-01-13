@@ -3,77 +3,7 @@
 <channel><title>programminglanguages.info Paradigm » Concurrent Computing</title>
     <link>https://programminglanguages.info</link>
     <description>Paradigm » Concurrent Computing</description>
-    <lastBuildDate>Thu, 10 Jan 2019 17:15:08 </lastBuildDate>
+    <lastBuildDate>Sun, 13 Jan 2019 22:26:34 </lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
-    <item>
-        <title><![CDATA[occam Concurrent programming language]]></title>
-        <link><![CDATA[https://programminglanguages.info/language/occam/]]></link>
-        <description><![CDATA[]]></description>
-        <guid><![CDATA[https://programminglanguages.info/language/occam/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
-    </item>
-    <item>
-        <title><![CDATA[XC Programming Language]]></title>
-        <link><![CDATA[https://programminglanguages.info/language/xc-programming-language/]]></link>
-        <description><![CDATA[]]></description>
-        <guid><![CDATA[https://programminglanguages.info/language/xc-programming-language/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
-    </item>
-    <item>
-        <title><![CDATA[SuperPascal]]></title>
-        <link><![CDATA[https://programminglanguages.info/language/superpascal/]]></link>
-        <description><![CDATA[]]></description>
-        <guid><![CDATA[https://programminglanguages.info/language/superpascal/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
-    </item>
-    <item>
-        <title><![CDATA[Orc programming language]]></title>
-        <link><![CDATA[https://programminglanguages.info/language/orc/]]></link>
-        <description><![CDATA[]]></description>
-        <guid><![CDATA[https://programminglanguages.info/language/orc/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
-    </item>
-    <item>
-        <title><![CDATA[Join-pattern]]></title>
-        <link><![CDATA[https://programminglanguages.info/language/join-pattern/]]></link>
-        <description><![CDATA[]]></description>
-        <guid><![CDATA[https://programminglanguages.info/language/join-pattern/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
-    </item>
-    <item>
-        <title><![CDATA[Joyce programming language]]></title>
-        <link><![CDATA[https://programminglanguages.info/language/joyce/]]></link>
-        <description><![CDATA[]]></description>
-        <guid><![CDATA[https://programminglanguages.info/language/joyce/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
-    </item>
-    <item>
-        <title><![CDATA[Limbo programming language]]></title>
-        <link><![CDATA[https://programminglanguages.info/language/limbo/]]></link>
-        <description><![CDATA[]]></description>
-        <guid><![CDATA[https://programminglanguages.info/language/limbo/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
-    </item>
-    <item>
-        <title><![CDATA[Go programming language]]></title>
-        <link><![CDATA[https://programminglanguages.info/language/go/]]></link>
-        <description><![CDATA[]]></description>
-        <guid><![CDATA[https://programminglanguages.info/language/go/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
-    </item>
-    <item>
-        <title><![CDATA[Erlang programming language]]></title>
-        <link><![CDATA[https://programminglanguages.info/language/erlang/]]></link>
-        <description><![CDATA[]]></description>
-        <guid><![CDATA[https://programminglanguages.info/language/erlang/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
-    </item>
-    <item>
-        <title><![CDATA[Newsqueak programming language]]></title>
-        <link><![CDATA[https://programminglanguages.info/language/newsqueak/]]></link>
-        <description><![CDATA[]]></description>
-        <guid><![CDATA[https://programminglanguages.info/language/newsqueak/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
-    </item>
 </channel></rss>

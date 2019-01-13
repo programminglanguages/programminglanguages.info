@@ -3,77 +3,7 @@
 <channel><title>programminglanguages.info Paradigm » Procedural Programming</title>
     <link>https://programminglanguages.info</link>
     <description>Paradigm » Procedural Programming</description>
-    <lastBuildDate>Thu, 10 Jan 2019 17:15:08 </lastBuildDate>
+    <lastBuildDate>Sun, 13 Jan 2019 22:26:34 </lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
-    <item>
-        <title><![CDATA[Sawzall programming language]]></title>
-        <link><![CDATA[https://programminglanguages.info/language/sawzall/]]></link>
-        <description><![CDATA[]]></description>
-        <guid><![CDATA[https://programminglanguages.info/language/sawzall/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
-    </item>
-    <item>
-        <title><![CDATA[ML functional programming language]]></title>
-        <link><![CDATA[https://programminglanguages.info/language/ml/]]></link>
-        <description><![CDATA[]]></description>
-        <guid><![CDATA[https://programminglanguages.info/language/ml/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
-    </item>
-    <item>
-        <title><![CDATA[Euler]]></title>
-        <link><![CDATA[https://programminglanguages.info/language/euler/]]></link>
-        <description><![CDATA[]]></description>
-        <guid><![CDATA[https://programminglanguages.info/language/euler/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
-    </item>
-    <item>
-        <title><![CDATA[occam Concurrent programming language]]></title>
-        <link><![CDATA[https://programminglanguages.info/language/occam/]]></link>
-        <description><![CDATA[]]></description>
-        <guid><![CDATA[https://programminglanguages.info/language/occam/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
-    </item>
-    <item>
-        <title><![CDATA[Common Lisp ANSI-standardized dialect of Lisp]]></title>
-        <link><![CDATA[https://programminglanguages.info/language/common-lisp/]]></link>
-        <description><![CDATA[]]></description>
-        <guid><![CDATA[https://programminglanguages.info/language/common-lisp/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
-    </item>
-    <item>
-        <title><![CDATA[Report Program Generator programming language from IBM]]></title>
-        <link><![CDATA[https://programminglanguages.info/language/report-program-generator/]]></link>
-        <description><![CDATA[]]></description>
-        <guid><![CDATA[https://programminglanguages.info/language/report-program-generator/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
-    </item>
-    <item>
-        <title><![CDATA[Fortran structured programming language]]></title>
-        <link><![CDATA[https://programminglanguages.info/language/fortran/]]></link>
-        <description><![CDATA[]]></description>
-        <guid><![CDATA[https://programminglanguages.info/language/fortran/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
-    </item>
-    <item>
-        <title><![CDATA[BCPL multi-paradigm programming language]]></title>
-        <link><![CDATA[https://programminglanguages.info/language/bcpl/]]></link>
-        <description><![CDATA[]]></description>
-        <guid><![CDATA[https://programminglanguages.info/language/bcpl/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
-    </item>
-    <item>
-        <title><![CDATA[B procedural programming language]]></title>
-        <link><![CDATA[https://programminglanguages.info/language/b/]]></link>
-        <description><![CDATA[]]></description>
-        <guid><![CDATA[https://programminglanguages.info/language/b/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
-    </item>
-    <item>
-        <title><![CDATA[CLU programming language]]></title>
-        <link><![CDATA[https://programminglanguages.info/language/clu/]]></link>
-        <description><![CDATA[]]></description>
-        <guid><![CDATA[https://programminglanguages.info/language/clu/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
-    </item>
 </channel></rss>

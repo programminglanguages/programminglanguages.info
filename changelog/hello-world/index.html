@@ -5,52 +5,44 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title itemprop="name">Influence Network • programminglanguages.info</title>
-<meta name="description" content="This interactive network graph shows influence relations of programming languages based on data from the Wikidata project."><meta name="author" content="Ramiro Gómez">
+    <title itemprop="name">Hello World • programminglanguages.info</title>
+<meta name="author" content="Ramiro Gómez">
 
-    <link href="https://programminglanguages.info/influence-network/" rel="canonical" itemprop="url">
+    <link href="https://programminglanguages.info/changelog/hello-world/" rel="canonical" itemprop="url">
     <link href="/rss.xml" rel="alternate" type="application/rss+xml" title="RSS feed">
 
     <link rel="stylesheet" href="/compiled/style.css">
-<link rel="stylesheet" href="/compiled/influence-network.css"></head>
+</head>
 <body>
-<div class="container is-fluid">
-    <svg id="network"></svg>
-    <div id="network-info" class="content widget">
-        <label for="set-language">Show Language Network</label>
-        <div class="field">
-            <p class="control">
-                <input id="set-language" list="languages" class="input" type="text" placeholder="Language name">
-            </p>
+<section class="has-background-dark"><div class="container is-fluid">
+<nav id="main-nav" class="level">
+    <div class="level-left">
+        <div class="level-item">
+            <div class="field has-addons">
+                <p class="control">
+                    <input class="input" id="lookup-language" list="languages" type="text" placeholder="Language name">
+                </p>
+                <p class="control">
+                    <button class="button is-link" id="goto-language">Look up</button>
+                </p>
+            </div>
         </div>
         <datalist id="languages"></datalist>
-        <p>This directed network graph shows <span class="node-count"></span> programming languages connected by <span class="edge-count"></span> edges.</p>
-        <div>
-            <a class="delete is-pulled-right"></a>
-            <h2>Network Info</h2>
-            <p>Two language nodes are linked by an edge if one language influenced the other. Node size is determined by its outdegree, i. e. the number of languages influenced. All edges have the same weight, because the "amount of influence" is unmeasured, although it certainly varies.</p>
-            <p>You can move and zoom the graph using the buttons at the bottom. You can click on a node or enter a language above to show a network with influence relations of all nodes connected to the chosen language. To show the whole network again, click the reset button on the bottom or remove the input and hit enter.</p>
-            <p>The programming languages data was retrieved in December 2018 from <a href="https://www.wikidata.org/">Wikidata</a>, which is the central storage for the structured data of Wikipedia et al. The graph was created by <a href="http://ramiro.org/">Ramiro Gómez</a>. Prints can be purchased from <a href="https://teespring.com/plin-2018?pr=PLI10">Teespring</a> and <a href="https://www.redbubble.com/people/ramiro/works/36055548">Redbubble</a> on various products.</p>
-        </div>
     </div>
-    <div id="node-info" class="widget">
-        <a class="delete is-pulled-right"></a>
-        <div class="content"></div>
+    <div class="level-right">
+<a class="level-item button is-link" href="/">Start Page</a>        <a class="level-item button is-link" href="/influence-network/">Influence Network</a>
     </div>
-    <div id="network-nav">
-        <button class="move left"><svg><use xlink:href="#arrow-left"/></svg></button>
-        <button class="move right"><svg><use xlink:href="#arrow-right"/></svg></button>
-        <button class="move up"><svg><use xlink:href="#arrow-up"/></svg></button>
-        <button class="move down"><svg><use xlink:href="#arrow-down"/></svg></button>
-        <button class="zoom in"><svg><use xlink:href="#search-plus"/></svg></button>
-        <button class="zoom out"><svg><use xlink:href="#search-minus"/></svg></button>
-        <button class="reset"><svg><use xlink:href="#sync"/></svg></button>
-    </div>
-    <div id="footer" class="widget">
-        <a href="/">programminglanguages.info</a> • Latest update: 2018-12-31
-    </div>
-</div>
+</nav>
+</div></section>
+<section class="content"><div class="container is-fluid">
+    <h1>Hello World</h1>
+    <p>The first version of <a href="/">programminglanguages.info</a> goes live with information on 1074 programming languages from <a href="https://www.wikidata.org/">Wikidata</a>, example code for the Hello World program from the GitHub repository <a href="https://github.com/leachim6/hello-world">leachim6/hello-world</a> and an <a href="/influence-network/">interactive network graph</a> showing influence relations.</p>
+</div></section>
 
+<section class="content"><div class="container is-fluid">
+<hr>
+<p>programminglanguages.info is made by <a href="http://ramiro.org/">Ramiro Gómez</a>. If you have feedback or suggestions please <span class="e" title="www">contact me via email</span>. To be updated about major changes, you can subscribe to the site's <a href="/rss.xml">RSS feed</a>. I may also post updates <a href="https://twitter.com/yaph/">via Twitter</a>. To find out whether and how visitor data is collected on this website, see the <a href="/info/privacy/">privacy policy</a>.</p>
+</div></section>
 
     <span id="sprite"><?xml version="1.0" encoding="utf-8"?>
 <svg xmlns="http://www.w3.org/2000/svg">
@@ -72,5 +64,7 @@
 </symbol>
 <symbol id="sync" viewBox="0 0 512.333 512"><path d="M440.935 12.574l3.966 82.766C399.416 41.904 331.674 8 256 8 134.813 8 33.933 94.924 12.296 209.824 10.908 217.193 16.604 224 24.103 224h49.084c5.57 0 10.377-3.842 11.676-9.259C103.407 137.408 172.931 80 256 80c60.893 0 114.512 30.856 146.104 77.801l-101.53-4.865c-6.845-.328-12.574 5.133-12.574 11.986v47.411c0 6.627 5.373 12 12 12h200.333c6.627 0 12-5.373 12-12V12c0-6.627-5.373-12-12-12h-47.411c-6.853 0-12.315 5.729-11.987 12.574zM256 432c-60.895 0-114.517-30.858-146.109-77.805l101.868 4.871c6.845.327 12.573-5.134 12.573-11.986v-47.412c0-6.627-5.373-12-12-12H12c-6.627 0-12 5.373-12 12V500c0 6.627 5.373 12 12 12h47.385c6.863 0 12.328-5.745 11.985-12.599l-4.129-82.575C112.725 470.166 180.405 504 256 504c121.187 0 222.067-86.924 243.704-201.824 1.388-7.369-4.308-14.176-11.807-14.176h-49.084c-5.57 0-10.377 3.842-11.676 9.259C408.593 374.592 339.069 432 256 432z"/>
 </symbol></svg></span>
-<script src="/vendor/d3.min.js"></script><script src="/vendor/jLouvain.js"></script><script src="/compiled/graph.js"></script><script src="/compiled/influence-network.js"></script></body>
+<script src="/vendor/d3.min.js" charset="utf-8"></script>
+<script src="/compiled/main.js" charset="utf-8"></script>
+</body>
 </html>

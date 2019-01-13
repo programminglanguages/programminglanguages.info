@@ -3,77 +3,7 @@
 <channel><title>programminglanguages.info Paradigm » Functional Programming</title>
     <link>https://programminglanguages.info</link>
     <description>Paradigm » Functional Programming</description>
-    <lastBuildDate>Thu, 10 Jan 2019 17:15:08 </lastBuildDate>
+    <lastBuildDate>Sun, 13 Jan 2019 22:26:34 </lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
-    <item>
-        <title><![CDATA[Ceylon programming language]]></title>
-        <link><![CDATA[https://programminglanguages.info/language/ceylon/]]></link>
-        <description><![CDATA[]]></description>
-        <guid><![CDATA[https://programminglanguages.info/language/ceylon/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
-    </item>
-    <item>
-        <title><![CDATA[ML functional programming language]]></title>
-        <link><![CDATA[https://programminglanguages.info/language/ml/]]></link>
-        <description><![CDATA[]]></description>
-        <guid><![CDATA[https://programminglanguages.info/language/ml/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
-    </item>
-    <item>
-        <title><![CDATA[Common Lisp ANSI-standardized dialect of Lisp]]></title>
-        <link><![CDATA[https://programminglanguages.info/language/common-lisp/]]></link>
-        <description><![CDATA[]]></description>
-        <guid><![CDATA[https://programminglanguages.info/language/common-lisp/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
-    </item>
-    <item>
-        <title><![CDATA[Mathematica computational software program]]></title>
-        <link><![CDATA[https://programminglanguages.info/language/mathematica/]]></link>
-        <description><![CDATA[]]></description>
-        <guid><![CDATA[https://programminglanguages.info/language/mathematica/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
-    </item>
-    <item>
-        <title><![CDATA[SISAL programming language]]></title>
-        <link><![CDATA[https://programminglanguages.info/language/sisal/]]></link>
-        <description><![CDATA[]]></description>
-        <guid><![CDATA[https://programminglanguages.info/language/sisal/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
-    </item>
-    <item>
-        <title><![CDATA[Qalb]]></title>
-        <link><![CDATA[https://programminglanguages.info/language/qalb/]]></link>
-        <description><![CDATA[]]></description>
-        <guid><![CDATA[https://programminglanguages.info/language/qalb/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
-    </item>
-    <item>
-        <title><![CDATA[Q proprietary array programming language from Kx Systems, with "atoms", "lists", and "functions"]]></title>
-        <link><![CDATA[https://programminglanguages.info/language/q/]]></link>
-        <description><![CDATA[]]></description>
-        <guid><![CDATA[https://programminglanguages.info/language/q/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
-    </item>
-    <item>
-        <title><![CDATA[Pure functional programming language]]></title>
-        <link><![CDATA[https://programminglanguages.info/language/pure/]]></link>
-        <description><![CDATA[]]></description>
-        <guid><![CDATA[https://programminglanguages.info/language/pure/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
-    </item>
-    <item>
-        <title><![CDATA[PicoLisp]]></title>
-        <link><![CDATA[https://programminglanguages.info/language/picolisp/]]></link>
-        <description><![CDATA[]]></description>
-        <guid><![CDATA[https://programminglanguages.info/language/picolisp/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
-    </item>
-    <item>
-        <title><![CDATA[Little b]]></title>
-        <link><![CDATA[https://programminglanguages.info/language/little-b/]]></link>
-        <description><![CDATA[]]></description>
-        <guid><![CDATA[https://programminglanguages.info/language/little-b/]]></guid>
-        <pubDate>Thu, 10 Jan 2019 17:15:05 </pubDate>
-    </item>
 </channel></rss>
