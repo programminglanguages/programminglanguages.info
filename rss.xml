@@ -3,9 +3,16 @@
 <channel><title>programminglanguages.info RSS Feed</title>
     <link>https://programminglanguages.info</link>
     <description>RSS Feed</description>
-    <lastBuildDate>Mon, 14 Jan 2019 01:44:30</lastBuildDate>
+    <lastBuildDate>Mon, 14 Jan 2019 21:21:14</lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+        <title><![CDATA[Dark Turns Light]]></title>
+        <link><![CDATA[https://programminglanguages.info/changelog/dark-turns-light/]]></link>
+        <description><![CDATA[The site started with a dark background color for all pages, but I wasn't satisfied with how the language pages looked. I think a light background makes the...]]></description>
+        <guid><![CDATA[https://programminglanguages.info/changelog/dark-turns-light/]]></guid>
+        <pubDate>Mon, 14 Jan 2019 21:20:00</pubDate>
+    </item>
     <item>
         <title><![CDATA[Free Programming Books]]></title>
         <link><![CDATA[https://programminglanguages.info/changelog/free-programming-books/]]></link>
