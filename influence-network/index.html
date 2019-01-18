@@ -30,8 +30,9 @@
             <a class="delete is-pulled-right"></a>
             <h2>Network Info</h2>
             <p>Two language nodes are linked by an edge if one language influenced the other. Node size is determined by its outdegree, i. e. the number of languages influenced. All edges have the same weight, because the "amount of influence" is unmeasured, although it certainly varies.</p>
+            <p>Node colors are assigned based on the Louvain method for community detection in networks. Nodes with the same color belong to the same community. Edges get the color of the source node, i. e. the language that influenced the other.</p>
             <p>You can move and zoom the graph using the buttons at the bottom. You can click on a node or enter a language above to show a network with influence relations of all nodes connected to the chosen language. To show the whole network again, click the reset button on the bottom or remove the input and hit enter.</p>
-            <p>The programming languages data was retrieved in December 2018 from <a href="https://www.wikidata.org/">Wikidata</a>, which is the central storage for the structured data of Wikipedia et al. This visualization was created by <a href="http://ramiro.org/">Ramiro Gómez</a>.</p>
+            <p>The programming languages data was retrieved from <a href="https://www.wikidata.org/">Wikidata</a>, which is the central storage for the structured data of Wikipedia et al. This visualization was created by <a href="http://ramiro.org/">Ramiro Gómez</a>.</p>
         </div>
     </div>
     <div id="node-info" class="widget">
