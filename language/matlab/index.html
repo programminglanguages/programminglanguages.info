@@ -5,15 +5,15 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title itemprop="name">MATLAB fourth-generation programming language • programminglanguages.info</title>
-<meta name="author" content="Ramiro Gómez">
+    <title itemprop="name">MATLAB multi-paradigm numerical computing environment • programminglanguages.info</title>
+<meta name="description" content="MATLAB is a multi-paradigm numerical computing environment and proprietary programming language developed by MathWorks. MATLAB allows matrix manipulations, plotting..."><meta name="author" content="Ramiro Gómez">
 
     <link href="https://programminglanguages.info/language/matlab/" rel="canonical" itemprop="url">
     <link href="/rss.xml" rel="alternate" type="application/rss+xml" title="RSS feed">
 
     <link rel="stylesheet" href="/compiled/style.css">
 
-<link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
+<link rel="stylesheet" href="/compiled/language.css"><link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
 <nav id="main-nav" class="level">
@@ -39,13 +39,32 @@
     <div class="columns">
         <div class="column is-3-tablet">
                 <h1>MATLAB</h1>
-                <strong>Inception Year:</strong> <a href="/inception/1984/">1984</a><br>
-                <strong>Developed by:</strong> <a href="/developer/mathworks/">MathWorks</a><br>
+
+                <p class="small">MATLAB is a multi-paradigm numerical computing environment and proprietary programming language developed by MathWorks. MATLAB allows matrix manipulations, plotting of functions and data, implementation of algorithms, creation of user interfaces, and interfacing with programs written in other languages, including C, C++, C#, Java, Fortran and Python. <a href="https://en.wikipedia.org/wiki/MATLAB">Wikipedia</a></p>
+                <strong>Inception Year:</strong>  <a href="/inception/1984/">1984</a><br>
+
+                    <strong>Developed by:</strong>  <a href="/developer/mathworks/">MathWorks</a><br>
+
+
+
             
+            
+
+            <strong>Wikidata:</strong> <a href="https://www.wikidata.org/wiki/Q169478">Q169478</a>
+
+                    <h3>Influenced</h3>
+                    <a href="/language/gnu-octave/">GNU Octave</a> • <a href="/language/julia/">Julia</a> • <a href="/language/pure/">Pure</a>
+
+                <h3>Language types</h3>
+                <a href="/type/array-programming-language/">array programming language</a> • <a href="/type/imperative-programming-language/">imperative programming language</a> • <a href="/type/interpreted-language/">interpreted language</a>
         </div>
             <div class="column">
+                    <h3>MATLAB Influence Network</h3>
+                    <svg class="has-background-dark" id="network"></svg>
+                    <p class="is-size-7">Pan and zoom the graph with your mouse or alternatively your fingers on touch devices.</p>
                     <h3>Hello World in MATLAB</h3>
                         <pre><code class="matlab">disp(&#39;hello world&#39;)</code></pre>
+                    <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
                     <h3>Free MATLAB books and articles</h3>
                     <ul>
 <li><a href="http://www.science.smith.edu/~jcardell/Courses/EGR326/Intro-to-MATLAB.pdf">An Interactive Introduction to MATLAB</a> (PDF)</li>
@@ -62,12 +81,13 @@
 <li><a href="http://www.mathworks.com/moler/index_ncm.html?requestedDomain=www.mathworks.com&amp;nocookie=true">Numerical Computing with MATLAB</a></li>
 <li><a href="http://greenteapress.com/matlab/index.html">Physical Modeling in MATLAB</a> - Alan B. Downey</li>
 </ul>
+                    <div class="small">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
             </div>
     </div>
 </div></section>
 <section class="content"><div class="container is-fluid">
 <hr>
-Sources: <a href="https://www.wikidata.org/wiki/Q37805571">Wikidata</a> • <a href="https://github.com/leachim6/hello-world">leachim6/hello-world</a> • <a href="https://github.com/EbookFoundation/free-programming-books">EbookFoundation/free-programming-books</a> • Latest update: 2019-01-15
+Latest data update: 2019-01-18
 </div></section>
 
 <section class="content"><div class="container is-fluid">
@@ -95,6 +115,11 @@ Sources: <a href="https://www.wikidata.org/wiki/Q37805571">Wikidata</a> • <a h
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
 
+    <script src="/vendor/jLouvain.js"></script>
+    <script src="/compiled/graph.js"></script>
+    <script src="/compiled/language.js"></script>
+    <script>var language = 'MATLAB';</script>
+    <script>var wikibase = 'Q169478';</script>
     <script src="/vendor/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 </body>

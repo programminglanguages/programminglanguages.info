@@ -5,15 +5,15 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title itemprop="name">Blitz3D programming language • programminglanguages.info</title>
-<meta name="author" content="Ramiro Gómez">
+    <title itemprop="name">Blitz3D programming language family • programminglanguages.info</title>
+<meta name="description" content="Blitz BASIC refers to the programming language dialect that was interpreted by the first Blitz compilers, devised by New Zealand-based developer Mark Sibly. Being..."><meta name="author" content="Ramiro Gómez">
 
     <link href="https://programminglanguages.info/language/blitz3d/" rel="canonical" itemprop="url">
     <link href="/rss.xml" rel="alternate" type="application/rss+xml" title="RSS feed">
 
     <link rel="stylesheet" href="/compiled/style.css">
 
-<link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
+<link rel="stylesheet" href="/compiled/language.css"><link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
 <nav id="main-nav" class="level">
@@ -39,20 +39,38 @@
     <div class="columns">
         <div class="column is-3-tablet">
                 <h1>Blitz3D</h1>
+
+                <p class="small">Blitz BASIC refers to the programming language dialect that was interpreted by the first Blitz compilers, devised by New Zealand-based developer Mark Sibly. Being derived from BASIC, Blitz syntax was designed to be easy to pick up for beginners first learning to program. The languages are game-programming oriented but are often found general-purpose enough to be used for most types of application. The Blitz language evolved as new products were released, with recent incarnations offering support for more advanced programming techniques such as object-orientation and multi-threading. This led to the languages losing their BASIC moniker in later years. <a href="https://en.wikipedia.org/wiki/Blitz3D">Wikipedia</a></p>
+
+                    <strong>License:</strong>  <a href="/license/proprietary-license/">proprietary license</a><br>
+
+
+
             
+            
+
+            <strong>Wikidata:</strong> <a href="https://www.wikidata.org/wiki/Q143419">Q143419</a>
+
+                    <h3>Influenced</h3>
+                    <a href="/language/monkey-x/">Monkey X</a>
+
         </div>
             <div class="column">
+                    <h3>Blitz3D Influence Network</h3>
+                    <svg class="has-background-dark" id="network"></svg>
+                    <p class="is-size-7">Pan and zoom the graph with your mouse or alternatively your fingers on touch devices.</p>
                     <h3>Hello World in Blitz3D</h3>
                         <pre><code class="blitz3d">;Blitz3D Hello World demo by MANIAK_dobrii
 Print &#34;Hello world&#34;
 WaitKey
 End</code></pre>
+                    <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
             </div>
     </div>
 </div></section>
 <section class="content"><div class="container is-fluid">
 <hr>
-Sources: <a href="https://www.wikidata.org/wiki/Q11605797">Wikidata</a> • <a href="https://github.com/leachim6/hello-world">leachim6/hello-world</a> • Latest update: 2019-01-15
+Latest data update: 2018-12-08
 </div></section>
 
 <section class="content"><div class="container is-fluid">
@@ -80,6 +98,11 @@ Sources: <a href="https://www.wikidata.org/wiki/Q11605797">Wikidata</a> • <a h
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
 
+    <script src="/vendor/jLouvain.js"></script>
+    <script src="/compiled/graph.js"></script>
+    <script src="/compiled/language.js"></script>
+    <script>var language = 'Blitz3D';</script>
+    <script>var wikibase = 'Q143419';</script>
     <script src="/vendor/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 </body>
