@@ -3,9 +3,16 @@
 <channel><title>programminglanguages.info RSS Feed</title>
     <link>https://programminglanguages.info</link>
     <description>RSS Feed</description>
-    <lastBuildDate>Tue, 22 Jan 2019 00:25:20</lastBuildDate>
+    <lastBuildDate>Tue, 22 Jan 2019 23:44:53</lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+        <title><![CDATA[Show some external links as icons]]></title>
+        <link><![CDATA[https://programminglanguages.info/changelog/icon-links/]]></link>
+        <description><![CDATA[Attributes such as official website, source code repository, GitHub user/organization, Stack Exchange tag and subreddit are now displayed using icons on...]]></description>
+        <guid><![CDATA[https://programminglanguages.info/changelog/icon-links/]]></guid>
+        <pubDate>Tue, 22 Jan 2019 23:28:27</pubDate>
+    </item>
     <item>
         <title><![CDATA[Show more data using wptools]]></title>
         <link><![CDATA[https://programminglanguages.info/changelog/wptools/]]></link>
