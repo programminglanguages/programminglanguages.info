@@ -3,9 +3,16 @@
 <channel><title>programminglanguages.info RSS Feed</title>
     <link>https://programminglanguages.info</link>
     <description>RSS Feed</description>
-    <lastBuildDate>Wed, 23 Jan 2019 00:09:51</lastBuildDate>
+    <lastBuildDate>Sun, 27 Jan 2019 23:50:55</lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+        <title><![CDATA[New Involved Index That Groups Creators, Designers and Developers]]></title>
+        <link><![CDATA[https://programminglanguages.info/changelog/involved-index/]]></link>
+        <description><![CDATA[Before this change the Wikidata attributes creator, designer and developed by each had an index of their own. While not all language designers are...]]></description>
+        <guid><![CDATA[https://programminglanguages.info/changelog/involved-index/]]></guid>
+        <pubDate>Sun, 27 Jan 2019 23:50:22</pubDate>
+    </item>
     <item>
         <title><![CDATA[Show some external links as icons]]></title>
         <link><![CDATA[https://programminglanguages.info/changelog/icon-links/]]></link>
