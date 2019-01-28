@@ -3,9 +3,16 @@
 <channel><title>programminglanguages.info RSS Feed</title>
     <link>https://programminglanguages.info</link>
     <description>RSS Feed</description>
-    <lastBuildDate>Mon, 28 Jan 2019 21:51:20</lastBuildDate>
+    <lastBuildDate>Mon, 28 Jan 2019 23:06:57</lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+        <title><![CDATA[Alphabetical List of Programming Languages]]></title>
+        <link><![CDATA[https://programminglanguages.info/languages/]]></link>
+        <description><![CDATA[An alphabetical list of all computer programming languages currently listed on programminglanguages.info.]]></description>
+        <guid><![CDATA[https://programminglanguages.info/languages/]]></guid>
+        <pubDate>Mon, 28 Jan 2019 22:52:00</pubDate>
+    </item>
     <item>
         <title><![CDATA[New Involved Index That Groups Creators, Designers and Developers]]></title>
         <link><![CDATA[https://programminglanguages.info/changelog/involved-index/]]></link>
