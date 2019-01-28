@@ -3,9 +3,23 @@
 <channel><title>programminglanguages.info RSS Feed</title>
     <link>https://programminglanguages.info</link>
     <description>RSS Feed</description>
-    <lastBuildDate>Mon, 28 Jan 2019 23:10:41</lastBuildDate>
+    <lastBuildDate>Tue, 29 Jan 2019 00:33:56</lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+        <title><![CDATA[Alphabetical List of Programming Language Paradigms]]></title>
+        <link><![CDATA[https://programminglanguages.info/paradigms/]]></link>
+        <description><![CDATA[An alphabetical list of all paradigms used to classify programming languages currently listed on programminglanguages.info.]]></description>
+        <guid><![CDATA[https://programminglanguages.info/paradigms/]]></guid>
+        <pubDate>Tue, 29 Jan 2019 00:28:00</pubDate>
+    </item>
+    <item>
+        <title><![CDATA[Types of Computer Programming Languages]]></title>
+        <link><![CDATA[https://programminglanguages.info/types/]]></link>
+        <description><![CDATA[An alphabetical list of all types used to classify programming languages currently listed on programminglanguages.info.]]></description>
+        <guid><![CDATA[https://programminglanguages.info/types/]]></guid>
+        <pubDate>Tue, 29 Jan 2019 00:20:00</pubDate>
+    </item>
     <item>
         <title><![CDATA[Alphabetical List of Programming Languages]]></title>
         <link><![CDATA[https://programminglanguages.info/languages/]]></link>
