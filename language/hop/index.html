@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="/compiled/style.css">
 
 <link rel="stylesheet" href="/compiled/language.css">
-</head>
+<link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
 <nav id="main-nav" class="level">
@@ -69,6 +69,15 @@
                     <h3>Hop Influence Network</h3>
                     <svg class="has-background-dark" id="network"></svg>
                     <p class="is-size-7">Pan and zoom the graph with your mouse or alternatively your fingers on touch devices.</p>
+                    <h3>Hello World in Hop</h3>
+                        <pre><code class="hop">(define-service (hello-world)
+  (&lt;HTML&gt;
+     (&lt;HEAD&gt;
+        (&lt;TITLE&gt; &#34;Hello, world!&#34;))
+     (&lt;BODY&gt;
+        &#34;Hello, world!&#34;)))
+</code></pre>
+                    <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
             </div>
     </div>
 </div></section>
@@ -121,5 +130,7 @@ Latest data update: 2018-11-10
     <script src="/compiled/language.js"></script>
     <script>var language = 'Hop';</script>
     <script>var wikibase = 'Q3140351';</script>
+    <script src="/vendor/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </body>
 </html>
