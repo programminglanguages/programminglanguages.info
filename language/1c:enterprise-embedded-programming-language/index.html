@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="/compiled/style.css">
 
 <link rel="stylesheet" href="/compiled/language.css">
-</head>
+<link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
 <nav id="main-nav" class="level">
@@ -38,7 +38,7 @@
 </div></section>
 <section class="content"><div class="container is-fluid">
     <div class="columns">
-        <div class="column">
+        <div class="column is-3-tablet">
                 <h1>1C:Enterprise embedded programming language</h1>
 
 
@@ -57,6 +57,13 @@
 
 
         </div>
+            <div class="column">
+                    <h3>Hello World in 1C:Enterprise embedded programming language</h3>
+                        <pre><code class="1c:enterprise embedded programming language">Message(&#34;Hello, World!&#34;);
+
+</code></pre>
+                    <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
+            </div>
     </div>
 </div></section>
 <section class="content"><div class="container is-fluid">
@@ -103,5 +110,7 @@ Latest data update: 2018-12-08
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
 
+    <script src="/vendor/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </body>
 </html>
