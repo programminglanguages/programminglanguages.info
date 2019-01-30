@@ -5,7 +5,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title itemprop="name">ColdFusion Markup Language • programminglanguages.info</title>
+    <title itemprop="name">ColdFusion Markup Language Programming Language Information & Resources • programminglanguages.info</title>
 <meta name="description" content="ColdFusion Markup Language, more commonly known as CFML, is a scripting language for web development that runs on the JVM, the .NET framework, and Google App Engine...."><meta name="author" content="Ramiro Gómez">
 
     <link href="https://programminglanguages.info/language/coldfusion-markup-language/" rel="canonical" itemprop="url">
@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="/compiled/style.css">
 
 <link rel="stylesheet" href="/compiled/language.css">
-</head>
+<link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
 <nav id="main-nav" class="level">
@@ -38,7 +38,7 @@
 </div></section>
 <section class="content"><div class="container is-fluid">
     <div class="columns">
-        <div class="column">
+        <div class="column is-3-tablet">
                 <h1>ColdFusion Markup Language</h1>
 
                 <p class="small">ColdFusion Markup Language, more commonly known as CFML, is a scripting language for web development that runs on the JVM, the .NET framework, and Google App Engine. Multiple commercial and open source implementations of CFML engines are available, including Adobe ColdFusion, Lucee, New Atlanta BlueDragon, Railo, and Open BlueDragon as well as other CFML server engines. <a href="https://en.wikipedia.org/wiki/ColdFusion_Markup_Language">Wikipedia</a></p>
@@ -55,6 +55,7 @@
 
 
             
+                <strong>Aliases:</strong> CFML<br>
             
 
             <p><strong>Wikidata:</strong> <a href="https://www.wikidata.org/wiki/Q2524362">Q2524362</a></p>
@@ -62,6 +63,19 @@
 
                 <p><strong>Programming paradigms:</strong> <a href="/paradigm/imperative-programming/">imperative programming</a></p>
         </div>
+            <div class="column">
+                    <h3>Hello World in ColdFusion Markup Language</h3>
+                        <pre><code class="coldfusion markup language">&lt;cfset message = &#34;Hello World&#34;&gt;
+&lt;cfoutput&gt; #message#&lt;/cfoutput&gt;
+</code></pre>
+                    <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
+                    <h3>Free ColdFusion Markup Language books and articles</h3>
+                    <ul>
+<li><a href="https://github.com/mhenke/CFML-in-100-minutes/blob/master/cfml100mins.markdown">CFML In 100 Minutes</a> - J. Casimir</li>
+<li><a href="http://learncfinaweek.com">Learn CF in a Week</a></li>
+</ul>
+                    <div class="small">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
+            </div>
     </div>
 </div></section>
 <section class="content"><div class="container is-fluid">
@@ -108,5 +122,7 @@ Latest data update: 2018-11-10
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
 
+    <script src="/vendor/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </body>
 </html>

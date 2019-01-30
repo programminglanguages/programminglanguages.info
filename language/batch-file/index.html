@@ -5,7 +5,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title itemprop="name">batch file script file that executes DOS or Windows command prompt commands • programminglanguages.info</title>
+    <title itemprop="name">batch file Programming Language Information & Resources • programminglanguages.info</title>
 <meta name="description" content="A batch file is a kind of script file in DOS, OS/2 and Microsoft Windows. It consists of a series of commands to be executed by the command-line interpreter, stored..."><meta name="author" content="Ramiro Gómez">
 
     <link href="https://programminglanguages.info/language/batch-file/" rel="canonical" itemprop="url">
@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="/compiled/style.css">
 
 <link rel="stylesheet" href="/compiled/language.css">
-</head>
+<link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
 <nav id="main-nav" class="level">
@@ -38,7 +38,7 @@
 </div></section>
 <section class="content"><div class="container is-fluid">
     <div class="columns">
-        <div class="column">
+        <div class="column is-3-tablet">
                 <h1>batch file</h1>
 
                 <p class="small">A batch file is a kind of script file in DOS, OS/2 and Microsoft Windows. It consists of a series of commands to be executed by the command-line interpreter, stored in a plain text file. A batch file may contain any command the interpreter accepts interactively and use constructs that enable conditional branching and looping within the batch file, such as IF, FOR, and GOTO labels. The term "batch" is from batch processing, meaning "non-interactive execution", though a batch file may not process a batch of multiple data. <a href="https://en.wikipedia.org/wiki/Batch_file">Wikipedia</a></p>
@@ -50,6 +50,7 @@
 
 
             
+                <strong>Aliases:</strong> batch, BAT file<br>
                 <strong>File extensions:</strong> bat, cmd, btm<br>
 
             <p><strong>Wikidata:</strong> <a href="https://www.wikidata.org/wiki/Q479833">Q479833</a></p>
@@ -57,6 +58,14 @@
 
                 <p><strong>Language types:</strong> <a href="/type/command-line-interface-language/">command line interface language</a></p>
         </div>
+            <div class="column">
+                    <h3>Hello World in batch file</h3>
+                        <pre><code class="batch file">@echo off
+echo Hello, World!
+pause
+</code></pre>
+                    <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
+            </div>
     </div>
 </div></section>
 <section class="content"><div class="container is-fluid">
@@ -103,5 +112,7 @@ Latest data update: 2018-11-10
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
 
+    <script src="/vendor/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </body>
 </html>
