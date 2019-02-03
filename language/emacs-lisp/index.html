@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="/compiled/style.css">
 
 <link rel="stylesheet" href="/compiled/language.css">
-</head>
+<link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
 <nav id="main-nav" class="level">
@@ -39,7 +39,7 @@
 </div></section>
 <section class="content"><div class="container is-fluid">
     <div class="columns">
-        <div class="column">
+        <div class="column is-3-tablet">
                 <figure class="image is-marginless" title="Emacs Lisp Programming Language Information & Resources">
                     <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/0/08/EmacsIcon.svg" alt="Logo">
                     <figcaption class="small">Source: <a href="https://commons.wikimedia.org/wiki/EmacsIcon.svg">commons.wikimedia.org</a></figcaption>
@@ -60,6 +60,8 @@
 
                 <strong>License:</strong> <a href="/license/gnu-general-public-license,-version-3.0/">GNU General Public License, version 3.0</a><br>
 
+
+
                 <strong>Named after:</strong> Emacs<br>
                 <strong>Aliases:</strong> Elisp<br>
             
@@ -70,6 +72,21 @@
                 <p><strong>Programming paradigms:</strong> <a href="/paradigm/functional-programming/">functional programming</a></p>
                 <p><strong>Language types:</strong> <a href="/type/functional-programming-language/">functional programming language</a></p>
         </div>
+            <div class="column">
+                    <h3>Hello World in Emacs Lisp</h3>
+                        <pre><code class="emacs lisp">;;for emacs elisp
+
+(message &#34;hello,world&#34;)
+</code></pre>
+                    <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
+                    <h3>Free Emacs Lisp books and articles</h3>
+                    <ul>
+<li><a href="https://www.gnu.org/software/emacs/manual/html_node/eintr/index.html">An Introduction to Programming in Emacs Lisp, 3rd Edition</a></li>
+<li><a href="http://www.gnu.org/software/emacs/manual/elisp.html">GNU Emacs Lisp Reference Manual</a></li>
+<li><a href="https://www.gnu.org/software/emacs/manual/pdf/emacs.pdf">GNU Emacs Manual</a> (PDF)</li>
+</ul>
+                    <div class="small">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
+            </div>
     </div>
 </div></section>
 <section class="content"><div class="container is-fluid">
@@ -116,5 +133,7 @@ Latest data update: 2019-01-11
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
 
+    <script src="/vendor/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </body>
 </html>

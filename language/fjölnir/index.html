@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title itemprop="name">Fjölnir Programming Language Information & Resources • programminglanguages.info</title>
-<meta name="description" content="Fjölnir is a programming language developed by professor Snorri Agnarsson of computer science at Háskóli Íslands that was mostly used in the 1980s. The source files..."><meta name="author" content="Ramiro Gómez">
+<meta name="author" content="Ramiro Gómez">
 
     <link href="https://programminglanguages.info/language/fjölnir/" rel="canonical" itemprop="url">
     <link href="/rss.xml" rel="alternate" type="application/rss+xml" title="RSS feed">
@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="/compiled/style.css">
 
 <link rel="stylesheet" href="/compiled/language.css">
-</head>
+<link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
 <nav id="main-nav" class="level">
@@ -38,14 +38,16 @@
 </div></section>
 <section class="content"><div class="container is-fluid">
     <div class="columns">
-        <div class="column">
+        <div class="column is-3-tablet">
                 <h1>Fjölnir</h1>
 
-                <p class="small">Fjölnir is a programming language developed by professor Snorri Agnarsson of computer science at Háskóli Íslands that was mostly used in the 1980s. The source files usually have the extension fjo or sma. <a href="https://en.wikipedia.org/wiki/Fjölnir_(programming_language)">Wikipedia</a></p>
+
             <p class="icons">
             </p>
 
                 <strong>Inception Year:</strong> <a href="/inception/1980/">1980</a><br>
+
+
 
 
 
@@ -57,6 +59,21 @@
 
 
         </div>
+            <div class="column">
+                    <h3>Hello World in Fjölnir</h3>
+                        <pre><code class="fjölnir">&#34;hello&#34; &lt; main
+{
+    main -&gt;
+    stef(;)
+    stofn
+        skrifastreng(;&#34;Hello World!&#34;),
+    stofnlok
+}
+*
+&#34;GRUNNUR&#34;
+;</code></pre>
+                    <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
+            </div>
     </div>
 </div></section>
 <section class="content"><div class="container is-fluid">
@@ -103,5 +120,7 @@ Latest data update: 2018-12-25
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
 
+    <script src="/vendor/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </body>
 </html>

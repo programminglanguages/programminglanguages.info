@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title itemprop="name">F* Programming Language Information & Resources • programminglanguages.info</title>
-<meta name="description" content="F* is a functional programming language inspired by ML and aimed at program verification. Its type system includes dependent types, monadic effects, and refinement..."><meta name="author" content="Ramiro Gómez">        <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/b/b1/Fstar-official-logo-2015.png">
+<meta name="author" content="Ramiro Gómez">        <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/b/b1/Fstar-official-logo-2015.png">
 
 
     <link href="https://programminglanguages.info/language/f*/" rel="canonical" itemprop="url">
@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="/compiled/style.css">
 
 <link rel="stylesheet" href="/compiled/language.css">
-</head>
+<link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
 <nav id="main-nav" class="level">
@@ -45,8 +45,7 @@
                     <figcaption class="small">Source: <a href="https://commons.wikimedia.org/wiki/Fstar-official-logo-2015.png">commons.wikimedia.org</a></figcaption>
                 </figure>
 
-                <p class="small">F* is a functional programming language inspired by ML and aimed at program verification. Its type system includes dependent types, monadic effects, and refinement types. This allows expressing precise specifications for programs, including functional correctness and security properties. The F* type-checker aims to prove that programs meet their specifications using a combination of SMT solving and manual proofs.
-Programs written in F* can be translated to OCaml, F#, and C for execution. Previous versions of F* could also be translated to JavaScript. <a href="https://en.wikipedia.org/wiki/F*_(programming_language)">Wikipedia</a></p>
+
             <p class="icons">
                         <a class="button is-light" href="https://www.fstar-lang.org/" title="Official Website"><svg><use xlink:href="#home"/></svg></a>
             </p>
@@ -54,6 +53,9 @@ Programs written in F* can be translated to OCaml, F#, and C for execution. Prev
 
 
                 <strong>License:</strong> <a href="/license/apache-license/">Apache License</a><br>
+
+                <strong>Operating systems:</strong> <a href="/operating-system/cross-platform/">cross-platform</a><br>
+
 
             
             
@@ -70,6 +72,11 @@ Programs written in F* can be translated to OCaml, F#, and C for execution. Prev
                     <h3>F* Influence Network</h3>
                     <svg class="has-background-dark" id="network"></svg>
                     <p class="is-size-7">Pan and zoom the graph with your mouse or alternatively your fingers on touch devices.</p>
+                    <h3>Hello World in F*</h3>
+                        <pre><code class="f*">module Hello
+
+let main = FStar.IO.print_string &#34;Hello World\n&#34;</code></pre>
+                    <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
             </div>
     </div>
 </div></section>
@@ -122,5 +129,7 @@ Latest data update: 2018-11-10
     <script src="/compiled/language.js"></script>
     <script>var language = 'F*';</script>
     <script>var wikibase = 'Q5423569';</script>
+    <script src="/vendor/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </body>
 </html>

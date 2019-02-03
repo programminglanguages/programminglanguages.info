@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="/compiled/style.css">
 
 <link rel="stylesheet" href="/compiled/language.css">
-</head>
+<link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
 <nav id="main-nav" class="level">
@@ -38,7 +38,7 @@
 </div></section>
 <section class="content"><div class="container is-fluid">
     <div class="columns">
-        <div class="column">
+        <div class="column is-3-tablet">
                 <h1>FORTRAN 77</h1>
 
 
@@ -51,6 +51,9 @@
 
 
 
+
+                    <strong>Dialect of: </strong> <a href="/language/fortran/">Fortran</a><br>
+
             
                 <strong>Aliases:</strong> Fortran 77, F77<br>
             
@@ -59,6 +62,20 @@
 
 
         </div>
+            <div class="column">
+                    <h3>Hello World in FORTRAN 77</h3>
+                        <pre><code class="fortran 77">      PROGRAM HELLOW
+      WRITE(UNIT=*, FMT=*) &#39;Hello World&#39;
+      END
+</code></pre>
+                    <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
+                    <h3>Free FORTRAN 77 books and articles</h3>
+                    <ul>
+<li><a href="http://people.cs.vt.edu/~asandu/Deposit/Fortran95_notes.pdf">Introduction to fortran 95 and numerical computing: a jump-start for scientists and engineers</a> (PDF)</li>
+<li><a href="http://www.mrao.cam.ac.uk/~rachael/compphys/SelfStudyF95.pdf">Self Study Guide: Programming in Fortran 95</a> (PDF)</li>
+</ul>
+                    <div class="small">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
+            </div>
     </div>
 </div></section>
 <section class="content"><div class="container is-fluid">
@@ -105,5 +122,7 @@ Latest data update: 2018-12-08
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
 
+    <script src="/vendor/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </body>
 </html>

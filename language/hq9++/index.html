@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="/compiled/style.css">
 
 <link rel="stylesheet" href="/compiled/language.css">
-</head>
+<link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
 <nav id="main-nav" class="level">
@@ -38,7 +38,7 @@
 </div></section>
 <section class="content"><div class="container is-fluid">
     <div class="columns">
-        <div class="column">
+        <div class="column is-3-tablet">
                 <h1>HQ9++</h1>
 
 
@@ -46,6 +46,8 @@
             </p>
 
                 <strong>Inception Year:</strong> <a href="/inception/some/">some</a><br>
+
+
 
 
 
@@ -57,6 +59,11 @@
 
 
         </div>
+            <div class="column">
+                    <h3>Hello World in HQ9++</h3>
+                        <pre><code class="hq9++">H</code></pre>
+                    <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
+            </div>
     </div>
 </div></section>
 <section class="content"><div class="container is-fluid">
@@ -103,5 +110,7 @@ Latest data update: 2018-12-13
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
 
+    <script src="/vendor/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </body>
 </html>
