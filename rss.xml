@@ -3,13 +3,20 @@
 <channel><title>programminglanguages.info RSS Feed</title>
     <link>https://programminglanguages.info</link>
     <description>RSS Feed</description>
-    <lastBuildDate>Fri, 08 Feb 2019 00:22:24</lastBuildDate>
+    <lastBuildDate>Sun, 10 Feb 2019 23:50:03</lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
+        <title><![CDATA[Programming Languages Timeline]]></title>
+        <link><![CDATA[https://programminglanguages.info/timeline/]]></link>
+        <description><![CDATA[A timeline of programming languages based on the year of inception.]]></description>
+        <guid><![CDATA[https://programminglanguages.info/timeline/]]></guid>
+        <pubDate>Sun, 10 Feb 2019 23:47:49</pubDate>
+    </item>
+    <item>
         <title><![CDATA[List of Programming Languages by Year]]></title>
         <link><![CDATA[https://programminglanguages.info/languages-by-year/]]></link>
-        <description><![CDATA[A list of 594 computer programming languages listed on programminglanguages.info by year.]]></description>
+        <description><![CDATA[A list of 595 computer programming languages listed on programminglanguages.info by year.]]></description>
         <guid><![CDATA[https://programminglanguages.info/languages-by-year/]]></guid>
         <pubDate>Thu, 07 Feb 2019 23:53:00</pubDate>
     </item>
@@ -30,7 +37,7 @@
     <item>
         <title><![CDATA[Alphabetical List of Programming Languages]]></title>
         <link><![CDATA[https://programminglanguages.info/languages/]]></link>
-        <description><![CDATA[An alphabetical list of all 1390 computer programming languages currently listed on programminglanguages.info.]]></description>
+        <description><![CDATA[An alphabetical list of all 1391 computer programming languages currently listed on programminglanguages.info.]]></description>
         <guid><![CDATA[https://programminglanguages.info/languages/]]></guid>
         <pubDate>Mon, 28 Jan 2019 22:52:00</pubDate>
     </item>
@@ -68,12 +75,5 @@
         <description><![CDATA[A network graph showing 426 programming languages connected by 670 influence relations. Highly influential languages like Lisp, Smalltalk, C, Java, C++, Haskell and Python are shown as larger circles as compared to languages with less influence on others like PHP, Rust and Go. The influence relation data was retrieved from Wikidata in 2018. A great gift for programmers who are into digital art. • Also buy this artwork on wall prints, apparel, phone cases, and more.]]></description>
         <guid><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2018/]]></guid>
         <pubDate>Wed, 02 Jan 2019 00:00:00</pubDate>
-    </item>
-    <item>
-        <title><![CDATA[Free Programming Books]]></title>
-        <link><![CDATA[https://programminglanguages.info/changelog/free-programming-books/]]></link>
-        <description><![CDATA[Links to freely available programming books from the EbookFoundation/free-programming-books GitHub repository are added to language pages.]]></description>
-        <guid><![CDATA[https://programminglanguages.info/changelog/free-programming-books/]]></guid>
-        <pubDate>Mon, 31 Dec 2018 01:08:29</pubDate>
     </item>
 </channel></rss>
