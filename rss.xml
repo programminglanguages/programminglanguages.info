@@ -3,9 +3,16 @@
 <channel><title>programminglanguages.info RSS Feed</title>
     <link>https://programminglanguages.info</link>
     <description>RSS Feed</description>
-    <lastBuildDate>Wed, 13 Feb 2019 02:00:20</lastBuildDate>
+    <lastBuildDate>Thu, 14 Feb 2019 23:33:33</lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+        <title><![CDATA[GitHub Search on Language Pages]]></title>
+        <link><![CDATA[https://programminglanguages.info/changelog/github-search/]]></link>
+        <description><![CDATA[There is now a GitHub search form on language pages, that you can use to search for repositories related to that language or whatever you type into the form...]]></description>
+        <guid><![CDATA[https://programminglanguages.info/changelog/github-search/]]></guid>
+        <pubDate>Thu, 14 Feb 2019 23:32:24</pubDate>
+    </item>
     <item>
         <title><![CDATA[Programming Languages Timeline]]></title>
         <link><![CDATA[https://programminglanguages.info/timeline/]]></link>
@@ -68,12 +75,5 @@
         <description><![CDATA[The site started with a dark background color for all pages, but I wasn't satisfied with how the language pages looked. I think a light background makes the...]]></description>
         <guid><![CDATA[https://programminglanguages.info/changelog/dark-turns-light/]]></guid>
         <pubDate>Mon, 14 Jan 2019 21:20:00</pubDate>
-    </item>
-    <item>
-        <title><![CDATA[Programming Languages Influence Network 2018 - Black Background]]></title>
-        <link><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2018/]]></link>
-        <description><![CDATA[A network graph showing 426 programming languages connected by 670 influence relations. Highly influential languages like Lisp, Smalltalk, C, Java, C++, Haskell and Python are shown as larger circles as compared to languages with less influence on others like PHP, Rust and Go. The influence relation data was retrieved from Wikidata in 2018. A great gift for programmers who are into digital art. • Also buy this artwork on wall prints, apparel, phone cases, and more.]]></description>
-        <guid><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2018/]]></guid>
-        <pubDate>Wed, 02 Jan 2019 00:00:00</pubDate>
     </item>
 </channel></rss>

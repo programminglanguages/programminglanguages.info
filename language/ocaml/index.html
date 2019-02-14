@@ -77,23 +77,49 @@
 
                 <p><strong>Language types:</strong> <a href="/type/object-oriented-programming-language/">object-oriented programming language</a> • <a href="/type/functional-programming-language/">functional programming language</a> • <a href="/type/multi-paradigm-programming-language/">multi-paradigm programming language</a> • <a href="/type/imperative-programming-language/">imperative programming language</a></p>
         </div>
-            <div class="column">
-                    <h3>OCaml Influence Network</h3>
-                    <svg class="has-background-dark" id="network"></svg>
-                    <p class="is-size-7">Pan and zoom the graph with your mouse or alternatively your fingers on touch devices.</p>
-                    <h3>Hello World in OCaml</h3>
-                        <pre><code class="ocaml">print_string &#34;Hello World\n&#34;</code></pre>
-                    <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
-                    <h3>Free OCaml books and articles</h3>
-                    <ul>
+
+        <div class="column">
+                <h3>OCaml Influence Network</h3>
+                <svg class="has-background-dark" id="network"></svg>
+                <p class="is-size-7">Pan and zoom the graph with your mouse or alternatively your fingers on touch devices.</p>
+                <h3>Hello World in OCaml</h3>
+                    <pre><code class="ocaml">print_string &#34;Hello World\n&#34;</code></pre>
+                <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
+                <h3>Free OCaml books and articles</h3>
+                <ul>
 <li><a href="http://caml.inria.fr/pub/docs/oreilly-book/">Developing Applications With Objective Caml</a></li>
 <li><a href="https://realworldocaml.org/v1/en/html/">Real World OCaml</a></li>
 <li><a href="http://greenteapress.com/thinkocaml/index.html">Think OCaml</a> - Allen B. Downey and Nicholas Monje</li>
 <li><a href="http://ocaml.github.io/ocamlunix/">Unix System Programming in OCaml</a> <a href="https://github.com/ocaml/ocamlunix/">Github Repo</a></li>
 <li><a href="http://pauillac.inria.fr/~remy/cours/appsem/">Using, Understanding, and Unraveling The OCaml Language: From Practice to Theory and vice versa</a> - Didier Rémy</li>
 </ul>
-                    <div class="small">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
+                <div class="small">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
+            <h3>Search on GitHub</h3>
+            <div class="field has-addons">
+                <p class="control">
+                    <input class="input" id="github-query" type="text">
+                </p>
+                <p class="control">
+                    <button class="button is-link" id="github-search">Search</button>
+                </p>
             </div>
+            <div id="github-results">
+                <div id="github-message"></div>
+                <table class="table is-hidden">
+                    <caption>🛈 Click on a column heading to sort the results.</caption>
+                    <thead><tr>
+                        <th class="full_name">Name</th>
+                        <th class="description">Description</th>
+                        <th class="pushed_at">Last pushed to</th>
+                        <th class="open_issues">Open issues</th>
+                        <th class="forks">Forks</th>
+                        <th class="watchers">Stars</th>
+                        <th class="size">Size</th>
+                    </tr></thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
     </div>
 </div></section>
 <section class="content"><div class="container">
@@ -140,11 +166,16 @@ Latest data update: 2019-01-26
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
 
-    <script src="/vendor/jLouvain.js"></script>
-    <script src="/compiled/graph.js"></script>
-    <script src="/compiled/language.js"></script>
-    <script>var language = 'OCaml';</script>
-    <script>var wikibase = 'Q212587';</script>
+<script>
+    var language = 'OCaml';
+    var wikibase = 'Q212587';
+</script>
+<script src="/vendor/jLouvain.js"></script>
+<script src="/compiled/graph.js"></script>
+<script src="/compiled/language-network.js"></script>
+
+<script src="/compiled/github.js"></script>
+
     <script src="/vendor/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 </body>

@@ -65,15 +65,41 @@
 
                 <p><strong>Language types:</strong> <a href="/type/off-side-rule-language/">off-side rule language</a></p>
         </div>
-            <div class="column">
-                    <h3>LiveScript Influence Network</h3>
-                    <svg class="has-background-dark" id="network"></svg>
-                    <p class="is-size-7">Pan and zoom the graph with your mouse or alternatively your fingers on touch devices.</p>
-                    <h3>Hello World in LiveScript</h3>
-                        <pre><code class="livescript">console.log &#34;Hello, World!&#34;
+
+        <div class="column">
+                <h3>LiveScript Influence Network</h3>
+                <svg class="has-background-dark" id="network"></svg>
+                <p class="is-size-7">Pan and zoom the graph with your mouse or alternatively your fingers on touch devices.</p>
+                <h3>Hello World in LiveScript</h3>
+                    <pre><code class="livescript">console.log &#34;Hello, World!&#34;
 </code></pre>
-                    <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
+                <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
+            <h3>Search on GitHub</h3>
+            <div class="field has-addons">
+                <p class="control">
+                    <input class="input" id="github-query" type="text">
+                </p>
+                <p class="control">
+                    <button class="button is-link" id="github-search">Search</button>
+                </p>
             </div>
+            <div id="github-results">
+                <div id="github-message"></div>
+                <table class="table is-hidden">
+                    <caption>🛈 Click on a column heading to sort the results.</caption>
+                    <thead><tr>
+                        <th class="full_name">Name</th>
+                        <th class="description">Description</th>
+                        <th class="pushed_at">Last pushed to</th>
+                        <th class="open_issues">Open issues</th>
+                        <th class="forks">Forks</th>
+                        <th class="watchers">Stars</th>
+                        <th class="size">Size</th>
+                    </tr></thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
     </div>
 </div></section>
 <section class="content"><div class="container">
@@ -120,11 +146,16 @@ Latest data update: 2018-12-08
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
 
-    <script src="/vendor/jLouvain.js"></script>
-    <script src="/compiled/graph.js"></script>
-    <script src="/compiled/language.js"></script>
-    <script>var language = 'LiveScript';</script>
-    <script>var wikibase = 'Q16963446';</script>
+<script>
+    var language = 'LiveScript';
+    var wikibase = 'Q16963446';
+</script>
+<script src="/vendor/jLouvain.js"></script>
+<script src="/compiled/graph.js"></script>
+<script src="/compiled/language-network.js"></script>
+
+<script src="/compiled/github.js"></script>
+
     <script src="/vendor/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 </body>

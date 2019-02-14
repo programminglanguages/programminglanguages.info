@@ -38,7 +38,7 @@
 </div></section>
 <section class="content"><div class="container">
     <div class="columns">
-        <div class="column">
+        <div class="column is-3-tablet">
                 <h1>GNU Assembler</h1>
 
                 <p class="small">The GNU Assembler, commonly known as gas or simply as, its executable name, is the assembler used by the GNU Project. It is the default back-end of GCC. It is used to assemble the GNU operating system and the Linux kernel, and various other software. It is a part of the GNU Binutils package. <a href="https://en.wikipedia.org/wiki/GNU_Assembler">Wikipedia</a></p>
@@ -64,6 +64,34 @@
             <p><strong>Wikidata:</strong> <a href="https://www.wikidata.org/wiki/Q1486175">Q1486175</a></p>
 
 
+        </div>
+
+        <div class="column">
+            <h3>Search on GitHub</h3>
+            <div class="field has-addons">
+                <p class="control">
+                    <input class="input" id="github-query" type="text">
+                </p>
+                <p class="control">
+                    <button class="button is-link" id="github-search">Search</button>
+                </p>
+            </div>
+            <div id="github-results">
+                <div id="github-message"></div>
+                <table class="table is-hidden">
+                    <caption>🛈 Click on a column heading to sort the results.</caption>
+                    <thead><tr>
+                        <th class="full_name">Name</th>
+                        <th class="description">Description</th>
+                        <th class="pushed_at">Last pushed to</th>
+                        <th class="open_issues">Open issues</th>
+                        <th class="forks">Forks</th>
+                        <th class="watchers">Stars</th>
+                        <th class="size">Size</th>
+                    </tr></thead>
+                    <tbody></tbody>
+                </table>
+            </div>
         </div>
     </div>
 </div></section>
@@ -110,6 +138,13 @@ Latest data update: 2019-01-24
 </symbol></svg></span>
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
+
+<script>
+    var language = 'GNU Assembler';
+    var wikibase = 'Q1486175';
+</script>
+
+<script src="/compiled/github.js"></script>
 
 </body>
 </html>

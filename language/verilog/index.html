@@ -65,12 +65,13 @@
                 <p><strong>Programming paradigms:</strong> <a href="/paradigm/structured-programming/">structured programming</a></p>
                 <p><strong>Language types:</strong> <a href="/type/hardware-description-language/">hardware description language</a></p>
         </div>
-            <div class="column">
-                    <h3>Verilog Influence Network</h3>
-                    <svg class="has-background-dark" id="network"></svg>
-                    <p class="is-size-7">Pan and zoom the graph with your mouse or alternatively your fingers on touch devices.</p>
-                    <h3>Hello World in Verilog</h3>
-                        <pre><code class="verilog">module main;
+
+        <div class="column">
+                <h3>Verilog Influence Network</h3>
+                <svg class="has-background-dark" id="network"></svg>
+                <p class="is-size-7">Pan and zoom the graph with your mouse or alternatively your fingers on touch devices.</p>
+                <h3>Hello World in Verilog</h3>
+                    <pre><code class="verilog">module main;
   initial
     begin
       $display(&#34;Hello World!&#34;);
@@ -78,14 +79,39 @@
     end
 endmodule
 </code></pre>
-                    <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
-                    <h3>Free Verilog books and articles</h3>
-                    <ul>
+                <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
+                <h3>Free Verilog books and articles</h3>
+                <ul>
 <li><a href="http://sutherland-hdl.com/pdfs/verilog_2001_ref_guide.pdf">Verilog Quick Reference Guide - Sutherland HDL</a> (PDF)</li>
 <li><a href="http://www.asic-world.com/verilog/veritut.html">Verilog Tutorial</a></li>
 </ul>
-                    <div class="small">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
+                <div class="small">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
+            <h3>Search on GitHub</h3>
+            <div class="field has-addons">
+                <p class="control">
+                    <input class="input" id="github-query" type="text">
+                </p>
+                <p class="control">
+                    <button class="button is-link" id="github-search">Search</button>
+                </p>
             </div>
+            <div id="github-results">
+                <div id="github-message"></div>
+                <table class="table is-hidden">
+                    <caption>🛈 Click on a column heading to sort the results.</caption>
+                    <thead><tr>
+                        <th class="full_name">Name</th>
+                        <th class="description">Description</th>
+                        <th class="pushed_at">Last pushed to</th>
+                        <th class="open_issues">Open issues</th>
+                        <th class="forks">Forks</th>
+                        <th class="watchers">Stars</th>
+                        <th class="size">Size</th>
+                    </tr></thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
     </div>
 </div></section>
 <section class="content"><div class="container">
@@ -132,11 +158,16 @@ Latest data update: 2019-01-21
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
 
-    <script src="/vendor/jLouvain.js"></script>
-    <script src="/compiled/graph.js"></script>
-    <script src="/compiled/language.js"></script>
-    <script>var language = 'Verilog';</script>
-    <script>var wikibase = 'Q827773';</script>
+<script>
+    var language = 'Verilog';
+    var wikibase = 'Q827773';
+</script>
+<script src="/vendor/jLouvain.js"></script>
+<script src="/compiled/graph.js"></script>
+<script src="/compiled/language-network.js"></script>
+
+<script src="/compiled/github.js"></script>
+
     <script src="/vendor/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 </body>

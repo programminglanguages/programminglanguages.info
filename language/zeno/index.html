@@ -38,7 +38,7 @@
 </div></section>
 <section class="content"><div class="container">
     <div class="columns">
-        <div class="column">
+        <div class="column is-3-tablet">
                 <h1>Zeno</h1>
 
                 <p class="small">Zeno is an imperative procedural programming language designed to be easy to learn and user friendly. Zeno is generic in the sense that it contains most of the essential elements used in other languages to develop real applications. <a href="https://en.wikipedia.org/wiki/Zeno_(programming_language)">Wikipedia</a></p>
@@ -59,6 +59,34 @@
 
                 <p><strong>Programming paradigms:</strong> <a href="/paradigm/imperative-programming/">imperative programming</a> • <a href="/paradigm/procedural-programming/">procedural programming</a></p>
                 <p><strong>Language types:</strong> <a href="/type/imperative-programming-language/">imperative programming language</a> • <a href="/type/procedural-programming-language/">procedural programming language</a></p>
+        </div>
+
+        <div class="column">
+            <h3>Search on GitHub</h3>
+            <div class="field has-addons">
+                <p class="control">
+                    <input class="input" id="github-query" type="text">
+                </p>
+                <p class="control">
+                    <button class="button is-link" id="github-search">Search</button>
+                </p>
+            </div>
+            <div id="github-results">
+                <div id="github-message"></div>
+                <table class="table is-hidden">
+                    <caption>🛈 Click on a column heading to sort the results.</caption>
+                    <thead><tr>
+                        <th class="full_name">Name</th>
+                        <th class="description">Description</th>
+                        <th class="pushed_at">Last pushed to</th>
+                        <th class="open_issues">Open issues</th>
+                        <th class="forks">Forks</th>
+                        <th class="watchers">Stars</th>
+                        <th class="size">Size</th>
+                    </tr></thead>
+                    <tbody></tbody>
+                </table>
+            </div>
         </div>
     </div>
 </div></section>
@@ -105,6 +133,13 @@ Latest data update: 2018-11-10
 </symbol></svg></span>
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
+
+<script>
+    var language = 'Zeno';
+    var wikibase = 'Q7475367';
+</script>
+
+<script src="/compiled/github.js"></script>
 
 </body>
 </html>

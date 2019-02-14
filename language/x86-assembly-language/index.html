@@ -38,7 +38,7 @@
 </div></section>
 <section class="content"><div class="container">
     <div class="columns">
-        <div class="column">
+        <div class="column is-3-tablet">
                 <h1>x86 assembly language</h1>
 
                 <p class="small">x86 assembly language is a family of backward-compatible assembly languages, which provide some level of compatibility all the way back to the Intel 8008 introduced in April 1972. x86 assembly languages are used to produce object code for the x86 class of processors. Like all assembly languages, it uses short mnemonics to represent the fundamental instructions that the CPU in a computer can understand and follow. Compilers sometimes produce assembly code as an intermediate step when translating a high level program into machine code. Regarded as a programming language, assembly coding is machine-specific and low level. Assembly languages are more typically used for detailed and time critical applications such as small real-time embedded systems or operating system kernels and device drivers. <a href="https://en.wikipedia.org/wiki/X86_assembly_language">Wikipedia</a></p>
@@ -58,6 +58,34 @@
             <p><strong>Wikidata:</strong> <a href="https://www.wikidata.org/wiki/Q297868">Q297868</a></p>
 
 
+        </div>
+
+        <div class="column">
+            <h3>Search on GitHub</h3>
+            <div class="field has-addons">
+                <p class="control">
+                    <input class="input" id="github-query" type="text">
+                </p>
+                <p class="control">
+                    <button class="button is-link" id="github-search">Search</button>
+                </p>
+            </div>
+            <div id="github-results">
+                <div id="github-message"></div>
+                <table class="table is-hidden">
+                    <caption>🛈 Click on a column heading to sort the results.</caption>
+                    <thead><tr>
+                        <th class="full_name">Name</th>
+                        <th class="description">Description</th>
+                        <th class="pushed_at">Last pushed to</th>
+                        <th class="open_issues">Open issues</th>
+                        <th class="forks">Forks</th>
+                        <th class="watchers">Stars</th>
+                        <th class="size">Size</th>
+                    </tr></thead>
+                    <tbody></tbody>
+                </table>
+            </div>
         </div>
     </div>
 </div></section>
@@ -104,6 +132,13 @@ Latest data update: 2019-01-30
 </symbol></svg></span>
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
+
+<script>
+    var language = 'x86 assembly language';
+    var wikibase = 'Q297868';
+</script>
+
+<script src="/compiled/github.js"></script>
 
 </body>
 </html>

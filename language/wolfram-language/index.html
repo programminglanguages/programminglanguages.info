@@ -38,7 +38,7 @@
 </div></section>
 <section class="content"><div class="container">
     <div class="columns">
-        <div class="column">
+        <div class="column is-3-tablet">
                 <h1>Wolfram Language</h1>
 
                 <p class="small">The Wolfram Language is a general multi-paradigm computational communication language developed by Wolfram Research and is the programming language of the mathematical symbolic computation program Mathematica and the Wolfram Programming Cloud. It emphasizes symbolic computation, functional programming, and rule-based programming and can employ arbitrary structures and data. <a href="https://en.wikipedia.org/wiki/Wolfram_Language">Wikipedia</a></p>
@@ -69,6 +69,34 @@
 
                 <p><strong>Programming paradigms:</strong> <a href="/paradigm/declarative-programming/">declarative programming</a> • <a href="/paradigm/functional-programming/">functional programming</a> • <a href="/paradigm/imperative-programming/">imperative programming</a> • <a href="/paradigm/object-oriented-programming/">object-oriented programming</a> • <a href="/paradigm/multi-paradigm-programming/">multi-paradigm programming</a> • <a href="/paradigm/array-programming/">array programming</a></p>
                 <p><strong>Language types:</strong> <a href="/type/object-oriented-programming-language/">object-oriented programming language</a> • <a href="/type/declarative-programming-language/">declarative programming language</a> • <a href="/type/functional-programming-language/">functional programming language</a> • <a href="/type/array-programming-language/">array programming language</a> • <a href="/type/multi-paradigm-programming-language/">multi-paradigm programming language</a> • <a href="/type/imperative-programming-language/">imperative programming language</a> • <a href="/type/interpreted-language/">interpreted language</a></p>
+        </div>
+
+        <div class="column">
+            <h3>Search on GitHub</h3>
+            <div class="field has-addons">
+                <p class="control">
+                    <input class="input" id="github-query" type="text">
+                </p>
+                <p class="control">
+                    <button class="button is-link" id="github-search">Search</button>
+                </p>
+            </div>
+            <div id="github-results">
+                <div id="github-message"></div>
+                <table class="table is-hidden">
+                    <caption>🛈 Click on a column heading to sort the results.</caption>
+                    <thead><tr>
+                        <th class="full_name">Name</th>
+                        <th class="description">Description</th>
+                        <th class="pushed_at">Last pushed to</th>
+                        <th class="open_issues">Open issues</th>
+                        <th class="forks">Forks</th>
+                        <th class="watchers">Stars</th>
+                        <th class="size">Size</th>
+                    </tr></thead>
+                    <tbody></tbody>
+                </table>
+            </div>
         </div>
     </div>
 </div></section>
@@ -115,6 +143,13 @@ Latest data update: 2019-02-03
 </symbol></svg></span>
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
+
+<script>
+    var language = 'Wolfram Language';
+    var wikibase = 'Q15241057';
+</script>
+
+<script src="/compiled/github.js"></script>
 
 </body>
 </html>

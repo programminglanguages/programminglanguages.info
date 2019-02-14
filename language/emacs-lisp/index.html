@@ -73,21 +73,47 @@
                 <p><strong>Programming paradigms:</strong> <a href="/paradigm/functional-programming/">functional programming</a></p>
                 <p><strong>Language types:</strong> <a href="/type/functional-programming-language/">functional programming language</a></p>
         </div>
-            <div class="column">
-                    <h3>Hello World in Emacs Lisp</h3>
-                        <pre><code class="emacs lisp">;;for emacs elisp
+
+        <div class="column">
+                <h3>Hello World in Emacs Lisp</h3>
+                    <pre><code class="emacs lisp">;;for emacs elisp
 
 (message &#34;hello,world&#34;)
 </code></pre>
-                    <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
-                    <h3>Free Emacs Lisp books and articles</h3>
-                    <ul>
+                <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
+                <h3>Free Emacs Lisp books and articles</h3>
+                <ul>
 <li><a href="https://www.gnu.org/software/emacs/manual/html_node/eintr/index.html">An Introduction to Programming in Emacs Lisp, 3rd Edition</a></li>
 <li><a href="http://www.gnu.org/software/emacs/manual/elisp.html">GNU Emacs Lisp Reference Manual</a></li>
 <li><a href="https://www.gnu.org/software/emacs/manual/pdf/emacs.pdf">GNU Emacs Manual</a> (PDF)</li>
 </ul>
-                    <div class="small">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
+                <div class="small">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
+            <h3>Search on GitHub</h3>
+            <div class="field has-addons">
+                <p class="control">
+                    <input class="input" id="github-query" type="text">
+                </p>
+                <p class="control">
+                    <button class="button is-link" id="github-search">Search</button>
+                </p>
             </div>
+            <div id="github-results">
+                <div id="github-message"></div>
+                <table class="table is-hidden">
+                    <caption>🛈 Click on a column heading to sort the results.</caption>
+                    <thead><tr>
+                        <th class="full_name">Name</th>
+                        <th class="description">Description</th>
+                        <th class="pushed_at">Last pushed to</th>
+                        <th class="open_issues">Open issues</th>
+                        <th class="forks">Forks</th>
+                        <th class="watchers">Stars</th>
+                        <th class="size">Size</th>
+                    </tr></thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
     </div>
 </div></section>
 <section class="content"><div class="container">
@@ -133,6 +159,13 @@ Latest data update: 2019-01-11
 </symbol></svg></span>
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
+
+<script>
+    var language = 'Emacs Lisp';
+    var wikibase = 'Q1334586';
+</script>
+
+<script src="/compiled/github.js"></script>
 
     <script src="/vendor/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>

@@ -38,7 +38,7 @@
 </div></section>
 <section class="content"><div class="container">
     <div class="columns">
-        <div class="column">
+        <div class="column is-3-tablet">
                 <h1>Iota and Jot</h1>
 
                 <p class="small">In formal language theory and computer science, Iota and Jot are languages, extremely minimalist formal systems, designed to be even simpler than other more popular alternatives, such as the lambda calculus and SKI combinator calculus. Thus, they can also be considered minimalist computer programming languages, or Turing tarpits, esoteric programming languages designed to be as small as possible but still Turing-complete. Both systems use only two symbols and involve only two operations. Both were created by professor of linguistics Chris Barker in 2001. Zot (2002) is a successor to Iota that supports input and output. <a href="https://en.wikipedia.org/wiki/Iota_and_Jot">Wikipedia</a></p>
@@ -65,6 +65,34 @@
 
                 <p><strong>Programming paradigms:</strong> <a href="/paradigm/esoteric-programming/">esoteric programming</a></p>
                 <p><strong>Language types:</strong> <a href="/type/esoteric-programming-language/">esoteric programming language</a></p>
+        </div>
+
+        <div class="column">
+            <h3>Search on GitHub</h3>
+            <div class="field has-addons">
+                <p class="control">
+                    <input class="input" id="github-query" type="text">
+                </p>
+                <p class="control">
+                    <button class="button is-link" id="github-search">Search</button>
+                </p>
+            </div>
+            <div id="github-results">
+                <div id="github-message"></div>
+                <table class="table is-hidden">
+                    <caption>🛈 Click on a column heading to sort the results.</caption>
+                    <thead><tr>
+                        <th class="full_name">Name</th>
+                        <th class="description">Description</th>
+                        <th class="pushed_at">Last pushed to</th>
+                        <th class="open_issues">Open issues</th>
+                        <th class="forks">Forks</th>
+                        <th class="watchers">Stars</th>
+                        <th class="size">Size</th>
+                    </tr></thead>
+                    <tbody></tbody>
+                </table>
+            </div>
         </div>
     </div>
 </div></section>
@@ -111,6 +139,13 @@ Latest data update: 2018-11-10
 </symbol></svg></span>
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
+
+<script>
+    var language = 'Iota and Jot';
+    var wikibase = 'Q3154138';
+</script>
+
+<script src="/compiled/github.js"></script>
 
 </body>
 </html>

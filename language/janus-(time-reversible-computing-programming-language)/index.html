@@ -38,7 +38,7 @@
 </div></section>
 <section class="content"><div class="container">
     <div class="columns">
-        <div class="column">
+        <div class="column is-3-tablet">
                 <h1>Janus (time-reversible computing programming language)</h1>
 
                 <p class="small">Janus is a time-reversible programming language written at Caltech in 1982. The operational semantics of the language were formally specified, together with a program inverter and an invertible self-interpreter, in 2007 by Tetsuo Yokoyama and Robert Glück. A Janus inverter and interpreter is made freely available by the TOPPS research group at DIKU. Another Janus interpreter was implemented in Prolog in 2009. The below summarises the language presented in the 2007 paper. <a href="https://en.wikipedia.org/wiki/Janus_(time-reversible_computing_programming_language)">Wikipedia</a></p>
@@ -61,6 +61,34 @@
 
 
                 <p><strong>Programming paradigms:</strong> <a href="/paradigm/imperative-programming/">imperative programming</a></p>
+        </div>
+
+        <div class="column">
+            <h3>Search on GitHub</h3>
+            <div class="field has-addons">
+                <p class="control">
+                    <input class="input" id="github-query" type="text">
+                </p>
+                <p class="control">
+                    <button class="button is-link" id="github-search">Search</button>
+                </p>
+            </div>
+            <div id="github-results">
+                <div id="github-message"></div>
+                <table class="table is-hidden">
+                    <caption>🛈 Click on a column heading to sort the results.</caption>
+                    <thead><tr>
+                        <th class="full_name">Name</th>
+                        <th class="description">Description</th>
+                        <th class="pushed_at">Last pushed to</th>
+                        <th class="open_issues">Open issues</th>
+                        <th class="forks">Forks</th>
+                        <th class="watchers">Stars</th>
+                        <th class="size">Size</th>
+                    </tr></thead>
+                    <tbody></tbody>
+                </table>
+            </div>
         </div>
     </div>
 </div></section>
@@ -107,6 +135,13 @@ Latest data update: 2019-01-18
 </symbol></svg></span>
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
+
+<script>
+    var language = 'Janus (time-reversible computing programming language)';
+    var wikibase = 'Q25345964';
+</script>
+
+<script src="/compiled/github.js"></script>
 
 </body>
 </html>

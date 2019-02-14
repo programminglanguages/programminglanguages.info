@@ -38,7 +38,7 @@
 </div></section>
 <section class="content"><div class="container">
     <div class="columns">
-        <div class="column">
+        <div class="column is-3-tablet">
                 <h1>Curl</h1>
 
                 <p class="small">Curl is a reflective object-oriented programming language for interactive web applications whose goal is to provide a smoother transition between formatting and programming. It makes it possible to embed complex objects in simple documents without needing to switch between programming languages or development platforms. The Curl implementation initially consisted of just an interpreter, but a compiler was added later. <a href="https://en.wikipedia.org/wiki/Curl_(programming_language)">Wikipedia</a></p>
@@ -61,6 +61,34 @@
 
                 <p><strong>Programming paradigms:</strong> <a href="/paradigm/declarative-programming/">declarative programming</a> • <a href="/paradigm/functional-programming/">functional programming</a> • <a href="/paradigm/multi-paradigm-programming/">multi-paradigm programming</a></p>
                 <p><strong>Language types:</strong> <a href="/type/multi-paradigm-programming-language/">multi-paradigm programming language</a> • <a href="/type/markup-language/">markup language</a> • <a href="/type/declarative-programming-language/">declarative programming language</a> • <a href="/type/functional-programming-language/">functional programming language</a></p>
+        </div>
+
+        <div class="column">
+            <h3>Search on GitHub</h3>
+            <div class="field has-addons">
+                <p class="control">
+                    <input class="input" id="github-query" type="text">
+                </p>
+                <p class="control">
+                    <button class="button is-link" id="github-search">Search</button>
+                </p>
+            </div>
+            <div id="github-results">
+                <div id="github-message"></div>
+                <table class="table is-hidden">
+                    <caption>🛈 Click on a column heading to sort the results.</caption>
+                    <thead><tr>
+                        <th class="full_name">Name</th>
+                        <th class="description">Description</th>
+                        <th class="pushed_at">Last pushed to</th>
+                        <th class="open_issues">Open issues</th>
+                        <th class="forks">Forks</th>
+                        <th class="watchers">Stars</th>
+                        <th class="size">Size</th>
+                    </tr></thead>
+                    <tbody></tbody>
+                </table>
+            </div>
         </div>
     </div>
 </div></section>
@@ -107,6 +135,13 @@ Latest data update: 2018-12-19
 </symbol></svg></span>
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
+
+<script>
+    var language = 'Curl';
+    var wikibase = 'Q1144631';
+</script>
+
+<script src="/compiled/github.js"></script>
 
 </body>
 </html>

@@ -38,7 +38,7 @@
 </div></section>
 <section class="content"><div class="container">
     <div class="columns">
-        <div class="column">
+        <div class="column is-3-tablet">
                 <h1>Lustre</h1>
 
                 <p class="small">Lustre is a formally defined, declarative, and synchronous dataflow programming language for programming reactive systems. It began as a research project in the early 1980s. A formal presentation of the language can be found in the 1991 Proceedings of the IEEE. In 1993 it progressed to practical, industrial use in a commercial product as the core language of the industrial environment SCADE, developed by Esterel Technologies. It is now used for critical control software in aircraft, helicopters, and nuclear power plants. <a href="https://en.wikipedia.org/wiki/Lustre_(programming_language)">Wikipedia</a></p>
@@ -59,6 +59,34 @@
 
                 <p><strong>Programming paradigms:</strong> <a href="/paradigm/dataflow-programming/">dataflow programming</a></p>
                 <p><strong>Language types:</strong> <a href="/type/dataflow-programming-language/">dataflow programming language</a></p>
+        </div>
+
+        <div class="column">
+            <h3>Search on GitHub</h3>
+            <div class="field has-addons">
+                <p class="control">
+                    <input class="input" id="github-query" type="text">
+                </p>
+                <p class="control">
+                    <button class="button is-link" id="github-search">Search</button>
+                </p>
+            </div>
+            <div id="github-results">
+                <div id="github-message"></div>
+                <table class="table is-hidden">
+                    <caption>🛈 Click on a column heading to sort the results.</caption>
+                    <thead><tr>
+                        <th class="full_name">Name</th>
+                        <th class="description">Description</th>
+                        <th class="pushed_at">Last pushed to</th>
+                        <th class="open_issues">Open issues</th>
+                        <th class="forks">Forks</th>
+                        <th class="watchers">Stars</th>
+                        <th class="size">Size</th>
+                    </tr></thead>
+                    <tbody></tbody>
+                </table>
+            </div>
         </div>
     </div>
 </div></section>
@@ -105,6 +133,13 @@ Latest data update: 2018-11-10
 </symbol></svg></span>
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
+
+<script>
+    var language = 'Lustre';
+    var wikibase = 'Q464622';
+</script>
+
+<script src="/compiled/github.js"></script>
 
 </body>
 </html>

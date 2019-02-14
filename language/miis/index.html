@@ -38,7 +38,7 @@
 </div></section>
 <section class="content"><div class="container">
     <div class="columns">
-        <div class="column">
+        <div class="column is-3-tablet">
                 <h1>MIIS</h1>
 
                 <p class="small">MIIS is a MUMPS-like programming language that was created by A.Neil Pappalardo and Curt W. Marble, on a DEC PDP at Mass General Hospital from 1964 to 1968. MUMPS evolution took two major directions: MUMPS proper and MIIS. MUMPS became an ANSI and ISO-standard language. When many MUMPS implementations standardized to be compatible, MIIS did not standardize, but became a proprietary system instead. <a href="https://en.wikipedia.org/wiki/MIIS_(programming_language)">Wikipedia</a></p>
@@ -57,6 +57,34 @@
             <p><strong>Wikidata:</strong> <a href="https://www.wikidata.org/wiki/Q6716041">Q6716041</a></p>
 
 
+        </div>
+
+        <div class="column">
+            <h3>Search on GitHub</h3>
+            <div class="field has-addons">
+                <p class="control">
+                    <input class="input" id="github-query" type="text">
+                </p>
+                <p class="control">
+                    <button class="button is-link" id="github-search">Search</button>
+                </p>
+            </div>
+            <div id="github-results">
+                <div id="github-message"></div>
+                <table class="table is-hidden">
+                    <caption>🛈 Click on a column heading to sort the results.</caption>
+                    <thead><tr>
+                        <th class="full_name">Name</th>
+                        <th class="description">Description</th>
+                        <th class="pushed_at">Last pushed to</th>
+                        <th class="open_issues">Open issues</th>
+                        <th class="forks">Forks</th>
+                        <th class="watchers">Stars</th>
+                        <th class="size">Size</th>
+                    </tr></thead>
+                    <tbody></tbody>
+                </table>
+            </div>
         </div>
     </div>
 </div></section>
@@ -103,6 +131,13 @@ Latest data update: 2019-01-18
 </symbol></svg></span>
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
+
+<script>
+    var language = 'MIIS';
+    var wikibase = 'Q6716041';
+</script>
+
+<script src="/compiled/github.js"></script>
 
 </body>
 </html>

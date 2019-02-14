@@ -38,7 +38,7 @@
 </div></section>
 <section class="content"><div class="container">
     <div class="columns">
-        <div class="column">
+        <div class="column is-3-tablet">
                 <h1>Pure Data</h1>
 
                 <p class="small">Pure Data (Pd) is a visual programming language developed by Miller Puckette in the 1990s for creating interactive computer music and multimedia works. While Puckette is the main author of the program, Pd is an open-source project with a large developer base working on new extensions. It is released under a license similar to the BSD license. It runs on GNU/Linux, Mac OS X, iOS, Android and Windows. Ports exist for FreeBSD and IRIX. <a href="https://en.wikipedia.org/wiki/Pure_Data">Wikipedia</a></p>
@@ -66,6 +66,34 @@
 
                 <p><strong>Programming paradigms:</strong> <a href="/paradigm/dataflow/">dataflow</a></p>
                 <p><strong>Language types:</strong> <a href="/type/visual-programming-language/">visual programming language</a></p>
+        </div>
+
+        <div class="column">
+            <h3>Search on GitHub</h3>
+            <div class="field has-addons">
+                <p class="control">
+                    <input class="input" id="github-query" type="text">
+                </p>
+                <p class="control">
+                    <button class="button is-link" id="github-search">Search</button>
+                </p>
+            </div>
+            <div id="github-results">
+                <div id="github-message"></div>
+                <table class="table is-hidden">
+                    <caption>🛈 Click on a column heading to sort the results.</caption>
+                    <thead><tr>
+                        <th class="full_name">Name</th>
+                        <th class="description">Description</th>
+                        <th class="pushed_at">Last pushed to</th>
+                        <th class="open_issues">Open issues</th>
+                        <th class="forks">Forks</th>
+                        <th class="watchers">Stars</th>
+                        <th class="size">Size</th>
+                    </tr></thead>
+                    <tbody></tbody>
+                </table>
+            </div>
         </div>
     </div>
 </div></section>
@@ -112,6 +140,13 @@ Latest data update: 2018-11-10
 </symbol></svg></span>
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
+
+<script>
+    var language = 'Pure Data';
+    var wikibase = 'Q1401466';
+</script>
+
+<script src="/compiled/github.js"></script>
 
 </body>
 </html>

@@ -61,21 +61,47 @@
                 <p><strong>Programming paradigms:</strong> <a href="/paradigm/object-oriented-programming/">object-oriented programming</a></p>
                 <p><strong>Language types:</strong> <a href="/type/object-oriented-programming-language/">object-oriented programming language</a></p>
         </div>
-            <div class="column">
-                    <h3>Hello World in Cool</h3>
-                        <pre><code class="cool">class Main inherits IO {
+
+        <div class="column">
+                <h3>Hello World in Cool</h3>
+                    <pre><code class="cool">class Main inherits IO {
    main(): Object {
 	out_string(&#34;Hello, World.\n&#34;)
    };
 };
 </code></pre>
-                    <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
-                    <h3>Free Cool books and articles</h3>
-                    <ul>
+                <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
+                <h3>Free Cool books and articles</h3>
+                <ul>
 <li><a href="https://www.eecis.udel.edu/~cavazos/cisc672/docs/cool-manual.pdf">CoolAid: The Cool 2013 Reference Manual</a> (PDF)</li>
 </ul>
-                    <div class="small">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
+                <div class="small">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
+            <h3>Search on GitHub</h3>
+            <div class="field has-addons">
+                <p class="control">
+                    <input class="input" id="github-query" type="text">
+                </p>
+                <p class="control">
+                    <button class="button is-link" id="github-search">Search</button>
+                </p>
             </div>
+            <div id="github-results">
+                <div id="github-message"></div>
+                <table class="table is-hidden">
+                    <caption>🛈 Click on a column heading to sort the results.</caption>
+                    <thead><tr>
+                        <th class="full_name">Name</th>
+                        <th class="description">Description</th>
+                        <th class="pushed_at">Last pushed to</th>
+                        <th class="open_issues">Open issues</th>
+                        <th class="forks">Forks</th>
+                        <th class="watchers">Stars</th>
+                        <th class="size">Size</th>
+                    </tr></thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
     </div>
 </div></section>
 <section class="content"><div class="container">
@@ -121,6 +147,13 @@ Latest data update: 2019-01-15
 </symbol></svg></span>
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
+
+<script>
+    var language = 'Cool';
+    var wikibase = 'Q2904782';
+</script>
+
+<script src="/compiled/github.js"></script>
 
     <script src="/vendor/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>

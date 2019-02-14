@@ -76,17 +76,18 @@
 
                 <p><strong>Language types:</strong> <a href="/type/procedural-programming-language/">procedural programming language</a> • <a href="/type/object-oriented-programming-language/">object-oriented programming language</a> • <a href="/type/multi-paradigm-programming-language/">multi-paradigm programming language</a> • <a href="/type/imperative-programming-language/">imperative programming language</a> • <a href="/type/interpreted-language/">interpreted language</a></p>
         </div>
-            <div class="column">
-                    <h3>Perl Influence Network</h3>
-                    <svg class="has-background-dark" id="network"></svg>
-                    <p class="is-size-7">Pan and zoom the graph with your mouse or alternatively your fingers on touch devices.</p>
-                    <h3>Hello World in Perl</h3>
-                        <pre><code class="perl">#!/usr/bin/perl
+
+        <div class="column">
+                <h3>Perl Influence Network</h3>
+                <svg class="has-background-dark" id="network"></svg>
+                <p class="is-size-7">Pan and zoom the graph with your mouse or alternatively your fingers on touch devices.</p>
+                <h3>Hello World in Perl</h3>
+                    <pre><code class="perl">#!/usr/bin/perl
 print &#34;Hello World\n&#34;;
 </code></pre>
-                    <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
-                    <h3>Free Perl books and articles</h3>
-                    <ul>
+                <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
+                <h3>Free Perl books and articles</h3>
+                <ul>
 <li><a href="https://www.perl.org/books/beginning-perl/">Beginning Perl</a></li>
 <li><a href="http://perlhacks.com/dmp.pdf">Data Munging with Perl</a> (PDF)</li>
 <li><a href="http://masonbook.houseabsolute.com/book/">Embedding Perl in HTML with Mason</a> - D. Rolsky, K. Williams</li>
@@ -109,8 +110,33 @@ print &#34;Hello World\n&#34;;
 <li><a href="http://sourceforge.net/projects/pdl/files/PDL_2013/PDL-Book/PDL-Book-20130322.pdf/download">The PDL Book</a> (PDF)</li>
 <li><a href="http://www.oreilly.com/openbook/webclient/">Web Client Programming with Perl</a></li>
 </ul>
-                    <div class="small">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
+                <div class="small">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
+            <h3>Search on GitHub</h3>
+            <div class="field has-addons">
+                <p class="control">
+                    <input class="input" id="github-query" type="text">
+                </p>
+                <p class="control">
+                    <button class="button is-link" id="github-search">Search</button>
+                </p>
             </div>
+            <div id="github-results">
+                <div id="github-message"></div>
+                <table class="table is-hidden">
+                    <caption>🛈 Click on a column heading to sort the results.</caption>
+                    <thead><tr>
+                        <th class="full_name">Name</th>
+                        <th class="description">Description</th>
+                        <th class="pushed_at">Last pushed to</th>
+                        <th class="open_issues">Open issues</th>
+                        <th class="forks">Forks</th>
+                        <th class="watchers">Stars</th>
+                        <th class="size">Size</th>
+                    </tr></thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
     </div>
 </div></section>
 <section class="content"><div class="container">
@@ -157,11 +183,16 @@ Latest data update: 2019-01-29
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
 
-    <script src="/vendor/jLouvain.js"></script>
-    <script src="/compiled/graph.js"></script>
-    <script src="/compiled/language.js"></script>
-    <script>var language = 'Perl';</script>
-    <script>var wikibase = 'Q42478';</script>
+<script>
+    var language = 'Perl';
+    var wikibase = 'Q42478';
+</script>
+<script src="/vendor/jLouvain.js"></script>
+<script src="/compiled/graph.js"></script>
+<script src="/compiled/language-network.js"></script>
+
+<script src="/compiled/github.js"></script>
+
     <script src="/vendor/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 </body>

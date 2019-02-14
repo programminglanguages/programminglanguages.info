@@ -66,19 +66,45 @@
 
                 <p><strong>Programming paradigms:</strong> <a href="/paradigm/imperative-programming/">imperative programming</a></p>
         </div>
-            <div class="column">
-                    <h3>Hello World in ColdFusion Markup Language</h3>
-                        <pre><code class="coldfusion markup language">&lt;cfset message = &#34;Hello World&#34;&gt;
+
+        <div class="column">
+                <h3>Hello World in ColdFusion Markup Language</h3>
+                    <pre><code class="coldfusion markup language">&lt;cfset message = &#34;Hello World&#34;&gt;
 &lt;cfoutput&gt; #message#&lt;/cfoutput&gt;
 </code></pre>
-                    <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
-                    <h3>Free ColdFusion Markup Language books and articles</h3>
-                    <ul>
+                <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
+                <h3>Free ColdFusion Markup Language books and articles</h3>
+                <ul>
 <li><a href="https://github.com/mhenke/CFML-in-100-minutes/blob/master/cfml100mins.markdown">CFML In 100 Minutes</a> - J. Casimir</li>
 <li><a href="http://learncfinaweek.com">Learn CF in a Week</a></li>
 </ul>
-                    <div class="small">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
+                <div class="small">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
+            <h3>Search on GitHub</h3>
+            <div class="field has-addons">
+                <p class="control">
+                    <input class="input" id="github-query" type="text">
+                </p>
+                <p class="control">
+                    <button class="button is-link" id="github-search">Search</button>
+                </p>
             </div>
+            <div id="github-results">
+                <div id="github-message"></div>
+                <table class="table is-hidden">
+                    <caption>🛈 Click on a column heading to sort the results.</caption>
+                    <thead><tr>
+                        <th class="full_name">Name</th>
+                        <th class="description">Description</th>
+                        <th class="pushed_at">Last pushed to</th>
+                        <th class="open_issues">Open issues</th>
+                        <th class="forks">Forks</th>
+                        <th class="watchers">Stars</th>
+                        <th class="size">Size</th>
+                    </tr></thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
     </div>
 </div></section>
 <section class="content"><div class="container">
@@ -124,6 +150,13 @@ Latest data update: 2018-11-10
 </symbol></svg></span>
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
+
+<script>
+    var language = 'ColdFusion Markup Language';
+    var wikibase = 'Q2524362';
+</script>
+
+<script src="/compiled/github.js"></script>
 
     <script src="/vendor/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>

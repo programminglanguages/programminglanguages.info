@@ -38,7 +38,7 @@
 </div></section>
 <section class="content"><div class="container">
     <div class="columns">
-        <div class="column">
+        <div class="column is-3-tablet">
                 <h1>Darwin</h1>
 
                 <p class="small">Darwin is a closed source programming language developed by Gaston Gonnet and colleagues at ETH Zurich. It is used to develop the OMA orthology inference software, which was also initially developed by Gonnet. The language backend consists of the kernel, responsible for performing simple mathematical calculations, for transporting and storing data and for interpreting the user's commands, and the library, a set of programs which can perform more complicated calculations. The target audience for the language is the biosciences, so the library consisted of routines such as those to compute pairwise alignments, phylogenetic trees, multiple sequence alignments, and to make secondary structure predictions. <a href="https://en.wikipedia.org/wiki/Darwin_(programming_language)">Wikipedia</a></p>
@@ -61,6 +61,34 @@
 
 
                 <p><strong>Programming paradigms:</strong> <a href="/paradigm/structured-programming/">structured programming</a> • <a href="/paradigm/imperative-programming/">imperative programming</a> • <a href="/paradigm/object-oriented-programming/">object-oriented programming</a></p>
+        </div>
+
+        <div class="column">
+            <h3>Search on GitHub</h3>
+            <div class="field has-addons">
+                <p class="control">
+                    <input class="input" id="github-query" type="text">
+                </p>
+                <p class="control">
+                    <button class="button is-link" id="github-search">Search</button>
+                </p>
+            </div>
+            <div id="github-results">
+                <div id="github-message"></div>
+                <table class="table is-hidden">
+                    <caption>🛈 Click on a column heading to sort the results.</caption>
+                    <thead><tr>
+                        <th class="full_name">Name</th>
+                        <th class="description">Description</th>
+                        <th class="pushed_at">Last pushed to</th>
+                        <th class="open_issues">Open issues</th>
+                        <th class="forks">Forks</th>
+                        <th class="watchers">Stars</th>
+                        <th class="size">Size</th>
+                    </tr></thead>
+                    <tbody></tbody>
+                </table>
+            </div>
         </div>
     </div>
 </div></section>
@@ -107,6 +135,13 @@ Latest data update: 2019-01-18
 </symbol></svg></span>
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
+
+<script>
+    var language = 'Darwin';
+    var wikibase = 'Q48987595';
+</script>
+
+<script src="/compiled/github.js"></script>
 
 </body>
 </html>

@@ -38,7 +38,7 @@
 </div></section>
 <section class="content"><div class="container">
     <div class="columns">
-        <div class="column">
+        <div class="column is-3-tablet">
                 <h1>ELI</h1>
 
                 <p class="small">ELI is an interactive array programming language system based on the programming language APL. It has most of the functions of the International Organization for Standardization (ISO) APL standard ISO/IEC 13751:2001, and also list for non-homogeneous or non-rectangular data, complex numbers, symbols, temporal data, and control structures. A scripting file facility is available to organize programs in a fashion similar to using #include in C, which also provides convenient data input/output. ELI has dictionaries, tables, and a basic set of SQL-like statements. For performance, it has a compiler restricted to flat array programs. <a href="https://en.wikipedia.org/wiki/ELI_(programming_language)">Wikipedia</a></p>
@@ -59,6 +59,34 @@
 
 
                 <p><strong>Programming paradigms:</strong> <a href="/paradigm/array-programming/">array programming</a></p>
+        </div>
+
+        <div class="column">
+            <h3>Search on GitHub</h3>
+            <div class="field has-addons">
+                <p class="control">
+                    <input class="input" id="github-query" type="text">
+                </p>
+                <p class="control">
+                    <button class="button is-link" id="github-search">Search</button>
+                </p>
+            </div>
+            <div id="github-results">
+                <div id="github-message"></div>
+                <table class="table is-hidden">
+                    <caption>🛈 Click on a column heading to sort the results.</caption>
+                    <thead><tr>
+                        <th class="full_name">Name</th>
+                        <th class="description">Description</th>
+                        <th class="pushed_at">Last pushed to</th>
+                        <th class="open_issues">Open issues</th>
+                        <th class="forks">Forks</th>
+                        <th class="watchers">Stars</th>
+                        <th class="size">Size</th>
+                    </tr></thead>
+                    <tbody></tbody>
+                </table>
+            </div>
         </div>
     </div>
 </div></section>
@@ -105,6 +133,13 @@ Latest data update: 2018-12-19
 </symbol></svg></span>
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
+
+<script>
+    var language = 'ELI';
+    var wikibase = 'Q17088894';
+</script>
+
+<script src="/compiled/github.js"></script>
 
 </body>
 </html>

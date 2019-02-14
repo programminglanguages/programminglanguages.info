@@ -38,7 +38,7 @@
 </div></section>
 <section class="content"><div class="container">
     <div class="columns">
-        <div class="column">
+        <div class="column is-3-tablet">
                 <h1>Fril</h1>
 
                 <p class="small">Fril is a programming language for first-order predicate calculus. It includes the semantics of Prolog as a subset, but takes its syntax from the micro-PROLOG of Logic Programming Associates and adds support for fuzzy sets, support logic, and metaprogramming. <a href="https://en.wikipedia.org/wiki/Fril">Wikipedia</a></p>
@@ -61,6 +61,34 @@
 
                 <p><strong>Programming paradigms:</strong> <a href="/paradigm/logic-programming/">logic programming</a></p>
                 <p><strong>Language types:</strong> <a href="/type/logic-programming-language/">logic programming language</a></p>
+        </div>
+
+        <div class="column">
+            <h3>Search on GitHub</h3>
+            <div class="field has-addons">
+                <p class="control">
+                    <input class="input" id="github-query" type="text">
+                </p>
+                <p class="control">
+                    <button class="button is-link" id="github-search">Search</button>
+                </p>
+            </div>
+            <div id="github-results">
+                <div id="github-message"></div>
+                <table class="table is-hidden">
+                    <caption>🛈 Click on a column heading to sort the results.</caption>
+                    <thead><tr>
+                        <th class="full_name">Name</th>
+                        <th class="description">Description</th>
+                        <th class="pushed_at">Last pushed to</th>
+                        <th class="open_issues">Open issues</th>
+                        <th class="forks">Forks</th>
+                        <th class="watchers">Stars</th>
+                        <th class="size">Size</th>
+                    </tr></thead>
+                    <tbody></tbody>
+                </table>
+            </div>
         </div>
     </div>
 </div></section>
@@ -107,6 +135,13 @@ Latest data update: 2018-11-10
 </symbol></svg></span>
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
+
+<script>
+    var language = 'Fril';
+    var wikibase = 'Q5504566';
+</script>
+
+<script src="/compiled/github.js"></script>
 
 </body>
 </html>

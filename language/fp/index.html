@@ -38,7 +38,7 @@
 </div></section>
 <section class="content"><div class="container">
     <div class="columns">
-        <div class="column">
+        <div class="column is-3-tablet">
                 <h1>FP</h1>
 
                 <p class="small">FP is a programming language created by John Backus to support the function-level programming paradigm. This allows eliminating named variables. The language was introduced in Backus's 1977 Turing Award lecture, "Can Programming Be Liberated from the von Neumann Style?", subtitled "a functional style and its algebra of programs." The paper sparked interest in functional programming research, eventually leading to modern functional languages, and not the function-level paradigm Backus had hoped. FP itself never found much use outside of academia. In the 1980s Backus created a successor language, FL, which remained a research project. <a href="https://en.wikipedia.org/wiki/FP_(programming_language)">Wikipedia</a></p>
@@ -61,6 +61,34 @@
 
                 <p><strong>Programming paradigms:</strong> <a href="/paradigm/function-level-programming/">function-level programming</a></p>
                 <p><strong>Language types:</strong> <a href="/type/function-level-language/">function-level language</a></p>
+        </div>
+
+        <div class="column">
+            <h3>Search on GitHub</h3>
+            <div class="field has-addons">
+                <p class="control">
+                    <input class="input" id="github-query" type="text">
+                </p>
+                <p class="control">
+                    <button class="button is-link" id="github-search">Search</button>
+                </p>
+            </div>
+            <div id="github-results">
+                <div id="github-message"></div>
+                <table class="table is-hidden">
+                    <caption>🛈 Click on a column heading to sort the results.</caption>
+                    <thead><tr>
+                        <th class="full_name">Name</th>
+                        <th class="description">Description</th>
+                        <th class="pushed_at">Last pushed to</th>
+                        <th class="open_issues">Open issues</th>
+                        <th class="forks">Forks</th>
+                        <th class="watchers">Stars</th>
+                        <th class="size">Size</th>
+                    </tr></thead>
+                    <tbody></tbody>
+                </table>
+            </div>
         </div>
     </div>
 </div></section>
@@ -107,6 +135,13 @@ Latest data update: 2018-11-10
 </symbol></svg></span>
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
+
+<script>
+    var language = 'FP';
+    var wikibase = 'Q1474061';
+</script>
+
+<script src="/compiled/github.js"></script>
 
 </body>
 </html>

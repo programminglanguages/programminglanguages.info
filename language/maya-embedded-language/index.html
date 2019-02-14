@@ -61,11 +61,37 @@
                     <p><strong>Influenced by: </strong> <a href="/language/c/">C</a></p>
 
         </div>
-            <div class="column">
-                    <h3>Maya Embedded Language Influence Network</h3>
-                    <svg class="has-background-dark" id="network"></svg>
-                    <p class="is-size-7">Pan and zoom the graph with your mouse or alternatively your fingers on touch devices.</p>
+
+        <div class="column">
+                <h3>Maya Embedded Language Influence Network</h3>
+                <svg class="has-background-dark" id="network"></svg>
+                <p class="is-size-7">Pan and zoom the graph with your mouse or alternatively your fingers on touch devices.</p>
+            <h3>Search on GitHub</h3>
+            <div class="field has-addons">
+                <p class="control">
+                    <input class="input" id="github-query" type="text">
+                </p>
+                <p class="control">
+                    <button class="button is-link" id="github-search">Search</button>
+                </p>
             </div>
+            <div id="github-results">
+                <div id="github-message"></div>
+                <table class="table is-hidden">
+                    <caption>🛈 Click on a column heading to sort the results.</caption>
+                    <thead><tr>
+                        <th class="full_name">Name</th>
+                        <th class="description">Description</th>
+                        <th class="pushed_at">Last pushed to</th>
+                        <th class="open_issues">Open issues</th>
+                        <th class="forks">Forks</th>
+                        <th class="watchers">Stars</th>
+                        <th class="size">Size</th>
+                    </tr></thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
     </div>
 </div></section>
 <section class="content"><div class="container">
@@ -112,10 +138,15 @@ Latest data update: 2018-12-08
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
 
-    <script src="/vendor/jLouvain.js"></script>
-    <script src="/compiled/graph.js"></script>
-    <script src="/compiled/language.js"></script>
-    <script>var language = 'Maya Embedded Language';</script>
-    <script>var wikibase = 'Q3304832';</script>
+<script>
+    var language = 'Maya Embedded Language';
+    var wikibase = 'Q3304832';
+</script>
+<script src="/vendor/jLouvain.js"></script>
+<script src="/compiled/graph.js"></script>
+<script src="/compiled/language-network.js"></script>
+
+<script src="/compiled/github.js"></script>
+
 </body>
 </html>

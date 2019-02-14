@@ -69,16 +69,17 @@
                 <p><strong>Programming paradigms:</strong> <a href="/paradigm/object-oriented-programming/">object-oriented programming</a> • <a href="/paradigm/class-based-programming/">class-based programming</a></p>
                 <p><strong>Language types:</strong> <a href="/type/object-oriented-programming-language/">object-oriented programming language</a> • <a href="/type/class-based-programming-language/">class-based programming language</a></p>
         </div>
-            <div class="column">
-                    <h3>Smalltalk Influence Network</h3>
-                    <svg class="has-background-dark" id="network"></svg>
-                    <p class="is-size-7">Pan and zoom the graph with your mouse or alternatively your fingers on touch devices.</p>
-                    <h3>Hello World in Smalltalk</h3>
-                        <pre><code class="smalltalk">Transcript show: &#39;Hello, world!&#39;.
+
+        <div class="column">
+                <h3>Smalltalk Influence Network</h3>
+                <svg class="has-background-dark" id="network"></svg>
+                <p class="is-size-7">Pan and zoom the graph with your mouse or alternatively your fingers on touch devices.</p>
+                <h3>Hello World in Smalltalk</h3>
+                    <pre><code class="smalltalk">Transcript show: &#39;Hello, world!&#39;.
 </code></pre>
-                    <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
-                    <h3>Free Smalltalk books and articles</h3>
-                    <ul>
+                <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
+                <h3>Free Smalltalk books and articles</h3>
+                <ul>
 <li><a href="http://books.pharo.org/deep-into-pharo/">Deep into Pharo</a></li>
 <li><a href="http://book.seaside.st/book/table-of-contents">Dynamic Web Development with Seaside</a> -  S. Ducasse, L. Renggli, C. D. Shaffer, R. Zaccone</li>
 <li><a href="http://books.pharo.org/enterprise-pharo/">Enterprise Pharo: a Web Perspective</a></li>
@@ -87,8 +88,33 @@
 <li><a href="http://www.squeakbyexample.org">Squeak By Example</a> (Smalltalk Implementation and IDE)</li>
 <li><a href="http://stephane.ducasse.free.fr/FreeBooks.html">Stef's Free Online Smalltalk Books</a> (meta-list)</li>
 </ul>
-                    <div class="small">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
+                <div class="small">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
+            <h3>Search on GitHub</h3>
+            <div class="field has-addons">
+                <p class="control">
+                    <input class="input" id="github-query" type="text">
+                </p>
+                <p class="control">
+                    <button class="button is-link" id="github-search">Search</button>
+                </p>
             </div>
+            <div id="github-results">
+                <div id="github-message"></div>
+                <table class="table is-hidden">
+                    <caption>🛈 Click on a column heading to sort the results.</caption>
+                    <thead><tr>
+                        <th class="full_name">Name</th>
+                        <th class="description">Description</th>
+                        <th class="pushed_at">Last pushed to</th>
+                        <th class="open_issues">Open issues</th>
+                        <th class="forks">Forks</th>
+                        <th class="watchers">Stars</th>
+                        <th class="size">Size</th>
+                    </tr></thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
     </div>
 </div></section>
 <section class="content"><div class="container">
@@ -135,11 +161,16 @@ Latest data update: 2019-01-15
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
 
-    <script src="/vendor/jLouvain.js"></script>
-    <script src="/compiled/graph.js"></script>
-    <script src="/compiled/language.js"></script>
-    <script>var language = 'Smalltalk';</script>
-    <script>var wikibase = 'Q235086';</script>
+<script>
+    var language = 'Smalltalk';
+    var wikibase = 'Q235086';
+</script>
+<script src="/vendor/jLouvain.js"></script>
+<script src="/compiled/graph.js"></script>
+<script src="/compiled/language-network.js"></script>
+
+<script src="/compiled/github.js"></script>
+
     <script src="/vendor/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 </body>

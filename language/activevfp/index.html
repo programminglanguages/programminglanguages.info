@@ -38,7 +38,7 @@
 </div></section>
 <section class="content"><div class="container">
     <div class="columns">
-        <div class="column">
+        <div class="column is-3-tablet">
                 <h1>ActiveVFP</h1>
 
                 <p class="small">ActiveVFP is a server-side scripting framework designed for Web development to produce dynamic Web pages. Similar to PHP, but using the native Visual Foxpro (VFP) language and database, ActiveVFP can also be used in Model-View-Controller (MVC) web applications as well as RESTful API. ActiveVFP is completely free and open source and does not require the purchase of Microsoft Visual FoxPro or any additional software. <a href="https://en.wikipedia.org/wiki/ActiveVFP">Wikipedia</a></p>
@@ -64,6 +64,34 @@
 
                 <p><strong>Programming paradigms:</strong> <a href="/paradigm/object-oriented-programming/">object-oriented programming</a> • <a href="/paradigm/procedural-programming/">procedural programming</a></p>
                 <p><strong>Language types:</strong> <a href="/type/procedural-programming-language/">procedural programming language</a> • <a href="/type/object-oriented-programming-language/">object-oriented programming language</a></p>
+        </div>
+
+        <div class="column">
+            <h3>Search on GitHub</h3>
+            <div class="field has-addons">
+                <p class="control">
+                    <input class="input" id="github-query" type="text">
+                </p>
+                <p class="control">
+                    <button class="button is-link" id="github-search">Search</button>
+                </p>
+            </div>
+            <div id="github-results">
+                <div id="github-message"></div>
+                <table class="table is-hidden">
+                    <caption>🛈 Click on a column heading to sort the results.</caption>
+                    <thead><tr>
+                        <th class="full_name">Name</th>
+                        <th class="description">Description</th>
+                        <th class="pushed_at">Last pushed to</th>
+                        <th class="open_issues">Open issues</th>
+                        <th class="forks">Forks</th>
+                        <th class="watchers">Stars</th>
+                        <th class="size">Size</th>
+                    </tr></thead>
+                    <tbody></tbody>
+                </table>
+            </div>
         </div>
     </div>
 </div></section>
@@ -110,6 +138,13 @@ Latest data update: 2018-11-10
 </symbol></svg></span>
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
+
+<script>
+    var language = 'ActiveVFP';
+    var wikibase = 'Q4677478';
+</script>
+
+<script src="/compiled/github.js"></script>
 
 </body>
 </html>

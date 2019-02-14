@@ -69,15 +69,41 @@
 
 
         </div>
-            <div class="column">
-                    <h3>Free CUDA books and articles</h3>
-                    <ul>
+
+        <div class="column">
+                <h3>Free CUDA books and articles</h3>
+                <ul>
 <li><a href="https://docs.nvidia.com/pdf/CUDA_C_Best_Practices_Guide.pdf">CUDA C Best Practices Guide</a> (PDF)</li>
 <li><a href="https://docs.nvidia.com/pdf/CUDA_C_Programming_Guide.pdf">CUDA C Programming Guide</a> (PDF)</li>
 <li><a href="http://www.nvidia.com/content/cudazone/download/OpenCL/NVIDIA_OpenCL_ProgrammingGuide.pdf">OpenCL Programming Guide for CUDA Architecture</a> (PDF)</li>
 </ul>
-                    <div class="small">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
+                <div class="small">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
+            <h3>Search on GitHub</h3>
+            <div class="field has-addons">
+                <p class="control">
+                    <input class="input" id="github-query" type="text">
+                </p>
+                <p class="control">
+                    <button class="button is-link" id="github-search">Search</button>
+                </p>
             </div>
+            <div id="github-results">
+                <div id="github-message"></div>
+                <table class="table is-hidden">
+                    <caption>🛈 Click on a column heading to sort the results.</caption>
+                    <thead><tr>
+                        <th class="full_name">Name</th>
+                        <th class="description">Description</th>
+                        <th class="pushed_at">Last pushed to</th>
+                        <th class="open_issues">Open issues</th>
+                        <th class="forks">Forks</th>
+                        <th class="watchers">Stars</th>
+                        <th class="size">Size</th>
+                    </tr></thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
     </div>
 </div></section>
 <section class="content"><div class="container">
@@ -123,6 +149,13 @@ Latest data update: 2018-12-13
 </symbol></svg></span>
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
+
+<script>
+    var language = 'CUDA';
+    var wikibase = 'Q477690';
+</script>
+
+<script src="/compiled/github.js"></script>
 
 </body>
 </html>

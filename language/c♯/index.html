@@ -74,19 +74,20 @@
                 <p><strong>Programming paradigms:</strong> <a href="/paradigm/structured-programming/">structured programming</a> • <a href="/paradigm/imperative-programming/">imperative programming</a> • <a href="/paradigm/object-oriented-programming/">object-oriented programming</a> • <a href="/paradigm/event-driven-programming/">event-driven programming</a> • <a href="/paradigm/functional-programming/">functional programming</a> • <a href="/paradigm/generic-programming/">generic programming</a> • <a href="/paradigm/reflective-programming/">reflective programming</a> • <a href="/paradigm/concurrent-computing/">concurrent computing</a> • <a href="/paradigm/class-based-programming/">class-based programming</a></p>
                 <p><strong>Language types:</strong> <a href="/type/multi-paradigm-programming-language/">multi-paradigm programming language</a></p>
         </div>
-            <div class="column">
-                    <h3>C# Influence Network</h3>
-                    <svg class="has-background-dark" id="network"></svg>
-                    <p class="is-size-7">Pan and zoom the graph with your mouse or alternatively your fingers on touch devices.</p>
-                    <h3>Hello World in C#</h3>
-                        <pre><code class="c#">class HelloWorld {
+
+        <div class="column">
+                <h3>C# Influence Network</h3>
+                <svg class="has-background-dark" id="network"></svg>
+                <p class="is-size-7">Pan and zoom the graph with your mouse or alternatively your fingers on touch devices.</p>
+                <h3>Hello World in C#</h3>
+                    <pre><code class="c#">class HelloWorld {
 	static void Main() {
 		System.Console.WriteLine(&#34;Hello World&#34;);
 	}
 }</code></pre>
-                    <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
-                    <h3>Free C# books and articles</h3>
-                    <ul>
+                <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
+                <h3>Free C# books and articles</h3>
+                <ul>
 <li><a href="http://www.techotopia.com/index.php/C_Sharp_Essentials">C# Essentials</a></li>
 <li><a href="https://goalkicker.com/CSharpBook">C# Notes</a> (PDF)</li>
 <li><a href="http://books.goalkicker.com/CSharpBook/">C# Notes for Professionals</a> - Compiled from StackOverflow documentation (3.x)</li>
@@ -103,8 +104,33 @@
 <li><a href="http://www.albahari.com/threading/">Threading in C#</a></li>
 <li><a href="https://www.packtpub.com/free-eBook/xamarin-cross-platform-development-cookbook">Xamarin Cross-Platform Development Cookbook</a> - George Taskos, Packt. (email address <em>requested</em>, not required)</li>
 </ul>
-                    <div class="small">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
+                <div class="small">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
+            <h3>Search on GitHub</h3>
+            <div class="field has-addons">
+                <p class="control">
+                    <input class="input" id="github-query" type="text">
+                </p>
+                <p class="control">
+                    <button class="button is-link" id="github-search">Search</button>
+                </p>
             </div>
+            <div id="github-results">
+                <div id="github-message"></div>
+                <table class="table is-hidden">
+                    <caption>🛈 Click on a column heading to sort the results.</caption>
+                    <thead><tr>
+                        <th class="full_name">Name</th>
+                        <th class="description">Description</th>
+                        <th class="pushed_at">Last pushed to</th>
+                        <th class="open_issues">Open issues</th>
+                        <th class="forks">Forks</th>
+                        <th class="watchers">Stars</th>
+                        <th class="size">Size</th>
+                    </tr></thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
     </div>
 </div></section>
 <section class="content"><div class="container">
@@ -151,11 +177,16 @@ Latest data update: 2019-01-15
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
 
-    <script src="/vendor/jLouvain.js"></script>
-    <script src="/compiled/graph.js"></script>
-    <script src="/compiled/language.js"></script>
-    <script>var language = 'C#';</script>
-    <script>var wikibase = 'Q2370';</script>
+<script>
+    var language = 'C#';
+    var wikibase = 'Q2370';
+</script>
+<script src="/vendor/jLouvain.js"></script>
+<script src="/compiled/graph.js"></script>
+<script src="/compiled/language-network.js"></script>
+
+<script src="/compiled/github.js"></script>
+
     <script src="/vendor/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 </body>
