@@ -3,7 +3,7 @@
 <channel><title>programminglanguages.info RSS Feed</title>
     <link>https://programminglanguages.info</link>
     <description>RSS Feed</description>
-    <lastBuildDate>Thu, 13 Jun 2019 13:50:23</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jul 2019 01:02:28</lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
@@ -23,14 +23,14 @@
     <item>
         <title><![CDATA[List of Programming Languages by Year]]></title>
         <link><![CDATA[https://programminglanguages.info/languages-by-year/]]></link>
-        <description><![CDATA[A list of 617 computer programming languages listed on programminglanguages.info by year.]]></description>
+        <description><![CDATA[A list of 690 computer programming languages listed on programminglanguages.info by year.]]></description>
         <guid><![CDATA[https://programminglanguages.info/languages-by-year/]]></guid>
         <pubDate>Thu, 07 Feb 2019 23:53:00</pubDate>
     </item>
     <item>
         <title><![CDATA[Alphabetical List of Programming Language Paradigms]]></title>
         <link><![CDATA[https://programminglanguages.info/paradigms/]]></link>
-        <description><![CDATA[An alphabetical list of 63 paradigms used to classify programming languages currently listed on programminglanguages.info.]]></description>
+        <description><![CDATA[An alphabetical list of 65 paradigms used to classify programming languages currently listed on programminglanguages.info.]]></description>
         <guid><![CDATA[https://programminglanguages.info/paradigms/]]></guid>
         <pubDate>Tue, 29 Jan 2019 00:28:00</pubDate>
     </item>
@@ -44,7 +44,7 @@
     <item>
         <title><![CDATA[Alphabetical List of Programming Languages]]></title>
         <link><![CDATA[https://programminglanguages.info/languages/]]></link>
-        <description><![CDATA[An alphabetical list of all 1429 computer programming languages currently listed on programminglanguages.info.]]></description>
+        <description><![CDATA[An alphabetical list of all 1430 computer programming languages currently listed on programminglanguages.info.]]></description>
         <guid><![CDATA[https://programminglanguages.info/languages/]]></guid>
         <pubDate>Mon, 28 Jan 2019 22:52:00</pubDate>
     </item>

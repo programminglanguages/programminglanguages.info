@@ -45,7 +45,7 @@
                     <figcaption class="small">Source: <a href="https://commons.wikimedia.org/wiki/GraphQL_Logo.svg">commons.wikimedia.org</a></figcaption>
                 </figure>
 
-                <p class="small">GraphQL is an open-source data query and manipulation language for APIs, and a runtime for fulfilling queries with existing data. GraphQL was developed internally by Facebook in 2012 before being publicly released in 2015. On 7 November 2018, the GraphQL project was moved from Facebook to the newly-established GraphQL Foundation, hosted by the non-profit Linux Foundation. <a href="https://en.wikipedia.org/wiki/GraphQL">Wikipedia</a></p>
+                <p class="small">GraphQL is an open-source data query and manipulation language for APIs, and a runtime for fulfilling queries with existing data. GraphQL was developed internally by Facebook in 2012 before being publicly released in 2015. On 7 November 2018, the GraphQL project was moved from Facebook to the newly-established GraphQL Foundation, hosted by the non-profit Linux Foundation. Since 2012, GraphQL's rise has followed the adoption timeline as set out by Lee Byron, GraphQL's creator, with surprising accuracy. Byron's goal is to make GraphQL omnipresent across web platforms. <a href="https://en.wikipedia.org/wiki/GraphQL">Wikipedia</a></p>
             <p class="icons">
                         <a class="button is-light" href="https://graphql.org/" title="Official Website"><svg><use xlink:href="#home"/></svg></a>
                         <a class="button is-light" href="https://github.com/facebook/graphql" title="Source Code Repository"><svg><use xlink:href="#code"/></svg></a>
@@ -54,7 +54,7 @@
                 <strong>Inception Year:</strong> <a href="/inception/2012/">2012</a><br>
 
                     <strong>Developed by:</strong>
-                            <a href="/involved/facebook-inc./">Facebook Inc.</a> •                             <a href="/involved/graphql-foundation/">GraphQL foundation</a><br>
+                            <a href="/involved/facebook,-inc./">Facebook, Inc.</a> •                             <a href="/involved/graphql-foundation/">GraphQL foundation</a><br>
 
 
 
@@ -65,12 +65,16 @@
 
             <p><strong>Wikidata:</strong> <a href="https://www.wikidata.org/wiki/Q25104949">Q25104949</a></p>
 
+                    <p><strong>Influenced: </strong> <a href="/language/graphql-editor/">GraphQL Editor</a></p>
 
                 <p><strong>Language types:</strong> <a href="/type/query-language/">query language</a> • <a href="/type/graph-query-language/">graph query language</a></p>
         </div>
 
         <div class="column">
-                <h3>Free GraphQL books and articles</h3>
+                <h3>GraphQL Influence Network</h3>
+                <svg class="has-background-dark" id="network"></svg>
+                <p class="is-size-7">Pan and zoom the graph with your mouse or alternatively your fingers on touch devices.</p>
+                <h3>Free GraphQL books, articles, documentation</h3>
                 <ul>
 <li><a href="https://github.com/GraphQLCollege/fullstack-graphql">Fullstack GraphQL</a></li>
 </ul>
@@ -105,7 +109,7 @@
 </div></section>
 <section class="content"><div class="container">
 <hr>
-Latest data update: 2019-03-25
+Latest data update: 2019-07-01
 </div></section>
 
 <section class="content"><div class="container">
@@ -151,6 +155,9 @@ Latest data update: 2019-03-25
     var language = 'GraphQL';
     var wikibase = 'Q25104949';
 </script>
+<script src="/vendor/jLouvain.js"></script>
+<script src="/compiled/graph.js"></script>
+<script src="/compiled/language-network.js"></script>
 
 <script src="/compiled/github.js"></script>
 
