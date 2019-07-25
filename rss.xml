@@ -3,9 +3,16 @@
 <channel><title>programminglanguages.info RSS Feed</title>
     <link>https://programminglanguages.info</link>
     <description>RSS Feed</description>
-    <lastBuildDate>Thu, 18 Jul 2019 23:33:13</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jul 2019 02:30:17</lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+        <title><![CDATA[C Programming Language Influence Network]]></title>
+        <link><![CDATA[https://programminglanguages.info/print/c-influence-network/]]></link>
+        <description><![CDATA[A network graph showing 64 programming languages connected by 122 influence relations. It includes languages the were influenced by C or influenced C and C itself. More influential languages are shown as larger circles as compared to languages with less influence on others. The influence relation d… • Millions of unique designs by independent artists. Find your thing.]]></description>
+        <guid><![CDATA[https://programminglanguages.info/print/c-influence-network/]]></guid>
+        <pubDate>Thu, 25 Jul 2019 00:00:00</pubDate>
+    </item>
     <item>
         <title><![CDATA[Add a Logo]]></title>
         <link><![CDATA[https://programminglanguages.info/changelog/add-logo/]]></link>
@@ -68,12 +75,5 @@
         <description><![CDATA[Attributes such as official website, source code repository, GitHub user/organization, Stack Exchange tag and subreddit are now displayed using icons on...]]></description>
         <guid><![CDATA[https://programminglanguages.info/changelog/icon-links/]]></guid>
         <pubDate>Wed, 23 Jan 2019 00:06:24</pubDate>
-    </item>
-    <item>
-        <title><![CDATA[Show more data using wptools]]></title>
-        <link><![CDATA[https://programminglanguages.info/changelog/wptools/]]></link>
-        <description><![CDATA[I wish I had known about the wptools Python package before. It is now used for data retrieval from Wikidata and Wikipedia. Programming languages may now...]]></description>
-        <guid><![CDATA[https://programminglanguages.info/changelog/wptools/]]></guid>
-        <pubDate>Tue, 22 Jan 2019 00:15:09</pubDate>
     </item>
 </channel></rss>

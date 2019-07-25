@@ -3,9 +3,16 @@
 <channel><title>programminglanguages.info Print</title>
     <link>https://programminglanguages.info</link>
     <description>Print</description>
-    <lastBuildDate>Thu, 18 Jul 2019 23:33:13</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jul 2019 02:30:17</lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+        <title><![CDATA[C Programming Language Influence Network]]></title>
+        <link><![CDATA[https://programminglanguages.info/print/c-influence-network/]]></link>
+        <description><![CDATA[A network graph showing 64 programming languages connected by 122 influence relations. It includes languages the were influenced by C or influenced C and C itself. More influential languages are shown as larger circles as compared to languages with less influence on others. The influence relation d… • Millions of unique designs by independent artists. Find your thing.]]></description>
+        <guid><![CDATA[https://programminglanguages.info/print/c-influence-network/]]></guid>
+        <pubDate>Thu, 25 Jul 2019 00:00:00</pubDate>
+    </item>
     <item>
         <title><![CDATA[Programming Languages Influence Network 2018 - Black Background]]></title>
         <link><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2018/]]></link>
