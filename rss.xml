@@ -3,9 +3,23 @@
 <channel><title>programminglanguages.info RSS Feed</title>
     <link>https://programminglanguages.info</link>
     <description>RSS Feed</description>
-    <lastBuildDate>Mon, 30 Dec 2019 19:54:41</lastBuildDate>
+    <lastBuildDate>Mon, 30 Dec 2019 22:41:26</lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+        <title><![CDATA[Programming Languages Influence Network 2019 - Dark Background]]></title>
+        <link><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2019/]]></link>
+        <description><![CDATA[A network graph showing 454 programming languages connected by 761 influence relations. Highly influential languages like Lisp, Smalltalk, C, Java, C++, Haskell and Python are shown as larger circles as compared to languages with less influence on others like PHP, Rust and Go. The influence relation data was retrieved from Wikidata December 30, 2019. A great gift for programmers who are into digital art.]]></description>
+        <guid><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2019/]]></guid>
+        <pubDate>Mon, 30 Dec 2019 00:00:00</pubDate>
+    </item>
+    <item>
+        <title><![CDATA[Programming Languages Influence Network 2019 - Light Background]]></title>
+        <link><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2019-black/]]></link>
+        <description><![CDATA[A network graph showing 454 programming languages connected by 761 influence relations. Highly influential languages like Lisp, Smalltalk, C, Java, C++, Haskell and Python are shown as larger circles as compared to languages with less influence on others like PHP, Rust and Go. The influence relation data was retrieved from Wikidata December 30, 2019. A great gift for programmers who are into digital art.]]></description>
+        <guid><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2019-black/]]></guid>
+        <pubDate>Mon, 30 Dec 2019 00:00:00</pubDate>
+    </item>
     <item>
         <title><![CDATA[Rust Programming Language Influence Network]]></title>
         <link><![CDATA[https://programminglanguages.info/print/rust-influence-network/]]></link>
@@ -61,19 +75,5 @@
         <description><![CDATA[An alphabetical list of 78 types used to classify programming languages currently listed on programminglanguages.info.]]></description>
         <guid><![CDATA[https://programminglanguages.info/types/]]></guid>
         <pubDate>Tue, 29 Jan 2019 00:20:00</pubDate>
-    </item>
-    <item>
-        <title><![CDATA[Alphabetical List of Programming Languages]]></title>
-        <link><![CDATA[https://programminglanguages.info/languages/]]></link>
-        <description><![CDATA[An alphabetical list of all 1477 computer programming languages currently listed on programminglanguages.info.]]></description>
-        <guid><![CDATA[https://programminglanguages.info/languages/]]></guid>
-        <pubDate>Mon, 28 Jan 2019 22:52:00</pubDate>
-    </item>
-    <item>
-        <title><![CDATA[New Involved Index That Groups Creators, Designers and Developers]]></title>
-        <link><![CDATA[https://programminglanguages.info/changelog/involved-index/]]></link>
-        <description><![CDATA[Before this change the Wikidata attributes creator, designer and developed by each had an index of their own. While not all language designers are...]]></description>
-        <guid><![CDATA[https://programminglanguages.info/changelog/involved-index/]]></guid>
-        <pubDate>Sun, 27 Jan 2019 23:50:22</pubDate>
     </item>
 </channel></rss>
