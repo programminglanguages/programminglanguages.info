@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="/compiled/style.css">
 
 <link rel="stylesheet" href="/compiled/language.css">
-</head>
+<link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
 <nav id="main-nav" class="level">
@@ -76,6 +76,28 @@
                 <h3>Object Pascal Influence Network</h3>
                 <svg class="has-background-dark" id="network"></svg>
                 <p class="is-size-7">Pan and zoom the graph with your mouse or alternatively your fingers on touch devices.</p>
+                <h3>Hello World in Object Pascal</h3>
+                    <pre><code class="object pascal">program ObjectPascalExample;
+
+type
+   THelloWorld = class
+      procedure Put;
+   end;
+
+procedure THelloWorld.Put;
+begin
+   Writeln(&#39;Hello World&#39;);
+end;
+
+var
+   HelloWorld: THelloWorld;
+
+begin
+   HelloWorld := THelloWorld.Create;
+   HelloWorld.Put;
+   HelloWorld.Free;
+end.</code></pre>
+                <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
             <h3>Search on GitHub</h3>
             <div class="field has-addons">
                 <p class="control">
@@ -156,5 +178,7 @@ Latest data update: 2019-04-29
 
 <script src="/compiled/github.js"></script>
 
+    <script src="/vendor/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </body>
 </html>

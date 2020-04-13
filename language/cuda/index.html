@@ -16,7 +16,7 @@
         <link rel="stylesheet" href="/compiled/style.css">
 
 <link rel="stylesheet" href="/compiled/language.css">
-</head>
+<link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
 <nav id="main-nav" class="level">
@@ -75,6 +75,19 @@
         </div>
 
         <div class="column">
+                <h3>Hello World in CUDA</h3>
+                    <pre><code class="cuda">#include &lt;stdio.h&gt;
+
+__global__ void hello_world(){
+    printf(&#34;Hello World\n&#34;);
+}
+
+int main() {
+    hello_world&lt;&lt;&lt;1,1&gt;&gt;&gt;();
+    return 0;
+}
+</code></pre>
+                <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
                 <h3>Free CUDA books, articles, documentation</h3>
                 <ul>
 <li><a href="https://docs.nvidia.com/pdf/CUDA_C_Best_Practices_Guide.pdf">CUDA C Best Practices Guide</a> (PDF)</li>
@@ -159,5 +172,7 @@ Latest data update: 2019-07-05
 
 <script src="/compiled/github.js"></script>
 
+    <script src="/vendor/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </body>
 </html>
