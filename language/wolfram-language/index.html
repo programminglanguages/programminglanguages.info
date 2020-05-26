@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title itemprop="name">Wolfram Language Programming Language Information & Resources • programminglanguages.info</title>
-<meta name="description" content="The Wolfram Language is a general multi-paradigm computational language developed by Wolfram Research and is the programming language of the mathematical symbolic..."><meta name="author" content="Ramiro Gómez">
+<meta name="description" content="The Wolfram Language is a general multi-paradigm computational language developed by Wolfram Research. It emphasizes symbolic computation, functional programming, and..."><meta name="author" content="Ramiro Gómez">
 
     <link href="https://programminglanguages.info/language/wolfram-language/" rel="canonical" itemprop="url">
     <link href="/rss.xml" rel="alternate" type="application/rss+xml" title="RSS feed">
@@ -45,7 +45,7 @@
         <div class="column is-3-tablet">
                 <h1>Wolfram Language</h1>
 
-                <p class="small">The Wolfram Language is a general multi-paradigm computational language developed by Wolfram Research and is the programming language of the mathematical symbolic computation program Mathematica and the Wolfram Programming Cloud. It emphasizes symbolic computation, functional programming, and rule-based programming and can employ arbitrary structures and data. <a href="https://en.wikipedia.org/wiki/Wolfram_Language">Wikipedia</a></p>
+                <p class="small">The Wolfram Language is a general multi-paradigm computational language developed by Wolfram Research. It emphasizes symbolic computation, functional programming, and rule-based programming and can employ arbitrary structures and data. It is the programming language of the mathematical symbolic computation program Mathematica.. <a href="https://en.wikipedia.org/wiki/Wolfram_Language">Wikipedia</a></p>
             <p class="icons">
                         <a class="button is-light" href="https://www.wolfram.com/language/" title="Official Website"><svg><use xlink:href="#home"/></svg></a>
                         <a class="button is-light" href="https://stackoverflow.com/tags/wolfram-language" title="Stack Exchange Tag"><svg><use xlink:href="#stack-exchange"/></svg></a>
@@ -70,12 +70,16 @@
 
             <p><strong>Wikidata:</strong> <a href="https://www.wikidata.org/wiki/Q15241057">Q15241057</a></p>
 
+                    <p><strong>Influenced by: </strong> <a href="/language/apl/">APL</a> • <a href="/language/c/">C</a> • <a href="/language/c++/">C++</a> • <a href="/language/fortran/">Fortran</a> • <a href="/language/lisp/">Lisp</a> • <a href="/language/pascal/">Pascal</a> • <a href="/language/prolog/">Prolog</a> • <a href="/language/simula/">Simula</a> • <a href="/language/smalltalk/">Smalltalk</a></p>
 
                 <p><strong>Programming paradigms:</strong> <a href="/paradigm/declarative-programming/">declarative programming</a> • <a href="/paradigm/functional-programming/">functional programming</a> • <a href="/paradigm/imperative-programming/">imperative programming</a> • <a href="/paradigm/object-oriented-programming/">object-oriented programming</a> • <a href="/paradigm/multi-paradigm-programming/">multi-paradigm programming</a> • <a href="/paradigm/array-programming/">array programming</a></p>
-                <p><strong>Language types:</strong> <a href="/type/object-oriented-programming-language/">object-oriented programming language</a> • <a href="/type/declarative-programming-language/">declarative programming language</a> • <a href="/type/functional-programming-language/">functional programming language</a> • <a href="/type/array-programming-language/">array programming language</a> • <a href="/type/multi-paradigm-programming-language/">multi-paradigm programming language</a> • <a href="/type/imperative-programming-language/">imperative programming language</a> • <a href="/type/interpreted-language/">interpreted language</a></p>
+                <p><strong>Language types:</strong> <a href="/type/object-based-language/">object-based language</a> • <a href="/type/declarative-programming-language/">declarative programming language</a> • <a href="/type/functional-programming-language/">functional programming language</a> • <a href="/type/array-programming-language/">array programming language</a> • <a href="/type/multi-paradigm-programming-language/">multi-paradigm programming language</a> • <a href="/type/imperative-programming-language/">imperative programming language</a> • <a href="/type/interpreted-language/">interpreted language</a></p>
         </div>
 
         <div class="column">
+                <h3>Wolfram Language Influence Network</h3>
+                <svg class="has-background-dark" id="network"></svg>
+                <p class="is-size-7">Pan and zoom the graph with your mouse or alternatively your fingers on touch devices.</p>
             <h3>Search on GitHub</h3>
             <div class="field has-addons">
                 <p class="control">
@@ -106,7 +110,7 @@
 </div></section>
 <section class="content"><div class="container">
 <hr>
-Latest data update: 2019-07-16
+Latest data update: 2020-04-21
 </div></section>
 
 <footer class="footer">
@@ -150,6 +154,9 @@ Latest data update: 2019-07-16
     var language = 'Wolfram Language';
     var wikibase = 'Q15241057';
 </script>
+<script src="/vendor/jLouvain.js"></script>
+<script src="/compiled/graph.js"></script>
+<script src="/compiled/language-network.js"></script>
 
 <script src="/compiled/github.js"></script>
 
