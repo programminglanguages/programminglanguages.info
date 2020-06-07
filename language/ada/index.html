@@ -81,11 +81,13 @@
                 <svg class="has-background-dark" id="network"></svg>
                 <p class="is-size-7">Pan and zoom the graph with your mouse or alternatively your fingers on touch devices.</p>
                 <h3>Hello World in Ada</h3>
-                    <pre><code class="ada">with Text_IO;
+                    <pre><code class="ada">with Ada.Text_IO;
+
 procedure Hello_World is
-	begin
-		Text_IO.Put_line(&#34;Hello World&#34;);
-	end Hello_World;
+   use Ada.Text_IO;
+begin
+   Put_line (&#34;Hello World&#34;);
+end Hello_World;
 </code></pre>
                 <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
                 <h3>Free Ada books, articles, documentation</h3>
