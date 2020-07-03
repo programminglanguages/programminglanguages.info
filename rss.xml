@@ -3,7 +3,7 @@
 <channel><title>programminglanguages.info RSS Feed</title>
     <link>https://programminglanguages.info</link>
     <description>RSS Feed</description>
-    <lastBuildDate>Mon, 08 Jun 2020 00:53:31</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2020 12:45:46</lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
@@ -58,14 +58,14 @@
     <item>
         <title><![CDATA[List of Programming Languages by Year]]></title>
         <link><![CDATA[https://programminglanguages.info/languages-by-year/]]></link>
-        <description><![CDATA[A list of 691 computer programming languages listed on programminglanguages.info by year.]]></description>
+        <description><![CDATA[A list of 695 computer programming languages listed on programminglanguages.info by year.]]></description>
         <guid><![CDATA[https://programminglanguages.info/languages-by-year/]]></guid>
         <pubDate>Thu, 07 Feb 2019 23:53:00</pubDate>
     </item>
     <item>
         <title><![CDATA[Alphabetical List of Programming Language Paradigms]]></title>
         <link><![CDATA[https://programminglanguages.info/paradigms/]]></link>
-        <description><![CDATA[An alphabetical list of 65 paradigms used to classify programming languages currently listed on programminglanguages.info.]]></description>
+        <description><![CDATA[An alphabetical list of 66 paradigms used to classify programming languages currently listed on programminglanguages.info.]]></description>
         <guid><![CDATA[https://programminglanguages.info/paradigms/]]></guid>
         <pubDate>Tue, 29 Jan 2019 00:28:00</pubDate>
     </item>
