@@ -3,7 +3,7 @@
 <channel><title>programminglanguages.info RSS Feed</title>
     <link>https://programminglanguages.info</link>
     <description>RSS Feed</description>
-    <lastBuildDate>Tue, 14 Jul 2020 20:57:28</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2020 11:21:50</lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
@@ -58,7 +58,7 @@
     <item>
         <title><![CDATA[List of Programming Languages by Year]]></title>
         <link><![CDATA[https://programminglanguages.info/languages-by-year/]]></link>
-        <description><![CDATA[A list of 695 computer programming languages listed on programminglanguages.info by year.]]></description>
+        <description><![CDATA[A list of 698 computer programming languages listed on programminglanguages.info by year.]]></description>
         <guid><![CDATA[https://programminglanguages.info/languages-by-year/]]></guid>
         <pubDate>Thu, 07 Feb 2019 23:53:00</pubDate>
     </item>

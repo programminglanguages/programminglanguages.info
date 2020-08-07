@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title itemprop="name">PLEX Programming Language Information & Resources • programminglanguages.info</title>
-<meta name="description" content="PLEX is a special-purpose, concurrent, real-time programming language. The PLEX language is closely tied to the architecture of Ericsson&#39;s AXE telephone exchanges..."><meta name="author" content="Ramiro Gómez">
+<meta name="description" content="PLEX is a special-purpose, concurrent, real-time programming language. The PLEX language is closely tied to the architecture of Ericsson&#39;s AXE telephone exchanges..."><meta name="author" content="Ramiro Gómez">        <meta property="og:image" content="https://programminglanguages.info/img/language/plex.png">
+
 
     <link href="https://programminglanguages.info/language/plex/" rel="canonical" itemprop="url">
     <link href="/rss.xml" rel="alternate" type="application/rss+xml" title="RSS feed">
@@ -63,11 +64,15 @@
 
             <p><strong>Wikidata:</strong> <a href="https://www.wikidata.org/wiki/Q7119636">Q7119636</a></p>
 
+                    <p><strong>Influenced: </strong> <a href="/language/erlang/">Erlang</a></p>
 
                 <p><strong>Programming paradigms:</strong> <a href="/paradigm/procedural-programming/">procedural programming</a></p>
         </div>
 
         <div class="column">
+                <h3>PLEX Influence Network</h3>
+                <svg class="has-background-dark" id="network"></svg>
+                <p class="is-size-7">Pan and zoom the graph with your mouse or alternatively your fingers on touch devices.</p>
             <h3>Search on GitHub</h3>
             <div class="field has-addons">
                 <p class="control">
@@ -142,6 +147,9 @@ Latest data update: 2018-11-10
     var language = 'PLEX';
     var wikibase = 'Q7119636';
 </script>
+<script src="/vendor/jLouvain.js"></script>
+<script src="/compiled/graph.js"></script>
+<script src="/compiled/language-network.js"></script>
 
 <script src="/compiled/github.js"></script>
 
