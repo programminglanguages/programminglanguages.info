@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title itemprop="name">Emacs Lisp Programming Language Information & Resources • programminglanguages.info</title>
-<meta name="description" content="Emacs Lisp is a dialect of the Lisp programming language used as a scripting language by Emacs. It is used for implementing most of the editing functionality built..."><meta name="author" content="Ramiro Gómez">        <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/0/08/EmacsIcon.svg">
+<meta name="description" content="dialect of Lisp used in GNU Emacs"><meta name="author" content="Ramiro Gómez">        <meta property="og:image" content="https://programminglanguages.info/img/language/emacs-lisp.png">
 
 
     <link href="https://programminglanguages.info/language/emacs-lisp/" rel="canonical" itemprop="url">
@@ -49,7 +49,7 @@
                     <figcaption class="small">Source: <a href="https://commons.wikimedia.org/wiki/EmacsIcon.svg">commons.wikimedia.org</a></figcaption>
                 </figure>
 
-                <p class="small">Emacs Lisp is a dialect of the Lisp programming language used as a scripting language by Emacs. It is used for implementing most of the editing functionality built into Emacs, the remainder being written in C, as is the Lisp interpreter. Emacs Lisp is also termed Elisp, although there is also an older, unrelated Lisp dialect with that name. <a href="https://en.wikipedia.org/wiki/Emacs_Lisp">Wikipedia</a></p>
+                <p class="small">dialect of Lisp used in GNU Emacs
             <p class="icons">
                         <a class="button is-light" href="https://stackoverflow.com/tags/elisp" title="Stack Exchange Tag"><svg><use xlink:href="#stack-exchange"/></svg></a>
                         <a class="button is-light" href="https://www.quora.com/topic/Emacs-Lisp" title="Quora Topic"><svg><use xlink:href="#quora"/></svg></a>
@@ -58,7 +58,7 @@
                 <strong>Inception Year:</strong> <a href="/inception/1985/">1985</a><br>
 
                     <strong>Designed by:</strong>
-                            <a href="/involved/richard-stallman/">Richard Stallman</a><br>
+                            <a href="/involved/richard-stallman/">Richard Stallman</a> •                             <a href="/involved/guy-l.-steele/">Guy L. Steele</a><br>
                     <strong>Developed by:</strong>
                             <a href="/involved/gnu-project/">GNU Project</a><br>
 
@@ -72,12 +72,16 @@
 
             <p><strong>Wikidata:</strong> <a href="https://www.wikidata.org/wiki/Q1334586">Q1334586</a></p>
 
+                    <p><strong>Influenced by: </strong> <a href="/language/common-lisp/">Common Lisp</a> • <a href="/language/maclisp/">Maclisp</a></p>
 
-                <p><strong>Programming paradigms:</strong> <a href="/paradigm/functional-programming/">functional programming</a></p>
+                <p><strong>Programming paradigms:</strong> <a href="/paradigm/functional-programming/">functional programming</a> • <a href="/paradigm/metaprogramming/">metaprogramming</a> • <a href="/paradigm/reflective-programming/">reflective programming</a></p>
                 <p><strong>Language types:</strong> <a href="/type/functional-programming-language/">functional programming language</a> • <a href="/type/scripting-language/">scripting language</a> • <a href="/type/imperative-programming-language/">imperative programming language</a> • <a href="/type/dynamic-programming-language/">dynamic programming language</a></p>
         </div>
 
         <div class="column">
+                <h3>Emacs Lisp Influence Network</h3>
+                <svg class="has-background-dark" id="network"></svg>
+                <p class="is-size-7">Pan and zoom the graph with your mouse or alternatively your fingers on touch devices.</p>
                 <h3>Hello World in Emacs Lisp</h3>
                     <pre><code class="emacs lisp">;;for emacs elisp
 
@@ -122,7 +126,7 @@
 </div></section>
 <section class="content"><div class="container">
 <hr>
-Latest data update: 2020-08-24
+Latest data update: 2020-11-29
 </div></section>
 
 <footer class="footer">
@@ -166,6 +170,9 @@ Latest data update: 2020-08-24
     var language = 'Emacs Lisp';
     var wikibase = 'Q1334586';
 </script>
+<script src="/vendor/jLouvain.js"></script>
+<script src="/compiled/graph.js"></script>
+<script src="/compiled/language-network.js"></script>
 
 <script src="/compiled/github.js"></script>
 
