@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title itemprop="name">Cuneiform Programming Language Information & Resources • programminglanguages.info</title>
-<meta name="description" content="Cuneiform is an open-source workflow language
-for large-scale scientific data analysis.
-It is a statically typed functional programming language promoting parallel..."><meta name="author" content="Ramiro Gómez">        <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/4/4c/G18225.png">
+<meta name="description" content="programming language"><meta name="author" content="Ramiro Gómez">        <meta property="og:image" content="https://programminglanguages.info/img/language/cuneiform.png">
 
 
     <link href="https://programminglanguages.info/language/cuneiform/" rel="canonical" itemprop="url">
@@ -51,9 +49,7 @@ It is a statically typed functional programming language promoting parallel...">
                     <figcaption class="small">Source: <a href="https://commons.wikimedia.org/wiki/G18225.png">commons.wikimedia.org</a></figcaption>
                 </figure>
 
-                <p class="small">Cuneiform is an open-source workflow language
-for large-scale scientific data analysis.
-It is a statically typed functional programming language promoting parallel computing. It features a versatile foreign function interface allowing users to integrate software from many external programming languages. At the organizational level Cuneiform provides facilities like conditional branching and general recursion making it Turing-complete. In this, Cuneiform is the attempt to close the gap between scientific workflow systems like Taverna, KNIME, or Galaxy and large-scale data analysis programming models like MapReduce or Pig Latin while offering the generality of a functional programming language. <a href="https://en.wikipedia.org/wiki/Cuneiform_(programming_language)">Wikipedia</a></p>
+                <p class="small">programming language
             <p class="icons">
                         <a class="button is-light" href="http://cuneiform-lang.org" title="Official Website"><svg><use xlink:href="#home"/></svg></a>
             </p>
@@ -63,7 +59,6 @@ It is a statically typed functional programming language promoting parallel comp
                     <strong>Developed by:</strong>
                             <a href="/involved/humboldt-university-of-berlin/">Humboldt University of Berlin</a><br>
 
-                <strong>License:</strong> <a href="/license/apache-license/">Apache License</a><br>
 
                 <strong>Operating systems:</strong> <a href="/operating-system/linux/">Linux</a> • <a href="/operating-system/macos/">macOS</a><br>
 
@@ -75,11 +70,15 @@ It is a statically typed functional programming language promoting parallel comp
 
             <p><strong>Wikidata:</strong> <a href="https://www.wikidata.org/wiki/Q28452212">Q28452212</a></p>
 
+                    <p><strong>Influenced by: </strong> <a href="/language/swift-(parallel-scripting-language)/">Swift (parallel scripting language)</a></p>
 
                 <p><strong>Programming paradigms:</strong> <a href="/paradigm/functional-programming/">functional programming</a></p>
         </div>
 
         <div class="column">
+                <h3>Cuneiform Influence Network</h3>
+                <svg class="has-background-dark" id="network"></svg>
+                <p class="is-size-7">Pan and zoom the graph with your mouse or alternatively your fingers on touch devices.</p>
                 <h3>Hello World in Cuneiform</h3>
                     <pre><code class="cuneiform">def greet() -&gt; &lt;out : Str&gt;
 in Bash *{
@@ -119,7 +118,7 @@ in Bash *{
 </div></section>
 <section class="content"><div class="container">
 <hr>
-Latest data update: 2019-07-04
+Latest data update: 2021-02-03
 </div></section>
 
 <footer class="footer">
@@ -163,6 +162,9 @@ Latest data update: 2019-07-04
     var language = 'Cuneiform';
     var wikibase = 'Q28452212';
 </script>
+<script src="/vendor/jLouvain.js"></script>
+<script src="/compiled/graph.js"></script>
+<script src="/compiled/language-network.js"></script>
 
 <script src="/compiled/github.js"></script>
 

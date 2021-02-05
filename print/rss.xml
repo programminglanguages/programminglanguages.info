@@ -3,16 +3,9 @@
 <channel><title>programminglanguages.info Print</title>
     <link>https://programminglanguages.info</link>
     <description>Print</description>
-    <lastBuildDate>Wed, 30 Dec 2020 11:37:32</lastBuildDate>
+    <lastBuildDate>Fri, 05 Feb 2021 13:58:24</lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
-    <item>
-        <title><![CDATA[Programming Languages Influence Network 2020 - Dark Background]]></title>
-        <link><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2020/]]></link>
-        <description><![CDATA[A network graph showing 478 programming languages connected by 892 influence relations. Highly influential languages like Lisp, Smalltalk, C, Java, C++, Haskell and Python are shown as larger circles as compared to languages with less influence on others l]]></description>
-        <guid><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2020/]]></guid>
-        <pubDate>Tue, 29 Dec 2020 00:00:00</pubDate>
-    </item>
     <item>
         <title><![CDATA[Programming Languages Influence Network 2020 - Light Background]]></title>
         <link><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2020-black/]]></link>
@@ -21,17 +14,24 @@
         <pubDate>Tue, 29 Dec 2020 00:00:00</pubDate>
     </item>
     <item>
-        <title><![CDATA[Programming Languages Influence Network 2019 - Dark Background]]></title>
-        <link><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2019/]]></link>
-        <description><![CDATA[A network graph showing 454 programming languages connected by 761 influence relations. Highly influential languages like Lisp, Smalltalk, C, Java, C++, Haskell and Python are shown as larger circles as compared to languages with less influence on others like PHP, Rust and Go. The influence relation data was retrieved from Wikidata December 30, 2019. A great gift for programmers who are into digital art.]]></description>
-        <guid><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2019/]]></guid>
-        <pubDate>Mon, 30 Dec 2019 00:00:00</pubDate>
+        <title><![CDATA[Programming Languages Influence Network 2020 - Dark Background]]></title>
+        <link><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2020/]]></link>
+        <description><![CDATA[A network graph showing 478 programming languages connected by 892 influence relations. Highly influential languages like Lisp, Smalltalk, C, Java, C++, Haskell and Python are shown as larger circles as compared to languages with less influence on others l]]></description>
+        <guid><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2020/]]></guid>
+        <pubDate>Tue, 29 Dec 2020 00:00:00</pubDate>
     </item>
     <item>
         <title><![CDATA[Programming Languages Influence Network 2019 - Light Background]]></title>
         <link><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2019-black/]]></link>
         <description><![CDATA[A network graph showing 454 programming languages connected by 761 influence relations. Highly influential languages like Lisp, Smalltalk, C, Java, C++, Haskell and Python are shown as larger circles as compared to languages with less influence on others like PHP, Rust and Go. The influence relation data was retrieved from Wikidata December 30, 2019. A great gift for programmers who are into digital art.]]></description>
         <guid><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2019-black/]]></guid>
+        <pubDate>Mon, 30 Dec 2019 00:00:00</pubDate>
+    </item>
+    <item>
+        <title><![CDATA[Programming Languages Influence Network 2019 - Dark Background]]></title>
+        <link><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2019/]]></link>
+        <description><![CDATA[A network graph showing 454 programming languages connected by 761 influence relations. Highly influential languages like Lisp, Smalltalk, C, Java, C++, Haskell and Python are shown as larger circles as compared to languages with less influence on others like PHP, Rust and Go. The influence relation data was retrieved from Wikidata December 30, 2019. A great gift for programmers who are into digital art.]]></description>
+        <guid><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2019/]]></guid>
         <pubDate>Mon, 30 Dec 2019 00:00:00</pubDate>
     </item>
     <item>
@@ -49,13 +49,6 @@
         <pubDate>Thu, 25 Jul 2019 00:00:00</pubDate>
     </item>
     <item>
-        <title><![CDATA[Programming Languages Influence Network 2018 - Black Background]]></title>
-        <link><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2018/]]></link>
-        <description><![CDATA[A network graph showing 426 programming languages connected by 670 influence relations. Highly influential languages like Lisp, Smalltalk, C, Java, C++, Haskell and Python are shown as larger circles as compared to languages with less influence on others like PHP, Rust and Go. The influence relation data was retrieved from Wikidata in 2018. A great gift for programmers who are into digital art. • Also buy this artwork on wall prints, apparel, phone cases, and more.]]></description>
-        <guid><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2018/]]></guid>
-        <pubDate>Wed, 02 Jan 2019 00:00:00</pubDate>
-    </item>
-    <item>
         <title><![CDATA[Programming Languages Influence Network 2018 - Light Background]]></title>
         <link><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2018-black/]]></link>
         <description><![CDATA[A network graph showing 426 programming languages connected by 670 influence relations. Highly influential languages like Lisp, Smalltalk, C, Java, C++, Haskell and Python are shown as larger circles as compared to languages with less influence on others like PHP, Rust and Go. The influence relatio… • Millions of unique designs by independent artists. Find your thing.]]></description>
@@ -63,17 +56,24 @@
         <pubDate>Wed, 02 Jan 2019 00:00:00</pubDate>
     </item>
     <item>
-        <title><![CDATA[Network Graph of npm Packages Dependencies]]></title>
-        <link><![CDATA[https://programminglanguages.info/print/npmdepgraph/]]></link>
-        <description><![CDATA[A poster with a network graph showing the dependencies of npm packages as of July 12, 2013 with 35,000 nodes and 66,551 edges. / The graph print is available on posters and several other products on white or Rose Quartz backgrounds. A graph of top npm packages dependencies is available at: http://www.redbubble.com/people/ramiro/works/22146195 • Also buy this artwork on wall prints, apparel, stickers, and more.]]></description>
-        <guid><![CDATA[https://programminglanguages.info/print/npmdepgraph/]]></guid>
-        <pubDate>Sun, 12 Jun 2016 00:00:00</pubDate>
+        <title><![CDATA[Programming Languages Influence Network 2018 - Black Background]]></title>
+        <link><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2018/]]></link>
+        <description><![CDATA[A network graph showing 426 programming languages connected by 670 influence relations. Highly influential languages like Lisp, Smalltalk, C, Java, C++, Haskell and Python are shown as larger circles as compared to languages with less influence on others like PHP, Rust and Go. The influence relation data was retrieved from Wikidata in 2018. A great gift for programmers who are into digital art. • Also buy this artwork on wall prints, apparel, phone cases, and more.]]></description>
+        <guid><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2018/]]></guid>
+        <pubDate>Wed, 02 Jan 2019 00:00:00</pubDate>
     </item>
     <item>
         <title><![CDATA[Network Graph of npm Top Packages Dependencies]]></title>
         <link><![CDATA[https://programminglanguages.info/print/npmdepgraph.min10/]]></link>
         <description><![CDATA[A poster with a network graph showing the dependencies of npm packages with at least 10 inbound links, i. e. other packages that depend on them. The graph was calculated based on data from July 12, 2013 and consists of 717 nodes and 942 edges. / The graph print is available on posters on a white background. The full graph is available at: http://www.redbubble.com/people/ramiro/works/22146099 • Also buy this artwork on wall prints, stickers, and stationery.]]></description>
         <guid><![CDATA[https://programminglanguages.info/print/npmdepgraph.min10/]]></guid>
+        <pubDate>Sun, 12 Jun 2016 00:00:00</pubDate>
+    </item>
+    <item>
+        <title><![CDATA[Network Graph of npm Packages Dependencies]]></title>
+        <link><![CDATA[https://programminglanguages.info/print/npmdepgraph/]]></link>
+        <description><![CDATA[A poster with a network graph showing the dependencies of npm packages as of July 12, 2013 with 35,000 nodes and 66,551 edges. / The graph print is available on posters and several other products on white or Rose Quartz backgrounds. A graph of top npm packages dependencies is available at: http://www.redbubble.com/people/ramiro/works/22146195 • Also buy this artwork on wall prints, apparel, stickers, and more.]]></description>
+        <guid><![CDATA[https://programminglanguages.info/print/npmdepgraph/]]></guid>
         <pubDate>Sun, 12 Jun 2016 00:00:00</pubDate>
     </item>
 </channel></rss>

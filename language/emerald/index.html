@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title itemprop="name">Emerald Programming Language Information & Resources • programminglanguages.info</title>
-<meta name="description" content="Emerald is a distributed, object-oriented programming language developed in the 1980s by Andrew P. Black, Norman C. Hutchinson, Eric B. Jul, and Henry M. Levy, in the..."><meta name="author" content="Ramiro Gómez">        <meta property="og:image" content="https://programminglanguages.info/img/language/emerald.png">
+<meta name="description" content="programming language"><meta name="author" content="Ramiro Gómez">        <meta property="og:image" content="https://programminglanguages.info/img/language/emerald.png">
 
 
     <link href="https://programminglanguages.info/language/emerald/" rel="canonical" itemprop="url">
@@ -16,7 +16,7 @@
         <link rel="stylesheet" href="/compiled/style.css">
 
 <link rel="stylesheet" href="/compiled/language.css">
-</head>
+<link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
 <nav id="main-nav" class="level">
@@ -46,7 +46,7 @@
         <div class="column is-3-tablet">
                 <h1>Emerald</h1>
 
-                <p class="small">Emerald is a distributed, object-oriented programming language developed in the 1980s by Andrew P. Black, Norman C. Hutchinson, Eric B. Jul, and Henry M. Levy, in the Department of Computer Science at the University of Washington. <a href="https://en.wikipedia.org/wiki/Emerald_(programming_language)">Wikipedia</a></p>
+                <p class="small">programming language
             <p class="icons">
                         <a class="button is-light" href="http://www.emeraldprogramminglanguage.org" title="Official Website"><svg><use xlink:href="#home"/></svg></a>
             </p>
@@ -66,13 +66,20 @@
                     <p><strong>Influenced by: </strong> <a href="/language/pascal/">Pascal</a> • <a href="/language/simula/">Simula</a> • <a href="/language/smalltalk/">Smalltalk</a></p>
 
                 <p><strong>Programming paradigms:</strong> <a href="/paradigm/object-oriented-programming/">object-oriented programming</a></p>
-                <p><strong>Language types:</strong> <a href="/type/object-oriented-programming-language/">object-oriented programming language</a></p>
+                <p><strong>Language types:</strong> <a href="/type/object-based-language/">object-based language</a></p>
         </div>
 
         <div class="column">
                 <h3>Emerald Influence Network</h3>
                 <svg class="has-background-dark" id="network"></svg>
                 <p class="is-size-7">Pan and zoom the graph with your mouse or alternatively your fingers on touch devices.</p>
+                <h3>Hello World in Emerald</h3>
+                    <pre><code class="emerald">const main &lt;- object mainProgram
+    initially
+		stdout.putString[&#34;Hello World\n&#34;]
+	end initially
+end mainProgram</code></pre>
+                <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
             <h3>Search on GitHub</h3>
             <div class="field has-addons">
                 <p class="control">
@@ -103,7 +110,7 @@
 </div></section>
 <section class="content"><div class="container">
 <hr>
-Latest data update: 2018-11-10
+Latest data update: 2021-01-18
 </div></section>
 
 <footer class="footer">
@@ -153,5 +160,7 @@ Latest data update: 2018-11-10
 
 <script src="/compiled/github.js"></script>
 
+    <script src="/vendor/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </body>
 </html>

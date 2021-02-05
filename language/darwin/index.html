@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title itemprop="name">Darwin Programming Language Information & Resources • programminglanguages.info</title>
-<meta name="description" content="Darwin is a closed source programming language developed by Gaston Gonnet and colleagues at ETH Zurich. It is used to develop the OMA orthology inference software,..."><meta name="author" content="Ramiro Gómez">
+<meta name="description" content="programming language"><meta name="author" content="Ramiro Gómez">        <meta property="og:image" content="https://programminglanguages.info/img/language/darwin.png">
+
 
     <link href="https://programminglanguages.info/language/darwin/" rel="canonical" itemprop="url">
     <link href="/rss.xml" rel="alternate" type="application/rss+xml" title="RSS feed">
@@ -45,7 +46,7 @@
         <div class="column is-3-tablet">
                 <h1>Darwin</h1>
 
-                <p class="small">Darwin is a closed source programming language developed by Gaston Gonnet and colleagues at ETH Zurich. It is used to develop the OMA orthology inference software, which was also initially developed by Gonnet. The language backend consists of the kernel, responsible for performing simple mathematical calculations, for transporting and storing data and for interpreting the user's commands, and the library, a set of programs which can perform more complicated calculations. The target audience for the language is the biosciences, so the library consisted of routines such as those to compute pairwise alignments, phylogenetic trees, multiple sequence alignments, and to make secondary structure predictions. <a href="https://en.wikipedia.org/wiki/Darwin_(programming_language)">Wikipedia</a></p>
+                <p class="small">programming language
             <p class="icons">
             </p>
 
@@ -63,11 +64,15 @@
 
             <p><strong>Wikidata:</strong> <a href="https://www.wikidata.org/wiki/Q48987595">Q48987595</a></p>
 
+                    <p><strong>Influenced by: </strong> <a href="/language/maple/">Maple</a></p>
 
                 <p><strong>Programming paradigms:</strong> <a href="/paradigm/structured-programming/">structured programming</a> • <a href="/paradigm/imperative-programming/">imperative programming</a> • <a href="/paradigm/object-oriented-programming/">object-oriented programming</a></p>
         </div>
 
         <div class="column">
+                <h3>Darwin Influence Network</h3>
+                <svg class="has-background-dark" id="network"></svg>
+                <p class="is-size-7">Pan and zoom the graph with your mouse or alternatively your fingers on touch devices.</p>
                 <h3>Hello World in Darwin</h3>
                     <pre><code class="darwin">printf(&#34;Hello World&#34;)
 </code></pre>
@@ -102,7 +107,7 @@
 </div></section>
 <section class="content"><div class="container">
 <hr>
-Latest data update: 2019-02-13
+Latest data update: 2021-01-18
 </div></section>
 
 <footer class="footer">
@@ -146,6 +151,9 @@ Latest data update: 2019-02-13
     var language = 'Darwin';
     var wikibase = 'Q48987595';
 </script>
+<script src="/vendor/jLouvain.js"></script>
+<script src="/compiled/graph.js"></script>
+<script src="/compiled/language-network.js"></script>
 
 <script src="/compiled/github.js"></script>
 

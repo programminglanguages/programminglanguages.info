@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title itemprop="name">urbiscript Programming Language Information & Resources • programminglanguages.info</title>
-<meta name="description" content="urbiscript is a programming language for robotics. It features syntactic support for concurrency and event-based programming. It is a prototype-based object-oriented..."><meta name="author" content="Ramiro Gómez">
+<meta name="description" content="programming language for robotics"><meta name="author" content="Ramiro Gómez">        <meta property="og:image" content="https://programminglanguages.info/img/language/urbiscript.png">
+
 
     <link href="https://programminglanguages.info/language/urbiscript/" rel="canonical" itemprop="url">
     <link href="/rss.xml" rel="alternate" type="application/rss+xml" title="RSS feed">
@@ -45,7 +46,7 @@
         <div class="column is-3-tablet">
                 <h1>urbiscript</h1>
 
-                <p class="small">urbiscript is a programming language for robotics. It features syntactic support for concurrency and event-based programming. It is a prototype-based object-oriented scripting language. It is dynamic: name resolution is performed during the program execution ; slots can be added/removed at runtime, and even prototypes (superclasses) of an object can be changed at runtime. <a href="https://en.wikipedia.org/wiki/Urbiscript">Wikipedia</a></p>
+                <p class="small">programming language for robotics
             <p class="icons">
                         <a class="button is-light" href="http://github.com/urbiforge/urbi" title="Official Website"><svg><use xlink:href="#home"/></svg></a>
                         <a class="button is-light" href="https://github.com/urbiforge/urbi" title="Source Code Repository"><svg><use xlink:href="#code"/></svg></a>
@@ -55,7 +56,6 @@
                     <strong>Designed by:</strong>
                             <a href="/involved/jean-christophe-baillie/">Jean-Christophe Baillie</a><br>
 
-                <strong>License:</strong> <a href="/license/bsd-licenses/">BSD licenses</a><br>
 
 
 
@@ -65,12 +65,16 @@
 
             <p><strong>Wikidata:</strong> <a href="https://www.wikidata.org/wiki/Q7585520">Q7585520</a></p>
 
+                    <p><strong>Influenced by: </strong> <a href="/language/c++/">C++</a> • <a href="/language/io/">Io</a> • <a href="/language/self/">Self</a></p>
 
                 <p><strong>Programming paradigms:</strong> <a href="/paradigm/object-oriented-programming/">object-oriented programming</a></p>
-                <p><strong>Language types:</strong> <a href="/type/object-oriented-programming-language/">object-oriented programming language</a></p>
+                <p><strong>Language types:</strong> <a href="/type/object-based-language/">object-based language</a></p>
         </div>
 
         <div class="column">
+                <h3>urbiscript Influence Network</h3>
+                <svg class="has-background-dark" id="network"></svg>
+                <p class="is-size-7">Pan and zoom the graph with your mouse or alternatively your fingers on touch devices.</p>
             <h3>Search on GitHub</h3>
             <div class="field has-addons">
                 <p class="control">
@@ -101,7 +105,7 @@
 </div></section>
 <section class="content"><div class="container">
 <hr>
-Latest data update: 2019-03-10
+Latest data update: 2021-01-18
 </div></section>
 
 <footer class="footer">
@@ -145,6 +149,9 @@ Latest data update: 2019-03-10
     var language = 'urbiscript';
     var wikibase = 'Q7585520';
 </script>
+<script src="/vendor/jLouvain.js"></script>
+<script src="/compiled/graph.js"></script>
+<script src="/compiled/language-network.js"></script>
 
 <script src="/compiled/github.js"></script>
 
