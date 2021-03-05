@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="/compiled/style.css">
 
 <link rel="stylesheet" href="/compiled/language.css">
-</head>
+<link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
 <nav id="main-nav" class="level">
@@ -74,6 +74,13 @@
         </div>
 
         <div class="column">
+                <h3>Hello World in 4th Dimension</h3>
+                    <pre><code class="4th dimension">OPEN WINDOW (10;45;500;330;0;&#34;Hello Window&#34;)
+While (True)
+  MESSAGE (&#34;Hello World&#34;)
+End while
+</code></pre>
+                <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
             <h3>Search on GitHub</h3>
             <div class="field has-addons">
                 <p class="control">
@@ -151,5 +158,7 @@ Latest data update: 2021-01-17
 
 <script src="/compiled/github.js"></script>
 
+    <script src="/vendor/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </body>
 </html>

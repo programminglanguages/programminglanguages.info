@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="/compiled/style.css">
 
 <link rel="stylesheet" href="/compiled/language.css">
-</head>
+<link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
 <nav id="main-nav" class="level">
@@ -58,7 +58,6 @@
 
 
 
-                    <strong>Dialect of: </strong> <a href="/language/basic/">BASIC</a><br>
 
             
             
@@ -70,6 +69,10 @@
         </div>
 
         <div class="column">
+                <h3>Hello World in Applesoft BASIC</h3>
+                    <pre><code class="applesoft basic">10 PRINT &#34;HELLO WORLD&#34;
+</code></pre>
+                <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
             <h3>Search on GitHub</h3>
             <div class="field has-addons">
                 <p class="control">
@@ -100,7 +103,7 @@
 </div></section>
 <section class="content"><div class="container">
 <hr>
-Latest data update: 2019-07-27
+Latest data update: 2021-02-09
 </div></section>
 
 <footer class="footer">
@@ -147,5 +150,7 @@ Latest data update: 2019-07-27
 
 <script src="/compiled/github.js"></script>
 
+    <script src="/vendor/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </body>
 </html>
