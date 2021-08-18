@@ -3,9 +3,16 @@
 <channel><title>programminglanguages.info RSS Feed</title>
     <link>https://programminglanguages.info</link>
     <description>RSS Feed</description>
-    <lastBuildDate>Fri, 06 Aug 2021 12:31:53</lastBuildDate>
+    <lastBuildDate>Wed, 18 Aug 2021 23:26:49</lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+        <title><![CDATA[Programming Languages Influence Ranking]]></title>
+        <link><![CDATA[https://programminglanguages.info/influence-ranking/]]></link>
+        <description><![CDATA[This ranking shows the most influential programming languages based on data from the Wikidata project.]]></description>
+        <guid><![CDATA[https://programminglanguages.info/influence-ranking/]]></guid>
+        <pubDate>Wed, 18 Aug 2021 21:16:35</pubDate>
+    </item>
     <item>
         <title><![CDATA[Programming Languages Influence Network 2020 - Dark Background]]></title>
         <link><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2020/]]></link>
@@ -68,12 +75,5 @@
         <description><![CDATA[A timeline of programming languages based on the year of inception.]]></description>
         <guid><![CDATA[https://programminglanguages.info/timeline/]]></guid>
         <pubDate>Sun, 10 Feb 2019 23:47:49</pubDate>
-    </item>
-    <item>
-        <title><![CDATA[List of Programming Languages by Year]]></title>
-        <link><![CDATA[https://programminglanguages.info/languages-by-year/]]></link>
-        <description><![CDATA[A list of 803 computer programming languages listed on programminglanguages.info by year.]]></description>
-        <guid><![CDATA[https://programminglanguages.info/languages-by-year/]]></guid>
-        <pubDate>Thu, 07 Feb 2019 23:53:00</pubDate>
     </item>
 </channel></rss>
