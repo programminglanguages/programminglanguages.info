@@ -3,9 +3,23 @@
 <channel><title>programminglanguages.info RSS Feed</title>
     <link>https://programminglanguages.info</link>
     <description>RSS Feed</description>
-    <lastBuildDate>Thu, 30 Dec 2021 12:23:42</lastBuildDate>
+    <lastBuildDate>Thu, 30 Dec 2021 23:39:15</lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+        <title><![CDATA[Programming Languages Influence Network 2021 - Light Background Poster by ramiro]]></title>
+        <link><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2021-black/]]></link>
+        <description><![CDATA[A network graph showing 500 programming languages connected by 953 influence relations. Highly influential languages like Lisp, Smalltalk, C, Java, C++, Haskell and Python are shown as larger circles as compared to languages with less influence on others l]]></description>
+        <guid><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2021-black/]]></guid>
+        <pubDate>Thu, 30 Dec 2021 00:00:00</pubDate>
+    </item>
+    <item>
+        <title><![CDATA[Programming Languages Influence Network 2021 - Dark Background Tapestry by ramiro]]></title>
+        <link><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2021-white/]]></link>
+        <description><![CDATA[A network graph showing 500 programming languages connected by 953 influence relations. Highly influential languages like Lisp, Smalltalk, C, Java, C++, Haskell and Python are shown as larger circles as compared to languages with less influence on others l]]></description>
+        <guid><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2021-white/]]></guid>
+        <pubDate>Thu, 30 Dec 2021 00:00:00</pubDate>
+    </item>
     <item>
         <title><![CDATA[Programming Languages Influence Ranking]]></title>
         <link><![CDATA[https://programminglanguages.info/influence-ranking/]]></link>
@@ -61,19 +75,5 @@
         <description><![CDATA[I added a simple logo reminiscent of a shell prompt to the main navigation as a link to the start page and as a favicon.]]></description>
         <guid><![CDATA[https://programminglanguages.info/changelog/add-logo/]]></guid>
         <pubDate>Wed, 17 Jul 2019 11:28:18</pubDate>
-    </item>
-    <item>
-        <title><![CDATA[GitHub Search on Language Pages]]></title>
-        <link><![CDATA[https://programminglanguages.info/changelog/github-search/]]></link>
-        <description><![CDATA[There is now a GitHub search form on language pages, that you can use to search for repositories related to that language or whatever you type into the form...]]></description>
-        <guid><![CDATA[https://programminglanguages.info/changelog/github-search/]]></guid>
-        <pubDate>Thu, 14 Feb 2019 23:32:24</pubDate>
-    </item>
-    <item>
-        <title><![CDATA[Programming Languages Timeline]]></title>
-        <link><![CDATA[https://programminglanguages.info/timeline/]]></link>
-        <description><![CDATA[A timeline of programming languages based on the year of inception.]]></description>
-        <guid><![CDATA[https://programminglanguages.info/timeline/]]></guid>
-        <pubDate>Sun, 10 Feb 2019 23:47:49</pubDate>
     </item>
 </channel></rss>

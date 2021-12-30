@@ -3,9 +3,23 @@
 <channel><title>programminglanguages.info Print</title>
     <link>https://programminglanguages.info</link>
     <description>Print</description>
-    <lastBuildDate>Thu, 30 Dec 2021 12:23:42</lastBuildDate>
+    <lastBuildDate>Thu, 30 Dec 2021 23:39:15</lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+        <title><![CDATA[Programming Languages Influence Network 2021 - Light Background Poster by ramiro]]></title>
+        <link><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2021-black/]]></link>
+        <description><![CDATA[A network graph showing 500 programming languages connected by 953 influence relations. Highly influential languages like Lisp, Smalltalk, C, Java, C++, Haskell and Python are shown as larger circles as compared to languages with less influence on others l]]></description>
+        <guid><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2021-black/]]></guid>
+        <pubDate>Thu, 30 Dec 2021 00:00:00</pubDate>
+    </item>
+    <item>
+        <title><![CDATA[Programming Languages Influence Network 2021 - Dark Background Tapestry by ramiro]]></title>
+        <link><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2021-white/]]></link>
+        <description><![CDATA[A network graph showing 500 programming languages connected by 953 influence relations. Highly influential languages like Lisp, Smalltalk, C, Java, C++, Haskell and Python are shown as larger circles as compared to languages with less influence on others l]]></description>
+        <guid><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2021-white/]]></guid>
+        <pubDate>Thu, 30 Dec 2021 00:00:00</pubDate>
+    </item>
     <item>
         <title><![CDATA[Programming Languages Influence Network 2020 - Dark Background]]></title>
         <link><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2020/]]></link>
@@ -61,19 +75,5 @@
         <description><![CDATA[A network graph showing 426 programming languages connected by 670 influence relations. Highly influential languages like Lisp, Smalltalk, C, Java, C++, Haskell and Python are shown as larger circles as compared to languages with less influence on others like PHP, Rust and Go. The influence relatio… • Millions of unique designs by independent artists. Find your thing.]]></description>
         <guid><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2018-black/]]></guid>
         <pubDate>Wed, 02 Jan 2019 00:00:00</pubDate>
-    </item>
-    <item>
-        <title><![CDATA[Network Graph of npm Packages Dependencies]]></title>
-        <link><![CDATA[https://programminglanguages.info/print/npmdepgraph/]]></link>
-        <description><![CDATA[A poster with a network graph showing the dependencies of npm packages as of July 12, 2013 with 35,000 nodes and 66,551 edges. / The graph print is available on posters and several other products on white or Rose Quartz backgrounds. A graph of top npm packages dependencies is available at: http://www.redbubble.com/people/ramiro/works/22146195 • Also buy this artwork on wall prints, apparel, stickers, and more.]]></description>
-        <guid><![CDATA[https://programminglanguages.info/print/npmdepgraph/]]></guid>
-        <pubDate>Sun, 12 Jun 2016 00:00:00</pubDate>
-    </item>
-    <item>
-        <title><![CDATA[Network Graph of npm Top Packages Dependencies]]></title>
-        <link><![CDATA[https://programminglanguages.info/print/npmdepgraph.min10/]]></link>
-        <description><![CDATA[A poster with a network graph showing the dependencies of npm packages with at least 10 inbound links, i. e. other packages that depend on them. The graph was calculated based on data from July 12, 2013 and consists of 717 nodes and 942 edges. / The graph print is available on posters on a white background. The full graph is available at: http://www.redbubble.com/people/ramiro/works/22146099 • Also buy this artwork on wall prints, stickers, and stationery.]]></description>
-        <guid><![CDATA[https://programminglanguages.info/print/npmdepgraph.min10/]]></guid>
-        <pubDate>Sun, 12 Jun 2016 00:00:00</pubDate>
     </item>
 </channel></rss>
