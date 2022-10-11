@@ -3,9 +3,16 @@
 <channel><title>programminglanguages.info Print</title>
     <link>https://programminglanguages.info</link>
     <description>Print</description>
-    <lastBuildDate>Fri, 07 Oct 2022 11:12:07</lastBuildDate>
+    <lastBuildDate>Tue, 11 Oct 2022 21:33:55</lastBuildDate>
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+        <title><![CDATA[Ada Programming Language Influence Network Graph]]></title>
+        <link><![CDATA[https://programminglanguages.info/print/ada-influence-network/]]></link>
+        <description><![CDATA[Ada, named after Ada Lovelace, is a statically typed, imperative, and object-oriented programming language. This network graph shows 26 languages connected by influence relations, i.e. languages that were influenced by Ada or influenced Ada and Ada itself.]]></description>
+        <guid><![CDATA[https://programminglanguages.info/print/ada-influence-network/]]></guid>
+        <pubDate>Tue, 11 Oct 2022 00:00:00</pubDate>
+    </item>
     <item>
         <title><![CDATA[Programming Languages Influence Network 2021 - Light Background Poster by ramiro]]></title>
         <link><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2021-black/]]></link>
@@ -67,13 +74,6 @@
         <link><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2018/]]></link>
         <description><![CDATA[A network graph showing 426 programming languages connected by 670 influence relations. Highly influential languages like Lisp, Smalltalk, C, Java, C++, Haskell and Python are shown as larger circles as compared to languages with less influence on others like PHP, Rust and Go. The influence relation data was retrieved from Wikidata in 2018. A great gift for programmers who are into digital art. • Also buy this artwork on wall prints, apparel, phone cases, and more.]]></description>
         <guid><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2018/]]></guid>
-        <pubDate>Wed, 02 Jan 2019 00:00:00</pubDate>
-    </item>
-    <item>
-        <title><![CDATA[Programming Languages Influence Network 2018 - Light Background]]></title>
-        <link><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2018-black/]]></link>
-        <description><![CDATA[A network graph showing 426 programming languages connected by 670 influence relations. Highly influential languages like Lisp, Smalltalk, C, Java, C++, Haskell and Python are shown as larger circles as compared to languages with less influence on others like PHP, Rust and Go. The influence relatio… • Millions of unique designs by independent artists. Find your thing.]]></description>
-        <guid><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2018-black/]]></guid>
         <pubDate>Wed, 02 Jan 2019 00:00:00</pubDate>
     </item>
 </channel></rss>
