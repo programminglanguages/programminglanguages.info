@@ -16,7 +16,7 @@
         <link rel="stylesheet" href="/compiled/style.css">
 
 <link rel="stylesheet" href="/compiled/language.css">
-</head>
+<link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
 <nav id="main-nav" class="level">
@@ -52,19 +52,23 @@
                 <p class="small">Visual Basic, originally called Visual Basic .NET (VB.NET), is a multi-paradigm, object-oriented programming language, implemented on .NET, Mono, and the .NET Framework. Microsoft launched VB.NET in 2002 as the successor to its original Visual Basic language, the last version of which was Visual Basic 6.0. Although the ".NET" portion of the name was dropped in 2005, this article uses "Visual Basic [.NET]" to refer to all Visual Basic languages released since 2002, in order to distinguish between them and the classic Visual Basic. Along with C# and F#, it is one of the three main languages targeting the .NET ecosystem. As of March 11, 2020, Microsoft announced that evolution of the VB.NET language has concluded. <a href="https://en.wikipedia.org/wiki/Visual_Basic_.NET">Wikipedia</a></p>
             <p class="icons">
                         <a class="button is-light" href="https://docs.microsoft.com/en-us/dotnet/visual-basic/" title="Official Website"><svg><use xlink:href="#home"/></svg></a>
+                        <a class="button is-light" href="https://github.com/dotnet/vblang" title="Source Code Repository"><svg><use xlink:href="#code"/></svg></a>
                         <a class="button is-light" href="https://stackoverflow.com/tags/vb.net" title="Stack Exchange Tag"><svg><use xlink:href="#stack-exchange"/></svg></a>
             </p>
 
                 <strong>Inception Year:</strong> <a href="/inception/2001/">2001</a><br>
 
+                    <strong>Designed by:</strong>
+                            <a href="/involved/microsoft/">Microsoft</a><br>
                     <strong>Developed by:</strong>
                             <a href="/involved/microsoft/">Microsoft</a><br>
 
 
 
+                    <strong>Based on: </strong> <a href="/language/visual-basic/">Visual Basic</a><br>
 
             
-                <strong>Aliases:</strong> VB.NET<br>
+                <strong>Aliases:</strong> VB.NET, Visual Basic .NET<br>
             
 
             <p><strong>Wikidata:</strong> <a href="https://www.wikidata.org/wiki/Q50077">Q50077</a></p>
@@ -72,8 +76,8 @@
                     <p><strong>Influenced: </strong> <a href="/language/microsoft-small-basic/">Microsoft Small Basic</a></p>
                     <p><strong>Influenced by: </strong> <a href="/language/visual-basic/">Visual Basic</a></p>
 
-                <p><strong>Programming paradigms:</strong> <a href="/paradigm/declarative-programming/">declarative programming</a> • <a href="/paradigm/object-oriented-programming/">object-oriented programming</a> • <a href="/paradigm/imperative-programming/">imperative programming</a> • <a href="/paradigm/structured-programming/">structured programming</a> • <a href="/paradigm/reflective-programming/">reflective programming</a> • <a href="/paradigm/event-driven-programming/">event-driven programming</a> • <a href="/paradigm/generic-programming/">generic programming</a></p>
-                <p><strong>Language types:</strong> <a href="/type/implementation-of-a-programming-language/">implementation of a programming language</a></p>
+                <p><strong>Programming paradigms:</strong> <a href="/paradigm/object-oriented-programming/">object-oriented programming</a> • <a href="/paradigm/imperative-programming/">imperative programming</a> • <a href="/paradigm/structured-programming/">structured programming</a> • <a href="/paradigm/reflective-programming/">reflective programming</a> • <a href="/paradigm/event-driven-programming/">event-driven programming</a> • <a href="/paradigm/generic-programming/">generic programming</a> • <a href="/paradigm/functional-programming/">functional programming</a> • <a href="/paradigm/strict-programming/">strict programming</a> • <a href="/paradigm/class-based-programming/">class-based programming</a> • <a href="/paradigm/multi-paradigm-programming/">multi-paradigm programming</a></p>
+                <p><strong>Language types:</strong> <a href="/type/class-based-programming-language/">class-based programming language</a> • <a href="/type/high-level-programming-language/">high-level programming language</a> • <a href="/type/strict-programming-language/">strict programming language</a> • <a href="/type/event-driven-programming-language/">event-driven programming language</a> • <a href="/type/multi-paradigm-programming-language/">multi-paradigm programming language</a> • <a href="/type/imperative-programming-language/">imperative programming language</a> • <a href="/type/functional-programming-language/">functional programming language</a> • <a href="/type/generic-programming-language/">generic programming language</a></p>
 
             <div class="box">
                 <a href="/print/plin-forceatlas2-2013-white/">
@@ -89,6 +93,19 @@
                 <h3>Visual Basic .NET Influence Network</h3>
                 <svg class="has-background-dark" id="network"></svg>
                 <p class="is-size-7">Pan and zoom the graph with your mouse or alternatively your fingers on touch devices.</p>
+                <h3>Hello World in Visual Basic .NET</h3>
+                    <pre><code class="language-visual basic .net">Module HelloWorld
+    Sub Main()
+        MsgBox(&#34;Hello World&#34;)
+    End Sub
+End Module</code></pre>
+                <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
+                <h3>Free Visual Basic .NET books, articles, documentation</h3>
+                <ul>
+<li><a href="https://goalkicker.com/VisualBasic_NETBook/">Visual Basic .NET Notes for Professionals</a> - Compiled from StackOverflow Documentation (PDF)</li>
+<li><a href="https://docs.microsoft.com/en-us/dotnet/visual-basic">Visual Basic Official Docs</a></li>
+</ul>
+                <div class="small">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
             <h3>Search on GitHub</h3>
             <div class="field has-addons">
                 <p class="control">
@@ -119,7 +136,7 @@
 </div></section>
 <section class="content"><div class="container">
 <hr>
-Latest data update: 2022-07-01
+Latest data update: 2022-10-24
 </div></section>
 
 <footer class="footer">
@@ -169,5 +186,7 @@ Latest data update: 2022-07-01
 
 <script src="/compiled/github.js"></script>
 
+    <script src="/vendor/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
 </body>
 </html>
