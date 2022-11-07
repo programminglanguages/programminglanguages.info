@@ -9,7 +9,7 @@
 <meta name="description" content="CFEngine is an open-source configuration management system, written by Mark Burgess. Its primary function is to provide automated configuration and maintenance of..."><meta name="author" content="Ramiro Gómez">        <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/0/07/CFEngine-logo.svg">
 
 
-    <link href="https://programminglanguages.info/language/cfengine/" rel="canonical" itemprop="url">
+    <link href="" rel="canonical" itemprop="url">
     <link href="/rss.xml" rel="alternate" type="application/rss+xml" title="RSS feed">
     <link href="/img/logo.svg" rel="icon">
 
@@ -46,7 +46,7 @@
         <div class="column is-3-tablet">
                 <figure class="image is-marginless" title="CFEngine Programming Language Information & Resources">
                     <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/0/07/CFEngine-logo.svg" alt="Logo">
-                    <figcaption class="small">Source: <a href="https://commons.wikimedia.org/wiki/CFEngine-logo.svg">commons.wikimedia.org</a></figcaption>
+                    <figcaption class="small">Source: <a href="https://commons.wikimedia.org/wiki/File:CFEngine-logo.svg">commons.wikimedia.org</a></figcaption>
                 </figure>
 
                 <p class="small">CFEngine is an open-source configuration management system, written by Mark Burgess. Its primary function is to provide automated configuration and maintenance of large-scale computer systems, including the unified management of servers, desktops, consumer and industrial devices, embedded networked devices, mobile smartphones, and tablet computers. <a href="https://en.wikipedia.org/wiki/CFEngine">Wikipedia</a></p>
@@ -73,9 +73,9 @@
 
 
             <div class="box">
-                <a href="/print/plin-forceatlas2-2013-white/">
+                <a href="/print/programming-languages-influence-network-2021-black/">
                     <figure class="image is-marginless" title="Network Graph of Programming Language Influence">
-                        <img src="/img/preview/plin-forceatlas2-2013-white.jpg" alt="Programming Language Influence Poster">
+                        <img src="/img/preview/programming-languages-influence-network-2021-black.jpg" alt="Programming Language Influence Poster">
                     </figure>
                     <p class="has-text-centered">Influence Network Poster</p>
                 </a>
@@ -84,18 +84,7 @@
 
         <div class="column">
                 <h3>Hello World in CFEngine</h3>
-                    <pre><code class="language-cfengine">body common control
-{
-  bundlesequence =&gt; { &#34;run&#34; };
-}
-
-bundle agent run
-{
-  reports:
-    cfengine::
-      &#34;Hello World&#34;;
-}
-</code></pre>
+                    <pre><code class="language-cfengine"> filesource(/home/rg/repos/priv/programminglanguages.info/data/hello-world/c/CFEngine.cf) </code></pre>
                 <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
             <h3>Search on GitHub</h3>
             <div class="field has-addons">
