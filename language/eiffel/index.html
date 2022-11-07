@@ -93,7 +93,25 @@
                 <svg class="has-background-dark" id="network"></svg>
                 <p class="is-size-7">Pan and zoom the graph with your mouse or alternatively your fingers on touch devices.</p>
                 <h3>Hello World in Eiffel</h3>
-                    <pre><code class="language-eiffel"> filesource(data/hello-world/e/Eiffel.eiff) </code></pre>
+                    <pre><code class="language-eiffel">indexing &#34;Hello World in Eiffel , from http://roesler-ac.de/wolfram/hello.htm#Eiffel&#34;
+
+class HELLO
+
+creation
+	run
+
+feature
+
+	run is
+		local
+			io : BASIC_IO;
+		do
+			!!io;
+			io.put_string(&#34;Hello World&#34;);
+			io.put_newline
+		end; -- run
+end; -- class HELLO
+</code></pre>
                 <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
                 <h3>Free Eiffel books, articles, documentation</h3>
                 <ul>

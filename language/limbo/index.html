@@ -85,7 +85,23 @@
                 <svg class="has-background-dark" id="network"></svg>
                 <p class="is-size-7">Pan and zoom the graph with your mouse or alternatively your fingers on touch devices.</p>
                 <h3>Hello World in Limbo</h3>
-                    <pre><code class="language-limbo"> filesource(/home/rg/repos/priv/programminglanguages.info/data/hello-world/l/Limbo.b) </code></pre>
+                    <pre><code class="language-limbo">implement Hello;
+
+include &#34;sys.m&#34;;
+	sys: Sys;
+include &#34;draw.m&#34;;
+
+Hello: module
+{
+	init:	fn(ctxt: ref Draw-&gt;Context, argv: list of string);
+};
+
+init(ctxt: ref Draw-&gt;Context, argv: list of string)
+{
+	sys = load Sys Sys-&gt;PATH;
+	sys-&gt;print(&#34;Hello World\n&#34;);
+}
+</code></pre>
                 <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
                 <h3>Free Limbo books, articles, documentation</h3>
                 <ul>

@@ -86,7 +86,19 @@
                 <svg class="has-background-dark" id="network"></svg>
                 <p class="is-size-7">Pan and zoom the graph with your mouse or alternatively your fingers on touch devices.</p>
                 <h3>Hello World in C--</h3>
-                    <pre><code class="language-c--"> filesource(/home/rg/repos/priv/programminglanguages.info/data/hello-world/c/C--) </code></pre>
+                    <pre><code class="language-c--">target byteorder little;
+import puts;
+export main;
+
+section &#34;data&#34;{
+    s:bits8[] &#34;Hello World\0&#34;;
+}
+
+foreign &#34;C&#34; main(){
+    foreign &#34;C&#34; puts(&#34;address&#34;s);
+    foreign &#34;C&#34; return(0);
+}
+</code></pre>
                 <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
             <h3>Search on GitHub</h3>
             <div class="field has-addons">

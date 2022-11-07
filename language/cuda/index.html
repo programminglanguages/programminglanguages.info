@@ -80,7 +80,17 @@
 
         <div class="column">
                 <h3>Hello World in CUDA</h3>
-                    <pre><code class="language-cuda"> filesource(/home/rg/repos/priv/programminglanguages.info/data/hello-world/c/Cuda.cu) </code></pre>
+                    <pre><code class="language-cuda">#include &lt;stdio.h&gt;
+
+__global__ void hello_world(){
+    printf(&#34;Hello World\n&#34;);
+}
+
+int main() {
+    hello_world&lt;&lt;&lt;1,1&gt;&gt;&gt;();
+    return 0;
+}
+</code></pre>
                 <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
                 <h3>Free CUDA books, articles, documentation</h3>
                 <ul>

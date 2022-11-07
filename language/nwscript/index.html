@@ -76,7 +76,11 @@
 
         <div class="column">
                 <h3>Hello World in NWScript</h3>
-                    <pre><code class="language-nwscript"> filesource(/home/rg/repos/priv/programminglanguages.info/data/hello-world/n/NWScript.nss) </code></pre>
+                    <pre><code class="language-nwscript">// Place in the OnClientEnter event of the module&#39;s properties
+{
+    SendMessageToPC(GetEnteringObject(), &#34;Hello World&#34;);
+}
+</code></pre>
                 <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
             <h3>Search on GitHub</h3>
             <div class="field has-addons">

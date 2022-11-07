@@ -81,7 +81,14 @@
 
         <div class="column">
                 <h3>Hello World in solidity</h3>
-                    <pre><code class="language-solidity"> filesource(/home/rg/repos/priv/programminglanguages.info/data/hello-world/s/Solidity.sol) </code></pre>
+                    <pre><code class="language-solidity">pragma solidity ^0.8.9;
+
+contract HelloWorld {
+    function render () public pure returns (string memory) {
+        return &#39;Hello World&#39;;
+    }
+}
+</code></pre>
                 <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
                 <h3>Free solidity books, articles, documentation</h3>
                 <ul>

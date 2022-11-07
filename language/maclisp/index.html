@@ -82,7 +82,19 @@
                 <svg class="has-background-dark" id="network"></svg>
                 <p class="is-size-7">Pan and zoom the graph with your mouse or alternatively your fingers on touch devices.</p>
                 <h3>Hello World in Maclisp</h3>
-                    <pre><code class="language-maclisp"> filesource(/home/rg/repos/priv/programminglanguages.info/data/hello-world/m/MacLisp.lisp) </code></pre>
+                    <pre><code class="language-maclisp">(comment) ;-*- Lisp -*-
+(progn
+  (defun hello-world ()
+    (princ &#34;Hello World&#34;)
+    (quit))
+  (close (prog1 infile (inpush -1)))
+  (sstatus feature noldmsg)
+  (gctwa)
+  (gc)
+  (sstatus flush t)
+  (suspend &#34;:KILL &#34; &#39;(ts hello))
+  (hello-world))
+</code></pre>
                 <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
             <h3>Search on GitHub</h3>
             <div class="field has-addons">

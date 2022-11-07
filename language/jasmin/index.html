@@ -78,7 +78,17 @@
 
         <div class="column">
                 <h3>Hello World in Jasmin</h3>
-                    <pre><code class="language-jasmin"> filesource(data/hello-world/j/Jasmin.j) </code></pre>
+                    <pre><code class="language-jasmin">.class public Jasmin
+.super java/lang/Object
+
+.method public static main([Ljava/lang/String;)V
+	.limit stack 2
+	getstatic java/lang/System/out Ljava/io/PrintStream;
+	ldc &#34;Hello World&#34;
+	invokevirtual java/io/PrintStream/println(Ljava/lang/String;)V
+	return	
+.end method
+</code></pre>
                 <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
             <h3>Search on GitHub</h3>
             <div class="field has-addons">
