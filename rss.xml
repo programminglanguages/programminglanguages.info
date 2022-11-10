@@ -7,6 +7,13 @@
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
+        <title><![CDATA[People & Organizations Creating Programming Languages]]></title>
+        <link><![CDATA[https://programminglanguages.info/involved/]]></link>
+        <description><![CDATA[An alphabetical list of 544 creators of programming languages listed on programminglanguages.info.]]></description>
+        <guid><![CDATA[https://programminglanguages.info/involved/]]></guid>
+        <pubDate>Thu, 10 Nov 2022 21:35:00</pubDate>
+    </item>
+    <item>
         <title><![CDATA[JavaScript Programming Language Influence Network Graph]]></title>
         <link><![CDATA[https://programminglanguages.info/print/javascript-influence-network/]]></link>
         <description><![CDATA[JavaScript (JS) is the programming language of the World Wide Web. This network graph shows languages connected by influence relations, i.e. languages that were influenced by JavaScript or influenced JavaScript and JavaScript itself. More influential la]]></description>
@@ -68,12 +75,5 @@
         <description><![CDATA[A network graph showing 454 programming languages connected by 761 influence relations. Highly influential languages like Lisp, Smalltalk, C, Java, C++, Haskell and Python are shown as larger circles as compared to languages with less influence on others like PHP, Rust and Go. The influence relation data was retrieved from Wikidata December 30, 2019. A great gift for programmers who are into digital art.]]></description>
         <guid><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2019-black/]]></guid>
         <pubDate>Mon, 30 Dec 2019 00:00:00</pubDate>
-    </item>
-    <item>
-        <title><![CDATA[Rust Programming Language Influence Network]]></title>
-        <link><![CDATA[https://programminglanguages.info/print/rust-influence-network/]]></link>
-        <description><![CDATA[A network graph showing 24 programming languages connected by 47 influence relations. It includes languages the were influenced by Rust or influenced Rust and Rust itself. More influential languages are shown as larger circles as compared to languages with less influence on others. The influence re… • Millions of unique designs by independent artists. Find your thing.]]></description>
-        <guid><![CDATA[https://programminglanguages.info/print/rust-influence-network/]]></guid>
-        <pubDate>Wed, 14 Aug 2019 00:00:00</pubDate>
     </item>
 </channel></rss>
