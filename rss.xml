@@ -7,6 +7,20 @@
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
+        <title><![CDATA[Computer Programming Languages Charts]]></title>
+        <link><![CDATA[https://programminglanguages.info/charts/]]></link>
+        <description><![CDATA[Visualizations showing and comparing different aspects of computer programming languages.]]></description>
+        <guid><![CDATA[https://programminglanguages.info/charts/]]></guid>
+        <pubDate>Sun, 20 Nov 2022 22:04:52</pubDate>
+    </item>
+    <item>
+        <title><![CDATA[Programming Languages Ranked by Wikimedia Sitelinks]]></title>
+        <link><![CDATA[https://programminglanguages.info/sitelinks-ranking/]]></link>
+        <description><![CDATA[This chart shows programming languages ranked by Wikimedia sitelinks, i.e. the number of Wikimedia projects with a wiki page for the language.]]></description>
+        <guid><![CDATA[https://programminglanguages.info/sitelinks-ranking/]]></guid>
+        <pubDate>Fri, 18 Nov 2022 23:39:47</pubDate>
+    </item>
+    <item>
         <title><![CDATA[People & Organizations Creating Programming Languages]]></title>
         <link><![CDATA[https://programminglanguages.info/involved/]]></link>
         <description><![CDATA[An alphabetical list of creators of programming languages listed on programminglanguages.info.]]></description>
@@ -44,7 +58,7 @@
     <item>
         <title><![CDATA[Programming Languages Influence Ranking]]></title>
         <link><![CDATA[https://programminglanguages.info/influence-ranking/]]></link>
-        <description><![CDATA[This ranking shows the most influential programming languages based on data from the Wikidata project.]]></description>
+        <description><![CDATA[This chart shows the most influential programming languages ranked by the number of other languages they influenced based on data from the Wikidata project.]]></description>
         <guid><![CDATA[https://programminglanguages.info/influence-ranking/]]></guid>
         <pubDate>Wed, 18 Aug 2021 21:16:35</pubDate>
     </item>
@@ -61,19 +75,5 @@
         <description><![CDATA[A network graph showing 478 programming languages connected by 892 influence relations. Highly influential languages like Lisp, Smalltalk, C, Java, C++, Haskell and Python are shown as larger circles as compared to languages with less influence on others l]]></description>
         <guid><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2020-black/]]></guid>
         <pubDate>Tue, 29 Dec 2020 00:00:00</pubDate>
-    </item>
-    <item>
-        <title><![CDATA[Programming Languages Influence Network 2019 - Dark Background]]></title>
-        <link><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2019/]]></link>
-        <description><![CDATA[A network graph showing 454 programming languages connected by 761 influence relations. Highly influential languages like Lisp, Smalltalk, C, Java, C++, Haskell and Python are shown as larger circles as compared to languages with less influence on others like PHP, Rust and Go. The influence relation data was retrieved from Wikidata December 30, 2019. A great gift for programmers who are into digital art.]]></description>
-        <guid><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2019/]]></guid>
-        <pubDate>Mon, 30 Dec 2019 00:00:00</pubDate>
-    </item>
-    <item>
-        <title><![CDATA[Programming Languages Influence Network 2019 - Light Background]]></title>
-        <link><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2019-black/]]></link>
-        <description><![CDATA[A network graph showing 454 programming languages connected by 761 influence relations. Highly influential languages like Lisp, Smalltalk, C, Java, C++, Haskell and Python are shown as larger circles as compared to languages with less influence on others like PHP, Rust and Go. The influence relation data was retrieved from Wikidata December 30, 2019. A great gift for programmers who are into digital art.]]></description>
-        <guid><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2019-black/]]></guid>
-        <pubDate>Mon, 30 Dec 2019 00:00:00</pubDate>
     </item>
 </channel></rss>

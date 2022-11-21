@@ -42,74 +42,73 @@
 </nav>
 </div></section>
 <section class="content"><div class="container is-fluid">
-    <div class="columns">
-        <div class="column is-3-tablet">
-                <h1>asm.js</h1>
+<div class="columns">
+    <div class="column is-3-tablet">
+            <h1>asm.js</h1>
 
-                <p class="small">asm.js is a subset of JavaScript designed to allow computer software written in languages such as C to be run as web applications while maintaining performance characteristics considerably better than standard JavaScript, which is the typical language used for such applications. <a href="https://en.wikipedia.org/wiki/Asm.js">Wikipedia</a></p>
-            <p class="icons">
-                        <a class="button is-light" href="http://asmjs.org" title="Official Website"><svg><use xlink:href="#home"/></svg></a>
-                        <a class="button is-light" href="https://github.com/dherman/asm.js" title="Source Code Repository"><svg><use xlink:href="#code"/></svg></a>
-                        <a class="button is-light" href="https://stackoverflow.com/tags/asm.js" title="Stack Exchange Tag"><svg><use xlink:href="#stack-exchange"/></svg></a>
+            <p class="small">asm.js is a subset of JavaScript designed to allow computer software written in languages such as C to be run as web applications while maintaining performance characteristics considerably better than standard JavaScript, which is the typical language used for such applications. <a href="https://en.wikipedia.org/wiki/Asm.js">Wikipedia</a></p>
+        <p class="icons">
+                    <a class="button is-light" href="http://asmjs.org" title="Official Website"><svg><use xlink:href="#home"/></svg></a>
+                    <a class="button is-light" href="https://github.com/dherman/asm.js" title="Source Code Repository"><svg><use xlink:href="#code"/></svg></a>
+                    <a class="button is-light" href="https://stackoverflow.com/tags/asm.js" title="Stack Exchange Tag"><svg><use xlink:href="#stack-exchange"/></svg></a>
+        </p>
+
+
+
+
+
+
+        
+            <strong>Aliases:</strong> Asm.js<br>
+        
+
+        <p><strong>Wikidata:</strong> <a href="https://www.wikidata.org/wiki/Q13496636">Q13496636</a></p>
+
+                <p><strong>Influenced by: </strong> <a href="/language/javascript/">JavaScript</a></p>
+
+        <div class="box">
+    <a href="/print/programming-languages-influence-network-2021-black/">
+        <figure class="image is-marginless" title="Network Graph of Programming Language Influence">
+            <img src="/img/preview/programming-languages-influence-network-2021-black.jpg" alt="Programming Language Influence Poster">
+        </figure>
+        <p class="has-text-centered">➡️ Influence Network Poster</p>
+    </a>
+</div>
+    </div>
+
+    <div class="column">
+            <h3>asm.js Influence Network</h3>
+            <svg class="has-background-dark" id="network"></svg>
+            <p class="is-size-7">Pan and zoom the graph with your mouse or alternatively your fingers on touch devices.</p>
+        <h3>Search on GitHub</h3>
+        <div class="field has-addons">
+            <p class="control">
+                <input class="input" id="github-query" type="text">
             </p>
-
-
-
-
-
-
-            
-                <strong>Aliases:</strong> Asm.js<br>
-            
-
-            <p><strong>Wikidata:</strong> <a href="https://www.wikidata.org/wiki/Q13496636">Q13496636</a></p>
-
-                    <p><strong>Influenced by: </strong> <a href="/language/javascript/">JavaScript</a></p>
-
-
-            <div class="box">
-                <a href="/print/programming-languages-influence-network-2021-black/">
-                    <figure class="image is-marginless" title="Network Graph of Programming Language Influence">
-                        <img src="/img/preview/programming-languages-influence-network-2021-black.jpg" alt="Programming Language Influence Poster">
-                    </figure>
-                    <p class="has-text-centered">Influence Network Poster</p>
-                </a>
-            </div>
+            <p class="control">
+                <button class="button is-link" id="github-search">Search</button>
+            </p>
         </div>
-
-        <div class="column">
-                <h3>asm.js Influence Network</h3>
-                <svg class="has-background-dark" id="network"></svg>
-                <p class="is-size-7">Pan and zoom the graph with your mouse or alternatively your fingers on touch devices.</p>
-            <h3>Search on GitHub</h3>
-            <div class="field has-addons">
-                <p class="control">
-                    <input class="input" id="github-query" type="text">
-                </p>
-                <p class="control">
-                    <button class="button is-link" id="github-search">Search</button>
-                </p>
-            </div>
-            <div id="github-results">
-                <div id="github-message"></div>
-                <table class="table is-hidden">
-                    <caption>🛈 Click on a column heading to sort the results.</caption>
-                    <thead><tr>
-                        <th class="full_name">Name</th>
-                        <th class="description">Description</th>
-                        <th class="pushed_at">Last pushed to</th>
-                        <th class="open_issues">Open issues</th>
-                        <th class="forks">Forks</th>
-                        <th class="watchers">Stars</th>
-                        <th class="size">Size</th>
-                    </tr></thead>
-                    <tbody></tbody>
-                </table>
-            </div>
+        <div id="github-results">
+            <div id="github-message"></div>
+            <table class="table is-hidden">
+                <caption>ℹ️ Click on a column heading to sort the results.</caption>
+                <thead><tr>
+                    <th class="full_name">Name</th>
+                    <th class="description">Description</th>
+                    <th class="pushed_at">Last pushed to</th>
+                    <th class="open_issues">Open issues</th>
+                    <th class="forks">Forks</th>
+                    <th class="watchers">Stars</th>
+                    <th class="size">Size</th>
+                </tr></thead>
+                <tbody></tbody>
+            </table>
         </div>
     </div>
-    <hr>
-    Latest data update: 2022-09-16
+</div>
+<hr>
+<p>Latest data update: 2022-09-16</p>
 </div></section>
 
 <footer class="content footer">

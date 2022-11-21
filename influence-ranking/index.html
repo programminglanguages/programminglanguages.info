@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title itemprop="name">Programming Languages Influence Ranking • programminglanguages.info</title>
-<meta name="description" content="This ranking shows the most influential programming languages based on data from the Wikidata project."><meta name="author" content="Ramiro Gómez">        <meta property="og:image" content="https://programminglanguages.info/img/influence-ranking.png">
-
+<meta name="description" content="This chart shows the most influential programming languages ranked by the number of other languages they influenced based on data from the Wikidata project."><meta name="author" content="Ramiro Gómez">
 
     <link href="" rel="canonical" itemprop="url">
     <link href="/rss.xml" rel="alternate" type="application/rss+xml" title="RSS feed">
     <link href="/img/logo.svg" rel="icon">
 
         <link rel="stylesheet" href="/compiled/style.css">
+
+<style>.tick { font-size: 1.4em; }</style>
 </head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
@@ -40,12 +41,39 @@
 </nav>
 </div></section>
 <section class="content"><div class="container is-fluid">
-    <h1>Programming Languages Influence Ranking</h1>
-<style>
-    .tick { font-size: 1.4em; }
-</style>
-<p>This chart shows the most influential programming languages ranked by the number of other languages they influenced.</p>
-<div id="ranking"></div></div></section>
+<div class="columns">
+    <div class="column is-9-tablet">
+        <h1>Programming Languages Influence Ranking</h1>
+        <p>This chart shows the most influential programming languages ranked by the number of other languages they influenced based on data from the Wikidata project.</p>
+        <div id="ranking"></div>
+    </div>
+    <div class="column is-3-tablet">
+
+<h3>Featured Language</h3>
+<div class="box">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/f/f8/Python_logo_and_wordmark.svg">
+    <p>Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.</p>
+    <strong><a href="/language/python/">➡️ Python language page</a></strong>
+</div>
+<h3>Network Graph Prints</h3>
+<div class="box">
+    <div class="columns is-multiline is-mobile">
+        <div class="column is-6"><div class="image-box">
+            <a href="/print/javascript-influence-network/"><img src="/img/preview/javascript-influence-network.jpg" alt="Print Preview" title="JavaScript Programming Language Influence Network Graph"></a>
+        </div></div>
+        <div class="column is-6"><div class="image-box">
+            <a href="/print/ada-influence-network/"><img src="/img/preview/ada-influence-network.jpg" alt="Print Preview" title="Ada Programming Language Influence Network Graph"></a>
+        </div></div>
+        <div class="column is-6"><div class="image-box">
+            <a href="/print/programming-languages-influence-network-2021-black/"><img src="/img/preview/programming-languages-influence-network-2021-black.jpg" alt="Print Preview" title="Programming Languages Influence Network 2021 - Light Background Poster by ramiro"></a>
+        </div></div>
+        <div class="column is-6"><div class="image-box">
+            <a href="/print/programming-languages-influence-network-2021-white/"><img src="/img/preview/programming-languages-influence-network-2021-white.jpg" alt="Print Preview" title="Programming Languages Influence Network 2021 - Dark Background Tapestry by ramiro"></a>
+        </div></div>
+    </div>
+</div>    </div>
+</div>
+</div></section>
 
 <footer class="content footer">
     <p><strong>Links:</strong> <a href="/prints/">Graph Prints</a> • <a href="/influence-network/">Influence Network</a> • <a href="/influence-ranking/">Influence Ranking</a> • <a href="/involved/">Language Creators</a> • <a href="/languages-by-year/">Language History</a> • <a href="/languages/">Language Index</a> • <a href="/timeline/">Language Timeline</a> • <a href="/types/">Language Types</a> • <a href="/paradigms/">Programming Paradigms</a></p>
@@ -84,5 +112,5 @@
 </symbol></svg></span>
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
-<script src="/vendor/d3.min.js"></script><script src="/compiled/influence-ranking.js"></script></body>
+<script src="/vendor/d3.min.js"></script><script src="/compiled/ranking.js"></script><script src="/compiled/influence-ranking.js"></script></body>
 </html>
