@@ -7,6 +7,13 @@
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
+        <title><![CDATA[Python Programming Language Influence Network Graph]]></title>
+        <link><![CDATA[https://programminglanguages.info/print/python-influence-network/]]></link>
+        <description><![CDATA[Python is a high-level programming language with a design philosophy that emphasizes code readability. This network graph shows languages connected with Python through influence relations, i.e. languages that were influenced by or influenced Python. Mor]]></description>
+        <guid><![CDATA[https://programminglanguages.info/print/python-influence-network/]]></guid>
+        <pubDate>Thu, 08 Dec 2022 00:00:00</pubDate>
+    </item>
+    <item>
         <title><![CDATA[Computer Programming Languages Charts]]></title>
         <link><![CDATA[https://programminglanguages.info/charts/]]></link>
         <description><![CDATA[Visualizations showing and comparing different aspects of computer programming languages.]]></description>
@@ -67,13 +74,6 @@
         <link><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2020/]]></link>
         <description><![CDATA[A network graph showing 478 programming languages connected by 892 influence relations. Highly influential languages like Lisp, Smalltalk, C, Java, C++, Haskell and Python are shown as larger circles as compared to languages with less influence on others l]]></description>
         <guid><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2020/]]></guid>
-        <pubDate>Tue, 29 Dec 2020 00:00:00</pubDate>
-    </item>
-    <item>
-        <title><![CDATA[Programming Languages Influence Network 2020 - Light Background]]></title>
-        <link><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2020-black/]]></link>
-        <description><![CDATA[A network graph showing 478 programming languages connected by 892 influence relations. Highly influential languages like Lisp, Smalltalk, C, Java, C++, Haskell and Python are shown as larger circles as compared to languages with less influence on others l]]></description>
-        <guid><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2020-black/]]></guid>
         <pubDate>Tue, 29 Dec 2020 00:00:00</pubDate>
     </item>
 </channel></rss>

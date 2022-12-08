@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title itemprop="name">Reason Programming Language Information & Resources • programminglanguages.info</title>
-<meta name="description" content="Simple, fast &amp; type safe code that leverages the JavaScript &amp; OCaml ecosystems"><meta name="author" content="Ramiro Gómez">        <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/d/de/Reason-logo_favicon.svg">
+<meta name="description" content="Simple, fast &amp; type safe code that leverages the JavaScript &amp; OCaml ecosystems"><meta name="author" content="Ramiro Gómez">        <meta property="og:image" content="https://programminglanguages.info/img/language/reason.png">
 
 
     <link href="" rel="canonical" itemprop="url">
@@ -56,7 +56,7 @@
                     <a class="button is-light" href="https://twitter.com/reasonml" title="Twitter User"><svg><use xlink:href="#twitter"/></svg></a>
         </p>
 
-            <strong>Inception Year:</strong> <a href="/inception/2016/">2016</a><br>
+            <strong>Created Year:</strong> <a href="/created/2016/">2016</a><br>
 
                 <strong>Developed by:</strong>
                         <a href="/involved/meta-platforms/">Meta Platforms</a><br>
@@ -71,6 +71,7 @@
 
         <p><strong>Wikidata:</strong> <a href="https://www.wikidata.org/wiki/Q63565848">Q63565848</a></p>
 
+                <p><strong>Influenced by: </strong> <a href="/language/ocaml/">OCaml</a></p>
 
             <p><strong>Programming paradigms:</strong> <a href="/paradigm/functional-programming/">functional programming</a></p>
         <div class="box">
@@ -84,6 +85,9 @@
     </div>
 
     <div class="column">
+            <h3>Reason Influence Network</h3>
+            <svg class="has-background-dark" id="network"></svg>
+            <p class="is-size-7">Pan and zoom the graph with your mouse or alternatively your fingers on touch devices.</p>
             <h3>Hello World in Reason</h3>
                 <pre><code class="language-reason">print_string &#34;Hello World&#34;
 </code></pre>
@@ -161,6 +165,9 @@
     var language = 'Reason';
     var wikibase = 'Q63565848';
 </script>
+<script src="/vendor/jLouvain.js"></script>
+<script src="/compiled/graph.js"></script>
+<script src="/compiled/language-network.js"></script>
 
 <script src="/compiled/github.js"></script>
 
