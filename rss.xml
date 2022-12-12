@@ -7,6 +7,13 @@
     <generator>Logya</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
+        <title><![CDATA[Java Programming Language Influence Network Graph]]></title>
+        <link><![CDATA[https://programminglanguages.info/print/java-influence-network/]]></link>
+        <description><![CDATA[Java is a high-level, class-based, object-oriented programming language. This network graph shows languages connected with Java through influence relations, i.e. languages that were influenced by or influenced Java. More influential languages are shown]]></description>
+        <guid><![CDATA[https://programminglanguages.info/print/java-influence-network/]]></guid>
+        <pubDate>Mon, 12 Dec 2022 00:00:00</pubDate>
+    </item>
+    <item>
         <title><![CDATA[Lisp Programming Language Influence Network Graph]]></title>
         <link><![CDATA[https://programminglanguages.info/print/lisp-influence-network/]]></link>
         <description><![CDATA[Lisp, originally specified in 1958, is the 2nd oldest high-level programming language still in common use. This network graph shows languages connected with Lisp through influence relations, i.e. languages that were influenced by or influenced Lisp. Mor]]></description>
@@ -68,12 +75,5 @@
         <description><![CDATA[A network graph showing 500 programming languages connected by 953 influence relations. Highly influential languages like Lisp, Smalltalk, C, Java, C++, Haskell and Python are shown as larger circles as compared to languages with less influence on others l]]></description>
         <guid><![CDATA[https://programminglanguages.info/print/programming-languages-influence-network-2021-white/]]></guid>
         <pubDate>Thu, 30 Dec 2021 00:00:00</pubDate>
-    </item>
-    <item>
-        <title><![CDATA[Programming Languages Influence Ranking]]></title>
-        <link><![CDATA[https://programminglanguages.info/influence-ranking/]]></link>
-        <description><![CDATA[This chart shows the most influential programming languages ranked by the number of other languages they influenced based on data from the Wikidata project.]]></description>
-        <guid><![CDATA[https://programminglanguages.info/influence-ranking/]]></guid>
-        <pubDate>Wed, 18 Aug 2021 21:16:35</pubDate>
     </item>
 </channel></rss>
