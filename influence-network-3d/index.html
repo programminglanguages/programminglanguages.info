@@ -5,112 +5,25 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title itemprop="name">Windows App Studio Programming Language Information & Resources • programminglanguages.info</title>
-<meta name="description" content="discontinued web app provided by Microsoft for Windows app development"><meta name="author" content="Ramiro Gómez">
+    <title itemprop="name">Programming Languages Influence Network 3D • programminglanguages.info</title>
+<meta name="description" content="This 3D network graph shows influence relations of programming languages based on data from the Wikidata project."><meta name="author" content="Ramiro Gómez">        <meta property="og:image" content="https://programminglanguages.info/img/content/influence-network-3d.webp">
+
 
     <link href="" rel="canonical" itemprop="url">
     <link href="/rss.xml" rel="alternate" type="application/rss+xml" title="RSS feed">
     <link href="/img/logo.svg" rel="icon">
 
-        <link rel="stylesheet" href="/compiled/style.css">
-
-<link rel="stylesheet" href="/compiled/language.css">
 </head>
 <body>
-<section class="has-background-dark"><div class="container is-fluid">
-<nav id="main-nav" class="level">
-    <div class="level-left">
-        <div class="level-item">
-<a href="/" title="Start Page"><img src="/img/logo.svg" alt="Logo" class="logo"></a>        </div>
-        <div class="level-item">
-            <div class="field has-addons">
-                <p class="control">
-                    <input class="input" id="lookup-language" list="languages" type="text" placeholder="Language name">
-                </p>
-                <p class="control">
-                    <button class="button is-link" id="goto-language">Look up</button>
-                </p>
-            </div>
-        </div>
-        <datalist id="languages"></datalist>
-    </div>
-    <div class="level-right">
-        <a class="level-item button is-link" href="/charts/">Charts</a>
-        <a class="level-item button is-link" href="/prints/">Prints</a>
-    </div>
-</nav>
-</div></section>
-<section class="content"><div class="container is-fluid">
-<div class="columns">
-    <div class="column is-3-tablet">
-            <h1>Windows App Studio</h1>
+<style>
+body {
+    background-color: #000;
+    margin: 0;
+    overflow: hidden;
+}
+</style>
+<div id="3d-graph"></div>
 
-            <p class="small">discontinued web app provided by Microsoft for Windows app development
-        <p class="icons">
-                    <a class="button is-light" href="https://appstudio.windows.com/" title="Official Website"><svg><use xlink:href="#home"/></svg></a>
-        </p>
-
-
-                <strong>Developed by:</strong>
-                        <a href="/involved/microsoft/">Microsoft</a><br>
-
-
-
-
-        
-            <strong>Aliases:</strong> Windows Phone App Studio<br>
-        
-
-        <p><strong>Wikidata:</strong> <a href="https://www.wikidata.org/wiki/Q17089974">Q17089974</a></p>
-
-
-            <p><strong>Language types:</strong> <a href="/type/visual-programming-language/">visual programming language</a></p>
-        <div class="box">
-    <a href="/print/programming-languages-influence-network-2021-black/">
-        <figure class="image is-marginless" title="Network Graph of Programming Language Influence">
-            <img src="/img/preview/programming-languages-influence-network-2021-black.jpg" alt="Programming Language Influence Poster">
-        </figure>
-        <p class="has-text-centered">➡️ Influence Network Poster</p>
-    </a>
-</div>
-    </div>
-
-    <div class="column">
-        <h3>Search on GitHub</h3>
-        <div class="field has-addons">
-            <p class="control">
-                <input class="input" id="github-query" type="text">
-            </p>
-            <p class="control">
-                <button class="button is-link" id="github-search">Search</button>
-            </p>
-        </div>
-        <div id="github-results">
-            <div id="github-message"></div>
-            <table class="table is-hidden">
-                <caption>ℹ️ Click on a column heading to sort the results.</caption>
-                <thead><tr>
-                    <th class="full_name">Name</th>
-                    <th class="description">Description</th>
-                    <th class="pushed_at">Last pushed to</th>
-                    <th class="open_issues">Open issues</th>
-                    <th class="forks">Forks</th>
-                    <th class="watchers">Stars</th>
-                    <th class="size">Size</th>
-                </tr></thead>
-                <tbody></tbody>
-            </table>
-        </div>
-    </div>
-</div>
-<hr>
-<p>Latest data update: 2022-05-20</p>
-</div></section>
-
-<footer class="content footer">
-    <p><strong>Links:</strong> <a href="/prints/">Graph Prints</a> • <a href="/charts/">Language Charts</a> • <a href="/involved/">Language Creators</a> • <a href="/languages/">Language Index</a> • <a href="/timeline/">Language Timeline</a> • <a href="/types/">Language Types</a> • <a href="/paradigms/">Programming Paradigms</a></p>
-    <p><a href="/">programminglanguages.info</a> is made by <a href="https://ramiro.org/">Ramiro Gómez</a>. If you have suggestions please <a href="https://github.com/programminglanguages/feedback/issues/">create an issue</a> in the feedback repo. To be updated about new content, you can subscribe to the site's <a href="/rss.xml">RSS feed</a>. To find out whether and how visitor data is collected on this website, see the <a href="/info/privacy/">privacy policy/imprint</a>.</p>
-</section>
 
     <span class="sprite"><?xml version="1.0" encoding="utf-8"?>
 <svg xmlns="http://www.w3.org/2000/svg">
@@ -142,15 +55,5 @@
 </symbol>
 <symbol id="twitter" viewBox="0 0 512 512"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/>
 </symbol></svg></span>
-<script src="/vendor/d3.min.js" charset="utf-8"></script>
-<script src="/compiled/main.js" charset="utf-8"></script>
-
-<script>
-    var language = 'Windows App Studio';
-    var wikibase = 'Q17089974';
-</script>
-
-<script src="/compiled/github.js"></script>
-
-</body>
+<script src="/vendor/d3.min.js"></script><script src="/vendor/jLouvain.min.js"></script><script src="https://unpkg.com/3d-force-graph"></script><script src="https://unpkg.com/three"></script><script src="https://unpkg.com/three/examples/js/renderers/CSS2DRenderer.js"></script><script src="/compiled/influence-network-3d.js"></script></body>
 </html>
