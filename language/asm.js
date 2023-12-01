@@ -49,7 +49,6 @@
             <p class="small">asm.js is a subset of JavaScript designed to allow computer software written in languages such as C to be run as web applications while maintaining performance characteristics considerably better than standard JavaScript, which is the typical language used for such applications. <a href="https://en.wikipedia.org/wiki/Asm.js">Wikipedia</a></p>
         <p class="icons">
                     <a class="button is-light" href="http://asmjs.org" title="Official Website"><svg><use xlink:href="#home"/></svg></a>
-                    <a class="button is-light" href="https://github.com/dherman/asm.js" title="Source Code Repository"><svg><use xlink:href="#code"/></svg></a>
                     <a class="button is-light" href="https://stackoverflow.com/tags/asm.js" title="Stack Exchange Tag"><svg><use xlink:href="#stack-exchange"/></svg></a>
         </p>
 
@@ -65,6 +64,7 @@
 
         <p><strong>Wikidata:</strong> <a href="https://www.wikidata.org/wiki/Q13496636">Q13496636</a></p>
 
+                <p><strong>Influenced: </strong> <a href="/language/webassembly/">WebAssembly</a></p>
                 <p><strong>Influenced by: </strong> <a href="/language/javascript/">JavaScript</a></p>
 
         <div class="box">
@@ -109,7 +109,7 @@
     </div>
 </div>
 <hr>
-<p>Latest data update: 2022-11-01</p>
+<p>Latest data update: 2023-11-07</p>
 </div></section>
 
 <footer class="content footer">
