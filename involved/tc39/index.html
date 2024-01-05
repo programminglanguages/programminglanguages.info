@@ -5,17 +5,16 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title itemprop="name">CUDA Programming Language Information & Resources • programminglanguages.info</title>
-<meta name="description" content="CUDA is a proprietary and closed source parallel computing platform and application programming interface (API) that allows software to use certain types of graphics..."><meta name="author" content="Ramiro Gómez">
+    <title itemprop="name">TC39 • programminglanguages.info</title>
+<meta name="author" content="Ramiro Gómez">
+<meta name="robots" content="noindex,follow">
 
     <link href="" rel="canonical" itemprop="url">
     <link href="/rss.xml" rel="alternate" type="application/rss+xml" title="RSS feed">
     <link href="/img/logo.svg" rel="icon">
 
         <link rel="stylesheet" href="/compiled/style.css">
-
-<link rel="stylesheet" href="/compiled/language.css">
-<link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
+</head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
 <nav id="main-nav" class="level">
@@ -41,94 +40,10 @@
 </nav>
 </div></section>
 <section class="content"><div class="container is-fluid">
-<div class="columns">
-    <div class="column is-3-tablet">
-            <h1>CUDA</h1>
-
-            <p class="small">CUDA is a proprietary and closed source parallel computing platform and application programming interface (API) that allows software to use certain types of graphics processing units (GPUs) for general purpose processing, an approach called general-purpose computing on GPUs (GPGPU). CUDA is a software layer that gives direct access to the GPU's virtual instruction set and parallel computational elements, for the execution of compute kernels. <a href="https://en.wikipedia.org/wiki/CUDA">Wikipedia</a></p>
-        <p class="icons">
-                    <a class="button is-light" href="https://developer.nvidia.com/cuda-zone" title="Official Website"><svg><use xlink:href="#home"/></svg></a>
-                    <a class="button is-light" href="https://www.quora.com/topic/Compute-Unified-Device-Architecture-CUDA" title="Quora Topic"><svg><use xlink:href="#quora"/></svg></a>
-        </p>
-
-            <strong>Created Year:</strong> <a href="/created/2007/">2007</a><br>
-
-                <strong>Developed by:</strong>
-                        <a href="/involved/nvidia/">Nvidia</a><br>
-
-
-            <strong>Operating systems:</strong> <a href="/operating-system/linux/">Linux</a> • <a href="/operating-system/microsoft-windows/">Microsoft Windows</a> • <a href="/operating-system/macos/">macOS</a><br>
-
-
-        
-            <strong>Aliases:</strong> Compute Unified Device Architecture, Nvidia CUDA, Nvidia Compute Unified Device Architecture, NVIDIA CUDA, NVIDIA Compute Unified Device Architecture, Cuda, Nvidia Cuda, NVIDIA Cuda<br>
-        
-
-        <p><strong>Wikidata:</strong> <a href="https://www.wikidata.org/wiki/Q477690">Q477690</a></p>
-
-
-        <div class="box">
-    <a href="/print/programming-languages-influence-network-2021-black/">
-        <figure class="image is-marginless" title="Network Graph of Programming Language Influence">
-            <img src="/img/preview/programming-languages-influence-network-2021-black.jpg" alt="Programming Language Influence Poster">
-        </figure>
-        <p class="has-text-centered">➡️ Influence Network Poster</p>
-    </a>
-</div>
-    </div>
-
-    <div class="column">
-            <h3>Hello World in CUDA</h3>
-                <pre><code class="language-cuda">#include &lt;stdio.h&gt;
-
-__global__ void hello_world(){
-    printf(&#34;Hello World\n&#34;);
-}
-
-int main() {
-    hello_world&lt;&lt;&lt;1,1&gt;&gt;&gt;();
-    return 0;
-}
-</code></pre>
-            <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
-            <h3>Free CUDA books, articles, documentation</h3>
-            <ul>
-<li><a href="https://web.archive.org/web/20170517050133/https://docs.nvidia.com/pdf/CUDA_C_Best_Practices_Guide.pdf">CUDA C Best Practices Guide</a> - Nvidia (PDF) <em>(:card_file_box: archived)</em></li>
-<li><a href="https://web.archive.org/web/20181228130113/https://docs.nvidia.com/cuda/pdf/CUDA_C_Programming_Guide.pdf">CUDA C Programming Guide</a> - Nvidia (PDF) <em>(:card_file_box: archived)</em></li>
-<li><a href="https://docs.nvidia.com/cuda/pdf/CUDA_C_Best_Practices_Guide.pdf">CUDA C++ Best Practices Guide</a> - Nvidia (PDF)</li>
-<li><a href="https://docs.nvidia.com/cuda/pdf/CUDA_C_Programming_Guide.pdf">CUDA C++ Programming guide</a> - Nvidia (PDF)</li>
-<li><a href="http://www.nvidia.com/content/cudazone/download/OpenCL/NVIDIA_OpenCL_ProgrammingGuide.pdf">OpenCL Programming Guide for CUDA Architecture</a> - Nvidia (PDF)</li>
+<h1>TC39</h1>
+<ul class="column-list">
+    <li><a href="/language/ecmascript/">ECMAScript</a></li>
 </ul>
-            <div class="small">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
-        <h3>Search on GitHub</h3>
-        <div class="field has-addons">
-            <p class="control">
-                <input class="input" id="github-query" type="text">
-            </p>
-            <p class="control">
-                <button class="button is-link" id="github-search">Search</button>
-            </p>
-        </div>
-        <div id="github-results">
-            <div id="github-message"></div>
-            <table class="table is-hidden">
-                <caption>ℹ️ Click on a column heading to sort the results.</caption>
-                <thead><tr>
-                    <th class="full_name">Name</th>
-                    <th class="description">Description</th>
-                    <th class="pushed_at">Last pushed to</th>
-                    <th class="open_issues">Open issues</th>
-                    <th class="forks">Forks</th>
-                    <th class="watchers">Stars</th>
-                    <th class="size">Size</th>
-                </tr></thead>
-                <tbody></tbody>
-            </table>
-        </div>
-    </div>
-</div>
-<hr>
-<p>Latest data update: 2023-07-02</p>
 </div></section>
 
 <footer class="content footer">
@@ -168,15 +83,5 @@ int main() {
 </symbol></svg></span>
 <script src="/vendor/d3.min.js" charset="utf-8"></script>
 <script src="/compiled/main.js" charset="utf-8"></script>
-
-<script>
-    var language = 'CUDA';
-    var wikibase = 'Q477690';
-</script>
-
-<script src="/compiled/github.js"></script>
-
-    <script src="/vendor/highlight.min.js"></script>
-    <script>hljs.highlightAll();</script>
 </body>
 </html>
