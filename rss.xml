@@ -58,7 +58,7 @@
     <item>
         <title><![CDATA[Programming Languages Ranked by Wikidata Sitelinks]]></title>
         <link><![CDATA[https://programminglanguages.info/sitelinks-ranking/]]></link>
-        <description><![CDATA[This chart shows programming languages ranked by Wikidata sitelinks, i.e. the number of Wikimedia projects with a wiki page for the language.]]></description>
+        <description><![CDATA[This chart shows programming languages ranked by Wikidata sitelinks, i.e. the number of Wikimedia projects with a wiki page for the language based on information from Wikidata.]]></description>
         <guid><![CDATA[https://programminglanguages.info/sitelinks-ranking/]]></guid>
         <pubDate>Fri, 18 Nov 2022 23:39:47</pubDate>
     </item>
