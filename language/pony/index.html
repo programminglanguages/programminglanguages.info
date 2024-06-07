@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title itemprop="name">Pony Programming Language Information & Resources • programminglanguages.info</title>
-<meta name="description" content="programming language"><meta name="author" content="Ramiro Gómez">
+<meta name="description" content="programming language"><meta name="author" content="Ramiro Gómez">        <meta property="og:image" content="https://programminglanguages.info/img/language/pony.png">
+
 
     <link href="" rel="canonical" itemprop="url">
     <link href="/rss.xml" rel="alternate" type="application/rss+xml" title="RSS feed">
@@ -61,6 +62,7 @@
 
         <p><strong>Wikidata:</strong> <a href="https://www.wikidata.org/wiki/Q51160093">Q51160093</a></p>
 
+                <p><strong>Influenced: </strong> <a href="/language/project-verona/">Project Verona</a></p>
 
             <p><strong>Programming paradigms:</strong> <a href="/paradigm/object-oriented-programming/">object-oriented programming</a></p>
         <div class="box">
@@ -74,6 +76,9 @@
     </div>
 
     <div class="column">
+            <h3>Pony Influence Network</h3>
+            <svg class="has-background-dark" id="network"></svg>
+            <p class="is-size-7">Pan and zoom the graph with your mouse or alternatively your fingers on touch devices.</p>
             <h3>Hello World in Pony</h3>
                 <pre><code class="language-pony">actor Main
   new create(env: Env) =&gt;
@@ -108,7 +113,7 @@
     </div>
 </div>
 <hr>
-<p>Latest data update: 2024-03-25</p>
+<p>Latest data update: 2024-05-25</p>
 </div></section>
 
 <footer class="content footer">
@@ -153,6 +158,9 @@
     var language = 'Pony';
     var wikibase = 'Q51160093';
 </script>
+<script src="/vendor/jLouvain.js"></script>
+<script src="/compiled/graph.js"></script>
+<script src="/compiled/language-network.js"></script>
 
 <script src="/compiled/github.js"></script>
 
