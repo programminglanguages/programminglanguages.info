@@ -19,11 +19,13 @@
 <link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
-<nav id="main-nav" class="level">
-    <div class="level-left">
-        <div class="level-item">
+<nav id="main-nav" class="navbar is-dark mb-4 p-1" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <div class="navbar-item">
 <a href="/" title="Start Page"><img src="/img/logo.svg" alt="Logo" class="logo"></a>        </div>
-        <div class="level-item">
+    </div>
+    <div class="navbar-start">
+        <div class="navbar-item">
             <div class="field has-addons">
                 <p class="control">
                     <input class="input" id="lookup-language" list="languages" type="text" placeholder="Language name">
@@ -35,21 +37,21 @@
         </div>
         <datalist id="languages"></datalist>
     </div>
-    <div class="level-right">
-        <a class="level-item button is-link" href="/charts/">Charts</a>
-        <a class="level-item button is-link" href="/prints/">Prints</a>
+    <div class="navbar-end">
+        <a class="navbar-item button is-link" href="/charts/">Charts</a>
+        <a class="navbar-item button is-link" href="/prints/">Prints</a>
     </div>
 </nav>
 </div></section>
 <section class="content"><div class="container is-fluid">
 <div class="columns">
     <div class="column is-3-tablet">
-            <figure class="image is-marginless" title="Oberon Programming Language Information & Resources">
+            <figure class="image mb-2" title="Oberon Programming Language Information & Resources">
                 <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/9/97/Oberon_programming_language_logo.svg" alt="Logo">
-                <figcaption class="small">Source: <a href="https://commons.wikimedia.org/wiki/File:Oberon_programming_language_logo.svg">commons.wikimedia.org</a></figcaption>
+                <figcaption class="is-size-7 has-text-centered">Source: <a href="https://commons.wikimedia.org/wiki/File:Oberon_programming_language_logo.svg">commons.wikimedia.org</a></figcaption>
             </figure>
 
-            <p class="small">Oberon is a general-purpose programming language first published in 1987 by Niklaus Wirth and the latest member of the Wirthian family of ALGOL-like languages. Oberon was the result of a concentrated effort to increase the power of Modula-2, the direct successor of Pascal, and simultaneously to reduce its complexity. Its principal new feature is the concept of data type extension of record types. It permits constructing new data types on the basis of existing ones and to relate them, deviating from the dogma of strict static typing of data. Type extension is Wirth's way of inheritance reflecting the viewpoint of the parent site. Oberon was developed as part of the implementation of an operating system, also named Oberon at ETH Zurich in Switzerland. The name was inspired both by the Voyager space probe's pictures of the moon of the planet Uranus, named Oberon, and because Oberon is famous as the king of the elves. <a href="https://en.wikipedia.org/wiki/Oberon_(programming_language)">Wikipedia</a></p>
+            <p>Oberon is a general-purpose programming language first published in 1987 by Niklaus Wirth and the latest member of the Wirthian family of ALGOL-like languages. Oberon was the result of a concentrated effort to increase the power of Modula-2, the direct successor of Pascal, and simultaneously to reduce its complexity. Its principal new feature is the concept of data type extension of record types. It permits constructing new data types on the basis of existing ones and to relate them, deviating from the dogma of strict static typing of data. Type extension is Wirth's way of inheritance reflecting the viewpoint of the parent site. Oberon was developed as part of the implementation of an operating system, also named Oberon at ETH Zurich in Switzerland. The name was inspired both by the Voyager space probe's pictures of the moon of the planet Uranus, named Oberon, and because Oberon is famous as the king of the elves. <a href="https://en.wikipedia.org/wiki/Oberon_(programming_language)">Wikipedia</a></p>
         <p class="icons">
                     <a class="button is-light" href="https://projectoberon.net" title="Official Website"><svg><use xlink:href="#home"/></svg></a>
         </p>
@@ -109,14 +111,14 @@ BEGIN
    Out.String(&#39;Hello World&#39;);
 END HelloWorld.
 </code></pre>
-            <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
+            <div class="is-size-7">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
             <h3>Free Oberon books, articles, documentation</h3>
             <ul>
 <li><a href="https://inf.ethz.ch/personal/wirth/AD.pdf">Algorithms and Data-Structures</a> - Niklaus Wirth (PDF)</li>
 <li><a href="http://ssw.jku.at/Research/Books/Oberon2.pdf">Object-Oriented Programming in Oberon-2</a> - Hanspeter Mössenböck (PDF)</li>
 <li><a href="https://www.inf.ethz.ch/personal/wirth/ProgInOberonWR.pdf">Programming in Oberon</a> - Niklaus Wirth (PDF)</li>
 </ul>
-            <div class="small">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
+            <div class="is-size-7">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
         <h3>Search on GitHub</h3>
         <div class="field has-addons">
             <p class="control">
@@ -145,7 +147,7 @@ END HelloWorld.
     </div>
 </div>
 <hr>
-<p>Latest data update: 2024-07-29</p>
+<p class="is-size-7">Latest data update: 2024-07-29</p>
 </div></section>
 
 <footer class="content footer">

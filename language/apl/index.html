@@ -19,11 +19,13 @@
 <link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
-<nav id="main-nav" class="level">
-    <div class="level-left">
-        <div class="level-item">
+<nav id="main-nav" class="navbar is-dark mb-4 p-1" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <div class="navbar-item">
 <a href="/" title="Start Page"><img src="/img/logo.svg" alt="Logo" class="logo"></a>        </div>
-        <div class="level-item">
+    </div>
+    <div class="navbar-start">
+        <div class="navbar-item">
             <div class="field has-addons">
                 <p class="control">
                     <input class="input" id="lookup-language" list="languages" type="text" placeholder="Language name">
@@ -35,21 +37,21 @@
         </div>
         <datalist id="languages"></datalist>
     </div>
-    <div class="level-right">
-        <a class="level-item button is-link" href="/charts/">Charts</a>
-        <a class="level-item button is-link" href="/prints/">Prints</a>
+    <div class="navbar-end">
+        <a class="navbar-item button is-link" href="/charts/">Charts</a>
+        <a class="navbar-item button is-link" href="/prints/">Prints</a>
     </div>
 </nav>
 </div></section>
 <section class="content"><div class="container is-fluid">
 <div class="columns">
     <div class="column is-3-tablet">
-            <figure class="image is-marginless" title="APL Programming Language Information & Resources">
+            <figure class="image mb-2" title="APL Programming Language Information & Resources">
                 <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/b/b6/APL_(programming_language)_logo.svg" alt="Logo">
-                <figcaption class="small">Source: <a href="https://commons.wikimedia.org/wiki/File:APL_(programming_language)_logo.svg">commons.wikimedia.org</a></figcaption>
+                <figcaption class="is-size-7 has-text-centered">Source: <a href="https://commons.wikimedia.org/wiki/File:APL_(programming_language)_logo.svg">commons.wikimedia.org</a></figcaption>
             </figure>
 
-            <p class="small">APL is a programming language developed in the 1960s by Kenneth E. Iverson. Its central datatype is the multidimensional array. It uses a large range of special graphic symbols to represent most functions and operators, leading to very concise code. It has been an important influence on the development of concept modeling, spreadsheets, functional programming, and computer math packages. It has also inspired several other programming languages. <a href="https://en.wikipedia.org/wiki/APL_(programming_language)">Wikipedia</a></p>
+            <p>APL is a programming language developed in the 1960s by Kenneth E. Iverson. Its central datatype is the multidimensional array. It uses a large range of special graphic symbols to represent most functions and operators, leading to very concise code. It has been an important influence on the development of concept modeling, spreadsheets, functional programming, and computer math packages. It has also inspired several other programming languages. <a href="https://en.wikipedia.org/wiki/APL_(programming_language)">Wikipedia</a></p>
         <p class="icons">
                     <a class="button is-light" href="http://www.computerhistory.org/atchm/the-apl-programming-language-source-code/" title="Official Website"><svg><use xlink:href="#home"/></svg></a>
                     <a class="button is-light" href="https://stackoverflow.com/tags/apl" title="Stack Exchange Tag"><svg><use xlink:href="#stack-exchange"/></svg></a>
@@ -104,7 +106,7 @@
                 <pre><code class="language-apl">⎕←&#39;Hello World&#39;
 
 </code></pre>
-            <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
+            <div class="is-size-7">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
             <h3>Free APL books, articles, documentation</h3>
             <ul>
 <li><a href="https://ia801009.us.archive.org/28/items/apl-2-at-a-glance-brown-pakin-polivka/APL2_at_a_Glance_-_Brown_Pakin_Polivka.pdf">APL2 at a glance</a> - James A. Brown, Sandra Pakin, Raymond P. Polivka - 1988 (PDF)</li>
@@ -113,7 +115,7 @@
 <li><a href="http://www.dyalog.com/mastering-dyalog-apl.htm">Mastering Dyalog APL</a> (PDF, HTML, IPYNB) <em>(:construction: in process)</em></li>
 <li><a href="https://romilly.github.io/o-x-o">Reinforcement Learning From The Ground Up</a> - Romilly Cocking (PDF, HTML, IPYNB) <em>(:construction: in process)</em></li>
 </ul>
-            <div class="small">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
+            <div class="is-size-7">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
         <h3>Search on GitHub</h3>
         <div class="field has-addons">
             <p class="control">
@@ -142,7 +144,7 @@
     </div>
 </div>
 <hr>
-<p>Latest data update: 2025-03-01</p>
+<p class="is-size-7">Latest data update: 2025-03-01</p>
 </div></section>
 
 <footer class="content footer">

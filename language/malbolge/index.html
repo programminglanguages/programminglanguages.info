@@ -19,11 +19,13 @@
 <link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
-<nav id="main-nav" class="level">
-    <div class="level-left">
-        <div class="level-item">
+<nav id="main-nav" class="navbar is-dark mb-4 p-1" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <div class="navbar-item">
 <a href="/" title="Start Page"><img src="/img/logo.svg" alt="Logo" class="logo"></a>        </div>
-        <div class="level-item">
+    </div>
+    <div class="navbar-start">
+        <div class="navbar-item">
             <div class="field has-addons">
                 <p class="control">
                     <input class="input" id="lookup-language" list="languages" type="text" placeholder="Language name">
@@ -35,9 +37,9 @@
         </div>
         <datalist id="languages"></datalist>
     </div>
-    <div class="level-right">
-        <a class="level-item button is-link" href="/charts/">Charts</a>
-        <a class="level-item button is-link" href="/prints/">Prints</a>
+    <div class="navbar-end">
+        <a class="navbar-item button is-link" href="/charts/">Charts</a>
+        <a class="navbar-item button is-link" href="/prints/">Prints</a>
     </div>
 </nav>
 </div></section>
@@ -46,7 +48,7 @@
     <div class="column is-3-tablet">
             <h1>Malbolge</h1>
 
-            <p class="small">Malbolge is a public domain esoteric programming language invented by Ben Olmstead in 1998, named after the eighth circle of hell in Dante's Inferno, the Malebolge. It was specifically designed to be almost impossible to use, via a counter-intuitive 'crazy operation', base-three arithmetic, and self-altering code. It builds on the difficulty of earlier challenging esoteric languages, but exaggerates this aspect to an extreme degree, playing on the entangled histories of computer science and encryption. Despite this design, it is possible to write useful Malbolge programs. <a href="https://en.wikipedia.org/wiki/Malbolge">Wikipedia</a></p>
+            <p>Malbolge is a public domain esoteric programming language invented by Ben Olmstead in 1998, named after the eighth circle of hell in Dante's Inferno, the Malebolge. It was specifically designed to be almost impossible to use, via a counter-intuitive 'crazy operation', base-three arithmetic, and self-altering code. It builds on the difficulty of earlier challenging esoteric languages, but exaggerates this aspect to an extreme degree, playing on the entangled histories of computer science and encryption. Despite this design, it is possible to write useful Malbolge programs. <a href="https://en.wikipedia.org/wiki/Malbolge">Wikipedia</a></p>
         <p class="icons">
                     <a class="button is-light" href="https://www.quora.com/topic/Malbolge" title="Quora Topic"><svg><use xlink:href="#quora"/></svg></a>
         </p>
@@ -93,7 +95,7 @@
             <p class="is-size-7">Pan and zoom the graph with your mouse or alternatively your fingers on touch devices.</p>
             <h3>Hello World in Malbolge</h3>
                 <pre><code class="language-malbolge">(=&lt;`#9]~6ZY32Vx/4Rs+0No-&amp;Jk)&#34;Fh}|Bcy?,vNz]KZ%oG4UUS0/@-eMc(:&#39;8</code></pre>
-            <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
+            <div class="is-size-7">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
         <h3>Search on GitHub</h3>
         <div class="field has-addons">
             <p class="control">
@@ -122,7 +124,7 @@
     </div>
 </div>
 <hr>
-<p>Latest data update: 2023-12-19</p>
+<p class="is-size-7">Latest data update: 2023-12-19</p>
 </div></section>
 
 <footer class="content footer">

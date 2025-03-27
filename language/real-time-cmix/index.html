@@ -18,11 +18,13 @@
 </head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
-<nav id="main-nav" class="level">
-    <div class="level-left">
-        <div class="level-item">
+<nav id="main-nav" class="navbar is-dark mb-4 p-1" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <div class="navbar-item">
 <a href="/" title="Start Page"><img src="/img/logo.svg" alt="Logo" class="logo"></a>        </div>
-        <div class="level-item">
+    </div>
+    <div class="navbar-start">
+        <div class="navbar-item">
             <div class="field has-addons">
                 <p class="control">
                     <input class="input" id="lookup-language" list="languages" type="text" placeholder="Language name">
@@ -34,9 +36,9 @@
         </div>
         <datalist id="languages"></datalist>
     </div>
-    <div class="level-right">
-        <a class="level-item button is-link" href="/charts/">Charts</a>
-        <a class="level-item button is-link" href="/prints/">Prints</a>
+    <div class="navbar-end">
+        <a class="navbar-item button is-link" href="/charts/">Charts</a>
+        <a class="navbar-item button is-link" href="/prints/">Prints</a>
     </div>
 </nav>
 </div></section>
@@ -45,7 +47,7 @@
     <div class="column is-3-tablet">
             <h1>Real-time Cmix</h1>
 
-            <p class="small">Real-Time Cmix (RTcmix) is one of the MUSIC-N family of computer music programming languages. RTcmix is descended from the MIX program developed by Paul Lansky at Princeton University in 1978 to perform algorithmic composition using digital audio soundfiles on an IBM 3031 mainframe computer. After synthesis functions were added, the program was renamed Cmix in the 1980s. Real-time capability was added by David Topper, John Gibson, Brad Garton, and Douglas Scott in the mid-1990s. In addition, support for TCP socket connectivity, interactive control of the scheduler were added, as well as the ability to embed the synthesis engine into fully featured applications such as Max/MSP. <a href="https://en.wikipedia.org/wiki/Real-time_Cmix">Wikipedia</a></p>
+            <p>Real-Time Cmix (RTcmix) is one of the MUSIC-N family of computer music programming languages. RTcmix is descended from the MIX program developed by Paul Lansky at Princeton University in 1978 to perform algorithmic composition using digital audio soundfiles on an IBM 3031 mainframe computer. After synthesis functions were added, the program was renamed Cmix in the 1980s. Real-time capability was added by David Topper, John Gibson, Brad Garton, and Douglas Scott in the mid-1990s. In addition, support for TCP socket connectivity, interactive control of the scheduler were added, as well as the ability to embed the synthesis engine into fully featured applications such as Max/MSP. <a href="https://en.wikipedia.org/wiki/Real-time_Cmix">Wikipedia</a></p>
         <p class="icons">
         </p>
 
@@ -111,7 +113,7 @@
     </div>
 </div>
 <hr>
-<p>Latest data update: 2024-11-07</p>
+<p class="is-size-7">Latest data update: 2024-11-07</p>
 </div></section>
 
 <footer class="content footer">

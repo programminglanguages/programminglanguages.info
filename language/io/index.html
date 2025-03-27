@@ -19,11 +19,13 @@
 <link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
-<nav id="main-nav" class="level">
-    <div class="level-left">
-        <div class="level-item">
+<nav id="main-nav" class="navbar is-dark mb-4 p-1" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <div class="navbar-item">
 <a href="/" title="Start Page"><img src="/img/logo.svg" alt="Logo" class="logo"></a>        </div>
-        <div class="level-item">
+    </div>
+    <div class="navbar-start">
+        <div class="navbar-item">
             <div class="field has-addons">
                 <p class="control">
                     <input class="input" id="lookup-language" list="languages" type="text" placeholder="Language name">
@@ -35,21 +37,21 @@
         </div>
         <datalist id="languages"></datalist>
     </div>
-    <div class="level-right">
-        <a class="level-item button is-link" href="/charts/">Charts</a>
-        <a class="level-item button is-link" href="/prints/">Prints</a>
+    <div class="navbar-end">
+        <a class="navbar-item button is-link" href="/charts/">Charts</a>
+        <a class="navbar-item button is-link" href="/prints/">Prints</a>
     </div>
 </nav>
 </div></section>
 <section class="content"><div class="container is-fluid">
 <div class="columns">
     <div class="column is-3-tablet">
-            <figure class="image is-marginless" title="Io Programming Language Information & Resources">
+            <figure class="image mb-2" title="Io Programming Language Information & Resources">
                 <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/2/26/Io-logo.svg" alt="Logo">
-                <figcaption class="small">Source: <a href="https://commons.wikimedia.org/wiki/File:Io-logo.svg">commons.wikimedia.org</a></figcaption>
+                <figcaption class="is-size-7 has-text-centered">Source: <a href="https://commons.wikimedia.org/wiki/File:Io-logo.svg">commons.wikimedia.org</a></figcaption>
             </figure>
 
-            <p class="small">Io is a pure object-oriented programming language inspired by Smalltalk, Self, Lua, Lisp, Act1, and NewtonScript. Io has a prototype-based object model similar to those in Self and NewtonScript, eliminating the distinction between instance and class. Like Smalltalk, everything is an object and it uses dynamic typing. Like Lisp, programs are just data trees. Io uses actors for concurrency. <a href="https://en.wikipedia.org/wiki/Io_(programming_language)">Wikipedia</a></p>
+            <p>Io is a pure object-oriented programming language inspired by Smalltalk, Self, Lua, Lisp, Act1, and NewtonScript. Io has a prototype-based object model similar to those in Self and NewtonScript, eliminating the distinction between instance and class. Like Smalltalk, everything is an object and it uses dynamic typing. Like Lisp, programs are just data trees. Io uses actors for concurrency. <a href="https://en.wikipedia.org/wiki/Io_(programming_language)">Wikipedia</a></p>
         <p class="icons">
                     <a class="button is-light" href="https://iolanguage.org/" title="Official Website"><svg><use xlink:href="#home"/></svg></a>
                     <a class="button is-light" href="https://github.com/IoLanguage" title="GitHub User/Organization"><svg><use xlink:href="#github-alt"/></svg></a>
@@ -101,7 +103,7 @@
             <h3>Hello World in Io</h3>
                 <pre><code class="language-io">&#34;Hello World\n&#34; print
 </code></pre>
-            <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
+            <div class="is-size-7">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
         <h3>Search on GitHub</h3>
         <div class="field has-addons">
             <p class="control">
@@ -130,7 +132,7 @@
     </div>
 </div>
 <hr>
-<p>Latest data update: 2024-10-08</p>
+<p class="is-size-7">Latest data update: 2024-10-08</p>
 </div></section>
 
 <footer class="content footer">

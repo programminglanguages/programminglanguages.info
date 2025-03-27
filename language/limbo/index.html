@@ -19,11 +19,13 @@
 <link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
-<nav id="main-nav" class="level">
-    <div class="level-left">
-        <div class="level-item">
+<nav id="main-nav" class="navbar is-dark mb-4 p-1" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <div class="navbar-item">
 <a href="/" title="Start Page"><img src="/img/logo.svg" alt="Logo" class="logo"></a>        </div>
-        <div class="level-item">
+    </div>
+    <div class="navbar-start">
+        <div class="navbar-item">
             <div class="field has-addons">
                 <p class="control">
                     <input class="input" id="lookup-language" list="languages" type="text" placeholder="Language name">
@@ -35,9 +37,9 @@
         </div>
         <datalist id="languages"></datalist>
     </div>
-    <div class="level-right">
-        <a class="level-item button is-link" href="/charts/">Charts</a>
-        <a class="level-item button is-link" href="/prints/">Prints</a>
+    <div class="navbar-end">
+        <a class="navbar-item button is-link" href="/charts/">Charts</a>
+        <a class="navbar-item button is-link" href="/prints/">Prints</a>
     </div>
 </nav>
 </div></section>
@@ -46,7 +48,7 @@
     <div class="column is-3-tablet">
             <h1>Limbo</h1>
 
-            <p class="small">Limbo is a programming language for writing distributed systems and is the language used to write applications for the Inferno operating system. It was designed at Bell Labs by Sean Dorward, Phil Winterbottom, and Rob Pike. <a href="https://en.wikipedia.org/wiki/Limbo_(programming_language)">Wikipedia</a></p>
+            <p>Limbo is a programming language for writing distributed systems and is the language used to write applications for the Inferno operating system. It was designed at Bell Labs by Sean Dorward, Phil Winterbottom, and Rob Pike. <a href="https://en.wikipedia.org/wiki/Limbo_(programming_language)">Wikipedia</a></p>
         <p class="icons">
                     <a class="button is-light" href="http://www.vitanuova.com/inferno/limbo.html" title="Official Website"><svg><use xlink:href="#home"/></svg></a>
         </p>
@@ -111,13 +113,13 @@ init(ctxt: ref Draw-&gt;Context, argv: list of string)
 	sys-&gt;print(&#34;Hello World\n&#34;);
 }
 </code></pre>
-            <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
+            <div class="is-size-7">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
             <h3>Free Limbo books, articles, documentation</h3>
             <ul>
 <li><a href="http://doc.cat-v.org/inferno/books/inferno_programming_with_limbo/">Inferno Programming With Limbo</a></li>
 <li><a href="http://resibots.eu/limbo/#limbo-s-documentation">Limbo’s documentation</a></li>
 </ul>
-            <div class="small">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
+            <div class="is-size-7">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
         <h3>Search on GitHub</h3>
         <div class="field has-addons">
             <p class="control">
@@ -146,7 +148,7 @@ init(ctxt: ref Draw-&gt;Context, argv: list of string)
     </div>
 </div>
 <hr>
-<p>Latest data update: 2024-09-05</p>
+<p class="is-size-7">Latest data update: 2024-09-05</p>
 </div></section>
 
 <footer class="content footer">

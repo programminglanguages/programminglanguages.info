@@ -18,11 +18,13 @@
 </head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
-<nav id="main-nav" class="level">
-    <div class="level-left">
-        <div class="level-item">
+<nav id="main-nav" class="navbar is-dark mb-4 p-1" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <div class="navbar-item">
 <a href="/" title="Start Page"><img src="/img/logo.svg" alt="Logo" class="logo"></a>        </div>
-        <div class="level-item">
+    </div>
+    <div class="navbar-start">
+        <div class="navbar-item">
             <div class="field has-addons">
                 <p class="control">
                     <input class="input" id="lookup-language" list="languages" type="text" placeholder="Language name">
@@ -34,9 +36,9 @@
         </div>
         <datalist id="languages"></datalist>
     </div>
-    <div class="level-right">
-        <a class="level-item button is-link" href="/charts/">Charts</a>
-        <a class="level-item button is-link" href="/prints/">Prints</a>
+    <div class="navbar-end">
+        <a class="navbar-item button is-link" href="/charts/">Charts</a>
+        <a class="navbar-item button is-link" href="/prints/">Prints</a>
     </div>
 </nav>
 </div></section>
@@ -45,7 +47,7 @@
     <div class="column is-3-tablet">
             <h1>Extended Backus–Naur Form</h1>
 
-            <p class="small">In computer science, extended Backus–Naur form (EBNF) is a family of metasyntax notations, any of which can be used to express a context-free grammar. EBNF is used to make a formal description of a formal language such as a computer programming language. They are extensions of the basic Backus–Naur form (BNF) metasyntax notation.
+            <p>In computer science, extended Backus–Naur form (EBNF) is a family of metasyntax notations, any of which can be used to express a context-free grammar. EBNF is used to make a formal description of a formal language such as a computer programming language. They are extensions of the basic Backus–Naur form (BNF) metasyntax notation.
 The earliest EBNF was developed by Niklaus Wirth, incorporating some of the concepts from Wirth syntax notation. Today, many variants of EBNF are in use.
 The International Organization for Standardization adopted an EBNF Standard, ISO/IEC 14977, in 1996. <a href="https://en.wikipedia.org/wiki/Extended_Backus–Naur_form">Wikipedia</a></p>
         <p class="icons">
@@ -113,7 +115,7 @@ The International Organization for Standardization adopted an EBNF Standard, ISO
     </div>
 </div>
 <hr>
-<p>Latest data update: 2025-02-16</p>
+<p class="is-size-7">Latest data update: 2025-02-16</p>
 </div></section>
 
 <footer class="content footer">

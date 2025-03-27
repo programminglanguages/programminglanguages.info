@@ -18,11 +18,13 @@
 </head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
-<nav id="main-nav" class="level">
-    <div class="level-left">
-        <div class="level-item">
+<nav id="main-nav" class="navbar is-dark mb-4 p-1" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <div class="navbar-item">
 <a href="/" title="Start Page"><img src="/img/logo.svg" alt="Logo" class="logo"></a>        </div>
-        <div class="level-item">
+    </div>
+    <div class="navbar-start">
+        <div class="navbar-item">
             <div class="field has-addons">
                 <p class="control">
                     <input class="input" id="lookup-language" list="languages" type="text" placeholder="Language name">
@@ -34,9 +36,9 @@
         </div>
         <datalist id="languages"></datalist>
     </div>
-    <div class="level-right">
-        <a class="level-item button is-link" href="/charts/">Charts</a>
-        <a class="level-item button is-link" href="/prints/">Prints</a>
+    <div class="navbar-end">
+        <a class="navbar-item button is-link" href="/charts/">Charts</a>
+        <a class="navbar-item button is-link" href="/prints/">Prints</a>
     </div>
 </nav>
 </div></section>
@@ -45,7 +47,7 @@
     <div class="column is-3-tablet">
             <h1>Microsoft Visual Programming Language</h1>
 
-            <p class="small">Microsoft Visual Programming Language, or VPL, is a visual programming and dataflow programming language developed by Microsoft for the Microsoft Robotics Studio. 
+            <p>Microsoft Visual Programming Language, or VPL, is a visual programming and dataflow programming language developed by Microsoft for the Microsoft Robotics Studio. 
 VPL is based on the event-driven and data-driven approach. The programming language is distinguished from other Microsoft programming languages such as Visual Basic and C#, as it is the only Microsoft language that is a true visual programming language. Microsoft has utilized the term "Visual" in its previous programming products to reflect that a large degree of development in these languages can be performed by "dragging and dropping" in a traditional wysiwyg fashion. <a href="https://en.wikipedia.org/wiki/Microsoft_Visual_Programming_Language">Wikipedia</a></p>
         <p class="icons">
                     <a class="button is-light" href="http://msdn.microsoft.com/en-us/library/bb964572.aspx" title="Official Website"><svg><use xlink:href="#home"/></svg></a>
@@ -113,7 +115,7 @@ VPL is based on the event-driven and data-driven approach. The programming langu
     </div>
 </div>
 <hr>
-<p>Latest data update: 2024-06-24</p>
+<p class="is-size-7">Latest data update: 2024-06-24</p>
 </div></section>
 
 <footer class="content footer">

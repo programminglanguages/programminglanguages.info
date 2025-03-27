@@ -19,11 +19,13 @@
 <link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
-<nav id="main-nav" class="level">
-    <div class="level-left">
-        <div class="level-item">
+<nav id="main-nav" class="navbar is-dark mb-4 p-1" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <div class="navbar-item">
 <a href="/" title="Start Page"><img src="/img/logo.svg" alt="Logo" class="logo"></a>        </div>
-        <div class="level-item">
+    </div>
+    <div class="navbar-start">
+        <div class="navbar-item">
             <div class="field has-addons">
                 <p class="control">
                     <input class="input" id="lookup-language" list="languages" type="text" placeholder="Language name">
@@ -35,9 +37,9 @@
         </div>
         <datalist id="languages"></datalist>
     </div>
-    <div class="level-right">
-        <a class="level-item button is-link" href="/charts/">Charts</a>
-        <a class="level-item button is-link" href="/prints/">Prints</a>
+    <div class="navbar-end">
+        <a class="navbar-item button is-link" href="/charts/">Charts</a>
+        <a class="navbar-item button is-link" href="/prints/">Prints</a>
     </div>
 </nav>
 </div></section>
@@ -46,7 +48,7 @@
     <div class="column is-3-tablet">
             <h1>Maclisp</h1>
 
-            <p class="small">Maclisp is a programming language, a dialect of the language Lisp. It originated at the Massachusetts Institute of Technology's (MIT) Project MAC in the late 1960s and was based on Lisp 1.5. Richard Greenblatt was the main developer of the original codebase for the PDP-6; Jon L. White was responsible for its later maintenance and development. The name Maclisp began being used in the early 1970s to distinguish it from other forks of PDP-6 Lisp, notably BBN Lisp. <a href="https://en.wikipedia.org/wiki/Maclisp">Wikipedia</a></p>
+            <p>Maclisp is a programming language, a dialect of the language Lisp. It originated at the Massachusetts Institute of Technology's (MIT) Project MAC in the late 1960s and was based on Lisp 1.5. Richard Greenblatt was the main developer of the original codebase for the PDP-6; Jon L. White was responsible for its later maintenance and development. The name Maclisp began being used in the early 1970s to distinguish it from other forks of PDP-6 Lisp, notably BBN Lisp. <a href="https://en.wikipedia.org/wiki/Maclisp">Wikipedia</a></p>
         <p class="icons">
         </p>
 
@@ -103,7 +105,7 @@
   (suspend &#34;:KILL &#34; &#39;(ts hello))
   (hello-world))
 </code></pre>
-            <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
+            <div class="is-size-7">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
         <h3>Search on GitHub</h3>
         <div class="field has-addons">
             <p class="control">
@@ -132,7 +134,7 @@
     </div>
 </div>
 <hr>
-<p>Latest data update: 2024-10-28</p>
+<p class="is-size-7">Latest data update: 2024-10-28</p>
 </div></section>
 
 <footer class="content footer">

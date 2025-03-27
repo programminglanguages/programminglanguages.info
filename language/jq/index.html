@@ -19,11 +19,13 @@
 </head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
-<nav id="main-nav" class="level">
-    <div class="level-left">
-        <div class="level-item">
+<nav id="main-nav" class="navbar is-dark mb-4 p-1" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <div class="navbar-item">
 <a href="/" title="Start Page"><img src="/img/logo.svg" alt="Logo" class="logo"></a>        </div>
-        <div class="level-item">
+    </div>
+    <div class="navbar-start">
+        <div class="navbar-item">
             <div class="field has-addons">
                 <p class="control">
                     <input class="input" id="lookup-language" list="languages" type="text" placeholder="Language name">
@@ -35,21 +37,21 @@
         </div>
         <datalist id="languages"></datalist>
     </div>
-    <div class="level-right">
-        <a class="level-item button is-link" href="/charts/">Charts</a>
-        <a class="level-item button is-link" href="/prints/">Prints</a>
+    <div class="navbar-end">
+        <a class="navbar-item button is-link" href="/charts/">Charts</a>
+        <a class="navbar-item button is-link" href="/prints/">Prints</a>
     </div>
 </nav>
 </div></section>
 <section class="content"><div class="container is-fluid">
 <div class="columns">
     <div class="column is-3-tablet">
-            <figure class="image is-marginless" title="jq Programming Language Information & Resources">
+            <figure class="image mb-2" title="jq Programming Language Information & Resources">
                 <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Jq_logo.svg" alt="Logo">
-                <figcaption class="small">Source: <a href="https://commons.wikimedia.org/wiki/File:Jq_logo.svg">commons.wikimedia.org</a></figcaption>
+                <figcaption class="is-size-7 has-text-centered">Source: <a href="https://commons.wikimedia.org/wiki/File:Jq_logo.svg">commons.wikimedia.org</a></figcaption>
             </figure>
 
-            <p class="small">jq is a very high-level lexically scoped functional programming language in which every JSON value is a constant. jq supports backtracking and managing indefinitely long streams of JSON data. It is related to the Icon and Haskell programming languages. The language supports a namespace-based module system and has some support for closures. In particular, functions and functional expressions can be used as parameters of other functions. <a href="https://en.wikipedia.org/wiki/Jq_(programming_language)">Wikipedia</a></p>
+            <p>jq is a very high-level lexically scoped functional programming language in which every JSON value is a constant. jq supports backtracking and managing indefinitely long streams of JSON data. It is related to the Icon and Haskell programming languages. The language supports a namespace-based module system and has some support for closures. In particular, functions and functional expressions can be used as parameters of other functions. <a href="https://en.wikipedia.org/wiki/Jq_(programming_language)">Wikipedia</a></p>
         <p class="icons">
         </p>
 
@@ -95,7 +97,7 @@
             <ul>
 <li><a href="http://www.cs.arizona.edu/icon/ibsale.htm">The Implementation of the Icon Programming Language</a></li>
 </ul>
-            <div class="small">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
+            <div class="is-size-7">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
         <h3>Search on GitHub</h3>
         <div class="field has-addons">
             <p class="control">
@@ -124,7 +126,7 @@
     </div>
 </div>
 <hr>
-<p>Latest data update: 2024-12-23</p>
+<p class="is-size-7">Latest data update: 2024-12-23</p>
 </div></section>
 
 <footer class="content footer">

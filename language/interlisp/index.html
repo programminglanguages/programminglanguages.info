@@ -19,11 +19,13 @@
 </head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
-<nav id="main-nav" class="level">
-    <div class="level-left">
-        <div class="level-item">
+<nav id="main-nav" class="navbar is-dark mb-4 p-1" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <div class="navbar-item">
 <a href="/" title="Start Page"><img src="/img/logo.svg" alt="Logo" class="logo"></a>        </div>
-        <div class="level-item">
+    </div>
+    <div class="navbar-start">
+        <div class="navbar-item">
             <div class="field has-addons">
                 <p class="control">
                     <input class="input" id="lookup-language" list="languages" type="text" placeholder="Language name">
@@ -35,9 +37,9 @@
         </div>
         <datalist id="languages"></datalist>
     </div>
-    <div class="level-right">
-        <a class="level-item button is-link" href="/charts/">Charts</a>
-        <a class="level-item button is-link" href="/prints/">Prints</a>
+    <div class="navbar-end">
+        <a class="navbar-item button is-link" href="/charts/">Charts</a>
+        <a class="navbar-item button is-link" href="/prints/">Prints</a>
     </div>
 </nav>
 </div></section>
@@ -46,7 +48,7 @@
     <div class="column is-3-tablet">
             <h1>Interlisp</h1>
 
-            <p class="small">Interlisp is a programming environment built around a version of the programming language Lisp. Interlisp development began in 1966 at Bolt, Beranek and Newman in Cambridge, Massachusetts with Lisp implemented for the Digital Equipment Corporation (DEC) PDP-1 computer by Danny Bobrow and D. L. Murphy. In 1970, Alice K. Hartley implemented BBN LISP, which ran on PDP-10 machines running the operating system TENEX. In 1973, when Danny Bobrow, Warren Teitelman and Ronald Kaplan moved from BBN to the Xerox Palo Alto Research Center (PARC), it was renamed Interlisp. Interlisp became a popular Lisp development tool for artificial intelligence (AI) researchers at Stanford University and elsewhere in the community of the Defense Advanced Research Projects Agency (DARPA). Interlisp was notable for integrating interactive development tools into an integrated development environment (IDE), such as a debugger, an automatic correction tool for simple errors, and analysis tools. <a href="https://en.wikipedia.org/wiki/Interlisp">Wikipedia</a></p>
+            <p>Interlisp is a programming environment built around a version of the programming language Lisp. Interlisp development began in 1966 at Bolt, Beranek and Newman in Cambridge, Massachusetts with Lisp implemented for the Digital Equipment Corporation (DEC) PDP-1 computer by Danny Bobrow and D. L. Murphy. In 1970, Alice K. Hartley implemented BBN LISP, which ran on PDP-10 machines running the operating system TENEX. In 1973, when Danny Bobrow, Warren Teitelman and Ronald Kaplan moved from BBN to the Xerox Palo Alto Research Center (PARC), it was renamed Interlisp. Interlisp became a popular Lisp development tool for artificial intelligence (AI) researchers at Stanford University and elsewhere in the community of the Defense Advanced Research Projects Agency (DARPA). Interlisp was notable for integrating interactive development tools into an integrated development environment (IDE), such as a debugger, an automatic correction tool for simple errors, and analysis tools. <a href="https://en.wikipedia.org/wiki/Interlisp">Wikipedia</a></p>
         <p class="icons">
         </p>
 
@@ -116,7 +118,7 @@
     </div>
 </div>
 <hr>
-<p>Latest data update: 2024-10-27</p>
+<p class="is-size-7">Latest data update: 2024-10-27</p>
 </div></section>
 
 <footer class="content footer">

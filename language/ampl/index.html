@@ -20,11 +20,13 @@ It was developed by Robert Fourer,..."><meta name="author" content="Ramiro Góme
 </head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
-<nav id="main-nav" class="level">
-    <div class="level-left">
-        <div class="level-item">
+<nav id="main-nav" class="navbar is-dark mb-4 p-1" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <div class="navbar-item">
 <a href="/" title="Start Page"><img src="/img/logo.svg" alt="Logo" class="logo"></a>        </div>
-        <div class="level-item">
+    </div>
+    <div class="navbar-start">
+        <div class="navbar-item">
             <div class="field has-addons">
                 <p class="control">
                     <input class="input" id="lookup-language" list="languages" type="text" placeholder="Language name">
@@ -36,9 +38,9 @@ It was developed by Robert Fourer,..."><meta name="author" content="Ramiro Góme
         </div>
         <datalist id="languages"></datalist>
     </div>
-    <div class="level-right">
-        <a class="level-item button is-link" href="/charts/">Charts</a>
-        <a class="level-item button is-link" href="/prints/">Prints</a>
+    <div class="navbar-end">
+        <a class="navbar-item button is-link" href="/charts/">Charts</a>
+        <a class="navbar-item button is-link" href="/prints/">Prints</a>
     </div>
 </nav>
 </div></section>
@@ -47,7 +49,7 @@ It was developed by Robert Fourer,..."><meta name="author" content="Ramiro Góme
     <div class="column is-3-tablet">
             <h1>AMPL</h1>
 
-            <p class="small">AMPL is an algebraic modeling language to describe and solve high-complexity problems for large-scale mathematical computing .
+            <p>AMPL is an algebraic modeling language to describe and solve high-complexity problems for large-scale mathematical computing .
 It was developed by Robert Fourer, David Gay, and Brian Kernighan at Bell Laboratories.
 AMPL supports dozens of solvers, both open source and commercial software, including CBC, CPLEX, FortMP, MOSEK, MINOS, IPOPT, SNOPT, KNITRO, and LGO. Problems are passed to solvers as nl files.
 AMPL is used by more than 100 corporate clients, and by government agencies and academic institutions. <a href="https://en.wikipedia.org/wiki/AMPL">Wikipedia</a></p>
@@ -128,7 +130,7 @@ AMPL is used by more than 100 corporate clients, and by government agencies and 
     </div>
 </div>
 <hr>
-<p>Latest data update: 2024-10-27</p>
+<p class="is-size-7">Latest data update: 2024-10-27</p>
 </div></section>
 
 <footer class="content footer">

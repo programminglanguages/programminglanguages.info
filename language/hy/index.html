@@ -19,11 +19,13 @@
 <link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
-<nav id="main-nav" class="level">
-    <div class="level-left">
-        <div class="level-item">
+<nav id="main-nav" class="navbar is-dark mb-4 p-1" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <div class="navbar-item">
 <a href="/" title="Start Page"><img src="/img/logo.svg" alt="Logo" class="logo"></a>        </div>
-        <div class="level-item">
+    </div>
+    <div class="navbar-start">
+        <div class="navbar-item">
             <div class="field has-addons">
                 <p class="control">
                     <input class="input" id="lookup-language" list="languages" type="text" placeholder="Language name">
@@ -35,21 +37,21 @@
         </div>
         <datalist id="languages"></datalist>
     </div>
-    <div class="level-right">
-        <a class="level-item button is-link" href="/charts/">Charts</a>
-        <a class="level-item button is-link" href="/prints/">Prints</a>
+    <div class="navbar-end">
+        <a class="navbar-item button is-link" href="/charts/">Charts</a>
+        <a class="navbar-item button is-link" href="/prints/">Prints</a>
     </div>
 </nav>
 </div></section>
 <section class="content"><div class="container is-fluid">
 <div class="columns">
     <div class="column is-3-tablet">
-            <figure class="image is-marginless" title="Hy Programming Language Information & Resources">
+            <figure class="image mb-2" title="Hy Programming Language Information & Resources">
                 <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/8/87/Hy_Cuddles.png" alt="Logo">
-                <figcaption class="small">Source: <a href="https://commons.wikimedia.org/wiki/File:Hy_Cuddles.png">commons.wikimedia.org</a></figcaption>
+                <figcaption class="is-size-7 has-text-centered">Source: <a href="https://commons.wikimedia.org/wiki/File:Hy_Cuddles.png">commons.wikimedia.org</a></figcaption>
             </figure>
 
-            <p class="small">Hy is a dialect of the Lisp programming language designed to interact with Python by translating s-expressions into Python's abstract syntax tree (AST). Hy was introduced at Python Conference (PyCon) 2013 by Paul Tagliamonte. Lisp allows operating on code as data (metaprogramming), thus Hy can be used to write domain-specific languages. <a href="https://en.wikipedia.org/wiki/Hy_(programming_language)">Wikipedia</a></p>
+            <p>Hy is a dialect of the Lisp programming language designed to interact with Python by translating s-expressions into Python's abstract syntax tree (AST). Hy was introduced at Python Conference (PyCon) 2013 by Paul Tagliamonte. Lisp allows operating on code as data (metaprogramming), thus Hy can be used to write domain-specific languages. <a href="https://en.wikipedia.org/wiki/Hy_(programming_language)">Wikipedia</a></p>
         <p class="icons">
                     <a class="button is-light" href="http://hylang.org/" title="Official Website"><svg><use xlink:href="#home"/></svg></a>
         </p>
@@ -96,7 +98,7 @@
             <h3>Hello World in Hy</h3>
                 <pre><code class="language-hy">(print &#34;Hello World&#34;)
 </code></pre>
-            <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
+            <div class="is-size-7">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
         <h3>Search on GitHub</h3>
         <div class="field has-addons">
             <p class="control">
@@ -125,7 +127,7 @@
     </div>
 </div>
 <hr>
-<p>Latest data update: 2024-09-23</p>
+<p class="is-size-7">Latest data update: 2024-09-23</p>
 </div></section>
 
 <footer class="content footer">

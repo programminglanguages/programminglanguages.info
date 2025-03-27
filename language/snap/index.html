@@ -18,11 +18,13 @@
 </head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
-<nav id="main-nav" class="level">
-    <div class="level-left">
-        <div class="level-item">
+<nav id="main-nav" class="navbar is-dark mb-4 p-1" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <div class="navbar-item">
 <a href="/" title="Start Page"><img src="/img/logo.svg" alt="Logo" class="logo"></a>        </div>
-        <div class="level-item">
+    </div>
+    <div class="navbar-start">
+        <div class="navbar-item">
             <div class="field has-addons">
                 <p class="control">
                     <input class="input" id="lookup-language" list="languages" type="text" placeholder="Language name">
@@ -34,9 +36,9 @@
         </div>
         <datalist id="languages"></datalist>
     </div>
-    <div class="level-right">
-        <a class="level-item button is-link" href="/charts/">Charts</a>
-        <a class="level-item button is-link" href="/prints/">Prints</a>
+    <div class="navbar-end">
+        <a class="navbar-item button is-link" href="/charts/">Charts</a>
+        <a class="navbar-item button is-link" href="/prints/">Prints</a>
     </div>
 </nav>
 </div></section>
@@ -45,7 +47,7 @@
     <div class="column is-3-tablet">
             <h1>SNAP</h1>
 
-            <p class="small">SNAP, short for Stylized, Natural, Procedural, is an educational programming language designed by Michael Barnett while working at RCA in 1968 and later used at Columbia University to teach programming in the humanities. It is an imperative programming language, like many languages of the 1960s, but was deliberately verbose, attempting to look more like conversational English in the fashion of HyperText and later languages. Unlike other educational languages of the era, SNAP was not intended to be interactive and was designed to be programmed via punch cards. To save cards, multiple period-separated statements could be written on every card, so the resulting code often looked like a single paragraph. <a href="https://en.wikipedia.org/wiki/SNAP_(programming_language)">Wikipedia</a></p>
+            <p>SNAP, short for Stylized, Natural, Procedural, is an educational programming language designed by Michael Barnett while working at RCA in 1968 and later used at Columbia University to teach programming in the humanities. It is an imperative programming language, like many languages of the 1960s, but was deliberately verbose, attempting to look more like conversational English in the fashion of HyperText and later languages. Unlike other educational languages of the era, SNAP was not intended to be interactive and was designed to be programmed via punch cards. To save cards, multiple period-separated statements could be written on every card, so the resulting code often looked like a single paragraph. <a href="https://en.wikipedia.org/wiki/SNAP_(programming_language)">Wikipedia</a></p>
         <p class="icons">
         </p>
 
@@ -87,7 +89,7 @@
             <ul>
 <li><a href="http://handbook.selflanguage.org">The Self Handbook</a></li>
 </ul>
-            <div class="small">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
+            <div class="is-size-7">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
         <h3>Search on GitHub</h3>
         <div class="field has-addons">
             <p class="control">
@@ -116,7 +118,7 @@
     </div>
 </div>
 <hr>
-<p>Latest data update: 2022-09-16</p>
+<p class="is-size-7">Latest data update: 2022-09-16</p>
 </div></section>
 
 <footer class="content footer">

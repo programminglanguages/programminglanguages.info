@@ -19,11 +19,13 @@
 </head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
-<nav id="main-nav" class="level">
-    <div class="level-left">
-        <div class="level-item">
+<nav id="main-nav" class="navbar is-dark mb-4 p-1" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <div class="navbar-item">
 <a href="/" title="Start Page"><img src="/img/logo.svg" alt="Logo" class="logo"></a>        </div>
-        <div class="level-item">
+    </div>
+    <div class="navbar-start">
+        <div class="navbar-item">
             <div class="field has-addons">
                 <p class="control">
                     <input class="input" id="lookup-language" list="languages" type="text" placeholder="Language name">
@@ -35,9 +37,9 @@
         </div>
         <datalist id="languages"></datalist>
     </div>
-    <div class="level-right">
-        <a class="level-item button is-link" href="/charts/">Charts</a>
-        <a class="level-item button is-link" href="/prints/">Prints</a>
+    <div class="navbar-end">
+        <a class="navbar-item button is-link" href="/charts/">Charts</a>
+        <a class="navbar-item button is-link" href="/prints/">Prints</a>
     </div>
 </nav>
 </div></section>
@@ -46,7 +48,7 @@
     <div class="column is-3-tablet">
             <h1>IBM RPG III</h1>
 
-            <p class="small">RPG III is a dialect of the RPG programming language that was first announced with the IBM System/38 in 1978. An upgraded version, RPG IV, was introduced in 1994. In 2001 RPG was again updated to remove a number of column restrictions. RPG continues to be upgraded on a regular basis. The last fixed form restrictions were removed in 2015. Other than sharing some opcodes and terminology, modern RPG IV is visually very different from RPG III. <a href="https://en.wikipedia.org/wiki/IBM_RPG_III">Wikipedia</a></p>
+            <p>RPG III is a dialect of the RPG programming language that was first announced with the IBM System/38 in 1978. An upgraded version, RPG IV, was introduced in 1994. In 2001 RPG was again updated to remove a number of column restrictions. RPG continues to be upgraded on a regular basis. The last fixed form restrictions were removed in 2015. Other than sharing some opcodes and terminology, modern RPG IV is visually very different from RPG III. <a href="https://en.wikipedia.org/wiki/IBM_RPG_III">Wikipedia</a></p>
         <p class="icons">
         </p>
 
@@ -118,7 +120,7 @@
     </div>
 </div>
 <hr>
-<p>Latest data update: 2022-08-29</p>
+<p class="is-size-7">Latest data update: 2022-08-29</p>
 </div></section>
 
 <footer class="content footer">

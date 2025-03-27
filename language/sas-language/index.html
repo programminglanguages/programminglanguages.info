@@ -18,11 +18,13 @@
 <link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
-<nav id="main-nav" class="level">
-    <div class="level-left">
-        <div class="level-item">
+<nav id="main-nav" class="navbar is-dark mb-4 p-1" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <div class="navbar-item">
 <a href="/" title="Start Page"><img src="/img/logo.svg" alt="Logo" class="logo"></a>        </div>
-        <div class="level-item">
+    </div>
+    <div class="navbar-start">
+        <div class="navbar-item">
             <div class="field has-addons">
                 <p class="control">
                     <input class="input" id="lookup-language" list="languages" type="text" placeholder="Language name">
@@ -34,9 +36,9 @@
         </div>
         <datalist id="languages"></datalist>
     </div>
-    <div class="level-right">
-        <a class="level-item button is-link" href="/charts/">Charts</a>
-        <a class="level-item button is-link" href="/prints/">Prints</a>
+    <div class="navbar-end">
+        <a class="navbar-item button is-link" href="/charts/">Charts</a>
+        <a class="navbar-item button is-link" href="/prints/">Prints</a>
     </div>
 </nav>
 </div></section>
@@ -45,7 +47,7 @@
     <div class="column is-3-tablet">
             <h1>SAS Language</h1>
 
-            <p class="small">The SAS language is a fourth-generation computer programming language used for statistical analysis, created by Anthony James Barr at North Carolina State University. Its primary applications include data mining and machine learning. The SAS language runs under compilers such as the SAS System that can be used on Microsoft Windows, Linux, UNIX and mainframe computers. <a href="https://en.wikipedia.org/wiki/SAS_language">Wikipedia</a></p>
+            <p>The SAS language is a fourth-generation computer programming language used for statistical analysis, created by Anthony James Barr at North Carolina State University. Its primary applications include data mining and machine learning. The SAS language runs under compilers such as the SAS System that can be used on Microsoft Windows, Linux, UNIX and mainframe computers. <a href="https://en.wikipedia.org/wiki/SAS_language">Wikipedia</a></p>
         <p class="icons">
         </p>
 
@@ -95,7 +97,7 @@
 
 %putit(string=Hello World)
 </code></pre>
-            <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
+            <div class="is-size-7">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
         <h3>Search on GitHub</h3>
         <div class="field has-addons">
             <p class="control">
@@ -124,7 +126,7 @@
     </div>
 </div>
 <hr>
-<p>Latest data update: 2024-10-09</p>
+<p class="is-size-7">Latest data update: 2024-10-09</p>
 </div></section>
 
 <footer class="content footer">

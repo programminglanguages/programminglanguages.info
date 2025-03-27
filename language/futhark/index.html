@@ -18,11 +18,13 @@
 </head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
-<nav id="main-nav" class="level">
-    <div class="level-left">
-        <div class="level-item">
+<nav id="main-nav" class="navbar is-dark mb-4 p-1" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <div class="navbar-item">
 <a href="/" title="Start Page"><img src="/img/logo.svg" alt="Logo" class="logo"></a>        </div>
-        <div class="level-item">
+    </div>
+    <div class="navbar-start">
+        <div class="navbar-item">
             <div class="field has-addons">
                 <p class="control">
                     <input class="input" id="lookup-language" list="languages" type="text" placeholder="Language name">
@@ -34,9 +36,9 @@
         </div>
         <datalist id="languages"></datalist>
     </div>
-    <div class="level-right">
-        <a class="level-item button is-link" href="/charts/">Charts</a>
-        <a class="level-item button is-link" href="/prints/">Prints</a>
+    <div class="navbar-end">
+        <a class="navbar-item button is-link" href="/charts/">Charts</a>
+        <a class="navbar-item button is-link" href="/prints/">Prints</a>
     </div>
 </nav>
 </div></section>
@@ -45,7 +47,7 @@
     <div class="column is-3-tablet">
             <h1>Futhark</h1>
 
-            <p class="small">Futhark is a multi-paradigm, high-level, functional, data parallel, array programming language. It is a dialect of the language ML, originally developed at UCPH Department of Computer Science (DIKU) as part of the HIPERFIT project. It focuses on enabling data parallel programs written in a functional style to be executed with high performance on massively parallel hardware, especially graphics processing units (GPUs). Futhark is strongly inspired by NESL, and its implementation uses a variant of the flattening transformation, but imposes constraints on how parallelism can be expressed in order to enable more aggressive compiler optimisations. In particular, irregular nested data parallelism is not supported. It is free and open-source software released under an ISC license. <a href="https://en.wikipedia.org/wiki/Futhark_(programming_language)">Wikipedia</a></p>
+            <p>Futhark is a multi-paradigm, high-level, functional, data parallel, array programming language. It is a dialect of the language ML, originally developed at UCPH Department of Computer Science (DIKU) as part of the HIPERFIT project. It focuses on enabling data parallel programs written in a functional style to be executed with high performance on massively parallel hardware, especially graphics processing units (GPUs). Futhark is strongly inspired by NESL, and its implementation uses a variant of the flattening transformation, but imposes constraints on how parallelism can be expressed in order to enable more aggressive compiler optimisations. In particular, irregular nested data parallelism is not supported. It is free and open-source software released under an ISC license. <a href="https://en.wikipedia.org/wiki/Futhark_(programming_language)">Wikipedia</a></p>
         <p class="icons">
                     <a class="button is-light" href="https://futhark-lang.org/" title="Official Website"><svg><use xlink:href="#home"/></svg></a>
         </p>
@@ -113,7 +115,7 @@
     </div>
 </div>
 <hr>
-<p>Latest data update: 2025-03-23</p>
+<p class="is-size-7">Latest data update: 2025-03-23</p>
 </div></section>
 
 <footer class="content footer">

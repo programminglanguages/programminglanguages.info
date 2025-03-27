@@ -19,11 +19,13 @@
 </head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
-<nav id="main-nav" class="level">
-    <div class="level-left">
-        <div class="level-item">
+<nav id="main-nav" class="navbar is-dark mb-4 p-1" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <div class="navbar-item">
 <a href="/" title="Start Page"><img src="/img/logo.svg" alt="Logo" class="logo"></a>        </div>
-        <div class="level-item">
+    </div>
+    <div class="navbar-start">
+        <div class="navbar-item">
             <div class="field has-addons">
                 <p class="control">
                     <input class="input" id="lookup-language" list="languages" type="text" placeholder="Language name">
@@ -35,21 +37,21 @@
         </div>
         <datalist id="languages"></datalist>
     </div>
-    <div class="level-right">
-        <a class="level-item button is-link" href="/charts/">Charts</a>
-        <a class="level-item button is-link" href="/prints/">Prints</a>
+    <div class="navbar-end">
+        <a class="navbar-item button is-link" href="/charts/">Charts</a>
+        <a class="navbar-item button is-link" href="/prints/">Prints</a>
     </div>
 </nav>
 </div></section>
 <section class="content"><div class="container is-fluid">
 <div class="columns">
     <div class="column is-3-tablet">
-            <figure class="image is-marginless" title="MetaPost Programming Language Information & Resources">
+            <figure class="image mb-2" title="MetaPost Programming Language Information & Resources">
                 <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/2/27/MPlogo.svg" alt="Logo">
-                <figcaption class="small">Source: <a href="https://commons.wikimedia.org/wiki/File:MPlogo.svg">commons.wikimedia.org</a></figcaption>
+                <figcaption class="is-size-7 has-text-centered">Source: <a href="https://commons.wikimedia.org/wiki/File:MPlogo.svg">commons.wikimedia.org</a></figcaption>
             </figure>
 
-            <p class="small">MetaPost refers to both a programming language and the interpreter of the MetaPost programming language. Both are derived from Donald Knuth's Metafont language and interpreter. MetaPost produces vector graphic diagrams from a geometric/algebraic description. The language shares Metafont's declarative syntax for manipulating lines, curves, points and geometric transformations. However,Metafont is set up to produce fonts, in the form of image files with associated font metric files, whereas MetaPost produces EPS, SVG, or PNG files
+            <p>MetaPost refers to both a programming language and the interpreter of the MetaPost programming language. Both are derived from Donald Knuth's Metafont language and interpreter. MetaPost produces vector graphic diagrams from a geometric/algebraic description. The language shares Metafont's declarative syntax for manipulating lines, curves, points and geometric transformations. However,Metafont is set up to produce fonts, in the form of image files with associated font metric files, whereas MetaPost produces EPS, SVG, or PNG files
 The output of Metafont consists of the fonts at a fixed resolution in a raster-based format, whereas MetaPost's output is vector-based graphics 
 Metafont output is monochrome, whereas MetaPost uses RGB or CMYK colors.
 The MetaPost language can include text labels on the diagrams, either strings from a specified font, or anything else that can be typeset with TeX.
@@ -127,7 +129,7 @@ Starting with version 1.8, Metapost allows floating-point arithmetic with 64 bit
     </div>
 </div>
 <hr>
-<p>Latest data update: 2024-07-24</p>
+<p class="is-size-7">Latest data update: 2024-07-24</p>
 </div></section>
 
 <footer class="content footer">

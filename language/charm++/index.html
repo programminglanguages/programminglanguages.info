@@ -18,11 +18,13 @@
 </head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
-<nav id="main-nav" class="level">
-    <div class="level-left">
-        <div class="level-item">
+<nav id="main-nav" class="navbar is-dark mb-4 p-1" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <div class="navbar-item">
 <a href="/" title="Start Page"><img src="/img/logo.svg" alt="Logo" class="logo"></a>        </div>
-        <div class="level-item">
+    </div>
+    <div class="navbar-start">
+        <div class="navbar-item">
             <div class="field has-addons">
                 <p class="control">
                     <input class="input" id="lookup-language" list="languages" type="text" placeholder="Language name">
@@ -34,9 +36,9 @@
         </div>
         <datalist id="languages"></datalist>
     </div>
-    <div class="level-right">
-        <a class="level-item button is-link" href="/charts/">Charts</a>
-        <a class="level-item button is-link" href="/prints/">Prints</a>
+    <div class="navbar-end">
+        <a class="navbar-item button is-link" href="/charts/">Charts</a>
+        <a class="navbar-item button is-link" href="/prints/">Prints</a>
     </div>
 </nav>
 </div></section>
@@ -45,7 +47,7 @@
     <div class="column is-3-tablet">
             <h1>Charm++</h1>
 
-            <p class="small">Charm++ is a parallel object-oriented programming paradigm based on C++ and developed in the Parallel Programming Laboratory at the University of Illinois at Urbana–Champaign. Charm++ is designed with the goal of enhancing programmer productivity by providing a high-level abstraction of a parallel program while at the same time delivering good performance on a wide variety of underlying hardware platforms. Programs written in Charm++ are decomposed into a number of cooperating message-driven objects called chares. When a programmer invokes a method on an object, the Charm++ runtime system sends a message to the invoked object, which may reside on the local processor or on a remote processor in a parallel computation. This message triggers the execution of code within the chare to handle the message asynchronously. <a href="https://en.wikipedia.org/wiki/Charm++">Wikipedia</a></p>
+            <p>Charm++ is a parallel object-oriented programming paradigm based on C++ and developed in the Parallel Programming Laboratory at the University of Illinois at Urbana–Champaign. Charm++ is designed with the goal of enhancing programmer productivity by providing a high-level abstraction of a parallel program while at the same time delivering good performance on a wide variety of underlying hardware platforms. Programs written in Charm++ are decomposed into a number of cooperating message-driven objects called chares. When a programmer invokes a method on an object, the Charm++ runtime system sends a message to the invoked object, which may reside on the local processor or on a remote processor in a parallel computation. This message triggers the execution of code within the chare to handle the message asynchronously. <a href="https://en.wikipedia.org/wiki/Charm++">Wikipedia</a></p>
         <p class="icons">
                     <a class="button is-light" href="https://charmplusplus.org" title="Official Website"><svg><use xlink:href="#home"/></svg></a>
         </p>
@@ -117,7 +119,7 @@
     </div>
 </div>
 <hr>
-<p>Latest data update: 2025-03-16</p>
+<p class="is-size-7">Latest data update: 2025-03-16</p>
 </div></section>
 
 <footer class="content footer">

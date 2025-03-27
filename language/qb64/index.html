@@ -18,11 +18,13 @@
 </head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
-<nav id="main-nav" class="level">
-    <div class="level-left">
-        <div class="level-item">
+<nav id="main-nav" class="navbar is-dark mb-4 p-1" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <div class="navbar-item">
 <a href="/" title="Start Page"><img src="/img/logo.svg" alt="Logo" class="logo"></a>        </div>
-        <div class="level-item">
+    </div>
+    <div class="navbar-start">
+        <div class="navbar-item">
             <div class="field has-addons">
                 <p class="control">
                     <input class="input" id="lookup-language" list="languages" type="text" placeholder="Language name">
@@ -34,9 +36,9 @@
         </div>
         <datalist id="languages"></datalist>
     </div>
-    <div class="level-right">
-        <a class="level-item button is-link" href="/charts/">Charts</a>
-        <a class="level-item button is-link" href="/prints/">Prints</a>
+    <div class="navbar-end">
+        <a class="navbar-item button is-link" href="/charts/">Charts</a>
+        <a class="navbar-item button is-link" href="/prints/">Prints</a>
     </div>
 </nav>
 </div></section>
@@ -45,7 +47,7 @@
     <div class="column is-3-tablet">
             <h1>QB64</h1>
 
-            <p class="small">QB64 is a self-hosting BASIC compiler for Microsoft Windows, Linux and Mac OS X, designed to be compatible with Microsoft QBasic and QuickBASIC. QB64 is a transpiler to C++, which is integrated with a C++ compiler to provide compilation via C++ code and GCC optimization. <a href="https://en.wikipedia.org/wiki/QB64">Wikipedia</a></p>
+            <p>QB64 is a self-hosting BASIC compiler for Microsoft Windows, Linux and Mac OS X, designed to be compatible with Microsoft QBasic and QuickBASIC. QB64 is a transpiler to C++, which is integrated with a C++ compiler to provide compilation via C++ code and GCC optimization. <a href="https://en.wikipedia.org/wiki/QB64">Wikipedia</a></p>
         <p class="icons">
                     <a class="button is-light" href="https://qb64.com" title="Official Website"><svg><use xlink:href="#home"/></svg></a>
                     <a class="button is-light" href="https://www.quora.com/topic/Qb64" title="Quora Topic"><svg><use xlink:href="#quora"/></svg></a>
@@ -114,7 +116,7 @@
     </div>
 </div>
 <hr>
-<p>Latest data update: 2025-03-27</p>
+<p class="is-size-7">Latest data update: 2025-03-27</p>
 </div></section>
 
 <footer class="content footer">

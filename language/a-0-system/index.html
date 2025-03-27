@@ -18,11 +18,13 @@
 </head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
-<nav id="main-nav" class="level">
-    <div class="level-left">
-        <div class="level-item">
+<nav id="main-nav" class="navbar is-dark mb-4 p-1" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <div class="navbar-item">
 <a href="/" title="Start Page"><img src="/img/logo.svg" alt="Logo" class="logo"></a>        </div>
-        <div class="level-item">
+    </div>
+    <div class="navbar-start">
+        <div class="navbar-item">
             <div class="field has-addons">
                 <p class="control">
                     <input class="input" id="lookup-language" list="languages" type="text" placeholder="Language name">
@@ -34,9 +36,9 @@
         </div>
         <datalist id="languages"></datalist>
     </div>
-    <div class="level-right">
-        <a class="level-item button is-link" href="/charts/">Charts</a>
-        <a class="level-item button is-link" href="/prints/">Prints</a>
+    <div class="navbar-end">
+        <a class="navbar-item button is-link" href="/charts/">Charts</a>
+        <a class="navbar-item button is-link" href="/prints/">Prints</a>
     </div>
 </nav>
 </div></section>
@@ -45,7 +47,7 @@
     <div class="column is-3-tablet">
             <h1>A-0 System</h1>
 
-            <p class="small">The A-0 system was an early compiler related tool developed for electronic computers, written by Grace Murray Hopper in 1951 and 1952 originally for the UNIVAC I. The A-0 functioned more as a loader or linker than the modern notion of a compiler. A program was specified as a sequence of subroutines and its arguments. The subroutines were identified by a numeric code and the arguments to the subroutines were written directly after each subroutine code. The A-0 system converted the specification into machine code that could be fed into the computer a second time to execute the said program. <a href="https://en.wikipedia.org/wiki/A-0_System">Wikipedia</a></p>
+            <p>The A-0 system was an early compiler related tool developed for electronic computers, written by Grace Murray Hopper in 1951 and 1952 originally for the UNIVAC I. The A-0 functioned more as a loader or linker than the modern notion of a compiler. A program was specified as a sequence of subroutines and its arguments. The subroutines were identified by a numeric code and the arguments to the subroutines were written directly after each subroutine code. The A-0 system converted the specification into machine code that could be fed into the computer a second time to execute the said program. <a href="https://en.wikipedia.org/wiki/A-0_System">Wikipedia</a></p>
         <p class="icons">
                     <a class="button is-light" href="https://www.quora.com/topic/A-0-System" title="Quora Topic"><svg><use xlink:href="#quora"/></svg></a>
         </p>
@@ -116,7 +118,7 @@
     </div>
 </div>
 <hr>
-<p>Latest data update: 2024-08-21</p>
+<p class="is-size-7">Latest data update: 2024-08-21</p>
 </div></section>
 
 <footer class="content footer">

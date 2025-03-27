@@ -19,11 +19,13 @@
 </head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
-<nav id="main-nav" class="level">
-    <div class="level-left">
-        <div class="level-item">
+<nav id="main-nav" class="navbar is-dark mb-4 p-1" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <div class="navbar-item">
 <a href="/" title="Start Page"><img src="/img/logo.svg" alt="Logo" class="logo"></a>        </div>
-        <div class="level-item">
+    </div>
+    <div class="navbar-start">
+        <div class="navbar-item">
             <div class="field has-addons">
                 <p class="control">
                     <input class="input" id="lookup-language" list="languages" type="text" placeholder="Language name">
@@ -35,9 +37,9 @@
         </div>
         <datalist id="languages"></datalist>
     </div>
-    <div class="level-right">
-        <a class="level-item button is-link" href="/charts/">Charts</a>
-        <a class="level-item button is-link" href="/prints/">Prints</a>
+    <div class="navbar-end">
+        <a class="navbar-item button is-link" href="/charts/">Charts</a>
+        <a class="navbar-item button is-link" href="/prints/">Prints</a>
     </div>
 </nav>
 </div></section>
@@ -46,7 +48,7 @@
     <div class="column is-3-tablet">
             <h1>PL/C</h1>
 
-            <p class="small">PL/C is an instructional dialect of the programming language PL/I, developed at the Department of Computer Science of Cornell University in the early 1970s in an effort headed by Professor Richard W. Conway and graduate student Thomas R. Wilcox. PL/C was developed with the specific goal of being used for teaching programming. The PL/C compiler, which implemented almost all of the large PL/I language, had the unusual capability of never failing to compile a program, through the use of extensive automatic correction of many syntax errors and by converting any remaining syntax errors to output statements. This was important because, at the time, students submitted their programs on 
+            <p>PL/C is an instructional dialect of the programming language PL/I, developed at the Department of Computer Science of Cornell University in the early 1970s in an effort headed by Professor Richard W. Conway and graduate student Thomas R. Wilcox. PL/C was developed with the specific goal of being used for teaching programming. The PL/C compiler, which implemented almost all of the large PL/I language, had the unusual capability of never failing to compile a program, through the use of extensive automatic correction of many syntax errors and by converting any remaining syntax errors to output statements. This was important because, at the time, students submitted their programs on 
 IBM punch cards and might not get their output back for several hours. Over 250 other universities adopted PL/C; as one late-1970s textbook on PL/I noted, "PL/C ... the compiler for PL/I developed at Cornell University ... is widely used in teaching programming." Similarly, a mid-late-1970s survey of programming languages said that "PL/C is a widely used dialect of PL/I." <a href="https://en.wikipedia.org/wiki/PL/C">Wikipedia</a></p>
         <p class="icons">
                     <a class="button is-light" href="https://tapor.ca/tools/490" title="Official Website"><svg><use xlink:href="#home"/></svg></a>
@@ -123,7 +125,7 @@ IBM punch cards and might not get their output back for several hours. Over 250 
     </div>
 </div>
 <hr>
-<p>Latest data update: 2024-06-05</p>
+<p class="is-size-7">Latest data update: 2024-06-05</p>
 </div></section>
 
 <footer class="content footer">

@@ -19,11 +19,13 @@
 <link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
-<nav id="main-nav" class="level">
-    <div class="level-left">
-        <div class="level-item">
+<nav id="main-nav" class="navbar is-dark mb-4 p-1" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <div class="navbar-item">
 <a href="/" title="Start Page"><img src="/img/logo.svg" alt="Logo" class="logo"></a>        </div>
-        <div class="level-item">
+    </div>
+    <div class="navbar-start">
+        <div class="navbar-item">
             <div class="field has-addons">
                 <p class="control">
                     <input class="input" id="lookup-language" list="languages" type="text" placeholder="Language name">
@@ -35,21 +37,21 @@
         </div>
         <datalist id="languages"></datalist>
     </div>
-    <div class="level-right">
-        <a class="level-item button is-link" href="/charts/">Charts</a>
-        <a class="level-item button is-link" href="/prints/">Prints</a>
+    <div class="navbar-end">
+        <a class="navbar-item button is-link" href="/charts/">Charts</a>
+        <a class="navbar-item button is-link" href="/prints/">Prints</a>
     </div>
 </nav>
 </div></section>
 <section class="content"><div class="container is-fluid">
 <div class="columns">
     <div class="column is-3-tablet">
-            <figure class="image is-marginless" title="Stylus Programming Language Information & Resources">
+            <figure class="image mb-2" title="Stylus Programming Language Information & Resources">
                 <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/d/d8/Stylus-logo.svg" alt="Logo">
-                <figcaption class="small">Source: <a href="https://commons.wikimedia.org/wiki/File:Stylus-logo.svg">commons.wikimedia.org</a></figcaption>
+                <figcaption class="is-size-7 has-text-centered">Source: <a href="https://commons.wikimedia.org/wiki/File:Stylus-logo.svg">commons.wikimedia.org</a></figcaption>
             </figure>
 
-            <p class="small">Stylus is a dynamic stylesheet preprocessor language that is compiled into Cascading Style Sheets (CSS). Its design is influenced by Sass and Less. It is regarded as the fourth most used CSS preprocessor syntax. It was created by TJ Holowaychuk, a former programmer for Node.js and the creator of the Luna language. It is written in JADE and Node.js. <a href="https://en.wikipedia.org/wiki/Stylus_(style_sheet_language)">Wikipedia</a></p>
+            <p>Stylus is a dynamic stylesheet preprocessor language that is compiled into Cascading Style Sheets (CSS). Its design is influenced by Sass and Less. It is regarded as the fourth most used CSS preprocessor syntax. It was created by TJ Holowaychuk, a former programmer for Node.js and the creator of the Luna language. It is written in JADE and Node.js. <a href="https://en.wikipedia.org/wiki/Stylus_(style_sheet_language)">Wikipedia</a></p>
         <p class="icons">
                     <a class="button is-light" href="https://stylus-lang.com/" title="Official Website"><svg><use xlink:href="#home"/></svg></a>
         </p>
@@ -97,7 +99,7 @@
             <h3>Hello World in Stylus</h3>
                 <pre><code class="language-stylus">body::before
 	content: &#34;Hello World&#34; </code></pre>
-            <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
+            <div class="is-size-7">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
         <h3>Search on GitHub</h3>
         <div class="field has-addons">
             <p class="control">
@@ -126,7 +128,7 @@
     </div>
 </div>
 <hr>
-<p>Latest data update: 2025-01-28</p>
+<p class="is-size-7">Latest data update: 2025-01-28</p>
 </div></section>
 
 <footer class="content footer">

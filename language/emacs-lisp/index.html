@@ -20,11 +20,13 @@ It is used for implementing most of the editing functionality built into Emacs, 
 <link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
-<nav id="main-nav" class="level">
-    <div class="level-left">
-        <div class="level-item">
+<nav id="main-nav" class="navbar is-dark mb-4 p-1" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <div class="navbar-item">
 <a href="/" title="Start Page"><img src="/img/logo.svg" alt="Logo" class="logo"></a>        </div>
-        <div class="level-item">
+    </div>
+    <div class="navbar-start">
+        <div class="navbar-item">
             <div class="field has-addons">
                 <p class="control">
                     <input class="input" id="lookup-language" list="languages" type="text" placeholder="Language name">
@@ -36,21 +38,21 @@ It is used for implementing most of the editing functionality built into Emacs, 
         </div>
         <datalist id="languages"></datalist>
     </div>
-    <div class="level-right">
-        <a class="level-item button is-link" href="/charts/">Charts</a>
-        <a class="level-item button is-link" href="/prints/">Prints</a>
+    <div class="navbar-end">
+        <a class="navbar-item button is-link" href="/charts/">Charts</a>
+        <a class="navbar-item button is-link" href="/prints/">Prints</a>
     </div>
 </nav>
 </div></section>
 <section class="content"><div class="container is-fluid">
 <div class="columns">
     <div class="column is-3-tablet">
-            <figure class="image is-marginless" title="Emacs Lisp Programming Language Information & Resources">
+            <figure class="image mb-2" title="Emacs Lisp Programming Language Information & Resources">
                 <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/0/08/EmacsIcon.svg" alt="Logo">
-                <figcaption class="small">Source: <a href="https://commons.wikimedia.org/wiki/File:EmacsIcon.svg">commons.wikimedia.org</a></figcaption>
+                <figcaption class="is-size-7 has-text-centered">Source: <a href="https://commons.wikimedia.org/wiki/File:EmacsIcon.svg">commons.wikimedia.org</a></figcaption>
             </figure>
 
-            <p class="small">Emacs Lisp is a Lisp dialect made for Emacs.
+            <p>Emacs Lisp is a Lisp dialect made for Emacs.
 It is used for implementing most of the editing functionality built into Emacs, the remainder being written in C, as is the Lisp interpreter. <a href="https://en.wikipedia.org/wiki/Emacs_Lisp">Wikipedia</a></p>
         <p class="icons">
                     <a class="button is-light" href="http://www.gnu.org/software/emacs" title="Official Website"><svg><use xlink:href="#home"/></svg></a>
@@ -105,7 +107,7 @@ It is used for implementing most of the editing functionality built into Emacs, 
             <h3>Hello World in Emacs Lisp</h3>
                 <pre><code class="language-emacs lisp">(message &#34;Hello World&#34;)
 </code></pre>
-            <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
+            <div class="is-size-7">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
         <h3>Search on GitHub</h3>
         <div class="field has-addons">
             <p class="control">
@@ -134,7 +136,7 @@ It is used for implementing most of the editing functionality built into Emacs, 
     </div>
 </div>
 <hr>
-<p>Latest data update: 2025-02-24</p>
+<p class="is-size-7">Latest data update: 2025-02-24</p>
 </div></section>
 
 <footer class="content footer">

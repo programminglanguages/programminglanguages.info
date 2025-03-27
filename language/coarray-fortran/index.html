@@ -18,11 +18,13 @@
 </head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
-<nav id="main-nav" class="level">
-    <div class="level-left">
-        <div class="level-item">
+<nav id="main-nav" class="navbar is-dark mb-4 p-1" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <div class="navbar-item">
 <a href="/" title="Start Page"><img src="/img/logo.svg" alt="Logo" class="logo"></a>        </div>
-        <div class="level-item">
+    </div>
+    <div class="navbar-start">
+        <div class="navbar-item">
             <div class="field has-addons">
                 <p class="control">
                     <input class="input" id="lookup-language" list="languages" type="text" placeholder="Language name">
@@ -34,9 +36,9 @@
         </div>
         <datalist id="languages"></datalist>
     </div>
-    <div class="level-right">
-        <a class="level-item button is-link" href="/charts/">Charts</a>
-        <a class="level-item button is-link" href="/prints/">Prints</a>
+    <div class="navbar-end">
+        <a class="navbar-item button is-link" href="/charts/">Charts</a>
+        <a class="navbar-item button is-link" href="/prints/">Prints</a>
     </div>
 </nav>
 </div></section>
@@ -45,7 +47,7 @@
     <div class="column is-3-tablet">
             <h1>coarray Fortran</h1>
 
-            <p class="small">Coarray Fortran (CAF), formerly known as F--, started as an extension of Fortran 95/2003 for parallel processing created by Robert Numrich and John Reid in the 1990s. The Fortran 2008 standard now includes coarrays, as decided at the May 2005 meeting of the ISO Fortran Committee; the syntax in the Fortran 2008 standard is slightly different from the original CAF proposal. <a href="https://en.wikipedia.org/wiki/Coarray_Fortran">Wikipedia</a></p>
+            <p>Coarray Fortran (CAF), formerly known as F--, started as an extension of Fortran 95/2003 for parallel processing created by Robert Numrich and John Reid in the 1990s. The Fortran 2008 standard now includes coarrays, as decided at the May 2005 meeting of the ISO Fortran Committee; the syntax in the Fortran 2008 standard is slightly different from the original CAF proposal. <a href="https://en.wikipedia.org/wiki/Coarray_Fortran">Wikipedia</a></p>
         <p class="icons">
         </p>
 
@@ -113,7 +115,7 @@
     </div>
 </div>
 <hr>
-<p>Latest data update: 2024-04-25</p>
+<p class="is-size-7">Latest data update: 2024-04-25</p>
 </div></section>
 
 <footer class="content footer">

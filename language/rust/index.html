@@ -19,11 +19,13 @@
 <link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
-<nav id="main-nav" class="level">
-    <div class="level-left">
-        <div class="level-item">
+<nav id="main-nav" class="navbar is-dark mb-4 p-1" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <div class="navbar-item">
 <a href="/" title="Start Page"><img src="/img/logo.svg" alt="Logo" class="logo"></a>        </div>
-        <div class="level-item">
+    </div>
+    <div class="navbar-start">
+        <div class="navbar-item">
             <div class="field has-addons">
                 <p class="control">
                     <input class="input" id="lookup-language" list="languages" type="text" placeholder="Language name">
@@ -35,21 +37,21 @@
         </div>
         <datalist id="languages"></datalist>
     </div>
-    <div class="level-right">
-        <a class="level-item button is-link" href="/charts/">Charts</a>
-        <a class="level-item button is-link" href="/prints/">Prints</a>
+    <div class="navbar-end">
+        <a class="navbar-item button is-link" href="/charts/">Charts</a>
+        <a class="navbar-item button is-link" href="/prints/">Prints</a>
     </div>
 </nav>
 </div></section>
 <section class="content"><div class="container is-fluid">
 <div class="columns">
     <div class="column is-3-tablet">
-            <figure class="image is-marginless" title="Rust Programming Language Information & Resources">
+            <figure class="image mb-2" title="Rust Programming Language Information & Resources">
                 <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Rust_programming_language_black_logo.svg" alt="Logo">
-                <figcaption class="small">Source: <a href="https://commons.wikimedia.org/wiki/File:Rust_programming_language_black_logo.svg">commons.wikimedia.org</a></figcaption>
+                <figcaption class="is-size-7 has-text-centered">Source: <a href="https://commons.wikimedia.org/wiki/File:Rust_programming_language_black_logo.svg">commons.wikimedia.org</a></figcaption>
             </figure>
 
-            <p class="small">Rust is a general-purpose programming language emphasizing performance, type safety, and concurrency. It enforces memory safety, meaning that all references point to valid memory. It does so without a conventional garbage collector; instead, memory safety errors and data races are prevented by the "borrow checker", which tracks the object lifetime of references at compile time. <a href="https://en.wikipedia.org/wiki/Rust_(programming_language)">Wikipedia</a></p>
+            <p>Rust is a general-purpose programming language emphasizing performance, type safety, and concurrency. It enforces memory safety, meaning that all references point to valid memory. It does so without a conventional garbage collector; instead, memory safety errors and data races are prevented by the "borrow checker", which tracks the object lifetime of references at compile time. <a href="https://en.wikipedia.org/wiki/Rust_(programming_language)">Wikipedia</a></p>
         <p class="icons">
                     <a class="button is-light" href="https://www.rust-lang.org/" title="Official Website"><svg><use xlink:href="#home"/></svg></a>
                     <a class="button is-light" href="https://github.com/rust-lang" title="GitHub User/Organization"><svg><use xlink:href="#github-alt"/></svg></a>
@@ -107,7 +109,7 @@
     println!(&#34;Hello World&#34;);
 }
 </code></pre>
-            <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
+            <div class="is-size-7">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
             <h3>Free Rust books, articles, documentation</h3>
             <ul>
 <li><a href="https://stevedonovan.github.io/rust-gentle-intro">A Gentle Introduction To Rust</a> - Steve J Donovan</li>
@@ -135,7 +137,7 @@
 <li><a href="https://doc.rust-lang.org/nomicon">The Rustonomicon</a></li>
 <li><a href="https://www.oreilly.com/content/why-rust">Why Rust?</a></li>
 </ul>
-            <div class="small">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
+            <div class="is-size-7">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
         <h3>Search on GitHub</h3>
         <div class="field has-addons">
             <p class="control">
@@ -164,7 +166,7 @@
     </div>
 </div>
 <hr>
-<p>Latest data update: 2025-03-23</p>
+<p class="is-size-7">Latest data update: 2025-03-23</p>
 </div></section>
 
 <footer class="content footer">

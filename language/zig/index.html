@@ -19,11 +19,13 @@
 <link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
-<nav id="main-nav" class="level">
-    <div class="level-left">
-        <div class="level-item">
+<nav id="main-nav" class="navbar is-dark mb-4 p-1" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <div class="navbar-item">
 <a href="/" title="Start Page"><img src="/img/logo.svg" alt="Logo" class="logo"></a>        </div>
-        <div class="level-item">
+    </div>
+    <div class="navbar-start">
+        <div class="navbar-item">
             <div class="field has-addons">
                 <p class="control">
                     <input class="input" id="lookup-language" list="languages" type="text" placeholder="Language name">
@@ -35,21 +37,21 @@
         </div>
         <datalist id="languages"></datalist>
     </div>
-    <div class="level-right">
-        <a class="level-item button is-link" href="/charts/">Charts</a>
-        <a class="level-item button is-link" href="/prints/">Prints</a>
+    <div class="navbar-end">
+        <a class="navbar-item button is-link" href="/charts/">Charts</a>
+        <a class="navbar-item button is-link" href="/prints/">Prints</a>
     </div>
 </nav>
 </div></section>
 <section class="content"><div class="container is-fluid">
 <div class="columns">
     <div class="column is-3-tablet">
-            <figure class="image is-marginless" title="Zig Programming Language Information & Resources">
+            <figure class="image mb-2" title="Zig Programming Language Information & Resources">
                 <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/b/b3/Zig_logo_2020.svg" alt="Logo">
-                <figcaption class="small">Source: <a href="https://commons.wikimedia.org/wiki/File:Zig_logo_2020.svg">commons.wikimedia.org</a></figcaption>
+                <figcaption class="is-size-7 has-text-centered">Source: <a href="https://commons.wikimedia.org/wiki/File:Zig_logo_2020.svg">commons.wikimedia.org</a></figcaption>
             </figure>
 
-            <p class="small">Zig, also known as Ziglang, is an imperative, general-purpose, statically typed, compiled system programming language designed by Andrew Kelley. It is free and open-source software, released under an MIT License. <a href="https://en.wikipedia.org/wiki/Zig_(programming_language)">Wikipedia</a></p>
+            <p>Zig, also known as Ziglang, is an imperative, general-purpose, statically typed, compiled system programming language designed by Andrew Kelley. It is free and open-source software, released under an MIT License. <a href="https://en.wikipedia.org/wiki/Zig_(programming_language)">Wikipedia</a></p>
         <p class="icons">
                     <a class="button is-light" href="https://ziglang.org/" title="Official Website"><svg><use xlink:href="#home"/></svg></a>
                     <a class="button is-light" href="https://github.com/ziglang" title="GitHub User/Organization"><svg><use xlink:href="#github-alt"/></svg></a>
@@ -106,13 +108,13 @@ pub fn main() !void {
     const stdout = std.io.getStdOut().writer();
     try stdout.print(&#34;Hello World&#34;, .{});
 }</code></pre>
-            <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
+            <div class="is-size-7">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
             <h3>Free Zig books, articles, documentation</h3>
             <ul>
 <li><a href="https://pedropark99.github.io/zig-book">Introduction to Zig</a> - Pedro Duarte Faria (HTML)</li>
 <li><a href="https://ziglang.org/documentation/master">Zig Language Reference</a> (HTML)</li>
 </ul>
-            <div class="small">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
+            <div class="is-size-7">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
         <h3>Search on GitHub</h3>
         <div class="field has-addons">
             <p class="control">
@@ -141,7 +143,7 @@ pub fn main() !void {
     </div>
 </div>
 <hr>
-<p>Latest data update: 2025-03-09</p>
+<p class="is-size-7">Latest data update: 2025-03-09</p>
 </div></section>
 
 <footer class="content footer">

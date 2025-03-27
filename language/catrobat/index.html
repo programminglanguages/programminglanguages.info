@@ -19,11 +19,13 @@
 <link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
-<nav id="main-nav" class="level">
-    <div class="level-left">
-        <div class="level-item">
+<nav id="main-nav" class="navbar is-dark mb-4 p-1" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <div class="navbar-item">
 <a href="/" title="Start Page"><img src="/img/logo.svg" alt="Logo" class="logo"></a>        </div>
-        <div class="level-item">
+    </div>
+    <div class="navbar-start">
+        <div class="navbar-item">
             <div class="field has-addons">
                 <p class="control">
                     <input class="input" id="lookup-language" list="languages" type="text" placeholder="Language name">
@@ -35,9 +37,9 @@
         </div>
         <datalist id="languages"></datalist>
     </div>
-    <div class="level-right">
-        <a class="level-item button is-link" href="/charts/">Charts</a>
-        <a class="level-item button is-link" href="/prints/">Prints</a>
+    <div class="navbar-end">
+        <a class="navbar-item button is-link" href="/charts/">Charts</a>
+        <a class="navbar-item button is-link" href="/prints/">Prints</a>
     </div>
 </nav>
 </div></section>
@@ -46,7 +48,7 @@
     <div class="column is-3-tablet">
             <h1>Catrobat</h1>
 
-            <p class="small">Catrobat is a block-based visual programming language and Open Source Software non-profit project. First released in 2010 by Wolfgang Slany from the Graz University of Technology in Austria. The multidisciplinary team develops the programming language and free apps for teenagers to create their own games, animations, music videos, or all other kinds of apps directly on a smartphone based on the Catrobat framework. <a href="https://en.wikipedia.org/wiki/Catrobat">Wikipedia</a></p>
+            <p>Catrobat is a block-based visual programming language and Open Source Software non-profit project. First released in 2010 by Wolfgang Slany from the Graz University of Technology in Austria. The multidisciplinary team develops the programming language and free apps for teenagers to create their own games, animations, music videos, or all other kinds of apps directly on a smartphone based on the Catrobat framework. <a href="https://en.wikipedia.org/wiki/Catrobat">Wikipedia</a></p>
         <p class="icons">
                     <a class="button is-light" href="https://catrobat.org/" title="Official Website"><svg><use xlink:href="#home"/></svg></a>
                     <a class="button is-light" href="https://github.com/Catrobat" title="GitHub User/Organization"><svg><use xlink:href="#github-alt"/></svg></a>
@@ -92,7 +94,7 @@
             <p class="is-size-7">Pan and zoom the graph with your mouse or alternatively your fingers on touch devices.</p>
             <h3>Hello World in Catrobat</h3>
                 <pre><code class="language-catrobat">None</code></pre>
-            <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
+            <div class="is-size-7">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
         <h3>Search on GitHub</h3>
         <div class="field has-addons">
             <p class="control">
@@ -121,7 +123,7 @@
     </div>
 </div>
 <hr>
-<p>Latest data update: 2025-03-10</p>
+<p class="is-size-7">Latest data update: 2025-03-10</p>
 </div></section>
 
 <footer class="content footer">

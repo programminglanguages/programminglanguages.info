@@ -19,11 +19,13 @@
 </head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
-<nav id="main-nav" class="level">
-    <div class="level-left">
-        <div class="level-item">
+<nav id="main-nav" class="navbar is-dark mb-4 p-1" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <div class="navbar-item">
 <a href="/" title="Start Page"><img src="/img/logo.svg" alt="Logo" class="logo"></a>        </div>
-        <div class="level-item">
+    </div>
+    <div class="navbar-start">
+        <div class="navbar-item">
             <div class="field has-addons">
                 <p class="control">
                     <input class="input" id="lookup-language" list="languages" type="text" placeholder="Language name">
@@ -35,9 +37,9 @@
         </div>
         <datalist id="languages"></datalist>
     </div>
-    <div class="level-right">
-        <a class="level-item button is-link" href="/charts/">Charts</a>
-        <a class="level-item button is-link" href="/prints/">Prints</a>
+    <div class="navbar-end">
+        <a class="navbar-item button is-link" href="/charts/">Charts</a>
+        <a class="navbar-item button is-link" href="/prints/">Prints</a>
     </div>
 </nav>
 </div></section>
@@ -46,7 +48,7 @@
     <div class="column is-3-tablet">
             <h1>RTL/2</h1>
 
-            <p class="small">RTL/2 is a discontinued high-level programming language for use in real-time computing, developed at Imperial Chemical Industries, Ltd. (ICI), by J.G.P. Barnes. It was originally used internally in ICI but was distributed by SPL International in 1974.
+            <p>RTL/2 is a discontinued high-level programming language for use in real-time computing, developed at Imperial Chemical Industries, Ltd. (ICI), by J.G.P. Barnes. It was originally used internally in ICI but was distributed by SPL International in 1974.
 It was based on concepts from ALGOL 68, and intended to be small and simple. RTL/2 was standardised in 1980 by the British Standards Institution. <a href="https://en.wikipedia.org/wiki/RTL/2">Wikipedia</a></p>
         <p class="icons">
         </p>
@@ -122,7 +124,7 @@ It was based on concepts from ALGOL 68, and intended to be small and simple. RTL
     </div>
 </div>
 <hr>
-<p>Latest data update: 2022-09-16</p>
+<p class="is-size-7">Latest data update: 2022-09-16</p>
 </div></section>
 
 <footer class="content footer">

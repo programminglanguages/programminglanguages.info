@@ -18,11 +18,13 @@
 </head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
-<nav id="main-nav" class="level">
-    <div class="level-left">
-        <div class="level-item">
+<nav id="main-nav" class="navbar is-dark mb-4 p-1" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <div class="navbar-item">
 <a href="/" title="Start Page"><img src="/img/logo.svg" alt="Logo" class="logo"></a>        </div>
-        <div class="level-item">
+    </div>
+    <div class="navbar-start">
+        <div class="navbar-item">
             <div class="field has-addons">
                 <p class="control">
                     <input class="input" id="lookup-language" list="languages" type="text" placeholder="Language name">
@@ -34,9 +36,9 @@
         </div>
         <datalist id="languages"></datalist>
     </div>
-    <div class="level-right">
-        <a class="level-item button is-link" href="/charts/">Charts</a>
-        <a class="level-item button is-link" href="/prints/">Prints</a>
+    <div class="navbar-end">
+        <a class="navbar-item button is-link" href="/charts/">Charts</a>
+        <a class="navbar-item button is-link" href="/prints/">Prints</a>
     </div>
 </nav>
 </div></section>
@@ -45,7 +47,7 @@
     <div class="column is-3-tablet">
             <h1>BNR Prolog</h1>
 
-            <p class="small">BNR Prolog, also known as CLP(BNR) is a declarative constraint logic programming language based on relational interval arithmetic developed at Bell-Northern Research in the 1980s and 1990s. Embedding relational interval arithmetic in a logic programming language differs from other constraint logic programming
+            <p>BNR Prolog, also known as CLP(BNR) is a declarative constraint logic programming language based on relational interval arithmetic developed at Bell-Northern Research in the 1980s and 1990s. Embedding relational interval arithmetic in a logic programming language differs from other constraint logic programming
 (CLP) systems like CLP(R) or Prolog-III in that it does not perform any symbolic processing. BNR Prolog was the first such implementation of interval arithmetic in a logic programming language. Since the constraint propagation is performed on real interval values, it is possible to express and partially solve non-linear equations. <a href="https://en.wikipedia.org/wiki/BNR_Prolog">Wikipedia</a></p>
         <p class="icons">
                     <a class="button is-light" href="http://www.softwarepreservation.org/projects/prolog/bnr/doc/BNR_Mac_Prolog_User_Guide.pdf" title="Official Website"><svg><use xlink:href="#home"/></svg></a>
@@ -118,7 +120,7 @@
     </div>
 </div>
 <hr>
-<p>Latest data update: 2022-05-28</p>
+<p class="is-size-7">Latest data update: 2022-05-28</p>
 </div></section>
 
 <footer class="content footer">

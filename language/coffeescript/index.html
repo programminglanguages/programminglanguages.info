@@ -19,11 +19,13 @@
 <link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
-<nav id="main-nav" class="level">
-    <div class="level-left">
-        <div class="level-item">
+<nav id="main-nav" class="navbar is-dark mb-4 p-1" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <div class="navbar-item">
 <a href="/" title="Start Page"><img src="/img/logo.svg" alt="Logo" class="logo"></a>        </div>
-        <div class="level-item">
+    </div>
+    <div class="navbar-start">
+        <div class="navbar-item">
             <div class="field has-addons">
                 <p class="control">
                     <input class="input" id="lookup-language" list="languages" type="text" placeholder="Language name">
@@ -35,21 +37,21 @@
         </div>
         <datalist id="languages"></datalist>
     </div>
-    <div class="level-right">
-        <a class="level-item button is-link" href="/charts/">Charts</a>
-        <a class="level-item button is-link" href="/prints/">Prints</a>
+    <div class="navbar-end">
+        <a class="navbar-item button is-link" href="/charts/">Charts</a>
+        <a class="navbar-item button is-link" href="/prints/">Prints</a>
     </div>
 </nav>
 </div></section>
 <section class="content"><div class="container is-fluid">
 <div class="columns">
     <div class="column is-3-tablet">
-            <figure class="image is-marginless" title="CoffeeScript Programming Language Information & Resources">
+            <figure class="image mb-2" title="CoffeeScript Programming Language Information & Resources">
                 <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/d/d3/CoffeeScript-logo.svg" alt="Logo">
-                <figcaption class="small">Source: <a href="https://commons.wikimedia.org/wiki/File:CoffeeScript-logo.svg">commons.wikimedia.org</a></figcaption>
+                <figcaption class="is-size-7 has-text-centered">Source: <a href="https://commons.wikimedia.org/wiki/File:CoffeeScript-logo.svg">commons.wikimedia.org</a></figcaption>
             </figure>
 
-            <p class="small">CoffeeScript is a programming language that compiles to JavaScript. It adds syntactic sugar inspired by Ruby, Python, and Haskell in an effort to enhance JavaScript's brevity and readability. Specific additional features include list comprehension and destructuring assignment. <a href="https://en.wikipedia.org/wiki/CoffeeScript">Wikipedia</a></p>
+            <p>CoffeeScript is a programming language that compiles to JavaScript. It adds syntactic sugar inspired by Ruby, Python, and Haskell in an effort to enhance JavaScript's brevity and readability. Specific additional features include list comprehension and destructuring assignment. <a href="https://en.wikipedia.org/wiki/CoffeeScript">Wikipedia</a></p>
         <p class="icons">
                     <a class="button is-light" href="https://coffeescript.org/" title="Official Website"><svg><use xlink:href="#home"/></svg></a>
                     <a class="button is-light" href="https://stackoverflow.com/tags/coffeescript" title="Stack Exchange Tag"><svg><use xlink:href="#stack-exchange"/></svg></a>
@@ -107,7 +109,7 @@
             <h3>Hello World in CoffeeScript</h3>
                 <pre><code class="language-coffeescript">alert &#34;Hello World&#34;
 </code></pre>
-            <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
+            <div class="is-size-7">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
             <h3>Free CoffeeScript books, articles, documentation</h3>
             <ul>
 <li><a href="https://coffeescript-cookbook.github.io">CoffeeScript Cookbook</a></li>
@@ -116,7 +118,7 @@
 <li><a href="http://autotelicum.github.io/Smooth-CoffeeScript/SmoothCoffeeScript.html">Smooth CoffeeScript</a> (CC BY)</li>
 <li><a href="http://arcturo.github.io/library/coffeescript/">The Little Book on CoffeeScript</a> - Alex MacCaw, David Griffiths, Satoshi Murakami, Jeremy Ashkenas</li>
 </ul>
-            <div class="small">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
+            <div class="is-size-7">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
         <h3>Search on GitHub</h3>
         <div class="field has-addons">
             <p class="control">
@@ -145,7 +147,7 @@
     </div>
 </div>
 <hr>
-<p>Latest data update: 2025-01-18</p>
+<p class="is-size-7">Latest data update: 2025-01-18</p>
 </div></section>
 
 <footer class="content footer">

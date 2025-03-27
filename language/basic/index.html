@@ -19,11 +19,13 @@
 <link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
-<nav id="main-nav" class="level">
-    <div class="level-left">
-        <div class="level-item">
+<nav id="main-nav" class="navbar is-dark mb-4 p-1" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <div class="navbar-item">
 <a href="/" title="Start Page"><img src="/img/logo.svg" alt="Logo" class="logo"></a>        </div>
-        <div class="level-item">
+    </div>
+    <div class="navbar-start">
+        <div class="navbar-item">
             <div class="field has-addons">
                 <p class="control">
                     <input class="input" id="lookup-language" list="languages" type="text" placeholder="Language name">
@@ -35,21 +37,21 @@
         </div>
         <datalist id="languages"></datalist>
     </div>
-    <div class="level-right">
-        <a class="level-item button is-link" href="/charts/">Charts</a>
-        <a class="level-item button is-link" href="/prints/">Prints</a>
+    <div class="navbar-end">
+        <a class="navbar-item button is-link" href="/charts/">Charts</a>
+        <a class="navbar-item button is-link" href="/prints/">Prints</a>
     </div>
 </nav>
 </div></section>
 <section class="content"><div class="container is-fluid">
 <div class="columns">
     <div class="column is-3-tablet">
-            <figure class="image is-marginless" title="BASIC Programming Language Information & Resources">
+            <figure class="image mb-2" title="BASIC Programming Language Information & Resources">
                 <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/c/c9/AtariBasic.png" alt="Logo">
-                <figcaption class="small">Source: <a href="https://commons.wikimedia.org/wiki/File:AtariBasic.png">commons.wikimedia.org</a></figcaption>
+                <figcaption class="is-size-7 has-text-centered">Source: <a href="https://commons.wikimedia.org/wiki/File:AtariBasic.png">commons.wikimedia.org</a></figcaption>
             </figure>
 
-            <p class="small">BASIC is a family of general-purpose, high-level programming languages designed for ease of use. The original version was created by John G. Kemeny and Thomas E. Kurtz at Dartmouth College in 1963. They wanted to enable students in non-scientific fields to use computers. At the time, nearly all computers required writing custom software, which only scientists and mathematicians tended to learn. <a href="https://en.wikipedia.org/wiki/BASIC">Wikipedia</a></p>
+            <p>BASIC is a family of general-purpose, high-level programming languages designed for ease of use. The original version was created by John G. Kemeny and Thomas E. Kurtz at Dartmouth College in 1963. They wanted to enable students in non-scientific fields to use computers. At the time, nearly all computers required writing custom software, which only scientists and mathematicians tended to learn. <a href="https://en.wikipedia.org/wiki/BASIC">Wikipedia</a></p>
         <p class="icons">
                     <a class="button is-light" href="https://stackoverflow.com/tags/basic" title="Stack Exchange Tag"><svg><use xlink:href="#stack-exchange"/></svg></a>
                     <a class="button is-light" href="https://www.quora.com/topic/Basic-Computer-Language" title="Quora Topic"><svg><use xlink:href="#quora"/></svg></a>
@@ -104,14 +106,14 @@
                 <pre><code class="language-basic">10 PRINT &#34;Hello World&#34;
 20 END
 </code></pre>
-            <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
+            <div class="is-size-7">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
             <h3>Free BASIC books, articles, documentation</h3>
             <ul>
 <li><a href="http://10print.org">10 PRINT CHR$(205.5+RND(1)); : GOTO 10</a> - Nick Montfort, Patsy Baudoin, John Bell, Ian Bogost, Jeremy Douglass, Mark C. Marino, Michael Mateas, Casey Reas, Mark Sample, Noah Vawter</li>
 <li><a href="http://distro.ibiblio.org/vectorlinux/Uelsk8s/GAMBAS/gambas-beginner-guide.pdf">A beginner's guide to Gambas</a> - John W. Rittinghouse (PDF)</li>
 <li><a href="http://www.jes.com/pb/">Pick/Basic: A Programmer's Guide</a> - Jonathan E. Sisk</li>
 </ul>
-            <div class="small">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
+            <div class="is-size-7">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
         <h3>Search on GitHub</h3>
         <div class="field has-addons">
             <p class="control">
@@ -140,7 +142,7 @@
     </div>
 </div>
 <hr>
-<p>Latest data update: 2025-02-28</p>
+<p class="is-size-7">Latest data update: 2025-02-28</p>
 </div></section>
 
 <footer class="content footer">

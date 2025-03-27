@@ -18,11 +18,13 @@
 <link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
-<nav id="main-nav" class="level">
-    <div class="level-left">
-        <div class="level-item">
+<nav id="main-nav" class="navbar is-dark mb-4 p-1" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <div class="navbar-item">
 <a href="/" title="Start Page"><img src="/img/logo.svg" alt="Logo" class="logo"></a>        </div>
-        <div class="level-item">
+    </div>
+    <div class="navbar-start">
+        <div class="navbar-item">
             <div class="field has-addons">
                 <p class="control">
                     <input class="input" id="lookup-language" list="languages" type="text" placeholder="Language name">
@@ -34,9 +36,9 @@
         </div>
         <datalist id="languages"></datalist>
     </div>
-    <div class="level-right">
-        <a class="level-item button is-link" href="/charts/">Charts</a>
-        <a class="level-item button is-link" href="/prints/">Prints</a>
+    <div class="navbar-end">
+        <a class="navbar-item button is-link" href="/charts/">Charts</a>
+        <a class="navbar-item button is-link" href="/prints/">Prints</a>
     </div>
 </nav>
 </div></section>
@@ -45,7 +47,7 @@
     <div class="column is-3-tablet">
             <h1>Move</h1>
 
-            <p class="small">A statically typed programming language for creating smart contracts.
+            <p>A statically typed programming language for creating smart contracts.
         <p class="icons">
                     <a class="button is-light" href="https://move-language.github.io/move/" title="Official Website"><svg><use xlink:href="#home"/></svg></a>
         </p>
@@ -87,14 +89,14 @@
             <h3>Hello World in Move</h3>
                 <pre><code class="language-move">alert &#39;Hello World&#39;
 </code></pre>
-            <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
+            <div class="is-size-7">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
             <h3>Free Move books, articles, documentation</h3>
             <ul>
 <li><a href="https://inf.ethz.ch/personal/wirth/AD.pdf">Algorithms and Data-Structures</a> - Niklaus Wirth (PDF)</li>
 <li><a href="http://ssw.jku.at/Research/Books/Oberon2.pdf">Object-Oriented Programming in Oberon-2</a> - Hanspeter Mössenböck (PDF)</li>
 <li><a href="https://www.inf.ethz.ch/personal/wirth/ProgInOberonWR.pdf">Programming in Oberon</a> - Niklaus Wirth (PDF)</li>
 </ul>
-            <div class="small">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
+            <div class="is-size-7">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
         <h3>Search on GitHub</h3>
         <div class="field has-addons">
             <p class="control">
@@ -123,7 +125,7 @@
     </div>
 </div>
 <hr>
-<p>Latest data update: 2025-02-22</p>
+<p class="is-size-7">Latest data update: 2025-02-22</p>
 </div></section>
 
 <footer class="content footer">

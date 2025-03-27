@@ -19,11 +19,13 @@
 <link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
-<nav id="main-nav" class="level">
-    <div class="level-left">
-        <div class="level-item">
+<nav id="main-nav" class="navbar is-dark mb-4 p-1" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <div class="navbar-item">
 <a href="/" title="Start Page"><img src="/img/logo.svg" alt="Logo" class="logo"></a>        </div>
-        <div class="level-item">
+    </div>
+    <div class="navbar-start">
+        <div class="navbar-item">
             <div class="field has-addons">
                 <p class="control">
                     <input class="input" id="lookup-language" list="languages" type="text" placeholder="Language name">
@@ -35,9 +37,9 @@
         </div>
         <datalist id="languages"></datalist>
     </div>
-    <div class="level-right">
-        <a class="level-item button is-link" href="/charts/">Charts</a>
-        <a class="level-item button is-link" href="/prints/">Prints</a>
+    <div class="navbar-end">
+        <a class="navbar-item button is-link" href="/charts/">Charts</a>
+        <a class="navbar-item button is-link" href="/prints/">Prints</a>
     </div>
 </nav>
 </div></section>
@@ -46,7 +48,7 @@
     <div class="column is-3-tablet">
             <h1>Prolog</h1>
 
-            <p class="small">Prolog is a logic programming language that has its origins in artificial intelligence, automated theorem proving and computational linguistics. <a href="https://en.wikipedia.org/wiki/Prolog">Wikipedia</a></p>
+            <p>Prolog is a logic programming language that has its origins in artificial intelligence, automated theorem proving and computational linguistics. <a href="https://en.wikipedia.org/wiki/Prolog">Wikipedia</a></p>
         <p class="icons">
                     <a class="button is-light" href="https://stackoverflow.com/tags/prolog" title="Stack Exchange Tag"><svg><use xlink:href="#stack-exchange"/></svg></a>
                     <a class="button is-light" href="https://www.quora.com/topic/Prolog" title="Quora Topic"><svg><use xlink:href="#quora"/></svg></a>
@@ -102,7 +104,7 @@
 
 :- helloWorld.
 </code></pre>
-            <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
+            <div class="is-size-7">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
             <h3>Free Prolog books, articles, documentation</h3>
             <ul>
 <li><a href="http://www.amzi.com/AdventureInProlog/">Adventure in Prolog</a> - Dennis Merritt</li>
@@ -128,7 +130,7 @@
 <ul>
 <li><a href="http://anclp.pl">A Gentle Guide to Constraint Logic Programming via ECLiPSe</a></li>
 </ul>
-            <div class="small">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
+            <div class="is-size-7">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
         <h3>Search on GitHub</h3>
         <div class="field has-addons">
             <p class="control">
@@ -157,7 +159,7 @@
     </div>
 </div>
 <hr>
-<p>Latest data update: 2025-02-06</p>
+<p class="is-size-7">Latest data update: 2025-02-06</p>
 </div></section>
 
 <footer class="content footer">

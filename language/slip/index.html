@@ -18,11 +18,13 @@
 </head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
-<nav id="main-nav" class="level">
-    <div class="level-left">
-        <div class="level-item">
+<nav id="main-nav" class="navbar is-dark mb-4 p-1" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <div class="navbar-item">
 <a href="/" title="Start Page"><img src="/img/logo.svg" alt="Logo" class="logo"></a>        </div>
-        <div class="level-item">
+    </div>
+    <div class="navbar-start">
+        <div class="navbar-item">
             <div class="field has-addons">
                 <p class="control">
                     <input class="input" id="lookup-language" list="languages" type="text" placeholder="Language name">
@@ -34,9 +36,9 @@
         </div>
         <datalist id="languages"></datalist>
     </div>
-    <div class="level-right">
-        <a class="level-item button is-link" href="/charts/">Charts</a>
-        <a class="level-item button is-link" href="/prints/">Prints</a>
+    <div class="navbar-end">
+        <a class="navbar-item button is-link" href="/charts/">Charts</a>
+        <a class="navbar-item button is-link" href="/prints/">Prints</a>
     </div>
 </nav>
 </div></section>
@@ -45,7 +47,7 @@
     <div class="column is-3-tablet">
             <h1>SLIP</h1>
 
-            <p class="small">SLIP is a list processing computer programming language, invented by Joseph Weizenbaum in the 1960s. The name SLIP stands for Symmetric LIst Processor. It was first implemented as an extension to the Fortran programming language, and later embedded into MAD and ALGOL. The best known program written in the language is ELIZA, an early natural language processing computer program created by Weizenbaum at the MIT Artificial Intelligence Laboratory. <a href="https://en.wikipedia.org/wiki/SLIP_(programming_language)">Wikipedia</a></p>
+            <p>SLIP is a list processing computer programming language, invented by Joseph Weizenbaum in the 1960s. The name SLIP stands for Symmetric LIst Processor. It was first implemented as an extension to the Fortran programming language, and later embedded into MAD and ALGOL. The best known program written in the language is ELIZA, an early natural language processing computer program created by Weizenbaum at the MIT Artificial Intelligence Laboratory. <a href="https://en.wikipedia.org/wiki/SLIP_(programming_language)">Wikipedia</a></p>
         <p class="icons">
         </p>
 
@@ -113,7 +115,7 @@
     </div>
 </div>
 <hr>
-<p>Latest data update: 2024-08-27</p>
+<p class="is-size-7">Latest data update: 2024-08-27</p>
 </div></section>
 
 <footer class="content footer">

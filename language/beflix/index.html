@@ -19,11 +19,13 @@ The name derives from a..."><meta name="author" content="Ramiro Gómez">
 </head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
-<nav id="main-nav" class="level">
-    <div class="level-left">
-        <div class="level-item">
+<nav id="main-nav" class="navbar is-dark mb-4 p-1" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <div class="navbar-item">
 <a href="/" title="Start Page"><img src="/img/logo.svg" alt="Logo" class="logo"></a>        </div>
-        <div class="level-item">
+    </div>
+    <div class="navbar-start">
+        <div class="navbar-item">
             <div class="field has-addons">
                 <p class="control">
                     <input class="input" id="lookup-language" list="languages" type="text" placeholder="Language name">
@@ -35,9 +37,9 @@ The name derives from a..."><meta name="author" content="Ramiro Gómez">
         </div>
         <datalist id="languages"></datalist>
     </div>
-    <div class="level-right">
-        <a class="level-item button is-link" href="/charts/">Charts</a>
-        <a class="level-item button is-link" href="/prints/">Prints</a>
+    <div class="navbar-end">
+        <a class="navbar-item button is-link" href="/charts/">Charts</a>
+        <a class="navbar-item button is-link" href="/prints/">Prints</a>
     </div>
 </nav>
 </div></section>
@@ -46,7 +48,7 @@ The name derives from a..."><meta name="author" content="Ramiro Gómez">
     <div class="column is-3-tablet">
             <h1>BEFLIX</h1>
 
-            <p class="small">BEFLIX is the name of the first embedded domain-specific language for computer animation, invented by Ken Knowlton at Bell Labs in 1963.
+            <p>BEFLIX is the name of the first embedded domain-specific language for computer animation, invented by Ken Knowlton at Bell Labs in 1963.
 The name derives from a combination of Bell Flicks.
 Ken Knowlton used BEFLIX to create animated films for educational and engineering purposes.
 He also collaborated with the artist Stan Vanderbeek at Bell Labs to create a series of computer-animated films called Poemfields between 1966 and 1969. <a href="https://en.wikipedia.org/wiki/BEFLIX">Wikipedia</a></p>
@@ -116,7 +118,7 @@ He also collaborated with the artist Stan Vanderbeek at Bell Labs to create a se
     </div>
 </div>
 <hr>
-<p>Latest data update: 2024-05-01</p>
+<p class="is-size-7">Latest data update: 2024-05-01</p>
 </div></section>
 
 <footer class="content footer">

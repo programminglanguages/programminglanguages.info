@@ -19,11 +19,13 @@
 <link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
-<nav id="main-nav" class="level">
-    <div class="level-left">
-        <div class="level-item">
+<nav id="main-nav" class="navbar is-dark mb-4 p-1" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <div class="navbar-item">
 <a href="/" title="Start Page"><img src="/img/logo.svg" alt="Logo" class="logo"></a>        </div>
-        <div class="level-item">
+    </div>
+    <div class="navbar-start">
+        <div class="navbar-item">
             <div class="field has-addons">
                 <p class="control">
                     <input class="input" id="lookup-language" list="languages" type="text" placeholder="Language name">
@@ -35,21 +37,21 @@
         </div>
         <datalist id="languages"></datalist>
     </div>
-    <div class="level-right">
-        <a class="level-item button is-link" href="/charts/">Charts</a>
-        <a class="level-item button is-link" href="/prints/">Prints</a>
+    <div class="navbar-end">
+        <a class="navbar-item button is-link" href="/charts/">Charts</a>
+        <a class="navbar-item button is-link" href="/prints/">Prints</a>
     </div>
 </nav>
 </div></section>
 <section class="content"><div class="container is-fluid">
 <div class="columns">
     <div class="column is-3-tablet">
-            <figure class="image is-marginless" title="Kotlin Programming Language Information & Resources">
+            <figure class="image mb-2" title="Kotlin Programming Language Information & Resources">
                 <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/0/06/Kotlin_Icon.svg" alt="Logo">
-                <figcaption class="small">Source: <a href="https://commons.wikimedia.org/wiki/File:Kotlin_Icon.svg">commons.wikimedia.org</a></figcaption>
+                <figcaption class="is-size-7 has-text-centered">Source: <a href="https://commons.wikimedia.org/wiki/File:Kotlin_Icon.svg">commons.wikimedia.org</a></figcaption>
             </figure>
 
-            <p class="small">Kotlin is a cross-platform, statically typed, general-purpose high-level programming language with type inference. Kotlin is designed to interoperate fully with Java, and the JVM version of Kotlin's standard library depends on the Java Class Library,
+            <p>Kotlin is a cross-platform, statically typed, general-purpose high-level programming language with type inference. Kotlin is designed to interoperate fully with Java, and the JVM version of Kotlin's standard library depends on the Java Class Library,
 but type inference allows its syntax to be more concise. Kotlin mainly targets the JVM, but also compiles to JavaScript or native code via LLVM. Language development costs are borne by JetBrains, while the Kotlin Foundation protects the Kotlin trademark. <a href="https://en.wikipedia.org/wiki/Kotlin_(programming_language)">Wikipedia</a></p>
         <p class="icons">
                     <a class="button is-light" href="https://kotlinlang.org/" title="Official Website"><svg><use xlink:href="#home"/></svg></a>
@@ -108,7 +110,7 @@ but type inference allows its syntax to be more concise. Kotlin mainly targets t
   println(&#34;Hello World&#34;)
 }
 </code></pre>
-            <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
+            <div class="is-size-7">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
             <h3>Free Kotlin books, articles, documentation</h3>
             <ul>
 <li><a href="https://www.programming-books.io/essential/kotlin/">Essential Kotlin</a> - Krzysztof Kowalczyk, StackOverflow Contributors (CC BY-SA)</li>
@@ -118,7 +120,7 @@ but type inference allows its syntax to be more concise. Kotlin mainly targets t
 <li><a href="https://www.programiz.com/kotlin-programming">Learn Kotlin Programming</a> - Programiz</li>
 <li><a href="https://riptutorial.com/Download/kotlin.pdf">Learning Kotlin</a> - Compiled from StackOverflow Documentation (PDF) (CC BY-SA)</li>
 </ul>
-            <div class="small">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
+            <div class="is-size-7">Source: <a href="https://github.com/EbookFoundation/free-programming-books">github.com/EbookFoundation/free-programming-books</a></div>
         <h3>Search on GitHub</h3>
         <div class="field has-addons">
             <p class="control">
@@ -147,7 +149,7 @@ but type inference allows its syntax to be more concise. Kotlin mainly targets t
     </div>
 </div>
 <hr>
-<p>Latest data update: 2025-03-23</p>
+<p class="is-size-7">Latest data update: 2025-03-23</p>
 </div></section>
 
 <footer class="content footer">

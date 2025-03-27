@@ -19,11 +19,13 @@
 </head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
-<nav id="main-nav" class="level">
-    <div class="level-left">
-        <div class="level-item">
+<nav id="main-nav" class="navbar is-dark mb-4 p-1" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <div class="navbar-item">
 <a href="/" title="Start Page"><img src="/img/logo.svg" alt="Logo" class="logo"></a>        </div>
-        <div class="level-item">
+    </div>
+    <div class="navbar-start">
+        <div class="navbar-item">
             <div class="field has-addons">
                 <p class="control">
                     <input class="input" id="lookup-language" list="languages" type="text" placeholder="Language name">
@@ -35,9 +37,9 @@
         </div>
         <datalist id="languages"></datalist>
     </div>
-    <div class="level-right">
-        <a class="level-item button is-link" href="/charts/">Charts</a>
-        <a class="level-item button is-link" href="/prints/">Prints</a>
+    <div class="navbar-end">
+        <a class="navbar-item button is-link" href="/charts/">Charts</a>
+        <a class="navbar-item button is-link" href="/prints/">Prints</a>
     </div>
 </nav>
 </div></section>
@@ -46,7 +48,7 @@
     <div class="column is-3-tablet">
             <h1>SuperPascal</h1>
 
-            <p class="small">SuperPascal is an imperative, concurrent computing programming language developed by Per Brinch Hansen. It was designed as a publication language: a thinking tool to enable the clear and concise expression of concepts in parallel programming. This is in contrast with implementation languages which are often complicated with machine details and historical conventions. It was created to address the need at the time for a parallel publication language. Arguably, few languages today are expressive and concise enough to be used as thinking tools. <a href="https://en.wikipedia.org/wiki/SuperPascal">Wikipedia</a></p>
+            <p>SuperPascal is an imperative, concurrent computing programming language developed by Per Brinch Hansen. It was designed as a publication language: a thinking tool to enable the clear and concise expression of concepts in parallel programming. This is in contrast with implementation languages which are often complicated with machine details and historical conventions. It was created to address the need at the time for a parallel publication language. Arguably, few languages today are expressive and concise enough to be used as thinking tools. <a href="https://en.wikipedia.org/wiki/SuperPascal">Wikipedia</a></p>
         <p class="icons">
                     <a class="button is-light" href="http://brinch-hansen.net" title="Official Website"><svg><use xlink:href="#home"/></svg></a>
         </p>
@@ -119,7 +121,7 @@
     </div>
 </div>
 <hr>
-<p>Latest data update: 2022-09-16</p>
+<p class="is-size-7">Latest data update: 2022-09-16</p>
 </div></section>
 
 <footer class="content footer">

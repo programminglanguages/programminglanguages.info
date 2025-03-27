@@ -18,11 +18,13 @@
 <link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
 <section class="has-background-dark"><div class="container is-fluid">
-<nav id="main-nav" class="level">
-    <div class="level-left">
-        <div class="level-item">
+<nav id="main-nav" class="navbar is-dark mb-4 p-1" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <div class="navbar-item">
 <a href="/" title="Start Page"><img src="/img/logo.svg" alt="Logo" class="logo"></a>        </div>
-        <div class="level-item">
+    </div>
+    <div class="navbar-start">
+        <div class="navbar-item">
             <div class="field has-addons">
                 <p class="control">
                     <input class="input" id="lookup-language" list="languages" type="text" placeholder="Language name">
@@ -34,9 +36,9 @@
         </div>
         <datalist id="languages"></datalist>
     </div>
-    <div class="level-right">
-        <a class="level-item button is-link" href="/charts/">Charts</a>
-        <a class="level-item button is-link" href="/prints/">Prints</a>
+    <div class="navbar-end">
+        <a class="navbar-item button is-link" href="/charts/">Charts</a>
+        <a class="navbar-item button is-link" href="/prints/">Prints</a>
     </div>
 </nav>
 </div></section>
@@ -45,7 +47,7 @@
     <div class="column is-3-tablet">
             <h1>QuakeC</h1>
 
-            <p class="small">QuakeC is a compiled language developed in 1996 by John Carmack of id Software to program parts of the video game Quake. Using QuakeC, a programmer is able to customize Quake to great extents by adding weapons, changing game logic and physics, and programming complex scenarios. It can be used to control many aspects of the game itself, such as parts of the AI, triggers, or changes in the level. The Quake engine was the only game engine to use QuakeC. Following engines used DLL game modules for customization written in C, and C++ from id Tech 4 on. <a href="https://en.wikipedia.org/wiki/QuakeC">Wikipedia</a></p>
+            <p>QuakeC is a compiled language developed in 1996 by John Carmack of id Software to program parts of the video game Quake. Using QuakeC, a programmer is able to customize Quake to great extents by adding weapons, changing game logic and physics, and programming complex scenarios. It can be used to control many aspects of the game itself, such as parts of the AI, triggers, or changes in the level. The Quake engine was the only game engine to use QuakeC. Following engines used DLL game modules for customization written in C, and C++ from id Tech 4 on. <a href="https://en.wikipedia.org/wiki/QuakeC">Wikipedia</a></p>
         <p class="icons">
         </p>
 
@@ -91,7 +93,7 @@
     <div class="column">
             <h3>Hello World in QuakeC</h3>
                 <pre><code class="language-quakec">bprint(&#34;Hello World\n&#34;);</code></pre>
-            <div class="small">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
+            <div class="is-size-7">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
         <h3>Search on GitHub</h3>
         <div class="field has-addons">
             <p class="control">
@@ -120,7 +122,7 @@
     </div>
 </div>
 <hr>
-<p>Latest data update: 2024-06-08</p>
+<p class="is-size-7">Latest data update: 2024-06-08</p>
 </div></section>
 
 <footer class="content footer">
