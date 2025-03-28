@@ -20,31 +20,39 @@ It is a statically typed functional programming language promoting parallel...">
 <link rel="stylesheet" href="/compiled/language.css">
 <link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
-<section class="has-background-dark"><div class="container is-fluid">
 <nav id="main-nav" class="navbar is-dark mb-4 p-1" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
         <div class="navbar-item">
 <a href="/" title="Start Page"><img src="/img/logo.svg" alt="Logo" class="logo"></a>        </div>
+        <a id="nav-burger" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="nav-menu">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
     </div>
-    <div class="navbar-start">
-        <div class="navbar-item">
-            <div class="field has-addons">
-                <p class="control">
-                    <input class="input" id="lookup-language" list="languages" type="text" placeholder="Language name">
-                </p>
-                <p class="control">
-                    <button class="button is-link" id="goto-language">Look up</button>
-                </p>
+    <div id="nav-menu" class="navbar-menu">
+        <div class="navbar-start">
+            <div class="navbar-item">
+                <div class="field has-addons">
+                    <p class="control">
+                        <input class="input" id="lookup-language" list="languages" type="text" placeholder="Language name">
+                    </p>
+                    <p class="control">
+                        <button class="button is-link" id="goto-language">Look up</button>
+                    </p>
+                </div>
+            </div>
+            <datalist id="languages"></datalist>
+        </div>
+        <div class="navbar-end">
+            <div class="navbar-item">
+                <a class="button is-link" href="/charts/">Charts</a>
+                <a class="button is-link" href="/prints/">Prints</a>
             </div>
         </div>
-        <datalist id="languages"></datalist>
-    </div>
-    <div class="navbar-end">
-        <a class="navbar-item button is-link" href="/charts/">Charts</a>
-        <a class="navbar-item button is-link" href="/prints/">Prints</a>
     </div>
 </nav>
-</div></section>
 <section class="content"><div class="container is-fluid">
 <div class="columns">
     <div class="column is-3-tablet">
