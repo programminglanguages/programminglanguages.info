@@ -129,7 +129,7 @@
     </div>
 </div>
 <hr>
-<p class="is-size-7">Latest data update: 2025-03-24</p>
+<p class="is-size-7">Latest data update: 2025-04-07</p>
 </div></section>
 
 <footer class="content footer">
