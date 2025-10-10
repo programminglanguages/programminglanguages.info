@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title itemprop="name">Processing.js Programming Language Information & Resources • programminglanguages.info</title>
-<meta name="description" content="JavaScript port of Processing programming language"><meta name="author" content="Ramiro Gómez">        <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/5/59/Processing_Logo_Clipped.svg">
-
+<meta name="description" content="JavaScript port of Processing programming language"><meta name="author" content="Ramiro Gómez">
 
     <link href="" rel="canonical" itemprop="url">
     <link href="/rss.xml" rel="alternate" type="application/rss+xml" title="RSS feed">
@@ -54,10 +53,7 @@
 <section class="content"><div class="container is-fluid">
 <div class="columns">
     <div class="column is-3-tablet">
-            <figure class="image mb-2" title="Processing.js Programming Language Information & Resources">
-                <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/5/59/Processing_Logo_Clipped.svg" alt="Logo">
-                <figcaption class="is-size-7 has-text-centered">Source: <a href="https://commons.wikimedia.org/wiki/File:Processing_Logo_Clipped.svg">commons.wikimedia.org</a></figcaption>
-            </figure>
+        <h1>Processing.js</h1>
 
             <p>JavaScript port of Processing programming language
         <p class="icons">

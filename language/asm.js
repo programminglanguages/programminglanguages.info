@@ -54,7 +54,7 @@
 <section class="content"><div class="container is-fluid">
 <div class="columns">
     <div class="column is-3-tablet">
-            <h1>asm.js</h1>
+        <h1>asm.js</h1>
 
             <p>asm.js is a subset of JavaScript designed to allow computer software written in languages such as C to be run as web applications while maintaining performance characteristics considerably better than standard JavaScript, which is the typical language used for such applications. <a href="https://en.wikipedia.org/wiki/Asm.js">Wikipedia</a></p>
         <p class="icons">
