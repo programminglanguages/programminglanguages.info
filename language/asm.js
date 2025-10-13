@@ -181,5 +181,15 @@
 <script src="/compiled/github.js"></script>
 
     <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "ComputerLanguage",
+    "name": "asm.js",
+    "description": "asm.js is a subset of JavaScript designed to allow computer software written in languages such as C to be run as web applications while maintaining performance characteristics considerably better than standard JavaScript, which is the typical language used for such applications.",
+    "url": "https://programminglanguages.info/language/asm.js/",
+    "sameAs": "http://asmjs.org"
+}
+</script>
 </body>
 </html>

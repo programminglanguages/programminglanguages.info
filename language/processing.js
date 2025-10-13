@@ -176,5 +176,15 @@
 <script src="/compiled/github.js"></script>
 
     <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "ComputerLanguage",
+    "name": "Processing.js",
+    "description": "JavaScript port of Processing programming language",
+    "url": "https://programminglanguages.info/language/processing.js/",
+    "sameAs": "http://processingjs.org/"
+}
+</script>
 </body>
 </html>
