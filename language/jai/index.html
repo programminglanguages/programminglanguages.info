@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="/compiled/style.css">
 
 <link rel="stylesheet" href="/compiled/language.css">
-</head>
+<link rel="stylesheet" href="/vendor/monokai-sublime.css"></head>
 <body>
 <nav id="main-nav" class="navbar is-dark mb-4 p-1" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
@@ -92,6 +92,15 @@
     </div>
 
     <div class="column">
+            <h3>Hello World in Jai</h3>
+                <pre><code class="language-jai">#import &#34;Print&#34;
+
+main::(){
+
+	print(&#34;Hello World&#34;);
+
+}</code></pre>
+            <div class="is-size-7">Source: <a href="https://github.com/leachim6/hello-world">github.com/leachim6/hello-world</a></div>
         <h3>Search on GitHub</h3>
         <div class="field has-addons">
             <p class="control">
@@ -168,6 +177,8 @@
 
 <script src="/compiled/github.js"></script>
 
+    <script src="/vendor/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
     <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
 <script type="application/ld+json">
 {
