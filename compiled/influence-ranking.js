@@ -1,1 +1,1 @@
-"use strict";ranking("/influence-ranking.json",{top:20,right:100,bottom:40,left:150});
+"use strict";ranking("/influence-ranking.json",{top:20,right:100,bottom:40,left:150})
